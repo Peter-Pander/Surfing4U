@@ -6,7 +6,7 @@ const surfSpots = [
     location: "Ehukai Beach Park, North Shore, Oahu",
     country: "Hawaii, USA",
     description: "Heavy, perfect barreling reef break; world famous",
-    embedUrl: "",
+    embedUrl: "https://www.instagram.com/p/DI5w_aSR5dt/",
   },
   {
     name: "Haleʻiwa",
