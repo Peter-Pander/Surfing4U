@@ -6,6 +6,7 @@ import {
   Button,
   Stack,
 } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -18,9 +19,11 @@ function HomePage() {
         <Text fontSize="lg" mb={4}>
           Your beginner-friendly guide to surf spots, surfers, and surf culture.
         </Text>
-        <Button colorScheme="teal" size="lg">
-          Explore Surf Spots
-        </Button>
+        <Link to="/spots">
+          <Button colorScheme="teal" size="lg">
+            Explore Surf Spots
+          </Button>
+        </Link>
       </Box>
 
       {/* substitute Divider with a styled Box */}
