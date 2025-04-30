@@ -2,6 +2,7 @@
 import { ChakraProvider, defaultSystem } from "@chakra-ui/react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 import SpotsPage from "./pages/SpotsPage";
 
@@ -14,6 +15,7 @@ function App() {
           v7_relativeSplatPath: true,
         }}
       >
+      <Navbar />
         <Routes>
           {/* home */}
           <Route path="/" element={<HomePage />} />
