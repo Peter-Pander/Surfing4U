@@ -1,5 +1,5 @@
 // frontend/src/App.jsx
-import { ChakraProvider, defaultSystem } from "@chakra-ui/react";
+import { ChakraProvider } from "@chakra-ui/react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
@@ -8,14 +8,14 @@ import SpotsPage from "./pages/SpotsPage";
 
 function App() {
   return (
-    <ChakraProvider value={defaultSystem}>
+    <ChakraProvider>
       <BrowserRouter
         future={{
           v7_startTransition: true,
           v7_relativeSplatPath: true,
         }}
       >
-      <Navbar />
+        <Navbar />
         <Routes>
           {/* home */}
           <Route path="/" element={<HomePage />} />
@@ -25,9 +25,11 @@ function App() {
 
           {/* future routes */}
           {/*
-            <Route path="/events" element={<EventsPage />} />
             <Route path="/surfers" element={<SurfersPage />} />
-            <Route path="/glossary" element={<GlossaryPage />} />
+            <Route path="/events" element={<EventsPage />} />
+            <Route path="/forecasts" element={<ForecastsPage />} />
+            <Route path="/surf-tv/*" element={<SurfTvPage />} />
+            <Route path="/surf-101/*" element={<Surf101Page />} />
           */}
         </Routes>
       </BrowserRouter>
