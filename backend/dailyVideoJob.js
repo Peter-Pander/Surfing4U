@@ -8,21 +8,24 @@ const OpenAI = require("openai");
 const youtubeKey = process.env.YOUTUBE_API_KEY;
 const openai     = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
+// Minimum subscribers for a “trusted” channel
+const MIN_SUBSCRIBERS = 500;
+
 async function fetchSurfVideos() {
   const threeDaysAgo = new Date(Date.now() - 3 * 24 * 60 * 60 * 1000).toISOString();
 
-  // Primary: popular, recent clips
+  // 1️⃣ Primary: popular, recent clips
   const primaryRes = await axios.get(
     "https://www.googleapis.com/youtube/v3/search",
     {
       params: {
         part: "snippet",
         q: "surfing barrel OR wave ride OR drop in OR surf line OR surf highlight OR surf edit",
-        maxResults: 10,               // 🔥 larger pool
+        maxResults: 10,
         order: "viewCount",
         publishedAfter: threeDaysAgo,
         type: "video",
-        videoDuration: "any",         // 🔥 allow up to 4 minutes
+        videoDuration: "any",
         relevanceLanguage: "en",
         regionCode: "US",
         key: youtubeKey,
@@ -31,9 +34,13 @@ async function fetchSurfVideos() {
   );
 
   let items = primaryRes.data.items;
-  if (!items || items.length === 0) {
-    console.warn("⚠️ No recent popular videos found; falling back to latest uploads");
-    // Fallback: just the latest videos (no recency filter), same pool size
+
+  // 2️⃣ Filter out low-subscriber channels
+  items = await filterByChannelQuality(items);
+
+  // 3️⃣ Fallback if nothing left
+  if (!items.length) {
+    console.warn("⚠️ No high-quality recent videos found; falling back to latest uploads");
     const fallbackRes = await axios.get(
       "https://www.googleapis.com/youtube/v3/search",
       {
@@ -50,7 +57,7 @@ async function fetchSurfVideos() {
         },
       }
     );
-    items = fallbackRes.data.items;
+    items = await filterByChannelQuality(fallbackRes.data.items);
   }
 
   return items.map(item => ({
@@ -60,6 +67,37 @@ async function fetchSurfVideos() {
     publishTime: item.snippet.publishTime,
     url: `https://www.youtube.com/embed/${item.id.videoId}`,
   }));
+}
+
+// Helper: remove videos whose channel has too few subs
+async function filterByChannelQuality(items) {
+  if (!items.length) return [];
+
+  const channelIds = items
+    .map(i => i.snippet.channelId)
+    .filter((v, i, arr) => arr.indexOf(v) === i) // unique
+    .join(",");
+
+  const channelRes = await axios.get(
+    "https://www.googleapis.com/youtube/v3/channels",
+    {
+      params: {
+        part: "statistics",
+        id: channelIds,
+        key: youtubeKey,
+      },
+    }
+  );
+
+  const statsMap = {};
+  channelRes.data.items.forEach(ch => {
+    statsMap[ch.id] = parseInt(ch.statistics.subscriberCount, 10) || 0;
+  });
+
+  return items.filter(item => {
+    const subs = statsMap[item.snippet.channelId] || 0;
+    return subs >= MIN_SUBSCRIBERS;
+  });
 }
 
 async function pickWithAI(videos) {
