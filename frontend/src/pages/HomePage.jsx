@@ -43,6 +43,7 @@ function HomePage() {
             bg="gray.800"
             color="white"
             overflow="hidden"
+            maxW="400px"
           >
             <Heading size="md" mb={2}>
               {video.title}
@@ -54,10 +55,10 @@ function HomePage() {
               as="iframe"
               src={video.url}
               width="100%"
-              height="315"
+              height="500px"
               allowFullScreen
               border="0"
-              mb={2}
+              borderRadius="md"
             />
           </Box>
         ) : (
