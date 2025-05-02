@@ -1,5 +1,3 @@
-// backend/jobs/services.js
-
 const axios = require('axios');
 const OpenAI = require('openai');
 
@@ -117,4 +115,34 @@ ${JSON.stringify(candidates, null, 2)}
   return candidates.slice(0, 4);
 }
 
-module.exports = { getWikiBio, getTop4Videos };
+/**
+ * Ask OpenAI for a list of 20 pro surfers (past, present & newcomers)
+ * including names like Eue Wong, Maluhia Kinimaka, Pua DeSoto, Brianna Cope.
+ * Returns a JSON array of full names.
+ */
+async function getProSurferNames() {
+  const prompt = `
+Return a JSON array of 20 famous professional surfers (past & present),
+including up-and-comers like Eue Wong, Maluhia Kinimaka, Pua DeSoto, and Brianna Cope.
+Only output the array, e.g. ["Kelly Slater", "Stephanie Gilmore", ...].
+  `.trim();
+
+  const chat = await openai.chat.completions.create({
+    model:       'gpt-3.5-turbo',
+    temperature: 0.7,
+    max_tokens:  200,
+    messages: [
+      { role: 'system', content: 'You are a helpful assistant that returns JSON arrays of names.' },
+      { role: 'user',   content: prompt }
+    ]
+  });
+
+  // Parse and return the array of names
+  return JSON.parse(chat.choices[0].message.content.trim());
+}
+
+module.exports = {
+  getWikiBio,
+  getTop4Videos,
+  getProSurferNames
+};

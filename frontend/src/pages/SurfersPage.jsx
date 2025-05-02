@@ -1,10 +1,19 @@
 import React, { useEffect, useState } from 'react';
-import { Box, Heading, SimpleGrid, Spinner, Center } from '@chakra-ui/react';
+import {
+  Box,
+  Heading,
+  SimpleGrid,
+  Spinner,
+  Center,
+  Input,
+  Text,
+} from '@chakra-ui/react';
 import SurferProCard from '../components/SurferProCard';
 
 export default function SurfersPage() {
   const [surfers, setSurfers] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     fetch('/api/surfers')
@@ -31,22 +40,42 @@ export default function SurfersPage() {
     return <Heading>No surfers found.</Heading>;
   }
 
-  // pick one random featured
+  // filter by searchTerm
+  const filtered = surfers.filter(s =>
+    s.name.toLowerCase().includes(searchTerm)
+  );
+
+  // pick one random featured for default view
   const featuredIndex = Math.floor(Math.random() * surfers.length);
   const featured = surfers[featuredIndex];
-  const others = surfers.filter((_, i) => i !== featuredIndex);
 
   return (
     <Box px={[4, 8]} py={6}>
-      <Heading mb={6}>🏄 Featured Surfer</Heading>
-      <SurferProCard surfer={featured} />
+      {/* Search bar */}
+      <Input
+        placeholder="Search surfers by name…"
+        mb={6}
+        value={searchTerm}
+        onChange={e => setSearchTerm(e.target.value.toLowerCase())}
+      />
 
-      <Heading mb={4}>All Pros</Heading>
-      <SimpleGrid columns={[1, 2]} spacing={6}>
-        {others.map((s) => (
-          <SurferProCard key={s._id} surfer={s} />
-        ))}
-      </SimpleGrid>
+      {searchTerm ? (
+        <>
+          <Heading mb={4}>Search Results</Heading>
+          {filtered.length ? (
+            filtered.map(s => (
+              <SurferProCard key={s._id} surfer={s} />
+            ))
+          ) : (
+            <Text>No surfers match “{searchTerm}.”</Text>
+          )}
+        </>
+      ) : (
+        <>
+          <Heading mb={6}>🏄 Featured Surfer</Heading>
+          <SurferProCard surfer={featured} />
+        </>
+      )}
     </Box>
   );
 }

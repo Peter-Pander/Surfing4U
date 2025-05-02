@@ -1,14 +1,15 @@
 require("dotenv").config();
-const mongoose           = require("mongoose");
-const express            = require("express");
-const cors               = require("cors");
-const path               = require("path");
-const fs                 = require("fs");
+const mongoose         = require("mongoose");
+const express          = require("express");
+const cors             = require("cors");
+const path             = require("path");
+const fs               = require("fs");
 
-const { runDailyJob }      = require("./jobs/dailyVideoJob");
-const { runContestJob }    = require("./jobs/contestVideoJob");
-const fetchSurferProfile   = require("./jobs/fetchSurferProfile");
-const Surfer               = require("./models/Surfer");
+const { runDailyJob }    = require("./jobs/dailyVideoJob");
+const { runContestJob }  = require("./jobs/contestVideoJob");
+const fetchSurferProfile = require("./jobs/fetchSurferProfile");
+const { getProSurferNames } = require("./jobs/services");
+const Surfer             = require("./models/Surfer");
 
 const app = express();
 app.use(cors());
@@ -64,15 +65,6 @@ app.get("/api/surfers/:id", async (req, res, next) => {
   }
 });
 
-// ─── Seed list of pro surfers ────────────────────────────────────────────────
-const surfers = [
-  "Kelly Slater",
-  "Stephanie Gilmore",
-  "John John Florence",
-  "Carissa Moore",
-  "Gabriel Medina"
-];
-
 // ─── Start Server & Kick Off Jobs ────────────────────────────────────────────
 app.listen(PORT, () => {
   console.log(`🚀 Backend running on http://localhost:${PORT}`);
@@ -80,8 +72,14 @@ app.listen(PORT, () => {
   runDailyJob();
   runContestJob();
 
-  surfers.forEach(name => {
-    fetchSurferProfile(name)
-      .catch(err => console.error(`❌ Error fetching profile for ${name}:`, err));
-  });
+  // Dynamically fetch and upsert a roster of pros via OpenAI
+  getProSurferNames()
+    .then(names => Promise.all(
+      names.map(name =>
+        fetchSurferProfile(name)
+          .catch(err => console.error(`❌ Error fetching profile for ${name}:`, err))
+      )
+    ))
+    .then(() => console.log("✅ All surfer profiles fetched"))
+    .catch(err => console.error("❌ Error seeding surfers:", err));
 });
