@@ -1,4 +1,5 @@
-// backend/dailyVideoJob.js
+// backend/jobs/dailyVideoJob.js
+
 const axios  = require("axios");
 const fs     = require("fs");
 const path   = require("path");
@@ -61,11 +62,11 @@ async function fetchSurfVideos() {
   }
 
   return items.map(item => ({
-    id: item.id.videoId,
-    title: item.snippet.title,
+    id:          item.id.videoId,
+    title:       item.snippet.title,
     description: item.snippet.description,
     publishTime: item.snippet.publishTime,
-    url: `https://www.youtube.com/embed/${item.id.videoId}`,
+    url:         `https://www.youtube.com/embed/${item.id.videoId}`,
   }));
 }
 
@@ -83,8 +84,8 @@ async function filterByChannelQuality(items) {
     {
       params: {
         part: "statistics",
-        id: channelIds,
-        key: youtubeKey,
+        id:   channelIds,
+        key:  youtubeKey,
       },
     }
   );
@@ -115,23 +116,26 @@ Pick the one that most likely shows exciting wave riding — like barrels, turns
 `;
 
   const chatRes = await openai.chat.completions.create({
-    model: "gpt-4o-mini",
+    model:       "gpt-4o-mini",
     messages: [
       {
-        role: "system",
-        content:
-          "You are a surf expert. Pick the video most likely to show someone riding a wave or performing a visually impressive maneuver. Avoid talking, SUP clips, or product reviews.",
+        role:    "system",
+        content: "You are a surf expert. Pick the video most likely to show someone riding a wave or performing a visually impressive maneuver. Avoid talking, SUP clips, or product reviews.",
       },
-      { role: "user", content: prompt }
+      { role: "user", content: prompt.trim() }
     ],
-    max_tokens: 5,
+    max_tokens:  5,
     temperature: 0.7,
   });
 
   const reply  = chatRes.choices[0].message.content.trim();
   const choice = parseInt(reply, 10);
 
-  return videos[(choice - 1) >= 0 && (choice - 1) < videos.length ? (choice - 1) : 0];
+  return videos[
+    (choice - 1) >= 0 && (choice - 1) < videos.length
+      ? (choice - 1)
+      : 0
+  ];
 }
 
 async function runDailyJob() {
@@ -149,7 +153,8 @@ async function runDailyJob() {
       return;
     }
 
-    const outPath = path.join(__dirname, "videoOfTheDay.json");
+    // write to root-level videoOfTheDay.json instead of inside /jobs
+    const outPath = path.join(__dirname, "..", "videoOfTheDay.json");
     fs.writeFileSync(outPath, JSON.stringify(pick, null, 2));
     console.log("✅ Video of the Day updated:", pick.title);
   } catch (err) {
