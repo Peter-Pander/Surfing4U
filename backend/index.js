@@ -41,11 +41,11 @@ app.get("/api/contest-highlight", (req, res, next) => {
 });
 
 // ─── Surfers API Routes ───────────────────────────────────────────────────────
-// GET list of all surfers (name, insta, wikiLink)
+// GET list of all surfers (name, insta, wikiLink, bio, videos)
 app.get("/api/surfers", async (req, res, next) => {
   try {
     const list = await Surfer.find()
-      .select("name insta wikiLink")
+      .select("name insta wikiLink bio videos")
       .sort("name");
     res.json(list);
   } catch (err) {
