@@ -7,8 +7,8 @@ const cors     = require("cors");
 const path     = require("path");
 const fs       = require("fs");
 
-const { runDailyJob }   = require("./dailyVideoJob");
-const { runContestJob } = require("./contestVideoJob");
+const { runDailyJob }   = require("./jobs/dailyVideoJob");
+const { runContestJob } = require("./jobs/contestVideoJob");
 
 const app = express();
 app.use(cors());
