@@ -1,12 +1,10 @@
 // backend/jobs/services.js
 
 const axios = require('axios');
-const { Configuration, OpenAIApi } = require('openai');
+const OpenAI = require('openai');
 
-// initialize OpenAI
-const openai = new OpenAIApi(
-  new Configuration({ apiKey: process.env.OPENAI_API_KEY })
-);
+// initialize OpenAI client
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 // helper to call Wikipedia’s summary endpoint
 async function getWikiBio(name) {
@@ -31,26 +29,23 @@ async function getWikiBio(name) {
 Write a JSON object with keys "bio" and "wikiLink".
 "bio" should be a concise, two-sentence professional bio for surfer ${name}.
 If you know their Wikipedia URL, put it in "wikiLink"; otherwise set "wikiLink" to an empty string.
-`;
+`.trim();
 
-  const chat = await openai.createChatCompletion({
+  const chat = await openai.chat.completions.create({
     model:       'gpt-3.5-turbo',
     temperature: 0.7,
     max_tokens:  200,
     messages: [
-      { role: 'system',  content: 'You are a helpful assistant that formats biographies as JSON.' },
-      { role: 'user',    content: prompt.trim() }
+      { role: 'system', content: 'You are a helpful assistant that formats biographies as JSON.' },
+      { role: 'user',   content: prompt }
     ]
   });
 
-  const text = chat.data.choices[0].message.content.trim();
+  const text = chat.choices[0].message.content.trim();
   try {
     const parsed = JSON.parse(text);
-    return {
-      bio:      parsed.bio,
-      wikiLink: parsed.wikiLink || ''
-    };
-  } catch (err) {
+    return { bio: parsed.bio, wikiLink: parsed.wikiLink || '' };
+  } catch {
     // if parsing fails, just return the raw text as bio
     return { bio: text, wikiLink: '' };
   }
@@ -59,10 +54,10 @@ If you know their Wikipedia URL, put it in "wikiLink"; otherwise set "wikiLink" 
 // helper to fetch & pick the top 4 YouTube videos for a surfer
 async function getTop4Videos(name) {
   const YT_KEY = process.env.YOUTUBE_API_KEY;
+
   // 1) Search for up to 10 “best surf moments”
   const searchRes = await axios.get(
-    'https://www.googleapis.com/youtube/v3/search',
-    {
+    'https://www.googleapis.com/youtube/v3/search', {
       params: {
         key:        YT_KEY,
         part:       'snippet',
@@ -77,8 +72,7 @@ async function getTop4Videos(name) {
 
   // 2) Fetch full snippet (incl. description)
   const videosRes = await axios.get(
-    'https://www.googleapis.com/youtube/v3/videos',
-    {
+    'https://www.googleapis.com/youtube/v3/videos', {
       params: {
         key:  YT_KEY,
         part: 'snippet',
@@ -99,25 +93,23 @@ Here is an array of 10 videos for surfer ${name} (with videoId, title, descripti
 Select the 4 most iconic career-highlight clips and return them as a JSON array of objects
 with the same keys. Do not include any other keys.
 ${JSON.stringify(candidates, null, 2)}
-`;
+`.trim();
 
-  const chat = await openai.createChatCompletion({
+  const chat = await openai.chat.completions.create({
     model:       'gpt-3.5-turbo',
     temperature: 0.7,
     max_tokens:  500,
     messages: [
-      { role: 'system',  content: 'You are an expert surf historian selecting the best clips.' },
-      { role: 'user',    content: prompt.trim() }
+      { role: 'system', content: 'You are an expert surf historian selecting the best clips.' },
+      { role: 'user',   content: prompt }
     ]
   });
 
-  const text = chat.data.choices[0].message.content.trim();
+  const text = chat.choices[0].message.content.trim();
   try {
     const picked = JSON.parse(text);
-    if (Array.isArray(picked) && picked.length > 0) {
-      return picked;
-    }
-  } catch (err) {
+    if (Array.isArray(picked) && picked.length > 0) return picked;
+  } catch {
     // fall through to default
   }
 

@@ -1,14 +1,13 @@
-// backend/index.js
-
 require("dotenv").config();
-const mongoose = require("mongoose");
-const express  = require("express");
-const cors     = require("cors");
-const path     = require("path");
-const fs       = require("fs");
+const mongoose             = require("mongoose");
+const express              = require("express");
+const cors                 = require("cors");
+const path                 = require("path");
+const fs                   = require("fs");
 
-const { runDailyJob }   = require("./jobs/dailyVideoJob");
-const { runContestJob } = require("./jobs/contestVideoJob");
+const { runDailyJob }      = require("./jobs/dailyVideoJob");
+const { runContestJob }    = require("./jobs/contestVideoJob");
+const fetchSurferProfile   = require("./jobs/fetchSurferProfile");
 
 const app = express();
 app.use(cors());
@@ -27,8 +26,7 @@ app.get("/api/video-of-the-day", (req, res, next) => {
   fs.readFile(filePath, "utf-8", (err, raw) => {
     if (err) return next(err);
     try {
-      const data = JSON.parse(raw);
-      res.json(data);
+      res.json(JSON.parse(raw));
     } catch (parseErr) {
       next(parseErr);
     }
@@ -41,17 +39,33 @@ app.get("/api/contest-highlight", (req, res, next) => {
   fs.readFile(filePath, "utf-8", (err, raw) => {
     if (err) return next(err);
     try {
-      const data = JSON.parse(raw);
-      res.json(data);
+      res.json(JSON.parse(raw));
     } catch (parseErr) {
       next(parseErr);
     }
   });
 });
 
+// ─── Seed list of pro surfers ────────────────────────────────────────────────
+const surfers = [
+  "Kelly Slater",
+  "Stephanie Gilmore",
+  "John John Florence",
+  "Carissa Moore",
+  "Gabriel Medina"
+];
+
 // ─── Start Server & Kick Off Jobs ────────────────────────────────────────────
 app.listen(PORT, () => {
   console.log(`🚀 Backend running on http://localhost:${PORT}`);
+
+  // existing video jobs
   runDailyJob();
   runContestJob();
+
+  // new: fetch and upsert each surfer profile
+  surfers.forEach(name => {
+    fetchSurferProfile(name)
+      .catch(err => console.error(`❌ Error fetching profile for ${name}:`, err));
+  });
 });
