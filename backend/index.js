@@ -1,13 +1,14 @@
 require("dotenv").config();
-const mongoose             = require("mongoose");
-const express              = require("express");
-const cors                 = require("cors");
-const path                 = require("path");
-const fs                   = require("fs");
+const mongoose           = require("mongoose");
+const express            = require("express");
+const cors               = require("cors");
+const path               = require("path");
+const fs                 = require("fs");
 
 const { runDailyJob }      = require("./jobs/dailyVideoJob");
 const { runContestJob }    = require("./jobs/contestVideoJob");
 const fetchSurferProfile   = require("./jobs/fetchSurferProfile");
+const Surfer               = require("./models/Surfer");
 
 const app = express();
 app.use(cors());
@@ -20,30 +21,47 @@ mongoose
   .then(() => console.log("✅ MongoDB connected"))
   .catch(err => console.error("❌ MongoDB connection error:", err));
 
-// ─── Video-of-the-Day Route ───────────────────────────────────────────────────
+// ─── Video and Contest Routes ─────────────────────────────────────────────────
 app.get("/api/video-of-the-day", (req, res, next) => {
   const filePath = path.join(__dirname, "videoOfTheDay.json");
   fs.readFile(filePath, "utf-8", (err, raw) => {
     if (err) return next(err);
-    try {
-      res.json(JSON.parse(raw));
-    } catch (parseErr) {
-      next(parseErr);
-    }
+    try { res.json(JSON.parse(raw)); }
+    catch (parseErr) { next(parseErr); }
   });
 });
 
-// ─── Contest Highlight Route ─────────────────────────────────────────────────
 app.get("/api/contest-highlight", (req, res, next) => {
   const filePath = path.join(__dirname, "contestHighlight.json");
   fs.readFile(filePath, "utf-8", (err, raw) => {
     if (err) return next(err);
-    try {
-      res.json(JSON.parse(raw));
-    } catch (parseErr) {
-      next(parseErr);
-    }
+    try { res.json(JSON.parse(raw)); }
+    catch (parseErr) { next(parseErr); }
   });
+});
+
+// ─── Surfers API Routes ───────────────────────────────────────────────────────
+// GET list of all surfers (name, insta, wikiLink)
+app.get("/api/surfers", async (req, res, next) => {
+  try {
+    const list = await Surfer.find()
+      .select("name insta wikiLink")
+      .sort("name");
+    res.json(list);
+  } catch (err) {
+    next(err);
+  }
+});
+
+// GET a single surfer's full profile by ID
+app.get("/api/surfers/:id", async (req, res, next) => {
+  try {
+    const surfer = await Surfer.findById(req.params.id);
+    if (!surfer) return res.status(404).json({ error: "Surfer not found" });
+    res.json(surfer);
+  } catch (err) {
+    next(err);
+  }
 });
 
 // ─── Seed list of pro surfers ────────────────────────────────────────────────
@@ -59,11 +77,9 @@ const surfers = [
 app.listen(PORT, () => {
   console.log(`🚀 Backend running on http://localhost:${PORT}`);
 
-  // existing video jobs
   runDailyJob();
   runContestJob();
 
-  // new: fetch and upsert each surfer profile
   surfers.forEach(name => {
     fetchSurferProfile(name)
       .catch(err => console.error(`❌ Error fetching profile for ${name}:`, err));
