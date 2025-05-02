@@ -1,7 +1,7 @@
 // frontend/src/pages/HomePage.jsx
 import { useEffect, useState } from "react";
 import { Box, SimpleGrid, Text } from "@chakra-ui/react";
-import SurfVideoCard from "../components/SurfVideoCard";
+import HomePageCard from "../components/HomePageCard";
 
 export default function HomePage() {
   const [video, setVideo] = useState(null);
@@ -24,7 +24,7 @@ export default function HomePage() {
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
         {/* Surf Video of the Day */}
         {video ? (
-          <SurfVideoCard
+          <HomePageCard
             title="🎥 Surf Video of the Day"
             video={video}
           />
@@ -34,7 +34,7 @@ export default function HomePage() {
 
         {/* Latest Contest Highlight */}
         {contestVideo ? (
-          <SurfVideoCard
+          <HomePageCard
             title="🏆 Latest Contest Highlight"
             video={contestVideo}
           />
