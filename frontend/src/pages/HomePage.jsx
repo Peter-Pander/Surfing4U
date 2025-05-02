@@ -19,16 +19,6 @@ function HomePage() {
 
   return (
     <Box p={6}>
-      {/* Hero / Intro */}
-      <Box textAlign="center" mb={10}>
-        <Heading size="2xl" mb={2}>
-          Surfing4U 🌊
-        </Heading>
-        <Text fontSize="lg">
-          Daily waves & pro highlights – straight to your screen.
-        </Text>
-      </Box>
-
       {/* Video of the Day */}
       <Box mb={10}>
         <Heading size="lg" mb={2}>
@@ -43,19 +33,13 @@ function HomePage() {
             bg="gray.800"
             color="white"
             overflow="hidden"
-            maxW="400px"
+            maxW="680px" // 📏 Wider card
           >
-            <Heading size="md" mb={2}>
-              {video.title}
-            </Heading>
-            <Text fontSize="sm" mb={4}>
-              {video.description.substring(0, 140)}...
-            </Text>
             <Box
               as="iframe"
               src={video.url}
               width="100%"
-              height="500px"
+              height="740px" // 📏 Taller video
               allowFullScreen
               border="0"
               borderRadius="md"
