@@ -1,32 +1,53 @@
 // frontend/src/pages/HomePage.jsx
+import { useEffect, useState } from "react";
 import {
   Box,
   Heading,
   Text,
 } from "@chakra-ui/react";
+import SurfVideoCard from "../components/SurfVideoCard";
 
 function HomePage() {
+  const [video, setVideo] = useState(null);
+
+  useEffect(() => {
+    fetch("http://localhost:4000/api/video-of-the-day")
+      .then((res) => res.json())
+      .then(setVideo)
+      .catch(console.error);
+  }, []);
+
   return (
     <Box p={6}>
-      {/* Hero / Intro */}
-      <Box textAlign="center" mb={10}>
-        <Heading size="2xl" mb={2}>
-          Surfing4U 🌊
-        </Heading>
-        <Text fontSize="lg">
-          Daily waves & pro highlights – straight to your screen.
-        </Text>
-      </Box>
-
       {/* Video of the Day */}
       <Box mb={10}>
         <Heading size="lg" mb={2}>
           🎥 Surf Video of the Day
         </Heading>
-        <Text mb={4}>
-          A handpicked clip from today’s best surf content.
-        </Text>
-        {/* You can embed a video manually or add InstagramEmbed/YouTubeEmbed here */}
+
+        {video ? (
+          <Box
+            borderWidth="1px"
+            borderRadius="lg"
+            p={4}
+            bg="gray.800"
+            color="white"
+            overflow="hidden"
+            maxW="680px" // 📏 Wider card
+          >
+            <Box
+              as="iframe"
+              src={video.url}
+              width="100%"
+              height="740px" // 📏 Taller video
+              allowFullScreen
+              border="0"
+              borderRadius="md"
+            />
+          </Box>
+        ) : (
+          <Text>Loading video...</Text>
+        )}
       </Box>
 
       {/* Contest Highlights */}
