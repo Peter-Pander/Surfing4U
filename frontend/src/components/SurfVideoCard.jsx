@@ -8,8 +8,8 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 
-export default function SurfVideoCard({ video }) {
-  const bg = useColorModeValue("white", "gray.700");
+export default function SurfVideoCard({ video, title }) {
+  const bg          = useColorModeValue("white", "gray.700");
   const borderColor = useColorModeValue("gray.200", "gray.600");
 
   return (
@@ -24,40 +24,40 @@ export default function SurfVideoCard({ video }) {
       _hover={{ shadow: "md", transform: "translateY(-2px)" }}
     >
       <Box p={4}>
+        {/* Optional custom title */}
+        {title && (
+          <Heading size="md" mb={2}>
+            {title}
+          </Heading>
+        )}
+
+        {/* Video title */}
         <Heading size="md" mb={2}>
-          {video.name}
+          {video.title || video.name}
         </Heading>
 
+        {/* Optional platform label */}
         {video.platform && (
           <Text fontSize="sm" color="gray.500" mb={2}>
             {video.platform}
           </Text>
         )}
 
-        <Text fontSize="sm" mb={4}>
-          {video.description}
-        </Text>
-
-        {video.embedUrl ? (
-          <AspectRatio ratio={16 / 9} mb={4}>
-            <iframe
-              title={video.name}
-              src={video.embedUrl}
-              allowFullScreen
-            />
-          </AspectRatio>
-        ) : (
-          video.url && (
-            <Button
-              as="a"
-              href={video.url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Watch on {video.platform}
-            </Button>
-          )
+        {/* Optional description */}
+        {video.description && (
+          <Text fontSize="sm" mb={4}>
+            {video.description}
+          </Text>
         )}
+
+        {/* Video embed */}
+        <AspectRatio ratio={16 / 9} mb={4}>
+          <iframe
+            title={video.title || video.name}
+            src={video.embedUrl || video.url}
+            allowFullScreen
+          />
+        </AspectRatio>
       </Box>
     </Box>
   );

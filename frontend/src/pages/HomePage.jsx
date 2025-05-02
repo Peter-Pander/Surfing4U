@@ -1,14 +1,9 @@
 // frontend/src/pages/HomePage.jsx
 import { useEffect, useState } from "react";
-import {
-  Box,
-  Heading,
-  Text,
-  SimpleGrid,
-} from "@chakra-ui/react";
+import { Box, SimpleGrid, Text } from "@chakra-ui/react";
 import SurfVideoCard from "../components/SurfVideoCard";
 
-function HomePage() {
+export default function HomePage() {
   const [video, setVideo] = useState(null);
   const [contestVideo, setContestVideo] = useState(null);
 
@@ -25,72 +20,28 @@ function HomePage() {
   }, []);
 
   return (
-    <Box p={6}>
-      {/* Videos Grid */}
-      <SimpleGrid columns={{ base: 1, md: 2 }} spacing={8} mb={10}>
+    <Box px={{ base: 4, md: 10 }} py={10}>
+      <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
         {/* Surf Video of the Day */}
-        <Box>
-          <Heading size="lg" mb={2}>
-            🎥 Surf Video of the Day
-          </Heading>
-          {video ? (
-            <Box
-              borderWidth="1px"
-              borderRadius="lg"
-              p={4}
-              bg="gray.800"
-              color="white"
-              overflow="hidden"
-              maxW="680px"
-            >
-              <Box
-                as="iframe"
-                src={video.url}
-                width="100%"
-                height="740px"
-                allowFullScreen
-                border="0"
-                borderRadius="md"
-              />
-            </Box>
-          ) : (
-            <Text>Loading video...</Text>
-          )}
-        </Box>
+        {video ? (
+          <SurfVideoCard
+            title="🎥 Surf Video of the Day"
+            video={video}
+          />
+        ) : (
+          <Text>Loading surf video of the day…</Text>
+        )}
 
-        {/* Contest Highlight */}
-        <Box>
-          <Heading size="lg" mb={2}>
-            🏆 Contest Highlight
-            {contestVideo?.contestName && `: ${contestVideo.contestName}`}
-          </Heading>
-          {contestVideo ? (
-            <Box
-              borderWidth="1px"
-              borderRadius="lg"
-              p={4}
-              bg="gray.800"
-              color="white"
-              overflow="hidden"
-              maxW="680px"
-            >
-              <Box
-                as="iframe"
-                src={contestVideo.url}
-                width="100%"
-                height="740px"
-                allowFullScreen
-                border="0"
-                borderRadius="md"
-              />
-            </Box>
-          ) : (
-            <Text>Loading video...</Text>
-          )}
-        </Box>
+        {/* Latest Contest Highlight */}
+        {contestVideo ? (
+          <SurfVideoCard
+            title="🏆 Latest Contest Highlight"
+            video={contestVideo}
+          />
+        ) : (
+          <Text>Loading contest highlight…</Text>
+        )}
       </SimpleGrid>
     </Box>
   );
 }
-
-export default HomePage;
