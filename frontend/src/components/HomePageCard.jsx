@@ -1,4 +1,4 @@
-// frontend/src/components/SurfVideoCard.jsx
+// frontend/src/components/HomePageCard.jsx
 import {
   Box,
   Heading,
@@ -25,28 +25,9 @@ export default function SurfVideoCard({ video, title }) {
       <Box p={4}>
         {/* Optional custom title */}
         {title && (
-          <Heading size="md" mb={2}>
+          <Heading size="lg" mb={5}>
             {title}
           </Heading>
-        )}
-
-        {/* Video title */}
-        <Heading size="md" mb={2}>
-          {video.title || video.name}
-        </Heading>
-
-        {/* Optional platform label */}
-        {video.platform && (
-          <Text fontSize="sm" color="gray.500" mb={2}>
-            {video.platform}
-          </Text>
-        )}
-
-        {/* Optional description */}
-        {video.description && (
-          <Text fontSize="sm" mb={4}>
-            {video.description}
-          </Text>
         )}
 
         {/* Video embed */}
