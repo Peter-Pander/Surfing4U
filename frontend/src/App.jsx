@@ -10,6 +10,7 @@ import SurfersPage from "./pages/SurfersPage";
 // import EventsPage from "./pages/EventsPage";
 // import ForecastsPage from "./pages/ForecastsPage";
 // import Surf101Page from "./pages/Surf101Page";
+import GlossaryPage from "./pages/GlossaryPage";
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
 
           {/* pro surfers directory */}
           <Route path="/surfers" element={<SurfersPage />} />
+
+          {/* surf 101 — glossary */}
+          <Route path="/surf-101/glossary" element={<GlossaryPage />} />
 
           {/* future routes */}
           {/*
