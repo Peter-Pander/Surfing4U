@@ -1,16 +1,16 @@
 require("dotenv").config();
-const mongoose         = require("mongoose");
-const express          = require("express");
-const cors             = require("cors");
-const path             = require("path");
-const fs               = require("fs");
+const mongoose           = require("mongoose");
+const express            = require("express");
+const cors               = require("cors");
+const path               = require("path");
+const fs                 = require("fs");
 
-const { runDailyJob }    = require("./jobs/dailyVideoJob");
-const { runContestJob }  = require("./jobs/contestVideoJob");
-const fetchSurferProfile = require("./jobs/fetchSurferProfile");
-const Surfer             = require("./models/Surfer");
+const { runDailyJob }      = require("./jobs/dailyVideoJob");
+const { runContestJob }    = require("./jobs/contestVideoJob");
+const fetchSurferProfile   = require("./jobs/fetchSurferProfile");
+const Surfer               = require("./models/Surfer");
 
-// ─── Load our one-off, community-sourced roster ───────────────────────────────
+// ─── Load our one‐off, community‐sourced roster ───────────────────────────────
 const surferNames = require("./data/surfers.json");
 
 const app = express();
@@ -69,11 +69,11 @@ app.get("/api/surfers/:id", async (req, res, next) => {
 app.listen(PORT, async () => {
   console.log(`🚀 Backend running on http://localhost:${PORT}`);
 
-  // kick off video jobs
+  // kick off daily & contest video jobs
   runDailyJob();
   runContestJob();
 
-  // one-off seed from our scraped JSON of hundreds of names
+  // one-time seed from our scraped JSON of hundreds of names
   try {
     await Promise.all(
       surferNames.map(name =>
