@@ -8,8 +8,10 @@ const fs               = require("fs");
 const { runDailyJob }    = require("./jobs/dailyVideoJob");
 const { runContestJob }  = require("./jobs/contestVideoJob");
 const fetchSurferProfile = require("./jobs/fetchSurferProfile");
-const { getProSurferNames } = require("./jobs/services");
 const Surfer             = require("./models/Surfer");
+
+// ─── Load our one-off, community-sourced roster ───────────────────────────────
+const surferNames = require("./data/surfers.json");
 
 const app = express();
 app.use(cors());
@@ -31,7 +33,6 @@ app.get("/api/video-of-the-day", (req, res, next) => {
     catch (parseErr) { next(parseErr); }
   });
 });
-
 app.get("/api/contest-highlight", (req, res, next) => {
   const filePath = path.join(__dirname, "contestHighlight.json");
   fs.readFile(filePath, "utf-8", (err, raw) => {
@@ -53,7 +54,6 @@ app.get("/api/surfers", async (req, res, next) => {
     next(err);
   }
 });
-
 // GET a single surfer's full profile by ID
 app.get("/api/surfers/:id", async (req, res, next) => {
   try {
@@ -66,20 +66,23 @@ app.get("/api/surfers/:id", async (req, res, next) => {
 });
 
 // ─── Start Server & Kick Off Jobs ────────────────────────────────────────────
-app.listen(PORT, () => {
+app.listen(PORT, async () => {
   console.log(`🚀 Backend running on http://localhost:${PORT}`);
 
+  // kick off video jobs
   runDailyJob();
   runContestJob();
 
-  // Dynamically fetch and upsert a roster of pros via OpenAI
-  getProSurferNames()
-    .then(names => Promise.all(
-      names.map(name =>
+  // one-off seed from our scraped JSON of hundreds of names
+  try {
+    await Promise.all(
+      surferNames.map(name =>
         fetchSurferProfile(name)
-          .catch(err => console.error(`❌ Error fetching profile for ${name}:`, err))
+          .catch(err => console.error(`❌ Error upserting ${name}:`, err))
       )
-    ))
-    .then(() => console.log("✅ All surfer profiles fetched"))
-    .catch(err => console.error("❌ Error seeding surfers:", err));
+    );
+    console.log(`✅ Seeded ${surferNames.length} surfer profiles from JSON.`);
+  } catch (err) {
+    console.error("❌ Error seeding surfers from JSON:", err);
+  }
 });
