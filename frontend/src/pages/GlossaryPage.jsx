@@ -8,58 +8,15 @@ import {
   AccordionButton,
   AccordionPanel,
   AccordionIcon,
-  Divider,
   useColorModeValue,
 } from "@chakra-ui/react";
-
-const glossary = [
-  {
-    term: "Stoked",
-    definition: "Extremely excited or happy — a core emotion in surf culture.",
-  },
-  {
-    term: "Aloha",
-    definition:
-      "A Hawaiian word used for love, peace, and hello/goodbye. It represents the surf spirit.",
-  },
-  {
-    term: "Barrel",
-    definition:
-      "The hollow part of a wave that forms when it breaks — surfers aim to ride inside the barrel.",
-  },
-  {
-    term: "Gnarly",
-    definition:
-      "Slang for something intense, dangerous, or cool (e.g. a gnarly wave or gnarly wipeout).",
-  },
-  {
-    term: "Point Break",
-    definition:
-      "A type of surf break where waves peel along a headland or point of land.",
-  },
-  {
-    term: "Hang Ten",
-    definition:
-      "A longboard trick where the surfer walks to the nose of the board and hangs all 10 toes off the edge.",
-  },
-  {
-    term: "Kook",
-    definition:
-      "A beginner or inexperienced surfer who doesn't follow surf etiquette — sometimes used jokingly.",
-  },
-  {
-    term: "Reef Break",
-    definition:
-      "A wave that breaks over a coral reef or rock shelf — often powerful and dangerous.",
-  },
-];
+import { glossary } from "../data/glossary";
 
 function GlossaryPage() {
-  // light / dark values
-  const borderColor = useColorModeValue("gray.200", "gray.600");
+  const borderColor  = useColorModeValue("gray.200", "gray.600");
   const headingColor = useColorModeValue("gray.800", "white");
-  const panelBg = useColorModeValue("gray.50", "gray.700");
-  const textColor = useColorModeValue("gray.700", "gray.200");
+  const panelBg      = useColorModeValue("gray.50", "gray.700");
+  const textColor    = useColorModeValue("gray.700", "gray.200");
 
   return (
     <Box maxW="3xl" mx="auto" px={6} py={10}>
