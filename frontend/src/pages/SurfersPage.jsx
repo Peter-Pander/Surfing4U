@@ -1,19 +1,24 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import {
   Box,
   Heading,
-  SimpleGrid,
   Spinner,
   Center,
   Input,
   Text,
+  List,
+  ListItem,
 } from '@chakra-ui/react';
 import SurferProCard from '../components/SurferProCard';
 
 export default function SurfersPage() {
   const [surfers, setSurfers] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState('');
+  const [isOpen, setIsOpen] = useState(false);
+  const [activeIndex, setActiveIndex] = useState(-1);
+  const [featured, setFeatured] = useState(null);
+  const inputRef = useRef();
 
   useEffect(() => {
     fetch('/api/surfers')
@@ -21,6 +26,9 @@ export default function SurfersPage() {
       .then((data) => {
         setSurfers(data);
         setLoading(false);
+        // pick one random featured on full page load only
+        const random = data[Math.floor(Math.random() * data.length)];
+        setFeatured(random);
       })
       .catch((err) => {
         console.error(err);
@@ -40,32 +48,96 @@ export default function SurfersPage() {
     return <Heading>No surfers found.</Heading>;
   }
 
-  // filter by searchTerm
-  const filtered = surfers.filter(s =>
-    s.name.toLowerCase().includes(searchTerm)
-  );
+  // filter by searchTerm (or return all if searchTerm is empty)
+  const filtered = searchTerm
+    ? surfers.filter((s) => s.name.toLowerCase().includes(searchTerm))
+    : surfers;
 
-  // pick one random featured for default view
-  const featuredIndex = Math.floor(Math.random() * surfers.length);
-  const featured = surfers[featuredIndex];
+  // handle keyboard navigation
+  const onKeyDown = (e) => {
+    if (!isOpen) return;
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      setActiveIndex((i) => Math.min(i + 1, filtered.length - 1));
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      setActiveIndex((i) => Math.max(i - 1, 0));
+    } else if (e.key === 'Enter' && activeIndex >= 0) {
+      e.preventDefault();
+      const chosen = filtered[activeIndex].name;
+      setSearchTerm(chosen.toLowerCase());
+      setIsOpen(false);
+      setActiveIndex(-1);
+    } else if (e.key === 'Escape') {
+      setIsOpen(false);
+      setActiveIndex(-1);
+    }
+  };
 
   return (
-    <Box px={[4, 8]} py={6}>
+    <Box px={[4, 8]} py={6} position="relative">
       {/* Search bar */}
       <Input
         placeholder="Search surfers by name…"
         mb={6}
         value={searchTerm}
-        onChange={e => setSearchTerm(e.target.value.toLowerCase())}
+        onChange={(e) => {
+          setSearchTerm(e.target.value.toLowerCase());
+          setIsOpen(true);
+          setActiveIndex(-1);
+        }}
+        onFocus={() => {
+          setIsOpen(true);
+          setActiveIndex(-1);
+        }}
+        onBlur={() => setTimeout(() => setIsOpen(false), 100)}
+        onKeyDown={onKeyDown}
+        ref={inputRef}
+        autoComplete="off"
       />
+
+      {/* custom dropdown */}
+      {isOpen && filtered.length > 0 && (
+        <Box
+          position="absolute"
+          top="66px"
+          left="8"
+          right="8"
+          bg="gray.700"
+          borderRadius="md"
+          shadow="lg"
+          maxH="250px"
+          overflowY="auto"
+          zIndex={10}
+        >
+          <List spacing={0}>
+            {filtered.map((s, idx) => (
+              <ListItem
+                key={s._id}
+                px={4}
+                py={2}
+                cursor="pointer"
+                bg={idx === activeIndex ? 'gray.600' : 'transparent'}
+                _hover={{ bg: 'gray.600' }}
+                onMouseEnter={() => setActiveIndex(idx)}
+                onMouseDown={() => {
+                  setSearchTerm(s.name.toLowerCase());
+                  setIsOpen(false);
+                  setActiveIndex(-1);
+                }}
+              >
+                {s.name}
+              </ListItem>
+            ))}
+          </List>
+        </Box>
+      )}
 
       {searchTerm ? (
         <>
           <Heading mb={4}>Search Results</Heading>
           {filtered.length ? (
-            filtered.map(s => (
-              <SurferProCard key={s._id} surfer={s} />
-            ))
+            filtered.map((s) => <SurferProCard key={s._id} surfer={s} />)
           ) : (
             <Text>No surfers match “{searchTerm}.”</Text>
           )}
@@ -73,7 +145,7 @@ export default function SurfersPage() {
       ) : (
         <>
           <Heading mb={6}>🏄 Featured Surfer</Heading>
-          <SurferProCard surfer={featured} />
+          {featured && <SurferProCard surfer={featured} />}
         </>
       )}
     </Box>
