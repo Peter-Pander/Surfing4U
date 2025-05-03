@@ -1,5 +1,17 @@
 // frontend/src/components/Navbar.jsx
-import { Box, Flex, HStack, Link, Spacer, Heading } from "@chakra-ui/react";
+import {
+  Box,
+  Flex,
+  HStack,
+  Link,
+  Spacer,
+  Heading,
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+  Button,
+} from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
 
 function Navbar() {
@@ -29,53 +41,38 @@ function Navbar() {
             Surf TV
           </Link>
 
-          {/* Surf 101 Dropdown */}
-          <Box position="relative" _hover={{ ".dropdown2": { display: "block" } }}>
-            <Link as={RouterLink} to="#" color="black">
-              Surf 101 ▾
-            </Link>
-            <Box
-              className="dropdown2"
-              display="none"
-              position="absolute"
-              mt={2}
-              bg="white"
-              boxShadow="md"
-              rounded="md"
-              py={2}
+          {/* Surf 101 Dropdown using Chakra Menu */}
+          <Menu>
+            <MenuButton
+              as={Button}
+              variant="ghost"
+              color="black"
+              rightIcon={<Box as="span" ml={1}>▾</Box>}
+              _hover={{ bg: "gray.200" }}
             >
-              <Link
+              Surf 101
+            </MenuButton>
+            <MenuList>
+              <MenuItem
                 as={RouterLink}
                 to="/surf-101/glossary"
-                display="block"
-                px={4}
-                py={2}
-                _hover={{ bg: "gray.100" }}
               >
                 Glossary
-              </Link>
-              <Link
+              </MenuItem>
+              <MenuItem
                 as={RouterLink}
                 to="/surf-101/techniques"
-                display="block"
-                px={4}
-                py={2}
-                _hover={{ bg: "gray.100" }}
               >
                 Terms & Techniques
-              </Link>
-              <Link
+              </MenuItem>
+              <MenuItem
                 as={RouterLink}
                 to="/surf-101/quiz"
-                display="block"
-                px={4}
-                py={2}
-                _hover={{ bg: "gray.100" }}
               >
                 Quiz Game
-              </Link>
-            </Box>
-          </Box>
+              </MenuItem>
+            </MenuList>
+          </Menu>
         </HStack>
       </Flex>
     </Box>
