@@ -13,11 +13,21 @@ function Navbar() {
         <Spacer />
 
         <HStack spacing={6}>
-          <Link as={RouterLink} to="/spots" color="black">Spots</Link>
-          <Link as={RouterLink} to="/surfers" color="black">Surfers</Link>
-          <Link as={RouterLink} to="/events" color="black">Events</Link>
-          <Link as={RouterLink} to="/forecasts" color="black">Forecasts</Link>
-          <Link as={RouterLink} to="/surf-tv" color="black">Surf TV</Link>
+          <Link as={RouterLink} to="/spots" color="black">
+            Spots
+          </Link>
+          <Link as={RouterLink} to="/surfers" color="black">
+            Surfers
+          </Link>
+          <Link as={RouterLink} to="/events" color="black">
+            Events
+          </Link>
+          <Link as={RouterLink} to="/forecasts" color="black">
+            Forecasts
+          </Link>
+          <Link as={RouterLink} to="/surf-tv" color="black">
+            Surf TV
+          </Link>
 
           {/* Surf 101 Dropdown */}
           <Box position="relative" _hover={{ ".dropdown2": { display: "block" } }}>
@@ -66,7 +76,6 @@ function Navbar() {
               </Link>
             </Box>
           </Box>
-
         </HStack>
       </Flex>
     </Box>
