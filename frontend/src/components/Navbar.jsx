@@ -61,12 +61,6 @@ function Navbar() {
               </MenuItem>
               <MenuItem
                 as={RouterLink}
-                to="/surf-101/techniques"
-              >
-                Terms & Techniques
-              </MenuItem>
-              <MenuItem
-                as={RouterLink}
                 to="/surf-101/quiz"
               >
                 Quiz Game

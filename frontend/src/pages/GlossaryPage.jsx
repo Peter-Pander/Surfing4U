@@ -19,7 +19,7 @@ function GlossaryPage() {
         🧠 Surf Glossary
       </Heading>
       <Text mb={6} fontSize="lg" color={textColor}>
-        A guide to surf slang, Hawaiian cultural terms, and wave types.
+        A guide to surf slang, cultural terms, wave types, gear, technique, ocean science, and etiquette.
       </Text>
 
       {glossary.map((item, idx) => (
