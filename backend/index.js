@@ -1,3 +1,5 @@
+// backend/index.js
+
 require("dotenv").config();
 const mongoose           = require("mongoose");
 const express            = require("express");
@@ -17,6 +19,8 @@ const app = express();
 app.use(cors());
 
 const PORT = process.env.PORT || 4000;
+// Only start video jobs if this flag is true in your .env
+const ENABLE_JOBS_ON_START = process.env.ENABLE_JOBS_ON_START === "true";
 
 // ─── Connect to MongoDB ───────────────────────────────────────────────────────
 mongoose
@@ -69,20 +73,34 @@ app.get("/api/surfers/:id", async (req, res, next) => {
 app.listen(PORT, async () => {
   console.log(`🚀 Backend running on http://localhost:${PORT}`);
 
-  // kick off daily & contest video jobs
-  runDailyJob();
-  runContestJob();
+  // ─── kick off daily & contest video jobs if enabled ────────────────────────
+  if (ENABLE_JOBS_ON_START) {
+    try {
+      runDailyJob();
+    } catch (err) {
+      console.error("❌ Daily job error:", err);
+    }
+    try {
+      runContestJob();
+    } catch (err) {
+      console.error("❌ Contest job error:", err);
+    }
+  } else {
+    console.log("⏭️ Video jobs on start are disabled (set ENABLE_JOBS_ON_START=true to enable)");
+  }
 
-  // one-time seed from our scraped JSON of hundreds of names
-  try {
-    await Promise.all(
-      surferNames.map(name =>
-        fetchSurferProfile(name)
-          .catch(err => console.error(`❌ Error upserting ${name}:`, err))
-      )
-    );
-    console.log(`✅ Seeded ${surferNames.length} surfer profiles from JSON.`);
-  } catch (err) {
-    console.error("❌ Error seeding surfers from JSON:", err);
+  // ─── one-time seed from our scraped JSON of hundreds of names ────────────────
+  if (process.env.SEED_SURFERS === "true") {
+    try {
+      await Promise.all(
+        surferNames.map(name =>
+          fetchSurferProfile(name, { force: true })
+            .catch(err => console.error(`❌ Error upserting ${name}:`, err))
+        )
+      );
+      console.log(`✅ Seeded ${surferNames.length} surfer profiles from JSON.`);
+    } catch (err) {
+      console.error("❌ Error seeding surfers from JSON:", err);
+    }
   }
 });

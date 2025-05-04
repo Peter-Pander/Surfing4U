@@ -1,3 +1,5 @@
+// backend/jobs/fetchSurferProfile.js
+
 require("dotenv").config()
 const Surfer                  = require("../models/Surfer")
 const { getWikiBio, getTop4Videos } = require("./services")
@@ -10,14 +12,15 @@ const { getWikiBio, getTop4Videos } = require("./services")
  */
 async function fetchSurferProfile(name, { force = false } = {}) {
   try {
-    // 0. If not forcing, skip any surfer who already has bio + videos in DB
+    // 0. If not forcing, skip any surfer who already has bio + videos + insta in DB
     if (!force) {
       const existing = await Surfer.findOne({ name }).lean()
       if (
         existing &&
         existing.bio &&
         Array.isArray(existing.videos) &&
-        existing.videos.length > 0
+        existing.videos.length > 0 &&
+        existing.insta
       ) {
         console.log(`⏭️ Skipping ${name}, already fetched`)
         return
@@ -27,7 +30,10 @@ async function fetchSurferProfile(name, { force = false } = {}) {
     // 1. Get Wikipedia bio + wikiLink
     const { bio, wikiLink } = await getWikiBio(name)
 
-    // 2. (removed insta logic for now)
+    // 2. Build fallback Instagram URL
+    //    e.g. "Kelly Slater" -> "https://instagram.com/kellyslater"
+    const instaHandle = name.replace(/\s+/g, "").toLowerCase()
+    const insta = `https://instagram.com/${instaHandle}`
 
     // 3. Try to fetch top 4 YouTube videos; on error, log but continue
     let videos = []
@@ -39,19 +45,27 @@ async function fetchSurferProfile(name, { force = false } = {}) {
       } else {
         console.error(`❌ Error fetching videos for ${name}:`, err.message || err)
       }
-      // leave videos as [] so we still upsert the rest of the profile
+      // leave videos empty so we still upsert the rest of the profile
     }
 
-    // 4. Upsert into MongoDB (no insta field for now)
+    // 4. Upsert into MongoDB, now including insta
     await Surfer.findOneAndUpdate(
       { name },
-      { name, bio, wikiLink, videos },
+      {
+        name,
+        bio,
+        wikiLink,
+        insta,    // <-- restored Instagram field
+        videos
+      },
       { upsert: true, new: true }
     )
 
     console.log(`✅ Upserted surfer profile for ${name}`)
+    return { name, bio, wikiLink, insta, videos }
   } catch (err) {
     console.error(`❌ Error fetching profile for ${name}:`, err.message || err)
+    return null
   }
 }
 
