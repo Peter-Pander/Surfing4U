@@ -8,6 +8,8 @@ import {
   Text,
   List,
   ListItem,
+  Button,
+  HStack,
 } from '@chakra-ui/react';
 import SurferProCard from '../components/SurferProCard';
 
@@ -17,7 +19,7 @@ export default function SurfersPage() {
   const [searchTerm, setSearchTerm] = useState('');
   const [isOpen, setIsOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(-1);
-  const [featured, setFeatured] = useState(null);
+  const [currentIndex, setCurrentIndex] = useState(-1);
   const inputRef = useRef();
 
   useEffect(() => {
@@ -27,8 +29,8 @@ export default function SurfersPage() {
         setSurfers(data);
         setLoading(false);
         // pick one random featured on full page load only
-        const random = data[Math.floor(Math.random() * data.length)];
-        setFeatured(random);
+        const randomIndex = Math.floor(Math.random() * data.length);
+        setCurrentIndex(randomIndex);
       })
       .catch((err) => {
         console.error(err);
@@ -64,8 +66,11 @@ export default function SurfersPage() {
       setActiveIndex((i) => Math.max(i - 1, 0));
     } else if (e.key === 'Enter' && activeIndex >= 0) {
       e.preventDefault();
-      const chosen = filtered[activeIndex].name;
-      setSearchTerm(chosen.toLowerCase());
+      // find the real index in the full list
+      const selected = filtered[activeIndex];
+      const idx = surfers.findIndex((s) => s._id === selected._id);
+      setCurrentIndex(idx);
+      setSearchTerm('');      // clear so we show the featured view
       setIsOpen(false);
       setActiveIndex(-1);
     } else if (e.key === 'Escape') {
@@ -121,7 +126,10 @@ export default function SurfersPage() {
                 _hover={{ bg: 'gray.600' }}
                 onMouseEnter={() => setActiveIndex(idx)}
                 onMouseDown={() => {
-                  setSearchTerm(s.name.toLowerCase());
+                  // same logic as Enter above
+                  const realIdx = surfers.findIndex((x) => x._id === s._id);
+                  setCurrentIndex(realIdx);
+                  setSearchTerm('');
                   setIsOpen(false);
                   setActiveIndex(-1);
                 }}
@@ -144,8 +152,29 @@ export default function SurfersPage() {
         </>
       ) : (
         <>
-          <Heading mb={6}>🏄 Featured Surfer</Heading>
-          {featured && <SurferProCard surfer={featured} />}
+          {currentIndex >= 0 && (
+            <>
+              {/* Featured header and navigation */}
+              <HStack justify="space-between" align="center" mb={6}>
+                <Heading size="lg">🏄 Featured Surfer</Heading>
+                <HStack spacing={4}>
+                  <Button
+                    onClick={() => setCurrentIndex((i) => i - 1)}
+                    isDisabled={currentIndex <= 0}
+                  >
+                    Previous
+                  </Button>
+                  <Button
+                    onClick={() => setCurrentIndex((i) => i + 1)}
+                    isDisabled={currentIndex >= surfers.length - 1}
+                  >
+                    Next
+                  </Button>
+                </HStack>
+              </HStack>
+              <SurferProCard surfer={surfers[currentIndex]} />
+            </>
+          )}
         </>
       )}
     </Box>
