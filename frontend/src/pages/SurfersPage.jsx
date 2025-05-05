@@ -16,26 +16,32 @@ import {
 import SurferProCard from '../components/SurferProCard';
 
 export default function SurfersPage() {
+  // dynamic light / dark values (hooks must run before any early return)
+  const pageBg          = useColorModeValue('gray.50', 'gray.900');
+  const textColor       = useColorModeValue('gray.800', 'gray.100');
+  const inputBg         = useColorModeValue('white',    'gray.700');
+  const dropdownBg      = useColorModeValue('white',    'gray.700');
+  const dropdownHoverBg = useColorModeValue('gray.100', 'gray.600');
+  const activeBg        = useColorModeValue('gray.200', 'gray.600');
+
   const [surfers, setSurfers] = useState([]);
   const [loading, setLoading] = useState(true);
 
   // 1️⃣ track the raw input value and the debounced search term
   const [inputValue, setInputValue] = useState('');
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm]   = useState('');
 
   // Only enable admin UI in development builds
   const isAdmin = import.meta.env.VITE_ENABLE_ADMIN === 'true';
 
   // debounce updating `searchTerm` until 200ms after the user stops typing
   useEffect(() => {
-    const handler = setTimeout(() => {
-      setSearchTerm(inputValue);
-    }, 200);
+    const handler = setTimeout(() => setSearchTerm(inputValue), 200);
     return () => clearTimeout(handler);
   }, [inputValue]);
 
-  const [isOpen, setIsOpen] = useState(false);
-  const [activeIndex, setActiveIndex] = useState(-1);
+  const [isOpen, setIsOpen]         = useState(false);
+  const [activeIndex, setActiveIndex]   = useState(-1);
   const [currentIndex, setCurrentIndex] = useState(-1);
   const inputRef = useRef();
 
@@ -46,8 +52,7 @@ export default function SurfersPage() {
         setSurfers(data);
         setLoading(false);
         // pick one random featured on full page load only
-        const randomIndex = Math.floor(Math.random() * data.length);
-        setCurrentIndex(randomIndex);
+        setCurrentIndex(Math.floor(Math.random() * data.length));
       })
       .catch((err) => {
         console.error(err);
@@ -57,14 +62,14 @@ export default function SurfersPage() {
 
   if (loading) {
     return (
-      <Center h="60vh">
+      <Center h="60vh" bg={pageBg} color={textColor}>
         <Spinner size="xl" />
       </Center>
     );
   }
 
   if (!surfers.length) {
-    return <Heading>No surfers found.</Heading>;
+    return <Heading color={textColor}>No surfers found.</Heading>;
   }
 
   // filter by debounced searchTerm (or return all if empty)
@@ -107,14 +112,6 @@ export default function SurfersPage() {
     const newIndex = surfers.findIndex((s) => s._id === updated._id);
     if (newIndex >= 0) setCurrentIndex(newIndex);
   };
-
-  // dynamic light / dark values
-  const pageBg          = useColorModeValue("gray.50",   "gray.900");
-  const textColor       = useColorModeValue("gray.800",  "gray.100");
-  const inputBg         = useColorModeValue("white",     "gray.700");
-  const dropdownBg      = useColorModeValue("white",     "gray.700");
-  const dropdownHoverBg = useColorModeValue("gray.100",  "gray.600");
-  const activeBg        = useColorModeValue("gray.200",  "gray.600");
 
   return (
     <Box
@@ -168,7 +165,7 @@ export default function SurfersPage() {
                 px={4}
                 py={2}
                 cursor="pointer"
-                bg={idx === activeIndex ? activeBg : "transparent"}
+                bg={idx === activeIndex ? activeBg : 'transparent'}
                 _hover={{ bg: dropdownHoverBg }}
                 onMouseEnter={() => setActiveIndex(idx)}
                 onMouseDown={() => {
