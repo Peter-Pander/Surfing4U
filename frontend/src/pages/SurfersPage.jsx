@@ -18,14 +18,26 @@ import SurferProCard from '../components/SurferProCard';
 export default function SurfersPage() {
   const [surfers, setSurfers] = useState([]);
   const [loading, setLoading] = useState(true);
+
+  // 1️⃣ track the raw input value and the debounced search term
+  const [inputValue, setInputValue] = useState('');
   const [searchTerm, setSearchTerm] = useState('');
+
+  // Only enable admin UI in development builds
+  const isAdmin = import.meta.env.VITE_ENABLE_ADMIN === 'true';
+
+  // debounce updating `searchTerm` until 200ms after the user stops typing
+  useEffect(() => {
+    const handler = setTimeout(() => {
+      setSearchTerm(inputValue);
+    }, 200);
+    return () => clearTimeout(handler);
+  }, [inputValue]);
+
   const [isOpen, setIsOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(-1);
   const [currentIndex, setCurrentIndex] = useState(-1);
   const inputRef = useRef();
-
-  // Only enable admin UI in development builds
-  const isAdmin = import.meta.env.VITE_ENABLE_ADMIN === 'true';
 
   useEffect(() => {
     fetch('/api/surfers')
@@ -55,9 +67,11 @@ export default function SurfersPage() {
     return <Heading>No surfers found.</Heading>;
   }
 
-  // filter by searchTerm (or return all if searchTerm is empty)
+  // filter by debounced searchTerm (or return all if empty)
   const filtered = searchTerm
-    ? surfers.filter((s) => s.name.toLowerCase().includes(searchTerm))
+    ? surfers.filter((s) =>
+        s.name.toLowerCase().includes(searchTerm.toLowerCase())
+      )
     : surfers;
 
   // handle keyboard navigation in dropdown
@@ -75,7 +89,7 @@ export default function SurfersPage() {
       const selected = filtered[activeIndex];
       const idx = surfers.findIndex((s) => s._id === selected._id);
       setCurrentIndex(idx);
-      setSearchTerm(''); // clear so we show the featured view
+      setInputValue(''); // clear raw input
       setIsOpen(false);
       setActiveIndex(-1);
     } else if (e.key === 'Escape') {
@@ -86,10 +100,9 @@ export default function SurfersPage() {
 
   // callback to merge an updated surfer back into our list
   const handleUpdate = (updated) => {
-    setSurfers((all) => {
-      const merged = all.map((s) => (s._id === updated._id ? updated : s));
-      return merged;
-    });
+    setSurfers((all) =>
+      all.map((s) => (s._id === updated._id ? updated : s))
+    );
     // keep showing the same surfer
     const newIndex = surfers.findIndex((s) => s._id === updated._id);
     if (newIndex >= 0) setCurrentIndex(newIndex);
@@ -101,9 +114,9 @@ export default function SurfersPage() {
       <Input
         placeholder="Search surfers by name…"
         mb={6}
-        value={searchTerm}
+        value={inputValue}
         onChange={(e) => {
-          setSearchTerm(e.target.value.toLowerCase());
+          setInputValue(e.target.value);
           setIsOpen(true);
           setActiveIndex(-1);
         }}
@@ -144,7 +157,7 @@ export default function SurfersPage() {
                 onMouseDown={() => {
                   const realIdx = surfers.findIndex((x) => x._id === s._id);
                   setCurrentIndex(realIdx);
-                  setSearchTerm('');
+                  setInputValue(''); // clear raw input
                   setIsOpen(false);
                   setActiveIndex(-1);
                 }}
