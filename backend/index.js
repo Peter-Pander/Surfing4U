@@ -130,6 +130,12 @@ app.delete("/api/surfers/:id/videos/:idx", async (req, res, next) => {
   }
 });
 
+// ─── Serve the built frontend ───────────────────────────────────────────────
+app.use(express.static(path.join(__dirname, "../frontend/dist")));
+app.get(/.*/, (req, res) => {
+  res.sendFile(path.join(__dirname, "../frontend/dist/index.html"));
+});
+
 // ─── Start Server & Kick Off Jobs ────────────────────────────────────────────
 app.listen(PORT, async () => {
   console.log(`🚀 Backend running on http://localhost:${PORT}`);

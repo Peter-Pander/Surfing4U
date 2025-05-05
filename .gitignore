@@ -1,0 +1,8 @@
+# node modules everywhere
+node_modules/
+
+# env files
+.env
+
+# dist folder (if you ever check it in for other reasons)
+/frontend/dist

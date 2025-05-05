@@ -1,0 +1,13 @@
+{
+  "name": "surfing4u",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"nodemon backend/index.js\" \"npm --prefix frontend run dev\"",
+    "build": "npm install && npm --prefix frontend install && npm --prefix frontend run build",
+    "start": "NODE_ENV=production node backend/index.js"
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^3.0.1"
+  }
+}
