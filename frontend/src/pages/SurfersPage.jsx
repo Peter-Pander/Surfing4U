@@ -1,3 +1,5 @@
+// src/pages/SurfersPage.jsx
+
 import React, { useEffect, useState, useRef } from 'react';
 import {
   Box,
@@ -21,6 +23,9 @@ export default function SurfersPage() {
   const [activeIndex, setActiveIndex] = useState(-1);
   const [currentIndex, setCurrentIndex] = useState(-1);
   const inputRef = useRef();
+
+  // Only enable admin UI in development builds
+  const isAdmin = import.meta.env.VITE_ENABLE_ADMIN === 'true';
 
   useEffect(() => {
     fetch('/api/surfers')
@@ -55,7 +60,7 @@ export default function SurfersPage() {
     ? surfers.filter((s) => s.name.toLowerCase().includes(searchTerm))
     : surfers;
 
-  // handle keyboard navigation
+  // handle keyboard navigation in dropdown
   const onKeyDown = (e) => {
     if (!isOpen) return;
     if (e.key === 'ArrowDown') {
@@ -70,13 +75,24 @@ export default function SurfersPage() {
       const selected = filtered[activeIndex];
       const idx = surfers.findIndex((s) => s._id === selected._id);
       setCurrentIndex(idx);
-      setSearchTerm('');      // clear so we show the featured view
+      setSearchTerm(''); // clear so we show the featured view
       setIsOpen(false);
       setActiveIndex(-1);
     } else if (e.key === 'Escape') {
       setIsOpen(false);
       setActiveIndex(-1);
     }
+  };
+
+  // callback to merge an updated surfer back into our list
+  const handleUpdate = (updated) => {
+    setSurfers((all) => {
+      const merged = all.map((s) => (s._id === updated._id ? updated : s));
+      return merged;
+    });
+    // keep showing the same surfer
+    const newIndex = surfers.findIndex((s) => s._id === updated._id);
+    if (newIndex >= 0) setCurrentIndex(newIndex);
   };
 
   return (
@@ -126,7 +142,6 @@ export default function SurfersPage() {
                 _hover={{ bg: 'gray.600' }}
                 onMouseEnter={() => setActiveIndex(idx)}
                 onMouseDown={() => {
-                  // same logic as Enter above
                   const realIdx = surfers.findIndex((x) => x._id === s._id);
                   setCurrentIndex(realIdx);
                   setSearchTerm('');
@@ -145,7 +160,14 @@ export default function SurfersPage() {
         <>
           <Heading mb={4}>Search Results</Heading>
           {filtered.length ? (
-            filtered.map((s) => <SurferProCard key={s._id} surfer={s} />)
+            filtered.map((s) => (
+              <SurferProCard
+                key={s._id}
+                surfer={s}
+                isAdmin={isAdmin}
+                onUpdate={handleUpdate}
+              />
+            ))
           ) : (
             <Text>No surfers match “{searchTerm}.”</Text>
           )}
@@ -172,7 +194,11 @@ export default function SurfersPage() {
                   </Button>
                 </HStack>
               </HStack>
-              <SurferProCard surfer={surfers[currentIndex]} />
+              <SurferProCard
+                surfer={surfers[currentIndex]}
+                isAdmin={isAdmin}
+                onUpdate={handleUpdate}
+              />
             </>
           )}
         </>

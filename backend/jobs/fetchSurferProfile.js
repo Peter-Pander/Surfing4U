@@ -1,5 +1,3 @@
-// backend/jobs/fetchSurferProfile.js
-
 require("dotenv").config()
 const Surfer                  = require("../models/Surfer")
 const { getWikiBio, getTop4Videos } = require("./services")
@@ -20,7 +18,7 @@ async function fetchSurferProfile(name, { force = false } = {}) {
         existing.bio &&
         Array.isArray(existing.videos) &&
         existing.videos.length > 0 &&
-        existing.insta
+        existing.insta !== undefined    // <<< changed: skip as long as insta field exists
       ) {
         console.log(`⏭️ Skipping ${name}, already fetched`)
         return
@@ -55,7 +53,7 @@ async function fetchSurferProfile(name, { force = false } = {}) {
         name,
         bio,
         wikiLink,
-        insta,    // <-- restored Instagram field
+        insta,
         videos
       },
       { upsert: true, new: true }
