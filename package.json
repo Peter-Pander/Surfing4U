@@ -9,7 +9,7 @@
     "dev": "concurrently \"npm run dev --workspace=backend\" \"npm run dev --workspace=frontend\"",
     "build": "npm run build --workspace=frontend",
     "start": "npm run start --workspace=backend",
-    "gen:profiles": "npm run gen:profiles --workspace=backend"
+    "gen:profiles": "npm --prefix backend run gen:profiles"
   },
   "dependencies": {
     "concurrently": "^7.6.0",

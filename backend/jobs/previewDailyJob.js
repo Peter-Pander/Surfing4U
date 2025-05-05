@@ -1,4 +1,4 @@
-// backend/previewDailyJob.js
+// backend/jobs/previewDailyJob.js
 require("dotenv").config();           // load .env in any environment
 const { runDailyJob } = require("./dailyVideoJob");
 

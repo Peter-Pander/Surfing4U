@@ -1,13 +1,16 @@
 #!/usr/bin/env node
-require("dotenv").config();
+const path = require("path");
+// Load the root .env so OPENAI_API_KEY and others are available
+require("dotenv").config({ path: path.resolve(__dirname, "../../.env") });
 
-const mongoose            = require("mongoose");
-const fs                  = require("fs");
-const path                = require("path");
-const surferEntries       = require("../data/surfers.json");
-const fetchSurferProfile  = require("../jobs/fetchSurferProfile");
 
-;(async () => {
+const mongoose           = require("mongoose");
+const fs                 = require("fs");
+const pathModule         = require("path");
+const surferEntries      = require("../data/surfers.json");
+const fetchSurferProfile = require("../jobs/fetchSurferProfile");
+
+(async () => {
   // ─── 0. Connect to MongoDB ────────────────────────────────────────────────
   try {
     await mongoose.connect(process.env.MONGO_URI);
@@ -18,7 +21,7 @@ const fetchSurferProfile  = require("../jobs/fetchSurferProfile");
   }
 
   // ─── 1. Load existing profiles.json ───────────────────────────────────────
-  const outPath = path.join(__dirname, "..", "data", "profiles.json");
+  const outPath = pathModule.join(__dirname, "..", "data", "profiles.json");
   let existingProfiles = [];
   if (fs.existsSync(outPath)) {
     try {

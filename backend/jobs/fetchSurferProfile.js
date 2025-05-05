@@ -1,6 +1,11 @@
-require("dotenv").config()
-const Surfer                  = require("../models/Surfer")
-const { getWikiBio, getTop4Videos } = require("./services")
+// backend/jobs/fetchSurferProfile.js
+
+const path = require("path");
+// Ensure root .env is loaded so API keys are available
+require("dotenv").config({ path: path.resolve(__dirname, "../../.env") });
+
+const Surfer                = require("../models/Surfer");
+const { getWikiBio, getTop4Videos } = require("./services");
 
 /**
  * Fetches and upserts a surfer’s profile data.
@@ -12,7 +17,7 @@ async function fetchSurferProfile(name, { force = false } = {}) {
   try {
     // 0. If not forcing, skip any surfer who already has bio + videos + insta in DB
     if (!force) {
-      const existing = await Surfer.findOne({ name }).lean()
+      const existing = await Surfer.findOne({ name }).lean();
       if (
         existing &&
         existing.bio &&
@@ -20,28 +25,28 @@ async function fetchSurferProfile(name, { force = false } = {}) {
         existing.videos.length > 0 &&
         existing.insta !== undefined    // <<< changed: skip as long as insta field exists
       ) {
-        console.log(`⏭️ Skipping ${name}, already fetched`)
-        return
+        console.log(`⏭️ Skipping ${name}, already fetched`);
+        return;
       }
     }
 
     // 1. Get Wikipedia bio + wikiLink
-    const { bio, wikiLink } = await getWikiBio(name)
+    const { bio, wikiLink } = await getWikiBio(name);
 
     // 2. Build fallback Instagram URL
     //    e.g. "Kelly Slater" -> "https://instagram.com/kellyslater"
-    const instaHandle = name.replace(/\s+/g, "").toLowerCase()
-    const insta = `https://instagram.com/${instaHandle}`
+    const instaHandle = name.replace(/\s+/g, "").toLowerCase();
+    const insta = `https://instagram.com/${instaHandle}`;
 
     // 3. Try to fetch top 4 YouTube videos; on error, log but continue
-    let videos = []
+    let videos = [];
     try {
-      videos = await getTop4Videos(name)
+      videos = await getTop4Videos(name);
     } catch (err) {
       if (err.response?.status === 403) {
-        console.error(`❌ YouTube API Forbidden for ${name}; check your key/quota`)
+        console.error(`❌ YouTube API Forbidden for ${name}; check your key/quota`);
       } else {
-        console.error(`❌ Error fetching videos for ${name}:`, err.message || err)
+        console.error(`❌ Error fetching videos for ${name}:`, err.message || err);
       }
       // leave videos empty so we still upsert the rest of the profile
     }
@@ -57,14 +62,14 @@ async function fetchSurferProfile(name, { force = false } = {}) {
         videos
       },
       { upsert: true, new: true }
-    )
+    );
 
-    console.log(`✅ Upserted surfer profile for ${name}`)
-    return { name, bio, wikiLink, insta, videos }
+    console.log(`✅ Upserted surfer profile for ${name}`);
+    return { name, bio, wikiLink, insta, videos };
   } catch (err) {
-    console.error(`❌ Error fetching profile for ${name}:`, err.message || err)
-    return null
+    console.error(`❌ Error fetching profile for ${name}:`, err.message || err);
+    return null;
   }
 }
 
-module.exports = fetchSurferProfile
+module.exports = fetchSurferProfile;
