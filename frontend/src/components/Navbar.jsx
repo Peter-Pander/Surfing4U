@@ -6,17 +6,35 @@ import {
   Link,
   Spacer,
   Heading,
-  Button,
+  IconButton,
+  Collapse,
+  Stack,
+  useDisclosure,
   useColorModeValue,
 } from "@chakra-ui/react";
+import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import { Link as RouterLink } from "react-router-dom";
 import { ColorModeSwitcher } from "./ColorModeSwitcher";
 
 function Navbar() {
+  // controls for mobile collapse
+  const { isOpen, onToggle } = useDisclosure();
+
   // dynamic colors for light / dark
-  const bg         = useColorModeValue("gray.100", "gray.100");
-  const linkColor  = useColorModeValue("black",    "black");
-  const hoverBg    = useColorModeValue("gray.200", "gray.200");
+  const bg        = useColorModeValue("gray.100", "gray.100");
+  const linkColor = useColorModeValue("black",    "black");
+  const hoverBg   = useColorModeValue("gray.200", "gray.200");
+
+  // your nav links array to DRY up a bit
+  const navLinks = [
+    { label: "Spots",     to: "/spots" },
+    { label: "Surfers",   to: "/surfers" },
+    { label: "Events",    to: "/events" },
+    { label: "Forecasts", to: "/forecasts" },
+    { label: "Surf TV",   to: "/surf-tv" },
+    { label: "Glossary",  to: "/surf-101/glossary" },
+    { label: "Quiz Game", to: "/surf-101/quiz" },
+  ];
 
   return (
     <Box bg={bg} px={6} py={3} boxShadow="sm">
@@ -30,67 +48,51 @@ function Navbar() {
 
         <Spacer />
 
-        <HStack spacing={6}>
-          <Link
-            as={RouterLink}
-            to="/spots"
-            color={linkColor}
-            _hover={{ bg: hoverBg }}
-          >
-            Spots
-          </Link>
-          <Link
-            as={RouterLink}
-            to="/surfers"
-            color={linkColor}
-            _hover={{ bg: hoverBg }}
-          >
-            Surfers
-          </Link>
-          <Link
-            as={RouterLink}
-            to="/events"
-            color={linkColor}
-            _hover={{ bg: hoverBg }}
-          >
-            Events
-          </Link>
-          <Link
-            as={RouterLink}
-            to="/forecasts"
-            color={linkColor}
-            _hover={{ bg: hoverBg }}
-          >
-            Forecasts
-          </Link>
-          <Link
-            as={RouterLink}
-            to="/surf-tv"
-            color={linkColor}
-            _hover={{ bg: hoverBg }}
-          >
-            Surf TV
-          </Link>
-
-          {/* now separate Glossary and Quiz Game links instead of a dropdown */}
-          <Link
-            as={RouterLink}
-            to="/surf-101/glossary"
-            color={linkColor}
-            _hover={{ bg: hoverBg }}
-          >
-            Glossary
-          </Link>
-          <Link
-            as={RouterLink}
-            to="/surf-101/quiz"
-            color={linkColor}
-            _hover={{ bg: hoverBg }}
-          >
-            Quiz Game
-          </Link>
+        {/* desktop nav: hidden on mobile */}
+        <HStack spacing={6} display={{ base: "none", md: "flex" }}>
+          {navLinks.map(({ label, to }) => (
+            <Link
+              key={label}
+              as={RouterLink}
+              to={to}
+              color={linkColor}
+              _hover={{ bg: hoverBg }}
+            >
+              {label}
+            </Link>
+          ))}
         </HStack>
+
+        {/* mobile hamburger */}
+        <IconButton
+          aria-label="Toggle menu"
+          icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
+          variant="ghost"
+          color={linkColor}
+          display={{ base: "flex", md: "none" }}
+          onClick={onToggle}
+        />
       </Flex>
+
+      {/* mobile collapse menu (now left-aligned) */}
+      <Collapse in={isOpen} animateOpacity>
+        <Box pt={2} pb={4} display={{ md: "none" }}>
+          <Stack as="nav" spacing={2}>
+            {navLinks.map(({ label, to }) => (
+              <Link
+                key={label}
+                as={RouterLink}
+                to={to}
+                color={linkColor}
+                _hover={{ bg: hoverBg }}
+                onClick={onToggle}
+              >
+                {label}
+              </Link>
+            ))}
+          </Stack>
+        </Box>
+      </Collapse>
     </Box>
   );
 }
