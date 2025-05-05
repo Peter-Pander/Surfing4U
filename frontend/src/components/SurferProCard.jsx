@@ -1,6 +1,6 @@
 // src/components/SurferProCard.jsx
 
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
 import {
   Box,
   Heading,
@@ -14,95 +14,182 @@ import {
   Input,
   IconButton,
   Button,
-} from '@chakra-ui/react'
-import { FaInstagram, FaWikipediaW } from 'react-icons/fa'
-import { DeleteIcon, AddIcon } from '@chakra-ui/icons'
+  useColorModeValue,
+  useToast,
+} from '@chakra-ui/react';
+import { FaInstagram, FaWikipediaW } from 'react-icons/fa';
+import { DeleteIcon, AddIcon, CheckIcon, CloseIcon } from '@chakra-ui/icons';
 
-export default function SurferProCard({
-  surfer,
-  isAdmin = false,
-  onUpdate,
-}) {
+export default function SurferProCard({ surfer, isAdmin = false, onUpdate }) {
+  const toast = useToast();
+  const API   = import.meta.env.VITE_API_BASE || '';
+
   // local state for instant UI updates
-  const [bioValue, setBioValue] = useState(surfer.bio)
-  const [instaValue, setInstaValue] = useState(surfer.insta)
+  const [bioValue, setBioValue]     = useState(surfer.bio || '');
+  const [instaValue, setInstaValue] = useState(surfer.insta || '');
 
-  // sync when parent gives us a brand-new surfer prop
+  // sync when parent prop changes
   useEffect(() => {
-    setBioValue(surfer.bio)
-    setInstaValue(surfer.insta)
-  }, [surfer.bio, surfer.insta])
+    setBioValue(surfer.bio || '');
+    setInstaValue(surfer.insta || '');
+  }, [surfer.bio, surfer.insta]);
 
-  // patch a single field and bubble the updated doc up
-  const patchField = async (field, value) => {
-    const res = await fetch(`/api/surfers/${surfer._id}`, {
-      method: 'PATCH',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ [field]: value }),
-    })
-    const updated = await res.json()
-    onUpdate(updated)
-  }
+  // detect if we need to show Save/Cancel
+  const hasChanges =
+    bioValue   !== (surfer.bio  || '') ||
+    instaValue !== (surfer.insta || '');
 
-  // remove one video by index
+  // helper: make a PATCH to update bio/insta
+  const saveChanges = async () => {
+    const payload = {};
+    if (bioValue   !== surfer.bio)   payload.bio   = bioValue;
+    if (instaValue !== surfer.insta) payload.insta = instaValue;
+
+    try {
+      console.log('Saving payload', payload);
+      const res = await fetch(`${API}/api/surfers/${surfer._id}`, {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      console.log('PATCH status', res.status, res.statusText);
+      if (!res.ok) {
+        const errBody = await res.text();
+        console.error('Error body:', errBody);
+        throw new Error(`HTTP ${res.status}`);
+      }
+      const updated = await res.json();
+      onUpdate(updated);
+      toast({
+        title: 'Profile updated.',
+        description: 'Your changes have been saved 🎉',
+        status: 'success',
+        duration: 3000,
+        isClosable: true,
+      });
+    } catch (err) {
+      console.error('Save failed', err);
+      toast({
+        title: 'Error saving profile.',
+        description: 'Could not save — check console.',
+        status: 'error',
+        duration: 5000,
+        isClosable: true,
+      });
+    }
+  };
+
+  // discard edits
+  const cancelChanges = () => {
+    setBioValue(surfer.bio || '');
+    setInstaValue(surfer.insta || '');
+  };
+
+  // delete a video
   const deleteVideo = async (idx) => {
-    const res = await fetch(
-      `/api/surfers/${surfer._id}/videos/${idx}`,
-      { method: 'DELETE' }
-    )
-    const updated = await res.json()
-    onUpdate(updated)
-  }
+    try {
+      const res = await fetch(
+        `${API}/api/surfers/${surfer._id}/videos/${idx}`,
+        { method: 'DELETE' }
+      );
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const updated = await res.json();
+      onUpdate(updated);
+      toast({
+        title: 'Video removed.',
+        status: 'success',
+        duration: 3000,
+        isClosable: true,
+      });
+    } catch (err) {
+      console.error('Delete video failed', err);
+      toast({
+        title: 'Error removing video.',
+        status: 'error',
+        duration: 5000,
+        isClosable: true,
+      });
+    }
+  };
 
-  // prompt + add a new video URL
+  // add a video
   const addVideo = async () => {
-    const url = prompt('Enter YouTube URL:')
-    if (!url) return
-    const res = await fetch(`/api/surfers/${surfer._id}/videos`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ url }),
-    })
-    const updated = await res.json()
-    onUpdate(updated)
-  }
+    const url = prompt('YouTube URL:');
+    if (!url) return;
+    try {
+      const res = await fetch(`${API}/api/surfers/${surfer._id}/videos`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ url }),
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const updated = await res.json();
+      onUpdate(updated);
+      toast({
+        title: 'Video added.',
+        status: 'success',
+        duration: 3000,
+        isClosable: true,
+      });
+    } catch (err) {
+      console.error('Add video failed', err);
+      toast({
+        title: 'Error adding video.',
+        description: 'Check the URL and try again.',
+        status: 'error',
+        duration: 5000,
+        isClosable: true,
+      });
+    }
+  };
+
+  // colors
+  const cardBg      = useColorModeValue('white',    'gray.700');
+  const borderColor = useColorModeValue('gray.200', 'gray.600');
 
   return (
-    <Box borderWidth="1px" borderRadius="md" p={4} mb={6} boxShadow="sm">
+    <Box
+      bg={cardBg}
+      borderWidth="1px"
+      borderColor={borderColor}
+      borderRadius="md"
+      p={4}
+      mb={6}
+      boxShadow="sm"
+    >
       <Heading mb={2}>{surfer.name}</Heading>
 
-      {/* bio (editable in admin mode) */}
       {isAdmin ? (
         <Textarea
           mb={4}
           value={bioValue}
           onChange={(e) => setBioValue(e.target.value)}
-          onBlur={(e) => patchField('bio', e.target.value)}
+          placeholder="Surfer bio…"
         />
       ) : (
         <Text mb={4}>{surfer.bio}</Text>
       )}
 
-      {/* insta + wiki */}
       <HStack spacing={4} mb={6}>
         {isAdmin ? (
           <HStack>
             <Input
               placeholder="Instagram URL"
-              value={instaValue || ''}
+              value={instaValue}
               onChange={(e) => setInstaValue(e.target.value)}
-              onBlur={(e) => patchField('insta', e.target.value)}
               width="auto"
             />
             <IconButton
-              aria-label="Delete Instagram URL"
-              icon={<DeleteIcon />}
+              aria-label="Clear Insta"
+              icon={<CloseIcon />}
               size="sm"
-              onClick={() => {
-                setInstaValue('')
-                patchField('insta', '')
-              }}
+              onClick={() => setInstaValue('')}
             />
+            {instaValue && (
+              <Link href={instaValue} isExternal>
+                <Icon as={FaInstagram} boxSize={6} />
+              </Link>
+            )}
           </HStack>
         ) : (
           surfer.insta && (
@@ -111,7 +198,6 @@ export default function SurferProCard({
             </Link>
           )
         )}
-
         {surfer.wikiLink && (
           <Link href={surfer.wikiLink} isExternal>
             <Icon as={FaWikipediaW} boxSize={6} />
@@ -119,7 +205,27 @@ export default function SurferProCard({
         )}
       </HStack>
 
-      {/* video grid */}
+      {isAdmin && hasChanges && (
+        <HStack mb={6} spacing={2}>
+          <Button
+            size="sm"
+            leftIcon={<CheckIcon />}
+            colorScheme="green"
+            onClick={saveChanges}
+          >
+            Save
+          </Button>
+          <Button
+            size="sm"
+            leftIcon={<CloseIcon />}
+            variant="outline"
+            onClick={cancelChanges}
+          >
+            Cancel
+          </Button>
+        </HStack>
+      )}
+
       <SimpleGrid columns={[1, 2]} spacing={4}>
         {surfer.videos.map((v, idx) => (
           <Box key={v.videoId} position="relative">
@@ -145,12 +251,11 @@ export default function SurferProCard({
         ))}
       </SimpleGrid>
 
-      {/* add video button */}
       {isAdmin && (
         <Button leftIcon={<AddIcon />} mt={4} onClick={addVideo}>
           Add Video
         </Button>
       )}
     </Box>
-  )
+  );
 }
