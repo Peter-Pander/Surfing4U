@@ -1,6 +1,11 @@
 // frontend/src/pages/HomePage.jsx
 import { useEffect, useState } from "react";
-import { Box, SimpleGrid, Text } from "@chakra-ui/react";
+import {
+  Box,
+  SimpleGrid,
+  Text,
+  useColorModeValue,
+} from "@chakra-ui/react";
 import HomePageCard from "../components/HomePageCard";
 
 export default function HomePage() {
@@ -19,8 +24,17 @@ export default function HomePage() {
       .catch(console.error);
   }, []);
 
+  // dynamic light / dark values
+  const pageBg    = useColorModeValue("gray.50",  "gray.900");
+  const textColor = useColorModeValue("gray.800", "gray.100");
+
   return (
-    <Box px={{ base: 4, md: 10 }} py={10}>
+    <Box
+      px={{ base: 4, md: 10 }}
+      py={10}
+      bg={pageBg}
+      color={textColor}
+    >
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
         {/* Surf Video of the Day */}
         {video ? (

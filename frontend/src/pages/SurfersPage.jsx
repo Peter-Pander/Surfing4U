@@ -1,5 +1,4 @@
-// src/pages/SurfersPage.jsx
-
+// frontend/src/pages/SurfersPage.jsx
 import React, { useEffect, useState, useRef } from 'react';
 import {
   Box,
@@ -12,30 +11,37 @@ import {
   ListItem,
   Button,
   HStack,
+  useColorModeValue,
 } from '@chakra-ui/react';
 import SurferProCard from '../components/SurferProCard';
 
 export default function SurfersPage() {
+  // dynamic light / dark values (hooks must run before any early return)
+  const pageBg          = useColorModeValue('gray.50', 'gray.900');
+  const textColor       = useColorModeValue('gray.800', 'gray.100');
+  const inputBg         = useColorModeValue('white',    'gray.700');
+  const dropdownBg      = useColorModeValue('white',    'gray.700');
+  const dropdownHoverBg = useColorModeValue('gray.100', 'gray.600');
+  const activeBg        = useColorModeValue('gray.200', 'gray.600');
+
   const [surfers, setSurfers] = useState([]);
   const [loading, setLoading] = useState(true);
 
   // 1️⃣ track the raw input value and the debounced search term
   const [inputValue, setInputValue] = useState('');
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm]   = useState('');
 
   // Only enable admin UI in development builds
   const isAdmin = import.meta.env.VITE_ENABLE_ADMIN === 'true';
 
   // debounce updating `searchTerm` until 200ms after the user stops typing
   useEffect(() => {
-    const handler = setTimeout(() => {
-      setSearchTerm(inputValue);
-    }, 200);
+    const handler = setTimeout(() => setSearchTerm(inputValue), 200);
     return () => clearTimeout(handler);
   }, [inputValue]);
 
-  const [isOpen, setIsOpen] = useState(false);
-  const [activeIndex, setActiveIndex] = useState(-1);
+  const [isOpen, setIsOpen]         = useState(false);
+  const [activeIndex, setActiveIndex]   = useState(-1);
   const [currentIndex, setCurrentIndex] = useState(-1);
   const inputRef = useRef();
 
@@ -46,8 +52,7 @@ export default function SurfersPage() {
         setSurfers(data);
         setLoading(false);
         // pick one random featured on full page load only
-        const randomIndex = Math.floor(Math.random() * data.length);
-        setCurrentIndex(randomIndex);
+        setCurrentIndex(Math.floor(Math.random() * data.length));
       })
       .catch((err) => {
         console.error(err);
@@ -57,14 +62,14 @@ export default function SurfersPage() {
 
   if (loading) {
     return (
-      <Center h="60vh">
+      <Center h="60vh" bg={pageBg} color={textColor}>
         <Spinner size="xl" />
       </Center>
     );
   }
 
   if (!surfers.length) {
-    return <Heading>No surfers found.</Heading>;
+    return <Heading color={textColor}>No surfers found.</Heading>;
   }
 
   // filter by debounced searchTerm (or return all if empty)
@@ -109,7 +114,13 @@ export default function SurfersPage() {
   };
 
   return (
-    <Box px={[4, 8]} py={6} position="relative">
+    <Box
+      px={[4, 8]}
+      py={6}
+      position="relative"
+      bg={pageBg}
+      color={textColor}
+    >
       {/* Search bar */}
       <Input
         placeholder="Search surfers by name…"
@@ -128,6 +139,8 @@ export default function SurfersPage() {
         onKeyDown={onKeyDown}
         ref={inputRef}
         autoComplete="off"
+        bg={inputBg}
+        color={textColor}
       />
 
       {/* custom dropdown */}
@@ -137,7 +150,8 @@ export default function SurfersPage() {
           top="66px"
           left="8"
           right="8"
-          bg="gray.700"
+          bg={dropdownBg}
+          color={textColor}
           borderRadius="md"
           shadow="lg"
           maxH="250px"
@@ -151,8 +165,8 @@ export default function SurfersPage() {
                 px={4}
                 py={2}
                 cursor="pointer"
-                bg={idx === activeIndex ? 'gray.600' : 'transparent'}
-                _hover={{ bg: 'gray.600' }}
+                bg={idx === activeIndex ? activeBg : 'transparent'}
+                _hover={{ bg: dropdownHoverBg }}
                 onMouseEnter={() => setActiveIndex(idx)}
                 onMouseDown={() => {
                   const realIdx = surfers.findIndex((x) => x._id === s._id);
