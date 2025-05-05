@@ -8,9 +8,10 @@ import {
 import { glossary } from "../data/glossary";
 
 function GlossaryPage() {
+  // only tweaking bgColor for light mode; keep your original “top-border only” entries
   const borderColor  = useColorModeValue("gray.200", "gray.600");
   const headingColor = useColorModeValue("gray.800", "white");
-  const bgColor      = useColorModeValue("gray.50", "gray.700");
+  const bgColor      = useColorModeValue("white",   "gray.700");  // ← changed from gray.50 to white
   const textColor    = useColorModeValue("gray.700", "gray.200");
 
   return (
