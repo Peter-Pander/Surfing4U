@@ -1,3 +1,8 @@
+// backend/jobs/services.js
+
+const path = require("path");
+require("dotenv").config({ path: path.resolve(__dirname, "../.env") });
+
 const axios = require('axios');
 const OpenAI = require('openai');
 
