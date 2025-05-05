@@ -1,5 +1,4 @@
-// src/pages/SurfersPage.jsx
-
+// frontend/src/pages/SurfersPage.jsx
 import React, { useEffect, useState, useRef } from 'react';
 import {
   Box,
@@ -12,6 +11,7 @@ import {
   ListItem,
   Button,
   HStack,
+  useColorModeValue,
 } from '@chakra-ui/react';
 import SurferProCard from '../components/SurferProCard';
 
@@ -108,8 +108,22 @@ export default function SurfersPage() {
     if (newIndex >= 0) setCurrentIndex(newIndex);
   };
 
+  // dynamic light / dark values
+  const pageBg          = useColorModeValue("gray.50",   "gray.900");
+  const textColor       = useColorModeValue("gray.800",  "gray.100");
+  const inputBg         = useColorModeValue("white",     "gray.700");
+  const dropdownBg      = useColorModeValue("white",     "gray.700");
+  const dropdownHoverBg = useColorModeValue("gray.100",  "gray.600");
+  const activeBg        = useColorModeValue("gray.200",  "gray.600");
+
   return (
-    <Box px={[4, 8]} py={6} position="relative">
+    <Box
+      px={[4, 8]}
+      py={6}
+      position="relative"
+      bg={pageBg}
+      color={textColor}
+    >
       {/* Search bar */}
       <Input
         placeholder="Search surfers by name…"
@@ -128,6 +142,8 @@ export default function SurfersPage() {
         onKeyDown={onKeyDown}
         ref={inputRef}
         autoComplete="off"
+        bg={inputBg}
+        color={textColor}
       />
 
       {/* custom dropdown */}
@@ -137,7 +153,8 @@ export default function SurfersPage() {
           top="66px"
           left="8"
           right="8"
-          bg="gray.700"
+          bg={dropdownBg}
+          color={textColor}
           borderRadius="md"
           shadow="lg"
           maxH="250px"
@@ -151,8 +168,8 @@ export default function SurfersPage() {
                 px={4}
                 py={2}
                 cursor="pointer"
-                bg={idx === activeIndex ? 'gray.600' : 'transparent'}
-                _hover={{ bg: 'gray.600' }}
+                bg={idx === activeIndex ? activeBg : "transparent"}
+                _hover={{ bg: dropdownHoverBg }}
                 onMouseEnter={() => setActiveIndex(idx)}
                 onMouseDown={() => {
                   const realIdx = surfers.findIndex((x) => x._id === s._id);
