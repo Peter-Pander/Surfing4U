@@ -13,12 +13,12 @@ export default function HomePage() {
   const [contestVideo, setContestVideo] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:4000/api/video-of-the-day")
+    fetch("/api/video-of-the-day")
       .then((res) => res.json())
       .then(setVideo)
       .catch(console.error);
 
-    fetch("http://localhost:4000/api/contest-highlight")
+    fetch("/api/contest-highlight")
       .then((res) => res.json())
       .then(setContestVideo)
       .catch(console.error);
