@@ -6,10 +6,6 @@ import {
   Link,
   Spacer,
   Heading,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
   Button,
   useColorModeValue,
 } from "@chakra-ui/react";
@@ -18,15 +14,15 @@ import { ColorModeSwitcher } from "./ColorModeSwitcher";
 
 function Navbar() {
   // dynamic colors for light / dark
-  const bg = useColorModeValue("gray.100", "gray.800");
-  const linkColor = useColorModeValue("black", "white");
-  const hoverBg = useColorModeValue("gray.200", "gray.700");
+  const bg         = useColorModeValue("gray.100", "gray.100");
+  const linkColor  = useColorModeValue("black",    "black");
+  const hoverBg    = useColorModeValue("gray.200", "gray.200");
 
   return (
     <Box bg={bg} px={6} py={3} boxShadow="sm">
       <Flex align="center">
         {/* toggle on the far left */}
-        <ColorModeSwitcher mr={4} />
+        <ColorModeSwitcher mr={4} color={linkColor} />
 
         <Heading size="md" color={linkColor}>
           <RouterLink to="/">Surfing4U 🌊</RouterLink>
@@ -35,42 +31,64 @@ function Navbar() {
         <Spacer />
 
         <HStack spacing={6}>
-          <Link as={RouterLink} to="/spots" color={linkColor}>
+          <Link
+            as={RouterLink}
+            to="/spots"
+            color={linkColor}
+            _hover={{ bg: hoverBg }}
+          >
             Spots
           </Link>
-          <Link as={RouterLink} to="/surfers" color={linkColor}>
+          <Link
+            as={RouterLink}
+            to="/surfers"
+            color={linkColor}
+            _hover={{ bg: hoverBg }}
+          >
             Surfers
           </Link>
-          <Link as={RouterLink} to="/events" color={linkColor}>
+          <Link
+            as={RouterLink}
+            to="/events"
+            color={linkColor}
+            _hover={{ bg: hoverBg }}
+          >
             Events
           </Link>
-          <Link as={RouterLink} to="/forecasts" color={linkColor}>
+          <Link
+            as={RouterLink}
+            to="/forecasts"
+            color={linkColor}
+            _hover={{ bg: hoverBg }}
+          >
             Forecasts
           </Link>
-          <Link as={RouterLink} to="/surf-tv" color={linkColor}>
+          <Link
+            as={RouterLink}
+            to="/surf-tv"
+            color={linkColor}
+            _hover={{ bg: hoverBg }}
+          >
             Surf TV
           </Link>
 
-          {/* Surf 101 Dropdown using Chakra Menu */}
-          <Menu>
-            <MenuButton
-              as={Button}
-              variant="ghost"
-              color={linkColor}
-              rightIcon={<Box as="span" ml={1}>▾</Box>}
-              _hover={{ bg: hoverBg }}
-            >
-              Surf 101
-            </MenuButton>
-            <MenuList bg={bg}>
-              <MenuItem as={RouterLink} to="/surf-101/glossary">
-                Glossary
-              </MenuItem>
-              <MenuItem as={RouterLink} to="/surf-101/quiz">
-                Quiz Game
-              </MenuItem>
-            </MenuList>
-          </Menu>
+          {/* now separate Glossary and Quiz Game links instead of a dropdown */}
+          <Link
+            as={RouterLink}
+            to="/surf-101/glossary"
+            color={linkColor}
+            _hover={{ bg: hoverBg }}
+          >
+            Glossary
+          </Link>
+          <Link
+            as={RouterLink}
+            to="/surf-101/quiz"
+            color={linkColor}
+            _hover={{ bg: hoverBg }}
+          >
+            Quiz Game
+          </Link>
         </HStack>
       </Flex>
     </Box>
