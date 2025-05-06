@@ -31,6 +31,18 @@ export default function SurfersPage() {
   const [inputValue, setInputValue] = useState('');
   const [searchTerm, setSearchTerm]   = useState('');
 
+  // grouping by alphabet ranges
+  const ranges = [
+    { label: 'A–D', from: 'A', to: 'D' },
+    { label: 'E–H', from: 'E', to: 'H' },
+    { label: 'I–L', from: 'I', to: 'L' },
+    { label: 'M–P', from: 'M', to: 'P' },
+    { label: 'Q–T', from: 'Q', to: 'T' },
+    { label: 'U–Z', from: 'U', to: 'Z' },
+  ];
+  const [activeRange, setActiveRange] = useState(null);
+  const [rangeIndex, setRangeIndex] = useState(0);
+
   // Only enable admin UI in development builds
   const isAdmin = import.meta.env.VITE_ENABLE_ADMIN === 'true';
 
@@ -79,6 +91,14 @@ export default function SurfersPage() {
       )
     : surfers;
 
+  // filter by active alphabet range (only when no searchTerm)
+  const rangeFiltered = activeRange
+    ? surfers.filter((s) => {
+        const first = s.name[0].toUpperCase();
+        return first >= activeRange.from && first <= activeRange.to;
+      })
+    : [];
+
   // handle keyboard navigation in dropdown
   const onKeyDown = (e) => {
     if (!isOpen) return;
@@ -95,6 +115,9 @@ export default function SurfersPage() {
       const idx = surfers.findIndex((s) => s._id === selected._id);
       setCurrentIndex(idx);
       setInputValue(''); // clear raw input
+      // clear any active range
+      setActiveRange(null);
+      setRangeIndex(0);
       setIsOpen(false);
       setActiveIndex(-1);
     } else if (e.key === 'Escape') {
@@ -128,6 +151,9 @@ export default function SurfersPage() {
         value={inputValue}
         onChange={(e) => {
           setInputValue(e.target.value);
+          // clear any active range when searching
+          setActiveRange(null);
+          setRangeIndex(0);
           setIsOpen(true);
           setActiveIndex(-1);
         }}
@@ -172,6 +198,9 @@ export default function SurfersPage() {
                   const realIdx = surfers.findIndex((x) => x._id === s._id);
                   setCurrentIndex(realIdx);
                   setInputValue(''); // clear raw input
+                  // clear any active range
+                  setActiveRange(null);
+                  setRangeIndex(0);
                   setIsOpen(false);
                   setActiveIndex(-1);
                 }}
@@ -199,13 +228,65 @@ export default function SurfersPage() {
             <Text>No surfers match “{searchTerm}.”</Text>
           )}
         </>
+      ) : activeRange ? (
+        <>
+          {/* Range header and navigation */}
+          <HStack justify="space-between" align="center" mb={6}>
+            <Heading size="lg">Surfers {activeRange.label}</Heading>
+            <HStack spacing={4}>
+              <Button
+                onClick={() => setRangeIndex((i) => Math.max(i - 1, 0))}
+                isDisabled={rangeIndex === 0}
+              >
+                Previous
+              </Button>
+              <Button
+                onClick={() =>
+                  setRangeIndex((i) =>
+                    Math.min(i + 1, rangeFiltered.length - 1)
+                  )
+                }
+                isDisabled={rangeIndex >= rangeFiltered.length - 1}
+              >
+                Next
+              </Button>
+            </HStack>
+          </HStack>
+          {rangeFiltered.length ? (
+            <SurferProCard
+              surfer={rangeFiltered[rangeIndex]}
+              isAdmin={isAdmin}
+              onUpdate={handleUpdate}
+            />
+          ) : (
+            <Text>No surfers in “{activeRange.label}.”</Text>
+          )}
+        </>
       ) : (
         <>
           {currentIndex >= 0 && (
             <>
-              {/* Featured header and navigation */}
+              {/* Range filters and global navigation */}
               <HStack justify="space-between" align="center" mb={6}>
-                <Heading size="lg">🏄 Featured Surfer</Heading>
+                <HStack spacing={2}>
+                  {ranges.map((r) => (
+                    <Button
+                      key={r.label}
+                      size="sm"
+                      variant="outline"
+                      onClick={() => {
+                        setActiveRange(r);
+                        setRangeIndex(0);
+                        setInputValue('');
+                        setSearchTerm('');
+                        setIsOpen(false);
+                        setActiveIndex(-1);
+                      }}
+                    >
+                      {r.label}
+                    </Button>
+                  ))}
+                </HStack>
                 <HStack spacing={4}>
                   <Button
                     onClick={() => setCurrentIndex((i) => i - 1)}
