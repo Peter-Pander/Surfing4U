@@ -4,23 +4,32 @@ import surfVideos from "../data/surfVideos";
 import SurfVideoCard from "./SurfVideoCard";
 
 export default function SurfVideoGrid({
+  searchQuery = "",
   type = null,
   page = 1,
   pageSize = 6,
   onPageChange,
 }) {
-  // 1. Filter based on the dropdown
+  // 1. Filter based on search query
   let filtered = surfVideos;
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    filtered = filtered.filter((v) =>
+      v.name.toLowerCase().includes(q)
+    );
+  }
+
+  // 2. Filter based on the dropdown
   if (type === "Recommended") {
     filtered = filtered.filter((v) => v.recommended);
   } else if (type) {
     filtered = filtered.filter((v) => v.type === type);
   }
 
-  // 2. Always sort A→Z by name
+  // 3. Always sort A→Z by name
   filtered = [...filtered].sort((a, b) => a.name.localeCompare(b.name));
 
-  // 3. Paginate
+  // 4. Paginate
   const totalPages = Math.ceil(filtered.length / pageSize);
   const start = (page - 1) * pageSize;
   const pageItems = filtered.slice(start, start + pageSize);
