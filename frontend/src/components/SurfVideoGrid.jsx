@@ -21,12 +21,17 @@ export default function SurfVideoGrid({
     filtered = filtered.filter((v) => v.recommended === recommended);
   }
 
-  // 2. Sort if needed
-  if (sortBy === "recommendedFirst") {
-    filtered = [...filtered].sort(
-      (a, b) => Number(b.recommended) - Number(a.recommended)
-    );
-  }
+  // 2. Sort:
+  //    - If "recommendedFirst", first by recommended flag (true before false),
+  //      then alphabetically by name.
+  //    - Otherwise, just alphabetical by name.
+  filtered = [...filtered].sort((a, b) => {
+    if (sortBy === "recommendedFirst") {
+      const diff = Number(b.recommended) - Number(a.recommended);
+      if (diff !== 0) return diff;
+    }
+    return a.name.localeCompare(b.name);
+  });
 
   // 3. Pagination calculations
   const totalPages = Math.ceil(filtered.length / pageSize);
