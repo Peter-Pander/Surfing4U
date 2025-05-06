@@ -24,12 +24,14 @@ export default function SurfersPage() {
   const dropdownHoverBg = useColorModeValue('gray.100', 'gray.600');
   const activeBg        = useColorModeValue('gray.200', 'gray.600');
 
-  const [surfers, setSurfers] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [surfers, setSurfers]           = useState([]);
+  const [loading, setLoading]           = useState(true);
 
   // 1️⃣ track the raw input value and the debounced search term
-  const [inputValue, setInputValue] = useState('');
-  const [searchTerm, setSearchTerm] = useState('');
+  const [inputValue, setInputValue]     = useState('');
+  const [searchTerm, setSearchTerm]     = useState('');
+  // 🆕 track which search result we're showing
+  const [searchIndex, setSearchIndex]   = useState(0);
 
   // grouping by alphabet ranges
   const ranges = [
@@ -40,22 +42,27 @@ export default function SurfersPage() {
     { label: 'Q–T', from: 'Q', to: 'T' },
     { label: 'U–Z', from: 'U', to: 'Z' },
   ];
-  const [activeRange, setActiveRange] = useState(null);
-  const [rangeIndex, setRangeIndex]   = useState(0);
+  const [activeRange, setActiveRange]   = useState(null);
+  const [rangeIndex, setRangeIndex]     = useState(0);
+
+  // global featured index
+  const [currentIndex, setCurrentIndex] = useState(-1);
 
   // Only enable admin UI in development builds
   const isAdmin = import.meta.env.VITE_ENABLE_ADMIN === 'true';
 
+  const inputRef = useRef();
+  const [isOpen, setIsOpen]             = useState(false);
+  const [activeIndex, setActiveIndex]   = useState(-1);
+
   // debounce updating `searchTerm` until 200ms after the user stops typing
   useEffect(() => {
-    const handler = setTimeout(() => setSearchTerm(inputValue), 200);
+    const handler = setTimeout(() => {
+      setSearchTerm(inputValue);
+      setSearchIndex(0);
+    }, 200);
     return () => clearTimeout(handler);
   }, [inputValue]);
-
-  const [isOpen, setIsOpen]           = useState(false);
-  const [activeIndex, setActiveIndex] = useState(-1);
-  const [currentIndex, setCurrentIndex] = useState(-1);
-  const inputRef = useRef();
 
   useEffect(() => {
     fetch('/api/surfers')
@@ -113,11 +120,12 @@ export default function SurfersPage() {
       const selected = filtered[activeIndex];
       const idx = surfers.findIndex((s) => s._id === selected._id);
       setCurrentIndex(idx);
-      setInputValue(''); // clear raw input
+      setInputValue('');
       setActiveRange(null);
       setRangeIndex(0);
       setIsOpen(false);
       setActiveIndex(-1);
+      setSearchIndex(0);
     } else if (e.key === 'Escape') {
       setIsOpen(false);
       setActiveIndex(-1);
@@ -144,6 +152,7 @@ export default function SurfersPage() {
           setRangeIndex(0);
           setIsOpen(true);
           setActiveIndex(-1);
+          setSearchIndex(0);
         }}
         onFocus={() => {
           setIsOpen(true);
@@ -190,6 +199,7 @@ export default function SurfersPage() {
                   setRangeIndex(0);
                   setIsOpen(false);
                   setActiveIndex(-1);
+                  setSearchIndex(0);
                 }}
               >
                 {s.name}
@@ -203,14 +213,34 @@ export default function SurfersPage() {
         <>
           <Heading mb={4}>Search Results</Heading>
           {filtered.length ? (
-            filtered.map((s) => (
+            <>
+              <HStack justify="space-between" mb={4}>
+                <Button
+                  onClick={() => setSearchIndex((i) => Math.max(i - 1, 0))}
+                  isDisabled={searchIndex === 0}
+                >
+                  Previous
+                </Button>
+                <Text>
+                  {searchIndex + 1} / {filtered.length}
+                </Text>
+                <Button
+                  onClick={() =>
+                    setSearchIndex((i) =>
+                      Math.min(i + 1, filtered.length - 1)
+                    )
+                  }
+                  isDisabled={searchIndex >= filtered.length - 1}
+                >
+                  Next
+                </Button>
+              </HStack>
               <SurferProCard
-                key={s._id}
-                surfer={s}
+                surfer={filtered[searchIndex]}
                 isAdmin={isAdmin}
                 onUpdate={handleUpdate}
               />
-            ))
+            </>
           ) : (
             <Text>No surfers match “{searchTerm}.”</Text>
           )}
