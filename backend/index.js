@@ -22,7 +22,7 @@ app.use(cors());
 app.use(express.json());
 
 const PORT = process.env.PORT || 4000;
-// Only start video jobs if this flag is true in your .env
+// Only start video jobs on startup if this flag is true (set in your .env or via CLI)
 const ENABLE_JOBS_ON_START = process.env.ENABLE_JOBS_ON_START === "true";
 
 // ─── Connect to MongoDB ───────────────────────────────────────────────────────
