@@ -11,6 +11,7 @@ import {
   ListItem,
   Button,
   HStack,
+  Stack,
   useColorModeValue,
 } from '@chakra-ui/react';
 import SurferProCard from '../components/SurferProCard';
@@ -231,7 +232,12 @@ export default function SurfersPage() {
       ) : activeRange ? (
         <>
           {/* Range header and navigation */}
-          <HStack justify="space-between" align="center" mb={6}>
+          <Stack
+            direction={['column', 'row']}
+            justify="space-between"
+            align="center"
+            mb={6}
+          >
             <Heading size="lg">Surfers {activeRange.label}</Heading>
             <HStack spacing={4}>
               <Button
@@ -251,7 +257,7 @@ export default function SurfersPage() {
                 Next
               </Button>
             </HStack>
-          </HStack>
+          </Stack>
           {rangeFiltered.length ? (
             <SurferProCard
               surfer={rangeFiltered[rangeIndex]}
@@ -267,8 +273,13 @@ export default function SurfersPage() {
           {currentIndex >= 0 && (
             <>
               {/* Range filters and global navigation */}
-              <HStack justify="space-between" align="center" mb={6}>
-                <HStack spacing={2}>
+              <Stack
+                direction={['column', 'row']}
+                justify="space-between"
+                align="center"
+                mb={6}
+              >
+                <HStack spacing={2} mb={[4, 0]}>
                   {ranges.map((r) => (
                     <Button
                       key={r.label}
@@ -301,7 +312,7 @@ export default function SurfersPage() {
                     Next
                   </Button>
                 </HStack>
-              </HStack>
+              </Stack>
               <SurferProCard
                 surfer={surfers[currentIndex]}
                 isAdmin={isAdmin}
