@@ -112,17 +112,46 @@ export default function SurferProCard({ surfer, isAdmin = false, onUpdate }) {
     }
   };
 
+  // helper: extract YouTube video ID from full or shortened URLs
+  const getVideoId = (url) => {
+    const regExp = /(?:youtube\.com\/.*[?&]v=|youtu\.be\/)([^&?/]+)/;
+    const match = url.match(regExp);
+    return match ? match[1] : null;
+  };
+
   // add a video
   const addVideo = async () => {
-    const url = prompt('YouTube URL:');
-    if (!url) return;
+    const input = prompt('YouTube URL:');
+    if (!input) return;
+
+    // extract and validate the ID client‐side
+    const videoId = getVideoId(input.trim());
+    if (!videoId) {
+      toast({
+        title: 'Invalid URL',
+        description: 'Please enter a valid YouTube URL.',
+        status: 'error',
+        duration: 4000,
+        isClosable: true,
+      });
+      return;
+    }
+
+    // normalize to standard URL for the backend
+    const cleanUrl = `https://www.youtube.com/watch?v=${videoId}`;
+
     try {
       const res = await fetch(`${API}/api/surfers/${surfer._id}/videos`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ url }),
+        body: JSON.stringify({ url: cleanUrl }),
       });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      if (!res.ok) {
+        // show specific error messages from the server if available
+        const errorBody = await res.json().catch(() => null);
+        const msg = errorBody?.error || `HTTP ${res.status}`;
+        throw new Error(msg);
+      }
       const updated = await res.json();
       onUpdate(updated);
       toast({
@@ -135,7 +164,9 @@ export default function SurferProCard({ surfer, isAdmin = false, onUpdate }) {
       console.error('Add video failed', err);
       toast({
         title: 'Error adding video.',
-        description: 'Check the URL and try again.',
+        description: err.message.includes('Invalid YouTube')
+          ? 'Check the URL format and try again.'
+          : 'Something went wrong — try again.',
         status: 'error',
         duration: 5000,
         isClosable: true,

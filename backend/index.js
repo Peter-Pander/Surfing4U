@@ -3,10 +3,10 @@
 const path = require("path");
 require("dotenv").config({ path: path.resolve(__dirname, "../.env") });
 
-const mongoose         = require("mongoose");
-const express          = require("express");
-const cors             = require("cors");
-const fs               = require("fs");
+const mongoose           = require("mongoose");
+const express            = require("express");
+const cors               = require("cors");
+const fs                 = require("fs");
 
 const { runDailyJob }      = require("./jobs/dailyVideoJob");
 const { runContestJob }    = require("./jobs/contestVideoJob");
@@ -94,6 +94,13 @@ app.patch("/api/surfers/:id", async (req, res, next) => {
   }
 });
 
+// helper: extract YouTube video ID from full or shortened URLs
+const getVideoId = (url) => {
+  const regExp = /(?:youtube\.com\/.*[?&]v=|youtu\.be\/)([^&?/]+)/;
+  const match = url.match(regExp);
+  return match ? match[1] : null;
+};
+
 // add a new video URL
 app.post("/api/surfers/:id/videos", async (req, res) => {
   try {
@@ -101,9 +108,8 @@ app.post("/api/surfers/:id/videos", async (req, res) => {
     if (!url) return res.status(400).json({ error: "Missing 'url' in body" });
 
     // extract YouTube video ID
-    const match = url.match(/[?&]v=([^&]+)/);
-    if (!match) return res.status(400).json({ error: "Invalid YouTube URL" });
-    const videoId = match[1];
+    const videoId = getVideoId(url);
+    if (!videoId) return res.status(400).json({ error: "Invalid YouTube URL" });
 
     const surfer = await Surfer.findById(req.params.id);
     if (!surfer) return res.status(404).json({ error: "Surfer not found" });
