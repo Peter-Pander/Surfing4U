@@ -4,6 +4,7 @@ import {
   Heading,
   Text,
   AspectRatio,
+  Link,
   useColorModeValue,
 } from "@chakra-ui/react";
 
@@ -47,6 +48,20 @@ export default function SurfVideoCard({ video, title }) {
           <Text fontSize="sm" mb={4}>
             {video.description}
           </Text>
+        )}
+
+        {/* Optional IMDb link */}
+        {video.imdbUrl && (
+          <Link
+            href={video.imdbUrl}
+            isExternal
+            fontSize="sm"
+            color="blue.500"
+            mb={4}
+            display="block"
+          >
+            View on IMDb
+          </Link>
         )}
 
         {/* Video embed */}
