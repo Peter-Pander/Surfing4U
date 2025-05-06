@@ -36,7 +36,8 @@ const surfVideos = [
       "John John Florence puts his career on the line against Kelly Slater to qualify for surfing's debut in the 2020 Olympics.",
     embedUrl: "https://www.youtube.com/embed/QTuNFkLRXx4",
     type: "Documentary",
-    recommended: true
+    recommended: true,
+    imdbUrl: "https://www.imdb.com/title/tt13534780/"
   },
   {
     name: "Point Break",
@@ -65,7 +66,8 @@ const surfVideos = [
       "A Hawaiian teenage surfer shows off his skills when he takes to the snow slopes in Vermont.",
     embedUrl: "https://www.youtube.com/embed/zBUvrcvO6B4",
     type: "Movie",
-    recommended: true
+    recommended: true,
+    imdbUrl: "https://www.imdb.com/title/tt0206064/"
   },
   {
     name: "Blue Crush",
@@ -152,7 +154,58 @@ const surfVideos = [
       "A historical look at the evolution of big wave surfing, featuring legends like Greg Noll, Jeff Clark, and Laird Hamilton.",
     embedUrl: "https://www.youtube.com/embed/ADy8f6t4Ri8",
     type: "Documentary",
-    recommended: false
+    recommended: false,
+    imdbUrl: "https://www.imdb.com/title/tt0389326/"
+  },
+  {
+    name: "Blue Water High",
+    platform: "ABC (Australia)",
+    description:
+      "Seven top Australian teen surfers live, study, and train together, while they fight to win sponsorship and a spot on the Professional Circuit.",
+    embedUrl: "https://www.youtube.com/embed/OMa8fk9CSnU",
+    type: "TV Show",
+    recommended: false,
+    imdbUrl: "https://www.imdb.com/title/tt0456029/"
+  },
+  {
+    name: "Make or Break",
+    platform: "Apple TV+",
+    description:
+      "From pure elation to devastating heartbreak, follow the world's best surfers as they fight for the championship title.",
+    embedUrl: "https://www.youtube.com/embed/VZzHejJAbfQ",
+    type: "Documentary",
+    recommended: false,
+    imdbUrl: "https://www.imdb.com/title/tt13773908/"
+  },
+  {
+    name: "Rescue: HI-Surf",
+    platform: "FOX / Hulu",
+    description:
+      "Follows the dedicated, heroic and adrenaline-seeking lifeguards of the North Shore of O'ahu, as they save people's lives in the difficult and often life-threatening conditions of Hawaii's Seven Mile Miracle.",
+    embedUrl: "https://www.youtube.com/embed/a5Lk1bAt72U",
+    type: "TV Show",
+    recommended: false,
+    imdbUrl: "https://www.imdb.com/title/tt27629382/"
+  },
+  {
+    name: "The Ultimate Surfer",
+    platform: "ABC / Hulu",
+    description:
+      "Top up-and-coming surfers will train and live together as they battle it out at WSL's state-of-the-art Surf Ranch in Lemoore, California, which employs by Kelly Slater's man-made wave technology.",
+    embedUrl: "https://www.youtube.com/embed/3_DOkRIQyjc",
+    type: "Reality TV",
+    recommended: false,
+    imdbUrl: "https://www.imdb.com/title/tt11301420/"
+  },
+  {
+    name: "John from Cincinnati",
+    platform: "HBO",
+    description:
+      "In Imperial Beach, California, the dysfunctional Yost family intersects with two new arrivals to the community: a dim-but-wealthy surfing enthusiast, and a man spurned by the Yosts years ago.",
+    embedUrl: "https://www.youtube.com/embed/Hc8UhBFY5b0",
+    type: "TV Show",
+    recommended: false,
+    imdbUrl: "https://www.imdb.com/title/tt0814164/"
   }
 ];
 export default surfVideos;

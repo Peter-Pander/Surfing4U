@@ -11,6 +11,7 @@ export default function VideoFilterBar({ type, onTypeChange }) {
         placeholder="All Surf TV"
       >
         <option value="Documentary">Documentaries</option>
+        <option value="Reality TV">Reality TV</option>
         <option value="TV Show">TV Shows</option>
         <option value="Movie">Movies</option>
         <option value="Recommended">Recommendations</option>
