@@ -5,18 +5,12 @@ import VideoFilterBar from "../components/VideoFilterBar";
 import SurfVideoGrid from "../components/SurfVideoGrid";
 
 export default function SurfTVPage() {
-  const [filter, setFilter] = useState({ type: null, recommended: null });
-  const [sortBy, setSortBy] = useState(null);
+  const [type, setType] = useState(null);
   const [page, setPage] = useState(1);
 
-  // Reset to page 1 on any filter/sort change
-  const handleFilterChange = (newFilter) => {
-    setFilter(newFilter);
-    setPage(1);
-  };
-  const handleSortChange = (newSort) => {
-    setSortBy(newSort);
-    setPage(1);
+  const handleTypeChange = (newType) => {
+    setType(newType);
+    setPage(1); // reset pagination when filter changes
   };
 
   return (
@@ -26,16 +20,10 @@ export default function SurfTVPage() {
         Dive into a curated collection of surf documentaries, films, and shows.
       </Text>
 
-      <VideoFilterBar
-        filter={filter}
-        sortBy={sortBy}
-        onFilterChange={handleFilterChange}
-        onSortChange={handleSortChange}
-      />
+      <VideoFilterBar type={type} onTypeChange={handleTypeChange} />
 
       <SurfVideoGrid
-        filter={filter}
-        sortBy={sortBy}
+        type={type}
         page={page}
         pageSize={6}
         onPageChange={setPage}
