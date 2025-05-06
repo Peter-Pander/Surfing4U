@@ -1,39 +1,65 @@
 // frontend/src/components/SurfVideoGrid.jsx
-import { SimpleGrid } from "@chakra-ui/react";
+import { Box, SimpleGrid, Button, HStack } from "@chakra-ui/react";
 import surfVideos from "../data/surfVideos";
 import SurfVideoCard from "./SurfVideoCard";
 
 export default function SurfVideoGrid({
   filter = { type: null, recommended: null },
   sortBy = null,
+  page = 1,
+  pageSize = 6,
+  onPageChange,
 }) {
-  const { type = null, recommended = null } = filter;
+  const { type, recommended } = filter;
 
-  // 1. Filter by type if provided
-  let filteredVideos = surfVideos;
+  // 1. Apply filters
+  let filtered = surfVideos;
   if (type) {
-    filteredVideos = filteredVideos.filter((v) => v.type === type);
+    filtered = filtered.filter((v) => v.type === type);
   }
-
-  // 2. Filter by recommended flag if it’s not null
   if (recommended !== null) {
-    filteredVideos = filteredVideos.filter(
-      (v) => v.recommended === recommended
-    );
+    filtered = filtered.filter((v) => v.recommended === recommended);
   }
 
-  // 3. Optionally sort: recommended first
+  // 2. Sort if needed
   if (sortBy === "recommendedFirst") {
-    filteredVideos = [...filteredVideos].sort(
+    filtered = [...filtered].sort(
       (a, b) => Number(b.recommended) - Number(a.recommended)
     );
   }
 
+  // 3. Pagination calculations
+  const totalPages = Math.ceil(filtered.length / pageSize);
+  const start = (page - 1) * pageSize;
+  const pagedVideos = filtered.slice(start, start + pageSize);
+
   return (
-    <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={6} p={6}>
-      {filteredVideos.map((video) => (
-        <SurfVideoCard key={video.name} video={video} />
-      ))}
-    </SimpleGrid>
+    <Box>
+      <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={6} p={6}>
+        {pagedVideos.map((video) => (
+          <SurfVideoCard key={video.name} video={video} />
+        ))}
+      </SimpleGrid>
+
+      {totalPages > 1 && (
+        <HStack justify="center" spacing={4} mb={6}>
+          <Button
+            onClick={() => onPageChange(page - 1)}
+            isDisabled={page <= 1}
+          >
+            Previous
+          </Button>
+          <Box>
+            Page {page} of {totalPages}
+          </Box>
+          <Button
+            onClick={() => onPageChange(page + 1)}
+            isDisabled={page >= totalPages}
+          >
+            Next
+          </Button>
+        </HStack>
+      )}
+    </Box>
   );
 }
