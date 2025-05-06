@@ -3,10 +3,10 @@
 const path = require("path");
 require("dotenv").config({ path: path.resolve(__dirname, "../.env") });
 
-const mongoose           = require("mongoose");
-const express            = require("express");
-const cors               = require("cors");
-const fs                 = require("fs");
+const mongoose         = require("mongoose");
+const express          = require("express");
+const cors             = require("cors");
+const fs               = require("fs");
 
 const { runDailyJob }      = require("./jobs/dailyVideoJob");
 const { runContestJob }    = require("./jobs/contestVideoJob");
@@ -95,20 +95,27 @@ app.patch("/api/surfers/:id", async (req, res, next) => {
 });
 
 // add a new video URL
-app.post("/api/surfers/:id/videos", async (req, res, next) => {
+app.post("/api/surfers/:id/videos", async (req, res) => {
   try {
     const { url } = req.body;
     if (!url) return res.status(400).json({ error: "Missing 'url' in body" });
+
+    // extract YouTube video ID
+    const match = url.match(/[?&]v=([^&]+)/);
+    if (!match) return res.status(400).json({ error: "Invalid YouTube URL" });
+    const videoId = match[1];
 
     const surfer = await Surfer.findById(req.params.id);
     if (!surfer) return res.status(404).json({ error: "Surfer not found" });
 
     surfer.videos = surfer.videos || [];
-    surfer.videos.push(url);
+    surfer.videos.push({ videoId });
     await surfer.save();
+
     res.json(surfer);
   } catch (err) {
-    next(err);
+    console.error("🔥 Failed to add video:", err);
+    res.status(500).json({ error: "Internal server error" });
   }
 });
 
