@@ -8,7 +8,7 @@ export default function VideoFilterBar({ type, onTypeChange }) {
         width="200px"
         value={type || ""}
         onChange={(e) => onTypeChange(e.target.value || null)}
-        placeholder="All Videos"
+        placeholder="All Surf TV"
       >
         <option value="Documentary">Documentaries</option>
         <option value="TV Show">TV Shows</option>
