@@ -92,10 +92,7 @@ export default function SpotsPage() {
 
   return (
     <Box p={6}>
-      <Heading mb={2}>🌊 Surf Spots</Heading>
-      <Text mb={4}>
-        Showing one spot at a time—perfect for heavy embeds and quick lookup.
-      </Text>
+      <Heading mb={4}>🌊 Surf Spots</Heading>
 
       {/* filter buttons */}
       <Flex mb={4} wrap="wrap">
