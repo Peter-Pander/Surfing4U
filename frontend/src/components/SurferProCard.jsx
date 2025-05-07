@@ -112,9 +112,9 @@ export default function SurferProCard({ surfer, isAdmin = false, onUpdate }) {
     }
   };
 
-  // helper: extract YouTube video ID from full or shortened URLs
+  // helper: extract YouTube video ID from watch, shorts, or youtu.be URLs
   const getVideoId = (url) => {
-    const regExp = /(?:youtube\.com\/.*[?&]v=|youtu\.be\/)([^&?/]+)/;
+    const regExp = /(?:youtube\.com\/(?:watch\?v=|shorts\/)|youtu\.be\/)([^&?/]+)/;
     const match = url.match(regExp);
     return match ? match[1] : null;
   };
