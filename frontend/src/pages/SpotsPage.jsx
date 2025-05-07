@@ -7,6 +7,8 @@ import {
   Button,
   Flex,
   Input,
+  SimpleGrid,
+  AspectRatio,
 } from "@chakra-ui/react";
 import surfspots from "../data/surfspots.json";
 import SpotCard from "../components/SpotCard";
@@ -134,9 +136,32 @@ export default function SpotsPage() {
         </Button>
       </Flex>
 
-      {/* the single card */}
+      {/* the single card + videos */}
       {total > 0 ? (
-        <SpotCard spot={spot} />
+        <>
+          <SpotCard spot={spot} />
+
+          {/* videos section */}
+          {spot.videos && spot.videos.length > 0 && (
+            <Box mt={6}>
+              <Heading size="md" mb={3}>
+                🎥 Surf Videos
+              </Heading>
+              <SimpleGrid columns={{ base: 1, sm: 2, md: 2 }} spacing={4}>
+                {spot.videos.map((id) => (
+                  <AspectRatio key={id} ratio={16 / 9}>
+                    <iframe
+                      title={`surf-video-${id}`}
+                      src={`https://www.youtube.com/embed/${id}`}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    />
+                  </AspectRatio>
+                ))}
+              </SimpleGrid>
+            </Box>
+          )}
+        </>
       ) : (
         <Text>No spots found</Text>
       )}
