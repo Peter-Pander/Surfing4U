@@ -6,11 +6,24 @@ const path = require("path");
 const dataDir = path.join(__dirname, "../frontend/src/data");
 const basePath = path.join(dataDir, "surfspots-base.json");
 const additionsPath = path.join(dataDir, "surfspots-additions.json");
+const videosPath = path.join(dataDir, "surfspot-videos.json");
 const outputPath = path.join(dataDir, "surfspots.json");
 
 try {
   const base = JSON.parse(fs.readFileSync(basePath, "utf-8"));
   const additions = JSON.parse(fs.readFileSync(additionsPath, "utf-8"));
+
+  // load video map if available
+  let videosMap = {};
+  if (fs.existsSync(videosPath)) {
+    try {
+      videosMap = JSON.parse(fs.readFileSync(videosPath, "utf-8"));
+    } catch (err) {
+      console.warn(`⚠️ Could not parse surfspot-videos.json: ${err.message}`);
+    }
+  } else {
+    console.warn("⚠️ surfspot-videos.json not found—continuing without videos.");
+  }
 
   // helper to normalize strings for fuzzy matching
   const normalize = str => str
@@ -61,6 +74,14 @@ try {
 
   // sort alphabetically by name (now guaranteed to exist)
   unique.sort((a, b) => a.name.localeCompare(b.name));
+
+  // inject up to 4 videos per spot
+  unique.forEach(spot => {
+    const vids = videosMap[spot.name];
+    if (Array.isArray(vids) && vids.length > 0) {
+      spot.videos = vids.slice(0, 4);
+    }
+  });
 
   // write final file
   fs.writeFileSync(outputPath, JSON.stringify(unique, null, 2), "utf-8");

@@ -13815,7 +13815,11 @@
     "lng": "-72.540578842163",
     "lat": "18.220383576035",
     "country": "Haiti",
-    "name": "Jacmel"
+    "name": "Jacmel",
+    "videos": [
+      "dQw4w9WgXcQ",
+      "3JZ_D3ELwOQ"
+    ]
   },
   {
     "lng": "-84.621591567993",
@@ -23811,7 +23815,13 @@
     "lng": "-158.05057168007",
     "lat": "21.66784799238",
     "country": "USA, Hawaii, Oahu",
-    "name": "Pipeline"
+    "name": "Pipeline",
+    "videos": [
+      "abc123",
+      "def456",
+      "ghi789",
+      "jkl012"
+    ]
   },
   {
     "lng": "-86.765786111111",
