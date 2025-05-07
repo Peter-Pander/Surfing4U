@@ -51,10 +51,25 @@ export default function SpotsPage() {
         onChange={onSearchChange}
       />
 
+      {/* top nav controls */}
+      <Flex mb={4} align="center" justify="space-between">
+        <Button onClick={prev} variant="outline">
+          ← Previous
+        </Button>
+
+        <Text>
+          {index + 1} / {total}
+        </Text>
+
+        <Button onClick={next} variant="outline">
+          Next →
+        </Button>
+      </Flex>
+
       {/* the single card */}
       <SpotCard spot={spot} />
 
-      {/* nav controls */}
+      {/* bottom nav controls */}
       <Flex mt={4} align="center" justify="space-between">
         <Button onClick={prev} variant="outline">
           ← Previous
