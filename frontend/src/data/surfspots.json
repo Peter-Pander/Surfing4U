@@ -35163,7 +35163,10 @@
     "lng": "-4.2317962646484",
     "lat": "51.045818964226",
     "country": "UK, Devon North",
-    "name": "Westward Ho!"
+    "name": "Westward Ho!",
+    "videos": [
+      "uUM6Q05jHoc"
+    ]
   },
   {
     "lng": "150.90972661972",
@@ -35175,13 +35178,19 @@
     "lng": "-124.18389558792",
     "lat": "41.739184938117",
     "country": "USA, California, Del Norte",
-    "name": "Whaler Island"
+    "name": "Whaler Island",
+    "videos": [
+      "thzo73ZY1JU"
+    ]
   },
   {
     "lng": "175.69885253906",
     "lat": "-37.396346133189",
     "country": "New Zealand, New Zealand NI, Coromandel",
-    "name": "Whangamata Beach"
+    "name": "Whangamata Beach",
+    "videos": [
+      "autbgAmO_is"
+    ]
   },
   {
     "lng": "175.8802986145",
@@ -35193,7 +35202,10 @@
     "lng": "174.50546264648",
     "lat": "-37.047230962135",
     "country": "New Zealand, New Zealand NI, West Coast Auckland",
-    "name": "Whatipu"
+    "name": "Whatipu",
+    "videos": [
+      "7UfA29vahHU"
+    ]
   },
   {
     "lng": "-5.0534534454346",
@@ -35205,19 +35217,32 @@
     "lng": "-123.78064155579",
     "lat": "48.15583721731",
     "country": "USA, North West, Washington",
-    "name": "Whiskey Creek"
+    "name": "Whiskey Creek",
+    "videos": [
+      "ONCB8tOgF_I"
+    ]
   },
   {
     "lng": "81.844979524612",
     "lat": "6.9053995598225",
     "country": "Sri Lanka",
-    "name": "Whiskey point"
+    "name": "Whiskey point",
+    "videos": [
+      "m2w2p7NjV2w",
+      "1-Ha9idQAsg"
+    ]
   },
   {
     "lng": "-0.61600685119629",
     "lat": "54.491080997069",
     "country": "UK, East England",
-    "name": "Whitby Beach"
+    "name": "Whitby Beach",
+    "videos": [
+      "9IyPfBiBomo",
+      "jezMS24q1gQ",
+      "gENUXk7jusQ",
+      "y8pfBpbqGJU"
+    ]
   },
   {
     "lng": "-176.76177978516",
@@ -35305,10 +35330,7 @@
     "lng": "150.69050431252",
     "lat": "-35.177570492238",
     "country": "Australia, NSW, South Coast",
-    "name": "Whiting bommie",
-    "videos": [
-      "TmsfWNnsjXI"
-    ]
+    "name": "Whiting bommie"
   },
   {
     "lng": "-87.484409809113",
@@ -35365,7 +35387,6 @@
     "name": "Widemouth Bay",
     "videos": [
       "hJEriPjf824",
-      "r-aTEDVsLhM",
       "ygpAz6cfDDs",
       "NUdNwYFhT_Q"
     ]
@@ -35447,10 +35468,7 @@
     "lng": "22.557527777778",
     "lat": "-34.001916666667",
     "country": "South Africa, South George",
-    "name": "Wilderness Rivermouth",
-    "videos": [
-      "G3eUGf004WE"
-    ]
+    "name": "Wilderness Rivermouth"
   },
   {
     "lng": "-74.787111282349",
@@ -35517,9 +35535,6 @@
     "lng": "-124.10173416138",
     "lat": "41.603473758612",
     "country": "USA, California, Del Norte",
-    "name": "Wilson Creek",
-    "videos": [
-      "4LOJ8vyAzzA"
-    ]
+    "name": "Wilson Creek"
   }
 ]

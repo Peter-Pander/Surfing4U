@@ -2,7 +2,7 @@
   "Wilderness, Puerto Rico": ["ZvpQ7dmKD4Q", "0p3dge0bRZA", "hjLfg_-5-BQ"],
   "Wilderness, St Martin": ["sKNlVr7VRFE", "NvsWwiWPOyo", "cz3JSGyowO4"],
   "Wilderness Beach, South Africa, South George": ["9Ldegz3NGnI", "8_LKHWxc9HI"],
-  "Wilderness Rivermouth, South Africa, South George": ["G3eUGf004WE"],
+  "Wilderness Rivermouth, South Africa, South George": [],
   "Wildwood 2nd Street, USA, North East, New Jersey": ["aWdkgeAIpFo", "EJ0hMO4vzRc", "6ExD3BLo9QU"],
   "Wilkes Passage, Fiji": ["ty6VFVeQqjk", "k67dqsIUXa0"],
   "Will Rogers, USA, California, LA County": ["QxfchlC2Hqc"],
@@ -10,12 +10,12 @@
   "Willyabrup, Australia, WA, Margaret River North": ["MHPb-TxWaVE", "_baVhyAz0HY", "oyKGbjK3bQM"],
   "Willyama Bay, Australia, SA, York Peninsula": ["qs77Dgfy_ew", "RLldLmG6r8U"],
 
-  "Widemouth Bay, UK, Cornwall North": ["hJEriPjf824", "r-aTEDVsLhM", "ygpAz6cfDDs", "NUdNwYFhT_Q"],
+  "Widemouth Bay, UK, Cornwall North": ["hJEriPjf824", "ygpAz6cfDDs", "NUdNwYFhT_Q"],
   "Wiggins Pass, USA, Gulf Coast, Florida": ["I3jDMdIStEE", "RaWjPpQnRgw"],
   "Wijiya Beach, Sri Lanka": ["xroyrD5T160", "VADP0SDHMWU"],
   "Wijk aan zee-Noordpier, Netherlands": ["dPqeFhbX7mo", "Pz9YPkIRLuA", "rLkZp_pDyZg"],
   "wild pear beach, UK, Devon North": ["dVQt1yZqQf8", "ahhNFFuGk-M"],
-  "Wilson Creek, USA, California, Del Norte": ["4LOJ8vyAzzA"],
+  "Wilson Creek, USA, California, Del Norte": [],
   "whiting gun club, USA, North East, The Great Lakes": ["4axUOJYCIN4"],
   "Whitlock Island Reef, Australia, WA, Perth North": [],
   "Whitsand Bay, UK, Devon South": ["AefIgzVbVeQ", "UwfTfAfxjF4", "GH62Y2PuP2E", "pbDzpYkwO_w"],
@@ -31,6 +31,18 @@
   "Whitesands, UK, West Wales": ["Lf7-bs2npWc"],
   "Whitey's, USA, California, Santa Barbara": [],
   "Whitfords beach outer reefs or seal island, Australia, WA, Perth City": ["ufgahWoQOhM"],
-  "Whiting bommie, Australia, NSW, South Coast": ["TmsfWNnsjXI"]
+  "Whiting bommie, Australia, NSW, South Coast": [],
+
+  "Westward Ho!, UK, Devon North": ["uUM6Q05jHoc"],
+  "Whalebone, Australia, NSW, Coal Coast": [],
+  "Whaler Island, USA, California, Del Norte": ["thzo73ZY1JU"],
+  "Whangamata Beach, New Zealand, New Zealand NI, Coromandel": ["autbgAmO_is"],
+  "Whangamata Estuary, New Zealand, New Zealand NI, Coromandel": [],
+  "Whatipu, New Zealand, New Zealand NI, West Coast Auckland": ["7UfA29vahHU"],
+  "Whipsiderry, UK, Cornwall West": [],
+  "Whiskey Creek, USA, North West, Washington": ["ONCB8tOgF_I"],
+  "Whiskey point, Sri Lanka": ["m2w2p7NjV2w", "1-Ha9idQAsg"],
+  "Whitby Beach, UK, East England": ["9IyPfBiBomo", "jezMS24q1gQ", "gENUXk7jusQ", "y8pfBpbqGJU"]
+
 
 }
