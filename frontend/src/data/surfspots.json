@@ -35229,37 +35229,62 @@
     "lng": "127.91072845459",
     "lat": "26.294646204413",
     "country": "Japan, Okinawa",
-    "name": "White Beach"
+    "name": "White Beach",
+    "videos": [
+      "k_jqSW18AO8",
+      "vgxyMDB4aPc"
+    ]
   },
   {
     "lng": "-158.04530382156",
     "lat": "21.303568963247",
     "country": "USA, Hawaii, Oahu",
-    "name": "White Plains Beach"
+    "name": "White Plains Beach",
+    "videos": [
+      "5zb7J_RWqLU",
+      "q7eEN1ZO6Q4",
+      "7nOGdKjuAhs",
+      "vZfD-kx-uSI"
+    ]
   },
   {
     "lng": "-6.6121065616608",
     "lat": "55.206524618282",
     "country": "Ireland, North East and East",
-    "name": "White Rocks"
+    "name": "White Rocks",
+    "videos": [
+      "zq-oMP3uOL8",
+      "zxRQb6frXCg",
+      "08mJfyw16eY"
+    ]
   },
   {
     "lng": "-69.978704452515",
     "lat": "41.934210298717",
     "country": "USA, North East, Southern New England",
-    "name": "Whitecrest Beach"
+    "name": "Whitecrest Beach",
+    "videos": [
+      "Iz-3RTlm2rE"
+    ]
   },
   {
     "lng": "153.61594676971",
     "lat": "-28.724445126373",
     "country": "Australia, NSW, North",
-    "name": "Whites"
+    "name": "Whites",
+    "videos": [
+      "5t1XQjT2aSg",
+      "BE1zNJV8gi8"
+    ]
   },
   {
     "lng": "-5.2998733520508",
     "lat": "51.8957745836",
     "country": "UK, West Wales",
-    "name": "Whitesands"
+    "name": "Whitesands",
+    "videos": [
+      "Lf7-bs2npWc"
+    ]
   },
   {
     "lng": "-120.45964702966",
@@ -35271,19 +35296,28 @@
     "lng": "115.71774959564",
     "lat": "-31.799464127304",
     "country": "Australia, WA, Perth City",
-    "name": "Whitfords beach outer reefs or seal island"
+    "name": "Whitfords beach outer reefs or seal island",
+    "videos": [
+      "ufgahWoQOhM"
+    ]
   },
   {
     "lng": "150.69050431252",
     "lat": "-35.177570492238",
     "country": "Australia, NSW, South Coast",
-    "name": "Whiting bommie"
+    "name": "Whiting bommie",
+    "videos": [
+      "TmsfWNnsjXI"
+    ]
   },
   {
     "lng": "-87.484409809113",
     "lat": "41.681133588725",
     "country": "USA, North East, The Great Lakes",
-    "name": "whiting gun club"
+    "name": "whiting gun club",
+    "videos": [
+      "4axUOJYCIN4"
+    ]
   },
   {
     "lng": "114.99398231505",
@@ -35295,49 +35329,87 @@
     "lng": "-4.278359413147",
     "lat": "50.354168591412",
     "country": "UK, Devon South",
-    "name": "Whitsand Bay"
+    "name": "Whitsand Bay",
+    "videos": [
+      "AefIgzVbVeQ",
+      "UwfTfAfxjF4",
+      "GH62Y2PuP2E",
+      "pbDzpYkwO_w"
+    ]
   },
   {
     "lng": "-125.67021489143",
     "lat": "49.015841505379",
     "country": "Canada, West Coast",
-    "name": "Wickaninnish"
+    "name": "Wickaninnish",
+    "videos": [
+      "ZqgIiAxgBSQ",
+      "yAzuCMqLVQs",
+      "eGca6Dbd7rc",
+      "08Wxe1XfdeI"
+    ]
   },
   {
     "lng": "-120.86849212646",
     "lat": "35.363809276245",
     "country": "USA, California, San Luis Obispo",
-    "name": "Widdows"
+    "name": "Widdows",
+    "videos": [
+      "dxENuCUVbeA"
+    ]
   },
   {
     "lng": "-4.5600128173828",
     "lat": "50.79093478796",
     "country": "UK, Cornwall North",
-    "name": "Widemouth Bay"
+    "name": "Widemouth Bay",
+    "videos": [
+      "hJEriPjf824",
+      "r-aTEDVsLhM",
+      "ygpAz6cfDDs",
+      "NUdNwYFhT_Q"
+    ]
   },
   {
     "lng": "-81.831353902817",
     "lat": "26.287691675726",
     "country": "USA, Gulf Coast, Florida",
-    "name": "Wiggins Pass"
+    "name": "Wiggins Pass",
+    "videos": [
+      "I3jDMdIStEE",
+      "RaWjPpQnRgw"
+    ]
   },
   {
     "lng": "80.262084603312",
     "lat": "5.9995895123226",
     "country": "Sri Lanka",
-    "name": "Wijiya Beach"
+    "name": "Wijiya Beach",
+    "videos": [
+      "xroyrD5T160",
+      "VADP0SDHMWU"
+    ]
   },
   {
     "lng": "4.5662784576416",
     "lat": "52.467985077171",
     "country": "Netherlands",
-    "name": "Wijk aan zee-Noordpier"
+    "name": "Wijk aan zee-Noordpier",
+    "videos": [
+      "dPqeFhbX7mo",
+      "Pz9YPkIRLuA",
+      "rLkZp_pDyZg"
+    ]
   },
   {
     "lng": "-4.0342783927913",
     "lat": "51.211722782587",
     "country": "UK, Devon North",
-    "name": "wild pear beach"
+    "name": "wild pear beach",
+    "videos": [
+      "dVQt1yZqQf8",
+      "ahhNFFuGk-M"
+    ]
   },
   {
     "lng": "-67.16924071312",
@@ -35445,6 +35517,9 @@
     "lng": "-124.10173416138",
     "lat": "41.603473758612",
     "country": "USA, California, Del Norte",
-    "name": "Wilson Creek"
+    "name": "Wilson Creek",
+    "videos": [
+      "4LOJ8vyAzzA"
+    ]
   }
 ]
