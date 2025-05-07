@@ -214,6 +214,7 @@ export default function SurfersPage() {
           <Heading mb={4}>Search Results</Heading>
           {filtered.length ? (
             <>
+              {/* Top navigation */}
               <HStack justify="space-between" mb={4}>
                 <Button
                   onClick={() => setSearchIndex((i) => Math.max(i - 1, 0))}
@@ -235,11 +236,36 @@ export default function SurfersPage() {
                   Next
                 </Button>
               </HStack>
+
+              {/* Card */}
               <SurferProCard
                 surfer={filtered[searchIndex]}
                 isAdmin={isAdmin}
                 onUpdate={handleUpdate}
               />
+
+              {/* Bottom navigation */}
+              <HStack justify="space-between" mt={4}>
+                <Button
+                  onClick={() => setSearchIndex((i) => Math.max(i - 1, 0))}
+                  isDisabled={searchIndex === 0}
+                >
+                  Previous
+                </Button>
+                <Text>
+                  {searchIndex + 1} / {filtered.length}
+                </Text>
+                <Button
+                  onClick={() =>
+                    setSearchIndex((i) =>
+                      Math.min(i + 1, filtered.length - 1)
+                    )
+                  }
+                  isDisabled={searchIndex >= filtered.length - 1}
+                >
+                  Next
+                </Button>
+              </HStack>
             </>
           ) : (
             <Text>No surfers match “{searchTerm}.”</Text>
@@ -294,11 +320,34 @@ export default function SurfersPage() {
             Surfers {activeRange.label}
           </Heading>
           {rangeFiltered.length ? (
-            <SurferProCard
-              surfer={rangeFiltered[rangeIndex]}
-              isAdmin={isAdmin}
-              onUpdate={handleUpdate}
-            />
+            <>
+              {/* Card */}
+              <SurferProCard
+                surfer={rangeFiltered[rangeIndex]}
+                isAdmin={isAdmin}
+                onUpdate={handleUpdate}
+              />
+
+              {/* Bottom navigation */}
+              <HStack justify="space-between" mt={4}>
+                <Button
+                  onClick={() => setRangeIndex((i) => Math.max(i - 1, 0))}
+                  isDisabled={rangeIndex === 0}
+                >
+                  Previous
+                </Button>
+                <Button
+                  onClick={() =>
+                    setRangeIndex((i) =>
+                      Math.min(i + 1, rangeFiltered.length - 1)
+                    )
+                  }
+                  isDisabled={rangeIndex >= rangeFiltered.length - 1}
+                >
+                  Next
+                </Button>
+              </HStack>
+            </>
           ) : (
             <Text>No surfers in “{activeRange.label}.”</Text>
           )}
@@ -338,11 +387,28 @@ export default function SurfersPage() {
             </HStack>
           </HStack>
 
+          {/* Card */}
           <SurferProCard
             surfer={surfers[currentIndex]}
             isAdmin={isAdmin}
             onUpdate={handleUpdate}
           />
+
+          {/* Bottom navigation */}
+          <HStack justify="space-between" mt={4}>
+            <Button
+              onClick={() => setCurrentIndex((i) => i - 1)}
+              isDisabled={currentIndex <= 0}
+            >
+              Previous
+            </Button>
+            <Button
+              onClick={() => setCurrentIndex((i) => i + 1)}
+              isDisabled={currentIndex >= surfers.length - 1}
+            >
+              Next
+            </Button>
+          </HStack>
         </>
       )}
     </Box>
