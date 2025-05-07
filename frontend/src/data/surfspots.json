@@ -35049,7 +35049,11 @@
     "lng": "80.430479049683",
     "lat": "5.9730950846727",
     "country": "Sri Lanka",
-    "name": "Weligama"
+    "name": "Weligama",
+    "videos": [
+      "m2w2p7NjV2w",
+      "1-Ha9idQAsg"
+    ]
   },
   {
     "lng": "-63.252797126767",
@@ -35061,19 +35065,31 @@
     "lng": "-70.562138557434",
     "lat": "43.304069509043",
     "country": "USA, North East, Southern New England",
-    "name": "Wells Beach"
+    "name": "Wells Beach",
+    "videos": [
+      "_R3qE9k60tk",
+      "u7xRM5mkBKA",
+      "J6RY4rewXlI"
+    ]
   },
   {
     "lng": "150.83374500275",
     "lat": "-34.740836668671",
     "country": "Australia, NSW, South Coast",
-    "name": "Werri Beach"
+    "name": "Werri Beach",
+    "videos": [
+      "K4xctcY69w8"
+    ]
   },
   {
     "lng": "138.50403785706",
     "lat": "-34.953633838495",
     "country": "Australia, SA, York Peninsula",
-    "name": "West Beach"
+    "name": "West Beach",
+    "videos": [
+      "qs77Dgfy_ew",
+      "RLldLmG6r8U"
+    ]
   },
   {
     "lng": "121.87794685364",
@@ -35085,7 +35101,10 @@
     "lng": "136.8736410141",
     "lat": "-35.290048217411",
     "country": "Australia, SA, York Peninsula",
-    "name": "West Cape"
+    "name": "West Cape",
+    "videos": [
+      "7a2tNC_OUVE"
+    ]
   },
   {
     "lng": "125.21165370941",
@@ -35097,67 +35116,121 @@
     "lng": "-87.737631797791",
     "lat": "30.239891714215",
     "country": "USA, Gulf Coast, Alabama",
-    "name": "West Pass"
+    "name": "West Pass",
+    "videos": [
+      "fUua8IBzyJM",
+      "XbU_H-JSb1w",
+      "c4oVM0gN7Sg"
+    ]
   },
   {
     "lng": "-70.060243606567",
     "lat": "12.616740541194",
     "country": "Aruba",
-    "name": "West punt"
+    "name": "West punt",
+    "videos": [
+      "SOPUz0c9o5E",
+      "L7YoK1HOf98",
+      "m2w2p7NjV2w"
+    ]
   },
   {
     "lng": "x",
     "lat": "x",
     "country": "USA, North East, Long Island NY",
-    "name": "West Reef"
+    "name": "West Reef",
+    "videos": [
+      "BGAYMuHakHI"
+    ]
   },
   {
     "lng": "-6.6569638252258",
     "lat": "55.200656163491",
     "country": "Ireland, North East and East",
-    "name": "West Strand"
+    "name": "West Strand",
+    "videos": [
+      "VfXGqkv8As4",
+      "EG_OFqBpKDM",
+      "S2BpISq9OzI",
+      "j6dS-2TBoAo"
+    ]
   },
   {
     "lng": "92.624082863331",
     "lat": "11.343796251395",
     "country": "India, Andaman Islands",
-    "name": "West Twin"
+    "name": "West Twin",
+    "videos": [
+      "m2w2p7NjV2w"
+    ]
   },
   {
     "lng": "-0.91128587722778",
     "lat": "50.777551485132",
     "country": "UK, South East",
-    "name": "West Wittering"
+    "name": "West Wittering",
+    "videos": [
+      "K830FDn3jMw",
+      "kFb_clR9fF4",
+      "XBoLh5Y5URg",
+      "atdCwdP9CuU"
+    ]
   },
   {
     "lng": "115.31554698944",
     "lat": "-33.652672965074",
     "country": "Australia, WA, Margaret River North",
-    "name": "West-Busso Point"
+    "name": "West-Busso Point",
+    "videos": [
+      "qs77Dgfy_ew",
+      "RLldLmG6r8U"
+    ]
   },
   {
     "lng": "2.7636623382568",
     "lat": "51.166212458161",
     "country": "Belgium",
-    "name": "Westende"
+    "name": "Westende",
+    "videos": [
+      "n5mMQducN-M",
+      "8NlrVfnSyiY"
+    ]
   },
   {
     "lng": "11.044971942902",
     "lat": "54.523553560499",
     "country": "Germany",
-    "name": "Westermarkelsdorf"
+    "name": "Westermarkelsdorf",
+    "videos": [
+      "hXLDTpJtSqE",
+      "oUjqkFUA4o4",
+      "xFag3AScOMY",
+      "KdMQRLK7FZQ"
+    ]
   },
   {
     "lng": "-124.13289070129",
     "lat": "46.900554131515",
     "country": "USA, North West, Washington",
-    "name": "Westport"
+    "name": "Westport",
+    "videos": [
+      "dfqiGUmZLTI",
+      "jX84bD5CSek",
+      "AjejcEM59RM",
+      "potf1rsjYnc"
+    ]
   },
   {
     "lng": "-118.8115811348",
     "lat": "34.003417349082",
     "country": "USA, California, LA County",
-    "name": "Westward Beach"
+    "name": "Westward Beach",
+    "videos": [
+      "lwB-mw65fAA",
+      "nxQb3LIXvMI",
+      "ZZ3FSu-iJ50",
+      "3VAfCFkaCVQ"
+    ]
   },
   {
     "lng": "-4.2317962646484",
