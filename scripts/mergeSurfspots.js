@@ -12,8 +12,29 @@ try {
   const base = JSON.parse(fs.readFileSync(basePath, "utf-8"));
   const additions = JSON.parse(fs.readFileSync(additionsPath, "utf-8"));
 
+  // helper to normalize strings for fuzzy matching
+  const normalize = str => str
+    .toString()
+    .toLowerCase()
+    .normalize("NFD")                   // decompose accents
+    .replace(/[\u0300-\u036f]/g, "")    // remove accents
+    .replace(/[^a-z0-9]/g, "");         // remove non-alphanumeric
+
+  // remove any additions that duplicate an existing base spot (fuzzy)
+  const baseKeys = new Set(
+    base.map(b => `${normalize(b.name)}|${normalize(b.country)}`)
+  );
+  const dedupedAdditions = additions.filter(add => {
+    const key = `${normalize(add.name)}|${normalize(add.country)}`;
+    return !baseKeys.has(key);
+  });
+  if (dedupedAdditions.length < additions.length) {
+    const skipped = additions.length - dedupedAdditions.length;
+    console.log(`⏭️ Skipped ${skipped} duplicate addition${skipped > 1 ? "s" : ""}.`);
+  }
+
   // merge all entries
-  const combined = [...base, ...additions];
+  const combined = [...base, ...dedupedAdditions];
 
   // drop any entries missing required fields
   const filtered = combined.filter((spot, idx) => {
@@ -23,13 +44,16 @@ try {
     if (!spot.lat)     missing.push("lat");
     if (!spot.lng)     missing.push("lng");
     if (missing.length) {
-      console.warn(`⚠ Skipping spot missing [${missing.join(", ")}] at index ${idx}:`, spot);
+      console.warn(
+        `⚠ Skipping spot missing [${missing.join(", ")}] at index ${idx}:`,
+        spot
+      );
       return false;
     }
     return true;
   });
 
-  // dedupe on name + country
+  // dedupe on name + country (exact match)
   const unique = filtered.filter(
     (spot, i, arr) =>
       i === arr.findIndex((s) => s.name === spot.name && s.country === spot.country)
