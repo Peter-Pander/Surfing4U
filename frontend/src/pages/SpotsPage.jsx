@@ -1,5 +1,5 @@
 // frontend/src/pages/SpotsPage.jsx
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import {
   Box,
   Heading,
@@ -12,26 +12,55 @@ import surfspots from "../data/surfspots.json";
 import SpotCard from "../components/SpotCard";
 
 export default function SpotsPage() {
-  const total = surfspots.length;
+  // filter options with label and optional start/end
+  const filterOptions = [
+    { label: "ALL" },
+    { label: "A–D", start: "A", end: "D" },
+    { label: "E–H", start: "E", end: "H" },
+    { label: "I–L", start: "I", end: "L" },
+    { label: "M–P", start: "M", end: "P" },
+    { label: "Q–T", start: "Q", end: "T" },
+    { label: "U–Z", start: "U", end: "Z" },
+  ];
 
-  // start at a random index
+  const [filterRange, setFilterRange] = useState("ALL");
+  const [searchTerm, setSearchTerm] = useState("");
+
+  // compute filtered spots based on first-character range
+  const filteredSpots = useMemo(() => {
+    return surfspots.filter((s) => {
+      if (filterRange === "ALL") return true;
+      const opt = filterOptions.find((o) => o.label === filterRange);
+      const first = s.name[0]?.toUpperCase();
+      return first >= opt.start && first <= opt.end;
+    });
+  }, [filterRange]);
+
+  const total = filteredSpots.length;
+
+  // start at a random index within filtered list
   const [index, setIndex] = useState(
     () => Math.floor(Math.random() * total)
   );
-  const [searchTerm, setSearchTerm] = useState("");
 
   // wraparound navigation
   const prev = () => setIndex((i) => (i - 1 + total) % total);
   const next = () => setIndex((i) => (i + 1) % total);
 
-  // on search, jump to first matching spot
+  // handle clicking a filter button
+  const onFilterClick = (label) => {
+    setFilterRange(label);
+    setIndex(0);
+  };
+
+  // on search, jump to first matching spot within filtered list
   const onSearchChange = (e) => {
     const term = e.target.value;
     setSearchTerm(term);
     const lower = term.toLowerCase();
 
-    // try exact match first
-    const exact = surfspots.findIndex(
+    // exact match first
+    const exact = filteredSpots.findIndex(
       (s) => s.name.toLowerCase() === lower
     );
     if (exact >= 0) {
@@ -39,17 +68,17 @@ export default function SpotsPage() {
       return;
     }
 
-    // then prefix match
-    const prefix = surfspots.findIndex(
-      (s) => s.name.toLowerCase().startsWith(lower)
+    // prefix match next
+    const prefix = filteredSpots.findIndex((s) =>
+      s.name.toLowerCase().startsWith(lower)
     );
     if (prefix >= 0) {
       setIndex(prefix);
       return;
     }
 
-    // then partial match
-    const partial = surfspots.findIndex((s) =>
+    // partial match last
+    const partial = filteredSpots.findIndex((s) =>
       s.name.toLowerCase().includes(lower)
     );
     if (partial >= 0) {
@@ -57,7 +86,7 @@ export default function SpotsPage() {
     }
   };
 
-  const spot = surfspots[index];
+  const spot = filteredSpots[index];
 
   return (
     <Box p={6}>
@@ -65,6 +94,22 @@ export default function SpotsPage() {
       <Text mb={4}>
         Showing one spot at a time—perfect for heavy embeds and quick lookup.
       </Text>
+
+      {/* filter buttons */}
+      <Flex mb={4} wrap="wrap">
+        {filterOptions.map((opt) => (
+          <Button
+            key={opt.label}
+            size="sm"
+            mr={2}
+            mb={2}
+            variant={filterRange === opt.label ? "solid" : "outline"}
+            onClick={() => onFilterClick(opt.label)}
+          >
+            {opt.label}
+          </Button>
+        ))}
+      </Flex>
 
       {/* simple search */}
       <Input
@@ -81,7 +126,7 @@ export default function SpotsPage() {
         </Button>
 
         <Text>
-          {index + 1} / {total}
+          {total > 0 ? `${index + 1} / ${total}` : "0 / 0"}
         </Text>
 
         <Button onClick={next} variant="outline">
@@ -90,7 +135,11 @@ export default function SpotsPage() {
       </Flex>
 
       {/* the single card */}
-      <SpotCard spot={spot} />
+      {total > 0 ? (
+        <SpotCard spot={spot} />
+      ) : (
+        <Text>No spots found</Text>
+      )}
 
       {/* bottom nav controls */}
       <Flex mt={4} align="center" justify="space-between">
@@ -99,7 +148,7 @@ export default function SpotsPage() {
         </Button>
 
         <Text>
-          {index + 1} / {total}
+          {total > 0 ? `${index + 1} / ${total}` : "0 / 0"}
         </Text>
 
         <Button onClick={next} variant="outline">
