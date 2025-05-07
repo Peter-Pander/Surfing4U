@@ -12096,6 +12096,12 @@
     "name": "Habitat '67 - Montreal"
   },
   {
+    "name": "Habushi Beach",
+    "lat": "28.294167",
+    "lng": "129.289444",
+    "country": "Japan, Amami Ōshima"
+  },
+  {
     "lng": "129.1605091095",
     "lat": "35.156828135359",
     "country": "South Korea",
@@ -13044,6 +13050,12 @@
     "name": "Iceys"
   },
   {
+    "name": "Ichiyumi Point",
+    "lat": "31.7600",
+    "lng": "131.4600",
+    "country": "Japan, Kyushu"
+  },
+  {
     "lng": "30.673227310181",
     "lat": "-30.425066985087",
     "country": "South Africa, Hibiscous Coast",
@@ -13654,6 +13666,12 @@
     "lat": "34.258883532814",
     "country": "Japan, Kii Hanto",
     "name": "Isonoura"
+  },
+  {
+    "name": "Isonoura Beach",
+    "lat": "34.211667",
+    "lng": "135.163611",
+    "country": "Japan, Wakayama"
   },
   {
     "lng": "-39.006013870239",
@@ -15292,6 +15310,12 @@
     "lat": "54.150924441849",
     "country": "Germany",
     "name": "Kühlungsborn"
+  },
+  {
+    "name": "Kujukuri Beach",
+    "lat": "35.483889",
+    "lng": "140.486944",
+    "country": "Japan, Chiba"
   },
   {
     "lng": "158.78213882446",
@@ -29754,6 +29778,12 @@
     "name": "Shock"
   },
   {
+    "name": "Shonan Beach",
+    "lat": "35.308611",
+    "lng": "139.558611",
+    "country": "Japan, Kanagawa"
+  },
+  {
     "lng": "131.41922950748",
     "lat": "31.604298235358",
     "country": "Japan, Kyushu",
@@ -33688,6 +33718,12 @@
     "lat": "34.35498674006",
     "country": "Japan, West Coast",
     "name": "Tsunoshima"
+  },
+  {
+    "name": "Tsurigasaki Beach",
+    "lat": "35.376389",
+    "lng": "140.578611",
+    "country": "Japan, Chiba"
   },
   {
     "lng": "43.708763122559",

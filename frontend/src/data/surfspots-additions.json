@@ -22,5 +22,41 @@
     "lat": "28.3215",
     "lng": "129.4466",
     "country": "Japan, Kagoshima"
+  },
+  {
+    "name": "Ichiyumi Point",
+    "lat": "31.7600",
+    "lng": "131.4600",
+    "country": "Japan, Kyushu"
+  },
+  {
+    "name": "Tsurigasaki Beach",
+    "lat": "35.376389",
+    "lng": "140.578611",
+    "country": "Japan, Chiba"
+  },
+  {
+    "name": "Kujukuri Beach",
+    "lat": "35.483889",
+    "lng": "140.486944",
+    "country": "Japan, Chiba"
+  },
+  {
+    "name": "Isonoura Beach",
+    "lat": "34.211667",
+    "lng": "135.163611",
+    "country": "Japan, Wakayama"
+  },
+  {
+    "name": "Shonan Beach",
+    "lat": "35.308611",
+    "lng": "139.558611",
+    "country": "Japan, Kanagawa"
+  },
+  {
+    "name": "Habushi Beach",
+    "lat": "28.294167",
+    "lng": "129.289444",
+    "country": "Japan, Amami Ōshima"
   }
 ]
