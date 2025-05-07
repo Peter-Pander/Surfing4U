@@ -918,6 +918,12 @@
     "name": "Amoudia Left"
   },
   {
+    "name": "Amrum",
+    "lat": "54.633333",
+    "lng": "8.366667",
+    "country": "Germany, North Sea"
+  },
+  {
     "lng": "-4.6751546859741",
     "lat": "48.583449518456",
     "country": "France, Brittany North",
@@ -12646,6 +12652,12 @@
     "lat": "32.820789522695",
     "country": "USA, California, San Diego County",
     "name": "Hogans"
+  },
+  {
+    "name": "Hohwachter Bucht",
+    "lat": "54.316667",
+    "lng": "10.666667",
+    "country": "Germany, Baltic Sea"
   },
   {
     "lng": "-124.24781799316",
@@ -35026,6 +35038,12 @@
     "lat": "38.315080220306",
     "country": "USA, North East, Virginia",
     "name": "Wedge"
+  },
+  {
+    "name": "Weißenhäuser Strand",
+    "lat": "54.333611",
+    "lng": "10.985000",
+    "country": "Germany, Baltic Sea"
   },
   {
     "lng": "80.430479049683",

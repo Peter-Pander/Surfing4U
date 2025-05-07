@@ -58,5 +58,23 @@
     "lat": "28.294167",
     "lng": "129.289444",
     "country": "Japan, Amami Ōshima"
+  },
+  {
+    "name": "Amrum",
+    "lat": "54.633333",
+    "lng": "8.366667",
+    "country": "Germany, North Sea"
+  },
+  {
+    "name": "Weißenhäuser Strand",
+    "lat": "54.333611",
+    "lng": "10.985000",
+    "country": "Germany, Baltic Sea"
+  },
+  {
+    "name": "Hohwachter Bucht",
+    "lat": "54.316667",
+    "lng": "10.666667",
+    "country": "Germany, Baltic Sea"
   }
 ]
