@@ -28,10 +28,33 @@ export default function SpotsPage() {
   const onSearchChange = (e) => {
     const term = e.target.value;
     setSearchTerm(term);
-    const found = surfspots.findIndex((s) =>
-      s.name.toLowerCase().includes(term.toLowerCase())
+    const lower = term.toLowerCase();
+
+    // try exact match first
+    const exact = surfspots.findIndex(
+      (s) => s.name.toLowerCase() === lower
     );
-    if (found >= 0) setIndex(found);
+    if (exact >= 0) {
+      setIndex(exact);
+      return;
+    }
+
+    // then prefix match
+    const prefix = surfspots.findIndex(
+      (s) => s.name.toLowerCase().startsWith(lower)
+    );
+    if (prefix >= 0) {
+      setIndex(prefix);
+      return;
+    }
+
+    // then partial match
+    const partial = surfspots.findIndex((s) =>
+      s.name.toLowerCase().includes(lower)
+    );
+    if (partial >= 0) {
+      setIndex(partial);
+    }
   };
 
   const spot = surfspots[index];
