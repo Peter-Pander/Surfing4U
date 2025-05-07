@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Izu Shirohama",
+    "lat": "34.6669",
+    "lng": "138.9446",
+    "country": "Japan, Shizuoka"
+  },
+  {
+    "name": "Kitaizumi",
+    "lat": "37.0208",
+    "lng": "141.0266",
+    "country": "Japan, Fukushima"
+  },
+  {
+    "name": "Chiba Wada",
+    "lat": "35.0402",
+    "lng": "140.0057",
+    "country": "Japan, Chiba"
+  },
+  {
+    "name": "Amami Oshima - Bira Reef",
+    "lat": "28.3215",
+    "lng": "129.4466",
+    "country": "Japan, Kagoshima"
+  }
+]

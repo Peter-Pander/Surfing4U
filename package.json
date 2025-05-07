@@ -6,9 +6,10 @@
     "frontend"
   ],
   "scripts": {
-    "dev": "concurrently \"npm run dev --workspace=backend\" \"npm run dev --workspace=frontend\"",
-    "build": "npm run build --workspace=frontend",
-    "start": "npm run start --workspace=backend",
+    "merge:data": "node scripts/mergeSurfspots.js",
+    "dev": "npm run merge:data && concurrently \"npm run dev --workspace=backend\" \"npm run dev --workspace=frontend\"",
+    "build": "npm run merge:data && npm run build --workspace=frontend",
+    "start": "npm run merge:data && npm run start --workspace=backend",
     "gen:profiles": "npm --prefix backend run gen:profiles"
   },
   "dependencies": {
