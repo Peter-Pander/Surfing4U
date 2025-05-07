@@ -13815,11 +13815,7 @@
     "lng": "-72.540578842163",
     "lat": "18.220383576035",
     "country": "Haiti",
-    "name": "Jacmel",
-    "videos": [
-      "dQw4w9WgXcQ",
-      "3JZ_D3ELwOQ"
-    ]
+    "name": "Jacmel"
   },
   {
     "lng": "-84.621591567993",
@@ -23815,13 +23811,7 @@
     "lng": "-158.05057168007",
     "lat": "21.66784799238",
     "country": "USA, Hawaii, Oahu",
-    "name": "Pipeline",
-    "videos": [
-      "abc123",
-      "def456",
-      "ghi789",
-      "jkl012"
-    ]
+    "name": "Pipeline"
   },
   {
     "lng": "-86.765786111111",
@@ -35353,61 +35343,103 @@
     "lng": "-67.16924071312",
     "lat": "18.476195101353",
     "country": "Puerto Rico",
-    "name": "Wilderness"
+    "name": "Wilderness",
+    "videos": [
+      "ZvpQ7dmKD4Q",
+      "0p3dge0bRZA",
+      "hjLfg_-5-BQ"
+    ]
   },
   {
     "lng": "-63.027222222222",
     "lat": "18.124166666667",
     "country": "St Martin",
-    "name": "Wilderness"
+    "name": "Wilderness",
+    "videos": [
+      "sKNlVr7VRFE",
+      "NvsWwiWPOyo",
+      "cz3JSGyowO4"
+    ]
   },
   {
     "lng": "22.568578720093",
     "lat": "-33.997315674187",
     "country": "South Africa, South George",
-    "name": "Wilderness Beach"
+    "name": "Wilderness Beach",
+    "videos": [
+      "9Ldegz3NGnI",
+      "8_LKHWxc9HI"
+    ]
   },
   {
     "lng": "22.557527777778",
     "lat": "-34.001916666667",
     "country": "South Africa, South George",
-    "name": "Wilderness Rivermouth"
+    "name": "Wilderness Rivermouth",
+    "videos": [
+      "G3eUGf004WE"
+    ]
   },
   {
     "lng": "-74.787111282349",
     "lat": "39.001576689346",
     "country": "USA, North East, New Jersey",
-    "name": "Wildwood 2nd Street"
+    "name": "Wildwood 2nd Street",
+    "videos": [
+      "aWdkgeAIpFo",
+      "EJ0hMO4vzRc",
+      "6ExD3BLo9QU"
+    ]
   },
   {
     "lng": "177.16947555542",
     "lat": "-17.841525287708",
     "country": "Fiji",
-    "name": "Wilkes Passage"
+    "name": "Wilkes Passage",
+    "videos": [
+      "ty6VFVeQqjk",
+      "k67dqsIUXa0"
+    ]
   },
   {
     "lng": "-118.5273501277",
     "lat": "34.03045823433",
     "country": "USA, California, LA County",
-    "name": "Will Rogers"
+    "name": "Will Rogers",
+    "videos": [
+      "QxfchlC2Hqc"
+    ]
   },
   {
     "lng": "144.89000201224",
     "lat": "-37.868476076847",
     "country": "Australia, VIC, Melbourne West",
-    "name": "williamstown beach"
+    "name": "williamstown beach",
+    "videos": [
+      "kz3nPBFZgCs",
+      "orFsg7Zjt3k"
+    ]
   },
   {
     "lng": "114.99793052673",
     "lat": "-33.792076973427",
     "country": "Australia, WA, Margaret River North",
-    "name": "Willyabrup"
+    "name": "Willyabrup",
+    "videos": [
+      "MHPb-TxWaVE",
+      "_baVhyAz0HY",
+      "oyKGbjK3bQM"
+    ]
   },
   {
     "lng": "136.98268890381",
     "lat": "-35.248072441393",
     "country": "Australia, SA, York Peninsula",
-    "name": "Willyama Bay"
+    "name": "Willyama Bay",
+    "videos": [
+      "qs77Dgfy_ew",
+      "RLldLmG6r8U"
+    ]
   },
   {
     "lng": "-124.10173416138",

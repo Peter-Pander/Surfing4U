@@ -75,9 +75,10 @@ try {
   // sort alphabetically by name (now guaranteed to exist)
   unique.sort((a, b) => a.name.localeCompare(b.name));
 
-  // inject up to 4 videos per spot
+  // inject up to 4 videos per spot, matching on "Name, Country" key
   unique.forEach(spot => {
-    const vids = videosMap[spot.name];
+    const compositeKey = `${spot.name}, ${spot.country}`;
+    const vids = videosMap[compositeKey];
     if (Array.isArray(vids) && vids.length > 0) {
       spot.videos = vids.slice(0, 4);
     }
