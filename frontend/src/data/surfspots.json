@@ -3,19 +3,34 @@
     "lng": "4.1428327560425",
     "lat": "52.01150069904",
     "country": "Netherlands",
-    "name": "'s-Gravenzande"
+    "name": "'s-Gravenzande",
+    "videos": [
+      "5LBaXHh9AF0",
+      "I7hOWN4Zhuk",
+      "gaCbnMEEPnA",
+      "A8FPrLoNHyk"
+    ]
   },
   {
     "lng": "3.3628463745118",
     "lat": "51.370923071145",
     "country": "Belgium",
-    "name": "'t Zwin"
+    "name": "'t Zwin",
+    "videos": [
+      "E1qRBQuQ7kY",
+      "8KIJTQx-cck",
+      "BnDJTc1IPfU",
+      "ERIffzzFYOQ"
+    ]
   },
   {
     "lng": "18.407592773438",
     "lat": "-33.671782783644",
     "country": "South Africa, SW Coast",
-    "name": "11th Ave Melkbos Strand"
+    "name": "11th Ave Melkbos Strand",
+    "videos": [
+      "SXT-f2b74MQ"
+    ]
   },
   {
     "lng": "-78.980884552002",
@@ -27,7 +42,11 @@
     "lng": "144.4616317749",
     "lat": "-38.285355481221",
     "country": "Australia, VIC, Melbourne West",
-    "name": "13th beach"
+    "name": "13th beach",
+    "videos": [
+      "ocrSx2RCdw8",
+      "lI4UDgJkw2w"
+    ]
   },
   {
     "lng": "-80.608985424042",
@@ -39,109 +58,209 @@
     "lng": "-9.6858966350555",
     "lat": "30.506121716054",
     "country": "Morocco, South",
-    "name": "14th km."
+    "name": "14th km.",
+    "videos": [
+      "pT03AwdWuTg"
+    ]
   },
   {
     "lng": "-117.26961135864",
     "lat": "32.958805616471",
     "country": "USA, California, San Diego County",
-    "name": "15th St."
+    "name": "15th St.",
+    "videos": [
+      "qPVLeQxRmeI",
+      "kTi1wN5arOo",
+      "0Z-W2LCp5Hw",
+      "zgZoAXHN8zA"
+    ]
   },
   {
     "lng": "18.154660463333",
     "lat": "-33.359011501838",
     "country": "South Africa, West Coast",
-    "name": "16 MILE BEACH"
+    "name": "16 MILE BEACH",
+    "videos": [
+      "8CvKZmEwWqU",
+      "pJ63Pr1Gf8A",
+      "CNMLukGy1yM",
+      "f1DnWIS08uw"
+    ]
   },
   {
     "lng": "-87.114865779877",
     "lat": "30.335083520857",
     "country": "USA, Gulf Coast, Florida",
-    "name": "17th Ave"
+    "name": "17th Ave",
+    "videos": [
+      "UPJiLuwZch8",
+      "ALRoebu0Rgs",
+      "XeldhceOkh0",
+      "FEY-w3HiKHo"
+    ]
   },
   {
     "lng": "-118.01432132721",
     "lat": "33.663424992738",
     "country": "USA, California, Orange County",
-    "name": "17th Street"
+    "name": "17th Street",
+    "videos": [
+      "ALRoebu0Rgs",
+      "tIRIiDVVdUs",
+      "z08d0UOdm8g",
+      "XeldhceOkh0"
+    ]
   },
   {
     "lng": "-71.291527748108",
     "lat": "41.487218449774",
     "country": "USA, North East, Southern New England",
-    "name": "1st beach"
+    "name": "1st beach",
+    "videos": [
+      "ALRoebu0Rgs",
+      "XeldhceOkh0",
+      "aNc42SiiFrs",
+      "rzNfuvSb2iU"
+    ]
   },
   {
     "lng": "-75.967771410942",
     "lat": "36.830412875926",
     "country": "USA, North East, Virginia",
-    "name": "1st Street Jetty"
+    "name": "1st Street Jetty",
+    "videos": [
+      "h3GVgLQpcaY",
+      "YtRPy8Cbkic",
+      "49GLNld0xgc",
+      "q4VWZo3IQLs"
+    ]
   },
   {
     "lng": "114.37447786331",
     "lat": "-8.707180455719",
     "country": "Indonesia, East Java",
-    "name": "20-20s"
+    "name": "20-20s",
+    "videos": [
+      "jkAgQ6TE36g",
+      "VOZk2XhnOgs"
+    ]
   },
   {
     "lng": "-123.19472908974",
     "lat": "49.334964966094",
     "country": "Canada, West Coast",
-    "name": "29th Street"
+    "name": "29th Street",
+    "videos": [
+      "ALRoebu0Rgs",
+      "YRrxXz5fp04",
+      "P7TM0G0J1V0",
+      "XeldhceOkh0"
+    ]
   },
   {
     "lng": "-78.885655403137",
     "lat": "33.683496610692",
     "country": "USA, South East, South Carolina",
-    "name": "2nd Avenue Pier"
+    "name": "2nd Avenue Pier",
+    "videos": [
+      "ALRoebu0Rgs",
+      "JUNwaYp7QR8",
+      "XeldhceOkh0",
+      "0hM7jmiwGz8"
+    ]
   },
   {
     "lng": "-71.258418560028",
     "lat": "41.487748890187",
     "country": "USA, North East, Southern New England",
-    "name": "2nd Beach"
+    "name": "2nd Beach",
+    "videos": [
+      "ALRoebu0Rgs",
+      "XeldhceOkh0",
+      "aNc42SiiFrs",
+      "rzNfuvSb2iU"
+    ]
   },
   {
     "lng": "152.59743690491",
     "lat": "-31.966744587332",
     "country": "Australia, NSW, Mid North Coast",
-    "name": "2nd corner"
+    "name": "2nd corner",
+    "videos": [
+      "ALRoebu0Rgs",
+      "5sX52LmNnnA",
+      "0hM7jmiwGz8",
+      "R2zJ73ccgfk"
+    ]
   },
   {
     "lng": "-80.603331327438",
     "lat": "28.252735731286",
     "country": "USA, South East, North Florida",
-    "name": "2nd Light"
+    "name": "2nd Light",
+    "videos": [
+      "yO63SebfU-M",
+      "aNc42SiiFrs",
+      "STygciSWUT0",
+      "rzNfuvSb2iU"
+    ]
   },
   {
     "lng": "115.75018823147",
     "lat": "-31.845587214995",
     "country": "Australia, WA, Perth City",
-    "name": "2nds"
+    "name": "2nds",
+    "videos": [
+      "Y4TVQY0rBX8",
+      "jbCWDm8zHR0",
+      "MIcVr2no4Ag",
+      "sqfstMzLoG8"
+    ]
   },
   {
     "lng": "-116.71371281147",
     "lat": "31.897257421069",
     "country": "Mexico, Baja Norte",
-    "name": "3 emes"
+    "name": "3 emes",
+    "videos": [
+      "0wN1lODSgnY",
+      "vEDKkTUFdDc",
+      "C36i_rBVZEs",
+      "BPcn6xpeCKI"
+    ]
   },
   {
     "lng": "-122.1173286438",
     "lat": "36.961500196913",
     "country": "USA, California, Santa Cruz",
-    "name": "3 Mile"
+    "name": "3 Mile",
+    "videos": [
+      "AMdXwpOQjRc",
+      "Ep4VAJuOT00",
+      "VY2EW4daHbY",
+      "jd3YH7mEIcA"
+    ]
   },
   {
     "lng": "150.54265022278",
     "lat": "-35.24670558569",
     "country": "Australia, NSW, South Coast",
-    "name": "3 way"
+    "name": "3 way",
+    "videos": [
+      "nacuweRmOns",
+      "pkLBK-Poew8",
+      "j0yJSHvMuJA",
+      "iVasQBblZsU"
+    ]
   },
   {
     "lng": "138.46675515175",
     "lat": "-35.177614339396",
     "country": "Australia, SA, York Peninsula",
-    "name": "3-poles reef"
+    "name": "3-poles reef",
+    "videos": [
+      "R2zJ73ccgfk"
+    ]
   },
   {
     "lng": "-79.766889810562",
@@ -153,61 +272,121 @@
     "lng": "-117.93722391129",
     "lat": "33.615155376281",
     "country": "USA, California, Orange County",
-    "name": "36th street"
+    "name": "36th street",
+    "videos": [
+      "TRUiQ-4J98o",
+      "ALRoebu0Rgs",
+      "pplraPlzDhc",
+      "U89qmBxATGg"
+    ]
   },
   {
     "lng": "-74.685895442963",
     "lat": "39.15717812309",
     "country": "USA, North East, New Jersey",
-    "name": "36th Street"
+    "name": "36th Street",
+    "videos": [
+      "R2zJ73ccgfk",
+      "WK7ZfGkFbTY",
+      "BnWGNHx4XUI",
+      "rzyX9cHTV2Y"
+    ]
   },
   {
     "lng": "128.7326592207",
     "lat": "38.006066734238",
     "country": "South Korea",
-    "name": "38th Parallel"
+    "name": "38th Parallel",
+    "videos": [
+      "3MPethMyFws",
+      "usF_C-qqI6c",
+      "HcBnSuq8b1o",
+      "rzyX9cHTV2Y"
+    ]
   },
   {
     "lng": "-74.386324882507",
     "lat": "39.387917291121",
     "country": "USA, North East, New Jersey",
-    "name": "38th St. Beach"
+    "name": "38th St. Beach",
+    "videos": [
+      "OqtDxvtJR8g",
+      "R2zJ73ccgfk",
+      "b0r7RHBmZ-4",
+      "edcko5o8h9c"
+    ]
   },
   {
     "lng": "18.444328308105",
     "lat": "-33.772762043212",
     "country": "South Africa, Cape Town",
-    "name": "3de Steen"
+    "name": "3de Steen",
+    "videos": [
+      "Z7nTzJ1uP_8",
+      "1TUAguLP5pM",
+      "JfeDzDN1toM",
+      "iNZC-dM6eWs"
+    ]
   },
   {
     "lng": "115.74690520763",
     "lat": "-31.833670075763",
     "country": "Australia, WA, Perth City",
-    "name": "3rd Groyne"
+    "name": "3rd Groyne",
+    "videos": [
+      "n5ojwEvuWHA",
+      "H9coVf4YSUU",
+      "AdVHyOSquE0",
+      "Qd9eSKUD83E"
+    ]
   },
   {
     "lng": "99.310655593872",
     "lat": "-1.9091219602854",
     "country": "Indonesia, Mentawai",
-    "name": "4 Bobs"
+    "name": "4 Bobs",
+    "videos": [
+      "H4mjHmmd9ck",
+      "-NZze3ZBGjE",
+      "WhtM0GODO60",
+      "9-y9IwTECYQ"
+    ]
   },
   {
     "lng": "-122.12505340576",
     "lat": "36.965563579633",
     "country": "USA, California, Santa Cruz",
-    "name": "4 Mile"
+    "name": "4 Mile",
+    "videos": [
+      "jd3YH7mEIcA",
+      "NJSMKXAp_Xg",
+      "xoPNcAg_OIU",
+      "KNP9GtDKkwo"
+    ]
   },
   {
     "lng": "-155.02799034119",
     "lat": "19.735198843714",
     "country": "USA, Hawaii, Hawaii Island",
-    "name": "4 Miles"
+    "name": "4 Miles",
+    "videos": [
+      "eyzbXCuEi8I",
+      "rnq2wBKEyLg",
+      "VVnvz8j7ZhI",
+      "Jfrle3U1G2Q"
+    ]
   },
   {
     "lng": "-117.93889760971",
     "lat": "33.617299678724",
     "country": "USA, California, Orange County",
-    "name": "40th Street"
+    "name": "40th Street",
+    "videos": [
+      "Xp3DcgEyPF4",
+      "TRUiQ-4J98o",
+      "XeldhceOkh0",
+      "R2zJ73ccgfk"
+    ]
   },
   {
     "lng": "-80.519651770592",
@@ -219,91 +398,179 @@
     "lng": "-75.982003211975",
     "lat": "36.870935151143",
     "country": "USA, North East, Virginia",
-    "name": "42nd St. VA Beach"
+    "name": "42nd St. VA Beach",
+    "videos": [
+      "BSYEWIBkm80",
+      "jGyxq8do7WI",
+      "R2zJ73ccgfk",
+      "ZQsBtiwSEZ0"
+    ]
   },
   {
     "lng": "10.28497338295",
     "lat": "43.638792795902",
     "country": "Italy, Mainland",
-    "name": "46°"
+    "name": "46°",
+    "videos": [
+      "eSzuCHj4rRg",
+      "WzVHRZ2-xLE",
+      "KAS7Y2cfr4s",
+      "pLDglqPG-yA"
+    ]
   },
   {
     "lng": "-78.844730257988",
     "lat": "33.720658692791",
     "country": "USA, South East, South Carolina",
-    "name": "48th st. Myrtle Beach"
+    "name": "48th st. Myrtle Beach",
+    "videos": [
+      "R2zJ73ccgfk",
+      "FEY-w3HiKHo",
+      "Elanur6LRLg",
+      "Yzhexiyv39Q"
+    ]
   },
   {
     "lng": "-75.06695151329",
     "lat": "38.373230429205",
     "country": "USA, North East, Virginia",
-    "name": "48th Street (Ocean City)"
+    "name": "48th Street (Ocean City)",
+    "videos": [
+      "R2zJ73ccgfk",
+      "4B9bY4AIu8M",
+      "rzNfuvSb2iU",
+      "FEY-w3HiKHo"
+    ]
   },
   {
     "lng": "115.73548436165",
     "lat": "-32.504749211233",
     "country": "Australia, WA, Perth South",
-    "name": "4th groyne"
+    "name": "4th groyne",
+    "videos": [
+      "n5ojwEvuWHA",
+      "muPPPWuHPKo",
+      "foewkkSTd0k",
+      "-wrKNYk8Jc8"
+    ]
   },
   {
     "lng": "-80.246887207031",
     "lat": "-2.7312133615029",
     "country": "Ecuador",
-    "name": "5 1 2km  &  8 1 2km"
+    "name": "5 1 2km  &  8 1 2km",
+    "videos": [
+      "QG0n0muNsBY",
+      "hLDQJBrFHuo"
+    ]
   },
   {
     "lng": "127.74185121059",
     "lat": "26.331547281289",
     "country": "Japan, Okinawa",
-    "name": "5 rocks"
+    "name": "5 rocks",
+    "videos": [
+      "sS5aTySIvgY",
+      "j53sYQ50eSY",
+      "0hM7jmiwGz8",
+      "qKE1zF0OQcI"
+    ]
   },
   {
     "lng": "-117.94518470764",
     "lat": "33.623223036949",
     "country": "USA, California, Orange County",
-    "name": "56th St."
+    "name": "56th St.",
+    "videos": [
+      "-XCickslMEU",
+      "pplraPlzDhc",
+      "TRUiQ-4J98o",
+      "RsbpAlqsP9E"
+    ]
   },
   {
     "lng": "-74.635705947876",
     "lat": "39.221556798184",
     "country": "USA, North East, New Jersey",
-    "name": "57th Street"
+    "name": "57th Street",
+    "videos": [
+      "ALRoebu0Rgs",
+      "IGpMDUEiJi4",
+      "AcmcXLihbTQ",
+      "b0r7RHBmZ-4"
+    ]
   },
   {
     "lng": "-74.193077087402",
     "lat": "39.62155713954",
     "country": "USA, North East, New Jersey",
-    "name": "58th Street"
+    "name": "58th Street",
+    "videos": [
+      "DSPKPzZXF_U",
+      "rzyX9cHTV2Y",
+      "-SrOYu4qNRw",
+      "vKeK8FBhvUE"
+    ]
   },
   {
     "lng": "-74.233160018921",
     "lat": "39.564428398249",
     "country": "USA, North East, New Jersey",
-    "name": "5th Street Beach Haven"
+    "name": "5th Street Beach Haven",
+    "videos": [
+      "nsqrSaK7HCU",
+      "R2zJ73ccgfk",
+      "AcmcXLihbTQ",
+      "rzNfuvSb2iU"
+    ]
   },
   {
     "lng": "25.655876398087",
     "lat": "-33.978447519377",
     "country": "South Africa, South East Port Elizabeth",
-    "name": "6 pillars"
+    "name": "6 pillars",
+    "videos": [
+      "yUUa95f9MTw",
+      "Ieaj4W_5EZA",
+      "f4X3LqwCekg",
+      "W0GalUJyXmw"
+    ]
   },
   {
     "lng": "-74.098470211029",
     "lat": "11.320374195181",
     "country": "Colombia, Caribbean",
-    "name": "7 olas"
+    "name": "7 olas",
+    "videos": [
+      "D2_1SslwxjU",
+      "mChCMSlC-qE",
+      "g8TQJGatpks",
+      "oFWwJJhUAxM"
+    ]
   },
   {
     "lng": "126.09146118164",
     "lat": "9.2442786704715",
     "country": "Philippines, Mindanao",
-    "name": "7 rocks"
+    "name": "7 rocks",
+    "videos": [
+      "fo1BPRKD2Bg",
+      "IGtbGNOymVM",
+      "9SVgsXP1l7s",
+      "r_pUMcdBpbs"
+    ]
   },
   {
     "lng": "-81.389041543007",
     "lat": "30.296193427424",
     "country": "USA, South East, North Florida",
-    "name": "7th Avenue"
+    "name": "7th Avenue",
+    "videos": [
+      "ALRoebu0Rgs",
+      "AcmcXLihbTQ",
+      "nsqrSaK7HCU",
+      "R2zJ73ccgfk"
+    ]
   },
   {
     "lng": "-75.989180803299",
@@ -315,67 +582,133 @@
     "lng": "-78.770309686661",
     "lat": "33.770211362159",
     "country": "USA, South East, South Carolina",
-    "name": "8th Ave n."
+    "name": "8th Ave n.",
+    "videos": [
+      "ALRoebu0Rgs",
+      "XeldhceOkh0",
+      "0hM7jmiwGz8",
+      "AcmcXLihbTQ"
+    ]
   },
   {
     "lng": "-10.78841328621",
     "lat": "6.2903422513069",
     "country": "Liberia",
-    "name": "8th street"
+    "name": "8th street",
+    "videos": [
+      "uAnYjIEJsVg",
+      "Oj_gELOP7zg",
+      "HT1gB4os7RA",
+      "ET3whFw29co"
+    ]
   },
   {
     "lng": "173.15380096436",
     "lat": "-35.037586537405",
     "country": "New Zealand, New Zealand NI, NW Coast",
-    "name": "90 Mile Beach"
+    "name": "90 Mile Beach",
+    "videos": [
+      "C93W_-cDxmY",
+      "GwDpY6g5h-Y",
+      "rzyX9cHTV2Y",
+      "mlbHsQ4fH1E"
+    ]
   },
   {
     "lng": "-73.812053203583",
     "lat": "40.583330639749",
     "country": "USA, North East, Long Island NY",
-    "name": "92nd Street"
+    "name": "92nd Street",
+    "videos": [
+      "ALRoebu0Rgs",
+      "IGpMDUEiJi4",
+      "nsqrSaK7HCU",
+      "z83DEuV-SiQ"
+    ]
   },
   {
     "lng": "-8.8814163208008",
     "lat": "42.454621116231",
     "country": "Spain, Galicia",
-    "name": "A Lanzada"
+    "name": "A Lanzada",
+    "videos": [
+      "zU6L9W3ucMo",
+      "oP-4oNhoYBQ",
+      "2aRS9vmHwCI",
+      "6DK7MAi4wK8"
+    ]
   },
   {
     "lng": "153.11654090881",
     "lat": "-26.387564033081",
     "country": "Australia, QLD, Sunshine Coast",
-    "name": "A-Bay"
+    "name": "A-Bay",
+    "videos": [
+      "cxLpuWXnGDw",
+      "uunbn3x5VEo",
+      "xq_AWovlKqQ",
+      "_-U0pEL3qlI"
+    ]
   },
   {
     "lng": "-120.86955428124",
     "lat": "35.403165679424",
     "country": "USA, California, San Luis Obispo",
-    "name": "A-Beach"
+    "name": "A-Beach",
+    "videos": [
+      "H1x_awuMwX4",
+      "muZPk_oY_Ns",
+      "sdZtdYjxaDg",
+      "GzpyTt4D4n0"
+    ]
   },
   {
     "lng": "12.065391540527",
     "lat": "57.339215030548",
     "country": "Sweden",
-    "name": "Å-land"
+    "name": "Å-land",
+    "videos": [
+      "ForyCsomacg",
+      "Jna1sBKvf4c",
+      "TaGYngv4G3w",
+      "ioq3f28JKJI"
+    ]
   },
   {
     "lng": "-8.775200843811",
     "lat": "41.390589886459",
     "country": "Portugal, North Porto",
-    "name": "A-ver-o-mar"
+    "name": "A-ver-o-mar",
+    "videos": [
+      "6SVplVLaCIE",
+      "YIqvDmR3mgQ",
+      "69EDrIUBEMM",
+      "ZfLSN4mxY0E"
+    ]
   },
   {
     "lng": "99.593939781189",
     "lat": "-2.2784615120746",
     "country": "Indonesia, Mentawai",
-    "name": "aaron's"
+    "name": "aaron's",
+    "videos": [
+      "yc-Lx_f6M9s",
+      "hkY9yeIbfDI",
+      "DWIt0Id6k1s",
+      "JbYlq84p3iY"
+    ]
   },
   {
     "lng": "-117.25699961185",
     "lat": "32.713912773621",
     "country": "USA, California, San Diego County",
-    "name": "Ab"
+    "name": "Ab",
+    "videos": [
+      "fXUGWJ5vX8Y",
+      "R2zJ73ccgfk",
+      "IGpMDUEiJi4",
+      "uqoXZP2P7Wo"
+    ]
   },
   {
     "lng": "-157.89822220802",
@@ -387,7 +720,13 @@
     "lng": "-118.37602257729",
     "lat": "33.737772743545",
     "country": "USA, California, LA County",
-    "name": "Abalone Cove"
+    "name": "Abalone Cove",
+    "videos": [
+      "2DNcbjQJG8M",
+      "JAF_OQkoyck",
+      "H5sZzh_prdw",
+      "pXk7PczxygQ"
+    ]
   },
   {
     "lng": "-4.6327972412109",
@@ -399,37 +738,73 @@
     "lng": "-3.8109683990479",
     "lat": "51.585325889366",
     "country": "UK, South Wales",
-    "name": "Aberavon"
+    "name": "Aberavon",
+    "videos": [
+      "w-CbIXBCbVU",
+      "y-P34qA8sRY",
+      "ZvPff41-q3E",
+      "KHaRCorZT6k"
+    ]
   },
   {
     "lng": "-4.7035217285156",
     "lat": "52.806497325082",
     "country": "UK, North Wales and NW England",
-    "name": "Aberdaron"
+    "name": "Aberdaron",
+    "videos": [
+      "jrlHluf2xIE",
+      "6Dr5H2phbUI",
+      "pS-SzhFppU0",
+      "b7CExUW37JQ"
+    ]
   },
   {
     "lng": "-2.0793342590332",
     "lat": "57.164639439826",
     "country": "UK, East Scotland",
-    "name": "Aberdeen"
+    "name": "Aberdeen",
+    "videos": [
+      "U8bVSOs4N2U",
+      "_I_zg52vPB0",
+      "djjHI63naIA",
+      "-QQgKrxrLNw"
+    ]
   },
   {
     "lng": "-13.290882110596",
     "lat": "8.4910697360278",
     "country": "Sierra Leone",
-    "name": "Aberdeen Area Beach"
+    "name": "Aberdeen Area Beach",
+    "videos": [
+      "rwv2hdZYVKk",
+      "mSxwLX20ZwM",
+      "fR3dASe52a0",
+      "OXrHi0PH6Ec"
+    ]
   },
   {
     "lng": "-4.5067977905273",
     "lat": "52.823797664671",
     "country": "UK, North Wales and NW England",
-    "name": "abersoch"
+    "name": "abersoch",
+    "videos": [
+      "jrlHluf2xIE",
+      "HpAx-QmagDA",
+      "LchWDO6hPe4",
+      "3IfjQ9QM9WA"
+    ]
   },
   {
     "lng": "-8.7821583333333",
     "lat": "38.1761",
     "country": "Portugal, South",
-    "name": "Aberta-A-Nova"
+    "name": "Aberta-A-Nova",
+    "videos": [
+      "dfh5s0thTyM",
+      "GOrXbqjuuCY",
+      "C93W_-cDxmY",
+      "e54xkL8TYzc"
+    ]
   },
   {
     "lng": "25.480148792267",
@@ -441,55 +816,106 @@
     "lng": "-32.400580644608",
     "lat": "-3.8276018092756",
     "country": "Brazil, Fernando do Noronha",
-    "name": "Abras"
+    "name": "Abras",
+    "videos": [
+      "MXudyovyZjQ",
+      "r7zqZWJtDP4",
+      "KajieXWflII",
+      "yjjUNXnHzQU"
+    ]
   },
   {
     "lng": "-59.590036869049",
     "lat": "13.072674908698",
     "country": "Barbados",
-    "name": "Accra Beach - Rockley Beach"
+    "name": "Accra Beach - Rockley Beach",
+    "videos": [
+      "PtE9wZdJXhw",
+      "GRV4kQlSxvg",
+      "rBTfB9395to",
+      "IpNYco1DTms"
+    ]
   },
   {
     "lng": "-17.220082283022",
     "lat": "32.851074236901",
     "country": "Madeira",
-    "name": "Achadas da Cruz"
+    "name": "Achadas da Cruz",
+    "videos": [
+      "8yyuDU5ePAw",
+      "AtV-kohAmj4",
+      "Tra3_O31J1o",
+      "k5-8Io_ftVw"
+    ]
   },
   {
     "lng": "-13.933839797974",
     "lat": "28.74775223066",
     "country": "Canary, Fuerte Ventura",
-    "name": "Acid Drop"
+    "name": "Acid Drop",
+    "videos": [
+      "5klj0X8hl-c",
+      "nVHqRcff27U",
+      "j-DhFz7clzY",
+      "E4FpVEHJXKk"
+    ]
   },
   {
     "lng": "150.90359508991",
     "lat": "-34.411764714983",
     "country": "Australia, NSW, Coal Coast",
-    "name": "Acids"
+    "name": "Acids",
+    "videos": [
+      "TVA31TZjEI8"
+    ]
   },
   {
     "lng": "28.085389137268",
     "lat": "36.096256229045",
     "country": "Greece, Greek Islands",
-    "name": "Acropolis"
+    "name": "Acropolis",
+    "videos": [
+      "c1_YKbQccTc",
+      "L8vqjAE1VXY",
+      "Ly5NY3Gx03Q",
+      "8eQj2lFJPoE"
+    ]
   },
   {
     "lng": "-0.59042930603027",
     "lat": "54.48927378547",
     "country": "UK, East England",
-    "name": "Admirals"
+    "name": "Admirals",
+    "videos": [
+      "gDfZLy79YOo",
+      "pSNhG9OHuJw",
+      "C93W_-cDxmY",
+      "GwDpY6g5h-Y"
+    ]
   },
   {
     "lng": "73.100430965423",
     "lat": "2.1840284347854",
     "country": "Maldives",
-    "name": "Adonis"
+    "name": "Adonis",
+    "videos": [
+      "IXQf5Wxq3UU",
+      "bu4vBaL4LLU",
+      "_KHk0zoVees",
+      "ysTo9fMp4sw"
+    ]
   },
   {
     "lng": "-9.4853210449219",
     "lat": "38.803262951679",
     "country": "Portugal, Central Lisboa",
-    "name": "Adraga"
+    "name": "Adraga",
+    "videos": [
+      "7ehpVFMnkEI",
+      "GX7NRLWU0iE",
+      "ax7KqrbOWlg",
+      "WBqwIXPqTS4"
+    ]
   },
   {
     "lng": "12.83333",
@@ -507,7 +933,13 @@
     "lng": "97.229862213135",
     "lat": "1.2597213423289",
     "country": "Indonesia, Sumatra Islands",
-    "name": "Afulu"
+    "name": "Afulu",
+    "videos": [
+      "30mSRRviDq0",
+      "25aNEZDT6y0",
+      "tHuM3MQRvAk",
+      "8leUGLB9cCA"
+    ]
   },
   {
     "lng": "21.721343994141",
@@ -519,49 +951,97 @@
     "lng": "29.773292541504",
     "lat": "31.127905409999",
     "country": "Egypt",
-    "name": "Agami"
+    "name": "Agami",
+    "videos": [
+      "MO6MThB20ck",
+      "IxLQYexxYfg",
+      "nupJZWt6A1c",
+      "kaqUW2wOeB0"
+    ]
   },
   {
     "lng": "-172.28722214699",
     "lat": "-13.775086552996",
     "country": "Samoa Western",
-    "name": "aganoa"
+    "name": "aganoa",
+    "videos": [
+      "bioST9Rh85s",
+      "dTbJAqv7_Vo",
+      "yXDxW6N66Og",
+      "HuymxEUFJGM"
+    ]
   },
   {
     "lng": "-124.06293869019",
     "lat": "44.653634735462",
     "country": "USA, North West, Oregon Central",
-    "name": "Agate Beach"
+    "name": "Agate Beach",
+    "videos": [
+      "fC8oDQD7uqQ",
+      "9-OMRGeKGHw",
+      "xR8u-gI6mlE",
+      "emhTV_OXZrM"
+    ]
   },
   {
     "lng": "-124.06802415848",
     "lat": "44.672269464147",
     "country": "USA, North West, Oregon Central",
-    "name": "Agate Beach North"
+    "name": "Agate Beach North",
+    "videos": [
+      "fC8oDQD7uqQ",
+      "9-OMRGeKGHw",
+      "xR8u-gI6mlE",
+      "Aj1DPKTk8Mc"
+    ]
   },
   {
     "lng": "8.2212066650391",
     "lat": "56.724760627408",
     "country": "Denmark",
-    "name": "Agger"
+    "name": "Agger",
+    "videos": [
+      "VEByhvaCb84",
+      "FFrDgbo-SJs",
+      "gRk2juCEH9Q",
+      "DgdP2XwCyKA"
+    ]
   },
   {
     "lng": "26.150853931904",
     "lat": "35.196059014707",
     "country": "Greece, Crete Island",
-    "name": "Agia Fotia"
+    "name": "Agia Fotia",
+    "videos": [
+      "9J-kIJz9SiQ",
+      "cQTClJH_y34",
+      "_Iqowck44js",
+      "jO3zTBNWkzc"
+    ]
   },
   {
     "lng": "23.851211071014",
     "lat": "37.805079445237",
     "country": "Greece, Pelloponisos",
-    "name": "Agios Dimitrios"
+    "name": "Agios Dimitrios",
+    "videos": [
+      "CJhEy62mDto",
+      "LFeVf6ULzJ4",
+      "1Z2mB-JklLI",
+      "AURqTX4PJB4"
+    ]
   },
   {
     "lng": "19.681148529053",
     "lat": "39.714977900366",
     "country": "Greece, Ionian Sea",
-    "name": "Agios Giorgios - Corfu"
+    "name": "Agios Giorgios - Corfu",
+    "videos": [
+      "V6t2vQiraXU",
+      "okJi35paph4",
+      "3Hxqc0iRtvU",
+      "f5hmaVTOy0c"
+    ]
   },
   {
     "lng": "29.624741077423",
@@ -573,31 +1053,61 @@
     "lng": "151.90894603729",
     "lat": "-24.2082987206",
     "country": "Australia, QLD, Central-Queensland",
-    "name": "Agnes Water"
+    "name": "Agnes Water",
+    "videos": [
+      "2uTA6Q0Lqm8",
+      "WSnJGF-Evcg",
+      "74r2ahguWfU",
+      "SQBoyDoiOXs"
+    ]
   },
   {
     "lng": "21.597098708153",
     "lat": "37.215616932872",
     "country": "Greece, Pelloponisos",
-    "name": "Agrili"
+    "name": "Agrili",
+    "videos": [
+      "3wCIQrnlZz0",
+      "OEg-_Uv74rg",
+      "fmGA8fzpTQE",
+      "AbSt91QcZJ4"
+    ]
   },
   {
     "lng": "-8.7876892089844",
     "lat": "41.430371882653",
     "country": "Portugal, North Porto",
-    "name": "Aguçadoura"
+    "name": "Aguçadoura",
+    "videos": [
+      "_TmbYPQy6YA",
+      "HV7yuYAwN5k",
+      "WazzL2WAl1Q",
+      "IdAVFdaNTCc"
+    ]
   },
   {
     "lng": "-6.1167132854462",
     "lat": "43.555017530652",
     "country": "Spain, Asturias",
-    "name": "Aguilar"
+    "name": "Aguilar",
+    "videos": [
+      "jwuYcQeoMlE",
+      "0W4LulQgVds",
+      "g1uidXtMDyA",
+      "4AS8D-apIXA"
+    ]
   },
   {
     "lng": "-84.653928279877",
     "lat": "9.7226987535235",
     "country": "Costa Rica, Pacific South",
-    "name": "Agujas"
+    "name": "Agujas",
+    "videos": [
+      "P3rE0AIjKus",
+      "Kwfo4JjiNfw",
+      "dtPqjGcQ1Xg",
+      "SC5NCqrzBDc"
+    ]
   },
   {
     "lng": "-71.70168042183",
@@ -609,31 +1119,58 @@
     "lng": "27.94314622879",
     "lat": "42.100903538971",
     "country": "Bulgaria",
-    "name": "Ahtony"
+    "name": "Ahtony",
+    "videos": [
+      "iUruBgOEdIQ",
+      "R2zJ73ccgfk",
+      "FEY-w3HiKHo",
+      "eATodAKfIk0"
+    ]
   },
   {
     "lng": "55.216770172119",
     "lat": "-21.03700245061",
     "country": "Reunion",
-    "name": "Aigrettes left"
+    "name": "Aigrettes left",
+    "videos": [
+      "XTVCHJLML1k",
+      "4NLifoApTMc",
+      "nGw3P5Mk3bY"
+    ]
   },
   {
     "lng": "55.218060314655",
     "lat": "-21.034471454763",
     "country": "Reunion",
-    "name": "Aigrettes Right"
+    "name": "Aigrettes Right",
+    "videos": [
+      "CmnlyW6wcv0",
+      "4NLifoApTMc"
+    ]
   },
   {
     "lng": "1.8285799026489",
     "lat": "41.23434893312",
     "country": "Spain, Mediterranean",
-    "name": "Aiguadolc"
+    "name": "Aiguadolc",
+    "videos": [
+      "6chwCRDSNs4",
+      "95M-GmXDi0Q",
+      "EVtFuZwEx_A",
+      "IL_QqUBsF_Q"
+    ]
   },
   {
     "lng": "-9.438929557801",
     "lat": "52.984100257323",
     "country": "Ireland, West",
-    "name": "Aileens"
+    "name": "Aileens",
+    "videos": [
+      "VeHfempVyEE",
+      "eVgULAscfb8",
+      "MMKQMQ6I-0k",
+      "FGnlb-hMboQ"
+    ]
   },
   {
     "lng": "-7.6927015185356",
@@ -645,55 +1182,109 @@
     "lng": "-0.735901594161987",
     "lat": "35.7377723171548",
     "country": "Algeria",
-    "name": "Ain El Turk"
+    "name": "Ain El Turk",
+    "videos": [
+      "O953KBmLKQ8",
+      "q0vLGsT0VFk",
+      "G4uBZtfGvPE",
+      "dYsrAQ4VcOM"
+    ]
   },
   {
     "lng": "-62.839522361755",
     "lat": "17.907141018684",
     "country": "St Barthelemy",
-    "name": "Airport left"
+    "name": "Airport left",
+    "videos": [
+      "B_7Iyi8zPj8",
+      "1qfYEIYdJ3k",
+      "2Ga5JnwBOzE",
+      "rzyX9cHTV2Y"
+    ]
   },
   {
     "lng": "73.1715631485",
     "lat": "-0.70290051573316",
     "country": "Maldives",
-    "name": "Airport right"
+    "name": "Airport right",
+    "videos": [
+      "qma29DBW9fs",
+      "_0beq4ayWM8",
+      "bAEc-yDmkf4",
+      "-WC6v5LGGtU"
+    ]
   },
   {
     "lng": "174.80711460114",
     "lat": "-41.337195167074",
     "country": "New Zealand, New Zealand NI, SW Coast",
-    "name": "Airport Rights"
+    "name": "Airport Rights",
+    "videos": [
+      "BiQQZ4WExWA",
+      "C93W_-cDxmY",
+      "rzyX9cHTV2Y",
+      "bYimdgaA-1Q"
+    ]
   },
   {
     "lng": "115.15032291412",
     "lat": "-8.7451238820147",
     "country": "Indonesia, Bali",
-    "name": "Airport's"
+    "name": "Airport's",
+    "videos": [
+      "AyzJJIUUqj4",
+      "I4GvoMO3OLs",
+      "1K0_8IamIa8",
+      "1zSJUQVr560"
+    ]
   },
   {
     "lng": "-8.7973852008581",
     "lat": "37.806271187615",
     "country": "Portugal, South",
-    "name": "Aivados"
+    "name": "Aivados",
+    "videos": [
+      "WVVYnYiGE-I",
+      "7Tvilwng-AI",
+      "BWgx5tE9iE0",
+      "XVvVNAnUI64"
+    ]
   },
   {
     "lng": "-3.0167770385742",
     "lat": "43.381970926981",
     "country": "Spain, Pais Vasco",
-    "name": "Aizkorri"
+    "name": "Aizkorri",
+    "videos": [
+      "yLlyghmHoeY",
+      "yw6oNeg_OrU",
+      "aHsI3w9yDKw",
+      "qklxz0orCMY"
+    ]
   },
   {
     "lng": "-3.61323595047",
     "lat": "43.498915778885",
     "country": "Spain, Cantabria",
-    "name": "Ajo"
+    "name": "Ajo",
+    "videos": [
+      "YoN41_wZsp8",
+      "J_a-Vgvph38",
+      "7Uq1dRR5Nm0",
+      "mHCfFk9uv5o"
+    ]
   },
   {
     "lng": "137.2",
     "lat": "34.6",
     "country": "Japan, Shizuoka",
-    "name": "Akabane Long Beach"
+    "name": "Akabane Long Beach",
+    "videos": [
+      "lanXr9GdHuQ",
+      "bTumqDZkKhs",
+      "XN96SJhDMZo",
+      "tCtn4GGmINM"
+    ]
   },
   {
     "lng": "131.07247352601",
@@ -711,43 +1302,85 @@
     "lng": "51.189225195265",
     "lat": "43.620357021884",
     "country": "Kazakhstan",
-    "name": "Aktau"
+    "name": "Aktau",
+    "videos": [
+      "gC3m9mVtNWA",
+      "mWO5OAjanjA",
+      "ZlhfBXcsNrk",
+      "7Ar0iN9A4RM"
+    ]
   },
   {
     "lng": "-77.027689218521",
     "lat": "-12.158970041003",
     "country": "Peru, Lima",
-    "name": "Ala Moana"
+    "name": "Ala Moana",
+    "videos": [
+      "Dh67PbqaNQ0",
+      "_QW3Hwd4tdg",
+      "QI79QPOgT7w",
+      "kZ4Z0apgG1w"
+    ]
   },
   {
     "lng": "-157.84389138222",
     "lat": "21.280876928092",
     "country": "USA, Hawaii, Oahu",
-    "name": "Ala Moana Bowls"
+    "name": "Ala Moana Bowls",
+    "videos": [
+      "pIK5q1IgUEs",
+      "7JF7J-jCfao",
+      "tb1TkIP_yXU",
+      "WPWxYo6o7bs"
+    ]
   },
   {
     "lng": "-157.85409986973",
     "lat": "21.290653925976",
     "country": "USA, Hawaii, Oahu",
-    "name": "Ala Moana Courts"
+    "name": "Ala Moana Courts",
+    "videos": [
+      "cr1ZETk6Vys",
+      "sFgtGfoyPhM",
+      "C-CUKNRdRTs",
+      "S5J8KKefGMo"
+    ]
   },
   {
     "lng": "-87.559399008751",
     "lat": "30.270909835268",
     "country": "USA, Gulf Coast, Alabama",
-    "name": "Alabama Point"
+    "name": "Alabama Point",
+    "videos": [
+      "XbU_H-JSb1w",
+      "oRXnLX4OlM4",
+      "JRSK0ZRsxIc",
+      "blWR5Xnj4mQ"
+    ]
   },
   {
     "lng": "26.310625076294",
     "lat": "38.239056512811",
     "country": "Turkey",
-    "name": "Alacati"
+    "name": "Alacati",
+    "videos": [
+      "TUzL_xXo0S0",
+      "X5liP7rfGOs",
+      "5oJwvAf38VY",
+      "DPrg5cKozVY"
+    ]
   },
   {
     "lng": "32.023429870605",
     "lat": "36.539674164695",
     "country": "Turkey",
-    "name": "Alanya, Keykubat"
+    "name": "Alanya, Keykubat",
+    "videos": [
+      "YgYzYPSMe2Y",
+      "vJC1ajrJ4gw",
+      "HwtPg5vj_BQ",
+      "KiKh3swxiEE"
+    ]
   },
   {
     "lng": "8.1728249788284",
@@ -759,7 +1392,13 @@
     "lng": "24.919867515564",
     "lat": "-34.01023007159",
     "country": "South Africa, South J Bay",
-    "name": "Albatross"
+    "name": "Albatross",
+    "videos": [
+      "bThqFfmj4iQ",
+      "g5LivypJ0Uo",
+      "edenhr0LG3Q",
+      "W7MX8ywZ8Yg"
+    ]
   },
   {
     "lng": "8.2237815856934",
@@ -771,13 +1410,25 @@
     "lng": "-8.2486832141876",
     "lat": "37.085635324957",
     "country": "Portugal, Algarve",
-    "name": "Albufeira"
+    "name": "Albufeira",
+    "videos": [
+      "cw5xXoei4aw",
+      "Y_0Aidr0hNw",
+      "Df_n_2lUBK0",
+      "uzboSqyc0DQ"
+    ]
   },
   {
     "lng": "153.10962617397",
     "lat": "-26.67079655546",
     "country": "Australia, QLD, Sunshine Coast",
-    "name": "Alexandra Headlands"
+    "name": "Alexandra Headlands",
+    "videos": [
+      "b9DvGuhLUbc",
+      "D8yNso4JIio",
+      "5lPZueWMVic",
+      "7TyjhJmcWQI"
+    ]
   },
   {
     "lng": "-57.542631626129",
@@ -789,61 +1440,115 @@
     "lng": "6.7029476165771",
     "lat": "0.19355212618325",
     "country": "Sao Tome",
-    "name": "alfonsita"
+    "name": "alfonsita",
+    "videos": [
+      "38tSj2Ge7Zg"
+    ]
   },
   {
     "lng": "8.8683700561523",
     "lat": "42.608695487162",
     "country": "France, Corsica",
-    "name": "Algajola"
+    "name": "Algajola",
+    "videos": [
+      "kC2gW8BBIT4",
+      "DV6xso-DLmA",
+      "V7fBT6jayUY",
+      "KbyeTQq147M"
+    ]
   },
   {
     "lng": "-116.88291527331",
     "lat": "32.119226378654",
     "country": "Mexico, Baja Norte",
-    "name": "alisitos"
+    "name": "alisitos",
+    "videos": [
+      "BTszj2m3Oyk",
+      "j4Qt348WNmE",
+      "li9LTtg2XmE",
+      "h4Mi5FeKKeg"
+    ]
   },
   {
     "lng": "-73.994915485382",
     "lat": "40.236327698893",
     "country": "USA, North East, New Jersey",
-    "name": "Allenhurst"
+    "name": "Allenhurst",
+    "videos": [
+      "w-6nif6adBk",
+      "P7TM0G0J1V0",
+      "Swe9tO9rbgM",
+      "gZn5PA-ZQik"
+    ]
   },
   {
     "lng": "-70.881943702698",
     "lat": "42.307022535158",
     "country": "USA, North East, Southern New England",
-    "name": "allerton point"
+    "name": "allerton point",
+    "videos": [
+      "svCsVHwCh7A"
+    ]
   },
   {
     "lng": "-16.192616666667",
     "lat": "28.572066666667",
     "country": "Canary, Tenerife",
-    "name": "Almáciga"
+    "name": "Almáciga",
+    "videos": [
+      "P2p2StVyIwU",
+      "XGq7houjdq4",
+      "Yzv3Zh1uyxY",
+      "6lOyo0wZhVM"
+    ]
   },
   {
     "lng": "-9.3146252632139",
     "lat": "39.379027735574",
     "country": "Portugal, Central Peniche",
-    "name": "Almagreira"
+    "name": "Almagreira",
+    "videos": [
+      "03xUDHsr-mE",
+      "hM4GJNtVfus",
+      "NBprAXW1wR4",
+      "pNNMKlUkcNk"
+    ]
   },
   {
     "lng": "25.709713697433",
     "lat": "35.176781239347",
     "country": "Greece, Crete Island",
-    "name": "Almiros"
+    "name": "Almiros",
+    "videos": [
+      "fXKgtPzgthA",
+      "1x2PiMWVV1w",
+      "jNv4U2W33uY",
+      "3wUL8Jp7xm0"
+    ]
   },
   {
     "lng": "5.9666061401367",
     "lat": "62.488538960577",
     "country": "Norway",
-    "name": "Alnes Lighthouse (Godoy)"
+    "name": "Alnes Lighthouse (Godoy)",
+    "videos": [
+      "Cyy1HPP3eRY",
+      "nz0hsccQBdA",
+      "xbhGpv7z1b0",
+      "LGys273RT94"
+    ]
   },
   {
     "lng": "1.3844275474548",
     "lat": "41.134403262325",
     "country": "Spain, Mediterranean",
-    "name": "altafulla"
+    "name": "altafulla",
+    "videos": [
+      "Uuh23rgyM3I",
+      "6chwCRDSNs4",
+      "92wnqGZtWpk",
+      "wXAeEybD5ZE"
+    ]
   },
   {
     "lng": "8.5987758636475",
@@ -855,19 +1560,37 @@
     "lng": "144.83029872179",
     "lat": "-37.873316282033",
     "country": "Australia, VIC, Melbourne West",
-    "name": "Altona Pier"
+    "name": "Altona Pier",
+    "videos": [
+      "M4SpRL874aY",
+      "1J14ZmGv8Gk",
+      "Sp5r4lRTihg",
+      "SArNUBBuheQ"
+    ]
   },
   {
     "lng": "-8.5964584350586",
     "lat": "37.122411988878",
     "country": "Portugal, Algarve",
-    "name": "Alvor"
+    "name": "Alvor",
+    "videos": [
+      "D8gvFE0hkEc",
+      "FtuSG_VULsg",
+      "ak709VVEPi0",
+      "peNyd10SKP0"
+    ]
   },
   {
     "lng": "21.426086425781",
     "lat": "38.317955957945",
     "country": "Greece, Ionian Sea",
-    "name": "alykes"
+    "name": "alykes",
+    "videos": [
+      "szm4CzcvACc",
+      "DpovjLwni-Y",
+      "me6wKsvfFBw",
+      "okJi35paph4"
+    ]
   },
   {
     "name": "Amami Oshima - Bira Reef",
@@ -885,43 +1608,81 @@
     "lng": "-123.15171718597",
     "lat": "49.325010107876",
     "country": "Canada, West Coast",
-    "name": "Ambleside Park"
+    "name": "Ambleside Park",
+    "videos": [
+      "h9UNS8gDdQQ",
+      "vZgWu61Pnjo",
+      "QYDzz6AzWJo",
+      "SkrpXmEjljU"
+    ]
   },
   {
     "lng": "-1.1524701118469",
     "lat": "45.485274460199",
     "country": "France, Gironde",
-    "name": "Amélie"
+    "name": "Amélie",
+    "videos": [
+      "CZvlwh4utgA",
+      "lxTpeH4kak4",
+      "b42YkcoNKH4",
+      "GQXVlcyNC4A"
+    ]
   },
   {
     "lng": "20.506925582886",
     "lat": "38.109235478584",
     "country": "Greece, Ionian Sea",
-    "name": "Ammes Beach"
+    "name": "Ammes Beach",
+    "videos": [
+      "R8RuGeI8crQ",
+      "hd_SwwruH4c"
+    ]
   },
   {
     "lng": "-8.8454961776733",
     "lat": "37.350031857736",
     "country": "Portugal, Algarve",
-    "name": "Amoreira"
+    "name": "Amoreira",
+    "videos": [
+      "9mWJsbJ1XPc",
+      "gKZVRoHoRSY",
+      "kNajp37mNbE",
+      "k80IQWzjvK4"
+    ]
   },
   {
     "lng": "-8.8240814208984",
     "lat": "41.669321477922",
     "country": "Portugal, North Porto",
-    "name": "Amorosa"
+    "name": "Amorosa",
+    "videos": [
+      "Zk141nsqgxI",
+      "N6ftGaBx-gE",
+      "2Le1uIW1sxc",
+      "a7JSJSLre3Q"
+    ]
   },
   {
     "lng": "20.478000640869",
     "lat": "39.237704574584",
     "country": "Greece, Ionian Sea",
-    "name": "Amoudia Left"
+    "name": "Amoudia Left",
+    "videos": [
+      "Zhzqk_CUWag",
+      "WFic89GNi6c"
+    ]
   },
   {
     "name": "Amrum",
     "lat": "54.633333",
     "lng": "8.366667",
-    "country": "Germany, North Sea"
+    "country": "Germany, North Sea",
+    "videos": [
+      "EY9zklFOmJU",
+      "8PrZxkUAgTs",
+      "VBvEZFFZ304",
+      "j4dawvtoh_k"
+    ]
   },
   {
     "lng": "-4.6751546859741",
@@ -933,13 +1694,25 @@
     "lng": "-159.30501937864",
     "lat": "22.147612069583",
     "country": "USA, Hawaii, Kauai",
-    "name": "Anahola Bay"
+    "name": "Anahola Bay",
+    "videos": [
+      "st1x2HRzXWI",
+      "keugCtCrklE",
+      "-vKpNZEOWkA",
+      "19RCrYrBaa4"
+    ]
   },
   {
     "lng": "32.935810089111",
     "lat": "36.092667096616",
     "country": "Turkey",
-    "name": "Anamur"
+    "name": "Anamur",
+    "videos": [
+      "7Z6BVyLCWZY",
+      "PKastVS2Pk8",
+      "7aeQlr7oopk",
+      "s05dw22rBxc"
+    ]
   },
   {
     "lng": "178.31149578094",
@@ -951,115 +1724,225 @@
     "lng": "-9.7267091274261",
     "lat": "30.545205447904",
     "country": "Morocco, South",
-    "name": "Anchor point"
+    "name": "Anchor point",
+    "videos": [
+      "PWc3SZ_9XT4",
+      "nmDQJPaYlz8",
+      "l8G-jtXb15w",
+      "ItQ75TS0jHw"
+    ]
   },
   {
     "lng": "-105.51999092102",
     "lat": "20.767871515293",
     "country": "Mexico, Sinaloa-Nayarit",
-    "name": "Anclote"
+    "name": "Anclote",
+    "videos": [
+      "SqJ3h8x27H8",
+      "-kmgSHyaBn0",
+      "5whTmbLbxzw",
+      "WIbnp9_161o"
+    ]
   },
   {
     "lng": "-82.825241088867",
     "lat": "28.203675373165",
     "country": "USA, Gulf Coast, Florida",
-    "name": "Anclote Island"
+    "name": "Anclote Island",
+    "videos": [
+      "qgiSZX153co",
+      "HeuauBmbxLk",
+      "0spL4flsz_E",
+      "pIDCDZZj26c"
+    ]
   },
   {
     "lng": "-118.08087229729",
     "lat": "33.722858369584",
     "country": "USA, California, Orange County",
-    "name": "Anderson Street"
+    "name": "Anderson Street",
+    "videos": [
+      "Xp3DcgEyPF4",
+      "ALRoebu0Rgs",
+      "XeldhceOkh0",
+      "AcmcXLihbTQ"
+    ]
   },
   {
     "lng": "-121.85778737068",
     "lat": "36.281082371641",
     "country": "USA, California, Monterey",
-    "name": "Andrew molera state beach"
+    "name": "Andrew molera state beach",
+    "videos": [
+      "qdrdMNZaxY0",
+      "n1jM1FcC1A8",
+      "T-AimK23xss",
+      "qPsOCN2WIAY"
+    ]
   },
   {
     "lng": "24.93754863739",
     "lat": "37.840546585318",
     "country": "Greece, Aegean Sea",
-    "name": "Andros (Hora)"
+    "name": "Andros (Hora)",
+    "videos": [
+      "AdNGHwqv9Pw",
+      "ZEBp3XQugEY",
+      "4yBj-VwI7xc",
+      "M0lgZtuCIFY"
+    ]
   },
   {
     "lng": "149.90719199181",
     "lat": "-16.972711518104",
     "country": "Australia, QLD",
-    "name": "Andys' Peak"
+    "name": "Andys' Peak",
+    "videos": [
+      "Hv5TnmpIARg",
+      "EyWxucyEM8w",
+      "V5LxNx-9pus",
+      "87wXhEr-aIU"
+    ]
   },
   {
     "lng": "1.6067987680435",
     "lat": "6.2288831603816",
     "country": "Togo",
-    "name": "Aneho Beach"
+    "name": "Aneho Beach",
+    "videos": [
+      "4x8bHlNWs8o",
+      "vbfndsunyOw"
+    ]
   },
   {
     "lng": "144.1865336895",
     "lat": "-38.415644240658",
     "country": "Australia, VIC, Melbourne West",
-    "name": "Anglesea"
+    "name": "Anglesea",
+    "videos": [
+      "E2SBhdn_Uuk",
+      "zunQj1j3gLQ",
+      "cs3e5OEDh8Q",
+      "SF4SGoC0I4E"
+    ]
   },
   {
     "lng": "-1.5477848052979",
     "lat": "43.494588519106",
     "country": "France, Basque Country",
-    "name": "Anglet - Chambre d Amour"
+    "name": "Anglet - Chambre d Amour",
+    "videos": [
+      "f-GSnb33qVE",
+      "zh7JfPB7jRk",
+      "7eXEakyRAM0",
+      "17u_e2e9ZoA"
+    ]
   },
   {
     "lng": "-1.52512550354",
     "lat": "43.526521996549",
     "country": "France, Basque Country",
-    "name": "Anglet - La Barre"
+    "name": "Anglet - La Barre",
+    "videos": [
+      "tglRr0O-FaE",
+      "l-Pz6mYpokM",
+      "eraoVeR06lU",
+      "aXInuOYVbQ8"
+    ]
   },
   {
     "lng": "-1.5354359149933",
     "lat": "43.511990624463",
     "country": "France, Basque Country",
-    "name": "Anglet - La Madrague"
+    "name": "Anglet - La Madrague",
+    "videos": [
+      "DAmv7EfvrxU",
+      "zMTR1b1SLlQ",
+      "Yb9rWGozqhI",
+      "-YB-HywpFkc"
+    ]
   },
   {
     "lng": "-1.5442811697721",
     "lat": "43.499272316475",
     "country": "France, Basque Country",
-    "name": "Anglet - Le club"
+    "name": "Anglet - Le club",
+    "videos": [
+      "tglRr0O-FaE",
+      "l-Pz6mYpokM",
+      "zMTR1b1SLlQ",
+      "f-GSnb33qVE"
+    ]
   },
   {
     "lng": "-1.5265256166458",
     "lat": "43.527968873805",
     "country": "France, Basque Country",
-    "name": "Anglet - Le Furoncle"
+    "name": "Anglet - Le Furoncle",
+    "videos": [
+      "DAmv7EfvrxU",
+      "64nHUNpoxlw"
+    ]
   },
   {
     "lng": "-1.5264129638672",
     "lat": "43.523254726694",
     "country": "France, Basque Country",
-    "name": "Anglet - Les Cavaliers"
+    "name": "Anglet - Les Cavaliers",
+    "videos": [
+      "tglRr0O-FaE",
+      "l-Pz6mYpokM",
+      "HWuZFFmEk8k",
+      "K6K3TXfiQAc"
+    ]
   },
   {
     "lng": "-1.5419054031373",
     "lat": "43.501773467811",
     "country": "France, Basque Country",
-    "name": "Anglet - Les Sables d'Or"
+    "name": "Anglet - Les Sables d'Or",
+    "videos": [
+      "zMTR1b1SLlQ",
+      "l-Pz6mYpokM",
+      "HWuZFFmEk8k",
+      "ZEGmnFieN20"
+    ]
   },
   {
     "lng": "-1.5398307144642",
     "lat": "43.504988304257",
     "country": "France, Basque Country",
-    "name": "Anglet - Marinella"
+    "name": "Anglet - Marinella",
+    "videos": [
+      "tglRr0O-FaE",
+      "Yb9rWGozqhI",
+      "a1qYxswVNlE",
+      "VxsE-SFU_mY"
+    ]
   },
   {
     "lng": "153.36519241333",
     "lat": "-29.486528293482",
     "country": "Australia, NSW, North",
-    "name": "Angourie Lefts"
+    "name": "Angourie Lefts",
+    "videos": [
+      "hdKxQ-RQgvY",
+      "eJYGc_sseUU",
+      "yYcxemq0Opo",
+      "DxUBcfG04vE"
+    ]
   },
   {
     "lng": "153.36609363556",
     "lat": "-29.482194837303",
     "country": "Australia, NSW, North",
-    "name": "Angourie Point"
+    "name": "Angourie Point",
+    "videos": [
+      "qFTwOAQFcS8",
+      "5BvmDOjac1E",
+      "hATuLh0zhdY",
+      "jyXzJuPyR2M"
+    ]
   },
   {
     "lng": "15.54621219635",
@@ -1071,7 +1954,13 @@
     "lng": "73.087450146575",
     "lat": "17.843985205741",
     "country": "India, North-West",
-    "name": "Anjarle"
+    "name": "Anjarle",
+    "videos": [
+      "kg651JESVYI",
+      "piGPdfMRHFc",
+      "xtW58muMeBw",
+      "ZWY4BjVrcOk"
+    ]
   },
   {
     "lng": "-25.156561732292",
@@ -1083,103 +1972,205 @@
     "lng": "144.70294609666",
     "lat": "-40.880654514106",
     "country": "Australia, TAS",
-    "name": "Ann bay"
+    "name": "Ann bay",
+    "videos": [
+      "iVasQBblZsU",
+      "3p3Vptq0pvw",
+      "UW2Dcd6roLU",
+      "XiHBv0q4TkA"
+    ]
   },
   {
     "lng": "-82.744345664978",
     "lat": "27.538679957346",
     "country": "USA, Gulf Coast, Florida",
-    "name": "Anna Maria Island"
+    "name": "Anna Maria Island",
+    "videos": [
+      "UPJiLuwZch8",
+      "yLJjzqoN27I",
+      "qd3-bMl3FCY",
+      "rZ06wEdtJQU"
+    ]
   },
   {
     "lng": "-82.743186950684",
     "lat": "27.532781585779",
     "country": "USA, Gulf Coast, Florida",
-    "name": "Anna Maria Island - Beach Streets"
+    "name": "Anna Maria Island - Beach Streets",
+    "videos": [
+      "WIPUCW0_h5g",
+      "vv0UJ5kx30Q",
+      "XeldhceOkh0",
+      "Uf9OXYPWh5g"
+    ]
   },
   {
     "lng": "7.7824401855469",
     "lat": "36.863141432953",
     "country": "Algeria",
-    "name": "Annaba"
+    "name": "Annaba",
+    "videos": [
+      "ZyX6WvFfN9g",
+      "tMaUczS0HjA",
+      "bJKEnsJdawU",
+      "SqP8h3Rymd8"
+    ]
   },
   {
     "lng": "24.833393096924",
     "lat": "-34.162954490049",
     "country": "South Africa, South J Bay",
-    "name": "Anne Avenue (St Francis Bay)"
+    "name": "Anne Avenue (St Francis Bay)",
+    "videos": [
+      "XeldhceOkh0",
+      "nsqrSaK7HCU",
+      "IGpMDUEiJi4",
+      "NPZmKmXuylg"
+    ]
   },
   {
     "lng": "153.14012289047",
     "lat": "-26.778449286564",
     "country": "Australia, QLD, Sunshine Coast",
-    "name": "Anne street reef"
+    "name": "Anne street reef",
+    "videos": [
+      "e_PQoQjSlso",
+      "fyK6YXuEmBU",
+      "D8yNso4JIio",
+      "F5skGG0Ssgg"
+    ]
   },
   {
     "lng": "-7.2829055786133",
     "lat": "52.134330991635",
     "country": "Ireland, South East",
-    "name": "Annestown"
+    "name": "Annestown",
+    "videos": [
+      "NfQMfp4j-_w",
+      "jM_3iskt4Kg",
+      "TFL6MD5k5Xs",
+      "IV-VgqTCycw"
+    ]
   },
   {
     "lng": "-122.31130599976",
     "lat": "37.114472889827",
     "country": "USA, California, Santa Cruz",
-    "name": "Ano Nuevo"
+    "name": "Ano Nuevo",
+    "videos": [
+      "x4ktjAjt-wI",
+      "4LxTRAiXPxQ",
+      "Gp4tJO27JtY",
+      "5GUbK_463zI"
+    ]
   },
   {
     "lng": "-61.321134567261",
     "lat": "16.240716490396",
     "country": "Guadeloupe",
-    "name": "Anse à la barque"
+    "name": "Anse à la barque",
+    "videos": [
+      "keIg4ykHzyE",
+      "axoAjRpi9i8",
+      "2CeoaOHDqgg",
+      "gK-nj2nUB_I"
+    ]
   },
   {
     "lng": "-61.332120895386",
     "lat": "16.333483306775",
     "country": "Guadeloupe",
-    "name": "Anse à la Bouelle"
+    "name": "Anse à la Bouelle",
+    "videos": [
+      "iI-3TFCmkCM",
+      "llUHmGHfTPI",
+      "kKyIka9Ii34",
+      "7JFlF-7xvTk"
+    ]
   },
   {
     "lng": "55.848205089569",
     "lat": "-4.3508616221605",
     "country": "Seychelles, La Digue",
-    "name": "Anse Banane"
+    "name": "Anse Banane",
+    "videos": [
+      "qhAwQksOCZA",
+      "KmOHRs7l6zo",
+      "6JAFCm5Dj_k",
+      "Ubj1t0jSxSw"
+    ]
   },
   {
     "lng": "-61.511936187744",
     "lat": "16.472715586517",
     "country": "Guadeloupe",
-    "name": "Anse Bertrand"
+    "name": "Anse Bertrand",
+    "videos": [
+      "iI-3TFCmkCM",
+      "kKyIka9Ii34",
+      "CCcjCGMBNeM",
+      "llUHmGHfTPI"
+    ]
   },
   {
     "lng": "55.52166223526",
     "lat": "-4.7593649789947",
     "country": "Seychelles, Mahe",
-    "name": "Anse Bourgainville"
+    "name": "Anse Bourgainville",
+    "videos": [
+      "Vs3gYaeusGY",
+      "4A7c6Mi6jVU",
+      "o4HJFNmN4lM",
+      "MgslcgNVWOw"
+    ]
   },
   {
     "lng": "-61.014740467072",
     "lat": "14.807828116388",
     "country": "Martinique",
-    "name": "Anse Charpentier (right)"
+    "name": "Anse Charpentier (right)",
+    "videos": [
+      "afkEXbV2biA",
+      "dIkO5_fpWCI",
+      "tqNijQbmT3s",
+      "-P6fiqN5VQA"
+    ]
   },
   {
     "lng": "55.851702690125",
     "lat": "-4.3670366994987",
     "country": "Seychelles, La Digue",
-    "name": "Anse Cocos"
+    "name": "Anse Cocos",
+    "videos": [
+      "NS2dzxNl4to",
+      "eD5sxHaGtb0",
+      "7hiNwQObnKM",
+      "xNv_8vLTYBE"
+    ]
   },
   {
     "lng": "-61.21946811676",
     "lat": "14.844004427128",
     "country": "Martinique",
-    "name": "Anse Couleuvre"
+    "name": "Anse Couleuvre",
+    "videos": [
+      "7s3_YaczREg",
+      "wzqctju9kHI",
+      "HLLLdbCsBbg",
+      "S33wPnhBiaU"
+    ]
   },
   {
     "lng": "-62.843234539032",
     "lat": "17.911398157806",
     "country": "St Barthelemy",
-    "name": "Anse des Cayes"
+    "name": "Anse des Cayes",
+    "videos": [
+      "2N9UmE4vJUg",
+      "jTZnFyPjqJw",
+      "zzKbApZkSME",
+      "Wu1UHlWPUp8"
+    ]
   },
   {
     "lng": "-62.847145199776",
@@ -1191,7 +2182,12 @@
     "lng": "-1.4872097969055",
     "lat": "49.668836050314",
     "country": "France, Normandy",
-    "name": "Anse du Brick"
+    "name": "Anse du Brick",
+    "videos": [
+      "GuU5TpZYg5E",
+      "TY3dSJBE5Xk",
+      "k8hK2AKaF4g"
+    ]
   },
   {
     "lng": "-4.306640625",
@@ -1203,55 +2199,106 @@
     "lng": "55.484089851379",
     "lat": "-4.7605196970203",
     "country": "Seychelles, Mahe",
-    "name": "Anse Gaulette"
+    "name": "Anse Gaulette",
+    "videos": [
+      "29ctEoLwzCM",
+      "Gr-qoY7zOOA",
+      "3rl6edRBYOI",
+      "YD43DqZ2gDU"
+    ]
   },
   {
     "lng": "55.683506727219",
     "lat": "-4.309384657439",
     "country": "Seychelles, Pralin",
-    "name": "Anse Kerlan"
+    "name": "Anse Kerlan",
+    "videos": [
+      "ANRfrqzPQjQ",
+      "DS65_Rkr8L0",
+      "jsuDByJNMB8",
+      "_ddZAwDjRbY"
+    ]
   },
   {
     "lng": "55.833849906921",
     "lat": "-4.3376602763675",
     "country": "Seychelles, La Digue",
-    "name": "Anse Patates"
+    "name": "Anse Patates",
+    "videos": [
+      "xNv_8vLTYBE",
+      "AjBUOZMGh-M",
+      "kbeRvbIgRtk",
+      "aznryqWd1Ns"
+    ]
   },
   {
     "lng": "55.521039962769",
     "lat": "-4.7470906343883",
     "country": "Seychelles, Mahe",
-    "name": "Anse Royale"
+    "name": "Anse Royale",
+    "videos": [
+      "WM_fPtwtppU",
+      "xnswgAY-89g",
+      "W8gVaTbabPw",
+      "o4HJFNmN4lM"
+    ]
   },
   {
     "lng": "-61.305288076401",
     "lat": "16.326811493739",
     "country": "Guadeloupe",
-    "name": "Anse Salabouelle"
+    "name": "Anse Salabouelle",
+    "videos": [
+      "MTziosfj_uw",
+      "es17Ys7PeFU",
+      "axoAjRpi9i8",
+      "z20KCI9e7RE"
+    ]
   },
   {
     "lng": "55.829772949219",
     "lat": "-4.3398526716275",
     "country": "Seychelles, La Digue",
-    "name": "Anse Sevére"
+    "name": "Anse Sevére",
+    "videos": [
+      "xNv_8vLTYBE",
+      "AjBUOZMGh-M",
+      "b5bTu_FEV_8",
+      "fR67nw9lnzs"
+    ]
   },
   {
     "lng": "55.465357303619",
     "lat": "-4.7446368084524",
     "country": "Seychelles, Mahe",
-    "name": "Anse Soleil"
+    "name": "Anse Soleil",
+    "videos": [
+      "52fVvkvGnN4",
+      "xnswgAY-89g",
+      "WM_fPtwtppU",
+      "NWC_KmTP2nE"
+    ]
   },
   {
     "lng": "-1.8890959024429",
     "lat": "49.706571106456",
     "country": "France, Normandy",
-    "name": "Anse st Martin"
+    "name": "Anse st Martin",
+    "videos": [
+      "GuU5TpZYg5E"
+    ]
   },
   {
     "lng": "-60.848722457888",
     "lat": "14.406666601156",
     "country": "Martinique",
-    "name": "Anse Trabaud"
+    "name": "Anse Trabaud",
+    "videos": [
+      "8rh_TUFWx2E",
+      "YY4g3zBsaSI",
+      "ioSMwH2hIOE",
+      "WRFoKZ2oGSo"
+    ]
   },
   {
     "lng": "11.27744436264",
@@ -1263,151 +2310,290 @@
     "lng": "159.07104492188",
     "lat": "-31.541089879586",
     "country": "Australia, NSW, North",
-    "name": "Anson Bay"
+    "name": "Anson Bay",
+    "videos": [
+      "NlND8Zry_bE",
+      "i9slub0IOO8",
+      "oCzfFMbGU6g",
+      "zCIfYjR8Bk8"
+    ]
   },
   {
     "lng": "31.019167900085",
     "lat": "-29.925611712635",
     "country": "South Africa, Durban",
-    "name": "Ansteys Beach"
+    "name": "Ansteys Beach",
+    "videos": [
+      "xyDGP6adFgw",
+      "qAWG85I3qAY",
+      "P2faJW4lx0w",
+      "CvPF9-kdHpc"
+    ]
   },
   {
     "lng": "30.808721780777",
     "lat": "36.84716096681",
     "country": "Turkey",
-    "name": "Antalya"
+    "name": "Antalya",
+    "videos": [
+      "WykP2_AHXTg",
+      "KuaJ_v3mhsg",
+      "O4bdc-s5LKY",
+      "texUnhzohZE"
+    ]
   },
   {
     "lng": "6.7605037987232",
     "lat": "0.29636802239488",
     "country": "Sao Tome",
-    "name": "Antenas"
+    "name": "Antenas",
+    "videos": [
+      "EUopgaKBW_Y",
+      "Kn7dMji3oK8",
+      "TmP_1N2debg",
+      "9CalJSvCTYg"
+    ]
   },
   {
     "lng": "-61.539659500122",
     "lat": "16.434191729997",
     "country": "Guadeloupe",
-    "name": "Antigues Cape"
+    "name": "Antigues Cape",
+    "videos": [
+      "5tSO3UEHvZ8"
+    ]
   },
   {
     "lng": "73.445985317232",
     "lat": "0.28187027719828",
     "country": "Maldives",
-    "name": "Antiques"
+    "name": "Antiques",
+    "videos": [
+      "qAn2661xjxU",
+      "Q7S_KzqJ33g",
+      "n7WCWd9eOcY",
+      "IPgiBNOPCjQ"
+    ]
   },
   {
     "lng": "-119.76136207581",
     "lat": "49.74052691281",
     "country": "Canada, East Coast",
-    "name": "Antlers beach"
+    "name": "Antlers beach",
+    "videos": [
+      "l72Ia-Raxjc",
+      "dWtP19LSvTk",
+      "GG5hzKajuEw",
+      "RYbyIJVU4m8"
+    ]
   },
   {
     "lng": "-9.663119316101",
     "lat": "30.450301516492",
     "country": "Morocco, South",
-    "name": "Anza"
+    "name": "Anza",
+    "videos": [
+      "3bkM288LrCo",
+      "z5P_LA1NYSs",
+      "VwUFYJLevK4",
+      "kpuMPkjdLYg"
+    ]
   },
   {
     "lng": "145.33329606056",
     "lat": "-38.538053729395",
     "country": "Australia, VIC, Melbourne East",
-    "name": "Anzacs"
+    "name": "Anzacs",
+    "videos": [
+      "BJo386vt_5k",
+      "7dgTRWZ_7_4",
+      "vSzWqihSncE",
+      "9N2_1pai8tc"
+    ]
   },
   {
     "lng": "131.46720886233",
     "lat": "31.805133175948",
     "country": "Japan, Kyushu",
-    "name": "Aoshima beach break"
+    "name": "Aoshima beach break",
+    "videos": [
+      "h7aaiGJ1gsA",
+      "xChxPueuhzo",
+      "VfIUXjua8lY",
+      "UE6p5I7PboQ"
+    ]
   },
   {
     "lng": "131.47793769837",
     "lat": "31.802719931943",
     "country": "Japan, Kyushu",
-    "name": "Aoshima Reef"
+    "name": "Aoshima Reef",
+    "videos": [
+      "WEVvouRAPW0",
+      "zFnOTyxn_Cg"
+    ]
   },
   {
     "lng": "-78.78128528595",
     "lat": "33.762451830623",
     "country": "USA, South East, South Carolina",
-    "name": "apache pier"
+    "name": "apache pier",
+    "videos": [
+      "KRsaeKh8dQI",
+      "vuG8BirOPgg",
+      "KNmStGtndQw",
+      "i_msrG_sTpc"
+    ]
   },
   {
     "lng": "121.62693500519",
     "lat": "18.360757424784",
     "country": "Philippines, Luzon",
-    "name": "Aparri"
+    "name": "Aparri",
+    "videos": [
+      "4QhLIYPurAY",
+      "OPqP01lMMf0",
+      "tCDlzmctx20",
+      "5CEPLipMKwk"
+    ]
   },
   {
     "lng": "105.13066291809",
     "lat": "-6.6146481192023",
     "country": "Indonesia, West Java",
-    "name": "Apocalypse"
+    "name": "Apocalypse",
+    "videos": [
+      "hba2OGd3tQk",
+      "j4fcTpMTJBg",
+      "GHcIx5VlbTo",
+      "6yZhrjUtnzM"
+    ]
   },
   {
     "lng": "143.67053031921",
     "lat": "-38.750401800229",
     "country": "Australia, VIC, Melbourne West",
-    "name": "Apollo Bay"
+    "name": "Apollo Bay",
+    "videos": [
+      "KYw_vG33wJk",
+      "ocrSx2RCdw8",
+      "lC7xXALSitE",
+      "s3NxE-jx-g8"
+    ]
   },
   {
     "lng": "25.55419921875",
     "lat": "37.180013938902",
     "country": "Greece, Aegean Sea",
-    "name": "Apollonas. Naxos"
+    "name": "Apollonas. Naxos",
+    "videos": [
+      "2HLSss79Ybs",
+      "Va8Ez8IxxbY",
+      "oF-ixIZxrb0",
+      "WGNyQfs2Cz8"
+    ]
   },
   {
     "lng": "34.806543588638",
     "lat": "32.194108801119",
     "country": "Israel",
-    "name": "apolonia"
+    "name": "apolonia",
+    "videos": [
+      "9RR5JVicV_A",
+      "-qMp7zW4lSE",
+      "4gRXpoS4IIA",
+      "lxea-S7nXXA"
+    ]
   },
   {
     "lng": "174.06184673309",
     "lat": "-39.054217912175",
     "country": "New Zealand, New Zealand NI, West Coast Taranaki",
-    "name": "Aquatic centre"
+    "name": "Aquatic centre",
+    "videos": [
+      "ALRoebu0Rgs",
+      "40ynkvFVN40"
+    ]
   },
   {
     "lng": "-4.3695116043091",
     "lat": "47.826130940833",
     "country": "France, Brittany South",
-    "name": "Ar Loïs"
+    "name": "Ar Loïs",
+    "videos": [
+      "4B9bY4AIu8M",
+      "NPZmKmXuylg",
+      "DQYnVWZPl8A",
+      "IGpMDUEiJi4"
+    ]
   },
   {
     "lng": "-37.041145563126",
     "lat": "-10.987673858847",
     "country": "Brazil, Sergipe-Alagoas",
-    "name": "Aracaju"
+    "name": "Aracaju",
+    "videos": [
+      "Bm-3l3HJNIU",
+      "DY5pO6zfShs",
+      "UPIqmWxC36E",
+      "KI_VmTrl3jM"
+    ]
   },
   {
     "lng": "-54.148693084717",
     "lat": "-34.622216618832",
     "country": "Uruguay",
-    "name": "Arachania"
+    "name": "Arachania",
+    "videos": [
+      "uoaHQLl_p3U",
+      "6pgbLUi4Mms",
+      "8_s990wMPkc",
+      "Es937-BDkac"
+    ]
   },
   {
     "lng": "73.702812194824",
     "lat": "15.687170643174",
     "country": "India, North-West",
-    "name": "Arambol"
+    "name": "Arambol",
+    "videos": [
+      "ki5Y8qISw2k",
+      "IfSQQaqs0uc",
+      "qJAXiL8k4sA",
+      "3m1ySlLJe_Y"
+    ]
   },
   {
     "lng": "170.71058750153",
     "lat": "-45.776114080263",
     "country": "New Zealand, New Zealand SI, SE Coast",
-    "name": "Aramoana"
+    "name": "Aramoana",
+    "videos": [
+      "Umabf4hU1cY",
+      "MCzwPnBsQcU"
+    ]
   },
   {
     "lng": "-48.483266830444",
     "lat": "-0.68851721139236",
     "country": "Brazil, Para",
-    "name": "Araruna"
+    "name": "Araruna",
+    "videos": [
+      "tJ4YZRH7QYw",
+      "M5BBayMF0gs"
+    ]
   },
   {
     "lng": "-70.053977966309",
     "lat": "12.620069905345",
     "country": "Aruba",
-    "name": "Arashi"
+    "name": "Arashi",
+    "videos": [
+      "E_gVkU1XJoY",
+      "rkcz7RlaVTU",
+      "0GqiJGt3M1k",
+      "5M6wYd8GDHg"
+    ]
   },
   {
     "lng": "173.80169391632",
@@ -1419,19 +2605,37 @@
     "lng": "-123.96208763123",
     "lat": "45.84688799709",
     "country": "USA, North West, Oregon North",
-    "name": "Arcadia"
+    "name": "Arcadia",
+    "videos": [
+      "DQYnVWZPl8A",
+      "-YJWFb3ob5Q",
+      "r9mLRYabWvE",
+      "bYimdgaA-1Q"
+    ]
   },
   {
     "lng": "30.768488645554",
     "lat": "46.428266448388",
     "country": "Ukraine",
-    "name": "Arcadia"
+    "name": "Arcadia",
+    "videos": [
+      "OqI1tv3k0_o",
+      "pGsp4j9Eaa0",
+      "oGMMQI1Z6uk",
+      "Olgo-44ooiE"
+    ]
   },
   {
     "lng": "152.47800350189",
     "lat": "-24.846954777011",
     "country": "Australia, QLD, North West",
-    "name": "Archies"
+    "name": "Archies",
+    "videos": [
+      "Kz5LC--XeFQ",
+      "6nF-b9mbh7k",
+      "Yv5vyTzp64Q",
+      "55pZHSmpHhs"
+    ]
   },
   {
     "lng": "-10.175635814667",
@@ -1443,37 +2647,69 @@
     "lng": "-25.548534393311",
     "lat": "37.817785166068",
     "country": "Azores, Eastern group",
-    "name": "Areias"
+    "name": "Areias",
+    "videos": [
+      "03NU5RfZf_I",
+      "fHgXfvEafCI",
+      "FAxYhJgNRZ8"
+    ]
   },
   {
     "lng": "34.840693473816",
     "lat": "32.302332616174",
     "country": "Israel",
-    "name": "Argaman's Beach"
+    "name": "Argaman's Beach",
+    "videos": [
+      "SDJ1A879NUE",
+      "CCW8kGlnKbA",
+      "sB69psyiX30",
+      "JhEBgxeQapM"
+    ]
   },
   {
     "lng": "3.0463242530823",
     "lat": "42.567304804259",
     "country": "France, Mediterranean",
-    "name": "Argelès-Sur-Mer"
+    "name": "Argelès-Sur-Mer",
+    "videos": [
+      "GWvIKC1Cdt4",
+      "FlRBr1_hZo4",
+      "4RqYHew5MNs",
+      "jUUxDPCDzak"
+    ]
   },
   {
     "lng": "-15.679008364677",
     "lat": "27.755263103826",
     "country": "Canary, Gran Canaria",
-    "name": "Arguineguin"
+    "name": "Arguineguin",
+    "videos": [
+      "KZ1yA4nnBLY",
+      "WPDz1es839k",
+      "85nJG04rkPQ",
+      "rtru68PyraM"
+    ]
   },
   {
     "lng": "99.565315246582",
     "lat": "-2.0248393153862",
     "country": "Indonesia, Mentawai",
-    "name": "Ariks"
+    "name": "Ariks",
+    "videos": [
+      "BkMFVMaIsK4"
+    ]
   },
   {
     "lng": "27.732646465302",
     "lat": "42.336452631426",
     "country": "Bulgaria",
-    "name": "Arkutino"
+    "name": "Arkutino",
+    "videos": [
+      "IOupLw4Hs8U",
+      "pCXtEw6Ezfg",
+      "-ZiP_EPLuKQ",
+      "HMPt7oi8nBg"
+    ]
   },
   {
     "lng": "7.8457832336426",
@@ -1485,7 +2721,13 @@
     "lng": "-48.508114814758",
     "lat": "-27.74161875553",
     "country": "Brazil, Florianopolis",
-    "name": "Armação"
+    "name": "Armação",
+    "videos": [
+      "s64-2JMHfLE",
+      "ZgwcTTn4U38",
+      "395ToqRFoQw",
+      "ZWdvs4gDEVw"
+    ]
   },
   {
     "lng": "122.84337472943",
@@ -1497,139 +2739,275 @@
     "lng": "-1.376895904541",
     "lat": "43.911590055914",
     "country": "France, Landes",
-    "name": "Arna plage"
+    "name": "Arna plage",
+    "videos": [
+      "a3MTxva7Egs",
+      "uzbGq_Rn30g",
+      "6fdLnSykssE",
+      "IL5AwKcrb6k"
+    ]
   },
   {
     "lng": "-119.1592168808",
     "lat": "34.120722501063",
     "country": "USA, California, Ventura",
-    "name": "Arnold"
+    "name": "Arnold",
+    "videos": [
+      "BRWjvZKKpC4",
+      "i5UJQudmjrs",
+      "9Hv8F57YP3o"
+    ]
   },
   {
     "lng": "-43.191654682159",
     "lat": "-22.989913491412",
     "country": "Brazil, Rio de Janeiro City",
-    "name": "Arpoador"
+    "name": "Arpoador",
+    "videos": [
+      "3cIcdU5eF5E",
+      "UkcKGLEtxm4",
+      "DgOcVQbWPS8",
+      "O_LmwQROuqU"
+    ]
   },
   {
     "lng": "-42.030054330826",
     "lat": "-22.94266505616",
     "country": "Brazil, Rio de Janeiro Norte",
-    "name": "Arraial do Cabo"
+    "name": "Arraial do Cabo",
+    "videos": [
+      "Wwxgync4IYU",
+      "NfE2jHBxEss",
+      "VdTRvMyjWOc",
+      "wpcjJgILk74"
+    ]
   },
   {
     "lng": "153.20348739624",
     "lat": "-30.058694253064",
     "country": "Australia, NSW, Banana Coast",
-    "name": "Arrawarra point"
+    "name": "Arrawarra point",
+    "videos": [
+      "UGIgUDWAuj0",
+      "uNrA1wVvvcw",
+      "3i01xiuGR7U",
+      "xF0V8WCxWGg"
+    ]
   },
   {
     "lng": "-13.464206457138",
     "lat": "29.128115550847",
     "country": "Canary, Lanzarote",
-    "name": "Arrieta"
+    "name": "Arrieta",
+    "videos": [
+      "4aPi-f6epuA",
+      "N6dSwhgj9yQ",
+      "hEp6xxYzLsY",
+      "Ck8WlnQW_cA"
+    ]
   },
   {
     "lng": "-8.8712453842163",
     "lat": "37.294437475046",
     "country": "Portugal, Algarve",
-    "name": "Arrifana"
+    "name": "Arrifana",
+    "videos": [
+      "5us1PBzuMek",
+      "H7M8KZq7ILY",
+      "rRwjAyVIhmQ",
+      "Qjc2dIsxS78"
+    ]
   },
   {
     "lng": "-3.0222702026367",
     "lat": "43.35813671795",
     "country": "Spain, Pais Vasco",
-    "name": "Arrigunaga"
+    "name": "Arrigunaga",
+    "videos": [
+      "czRGkYpvkPI",
+      "aHsI3w9yDKw",
+      "gDrtooBA6BM",
+      "Q_kU7DJJN4I"
+    ]
   },
   {
     "lng": "-49.415302276611",
     "lat": "-28.993802278359",
     "country": "Brazil, Santa Catarina",
-    "name": "Arroio do Silva"
+    "name": "Arroio do Silva",
+    "videos": [
+      "-k2u45XhhrA",
+      "xyszorLfPKs",
+      "AddgVLk5GuI",
+      "cL7aE-M34_Q"
+    ]
   },
   {
     "lng": "-104.94571387767",
     "lat": "19.317223926365",
     "country": "Mexico, Jalisco",
-    "name": "Arroyo seco"
+    "name": "Arroyo seco",
+    "videos": [
+      "gnhCWMxIXBs",
+      "yYqYYx7067g",
+      "6BSHoOdB4cA",
+      "wGCM1BdrI8w"
+    ]
   },
   {
     "lng": "115.74842333794",
     "lat": "-32.01574505646",
     "country": "Australia, WA, Perth City",
-    "name": "Artificial reef"
+    "name": "Artificial reef",
+    "videos": [
+      "1xKzHZj7u80",
+      "P9diwtbJS6M",
+      "jER-2jvaeHo",
+      "rvku-oPXchw"
+    ]
   },
   {
     "lng": "81.839475631714",
     "lat": "6.8400857398803",
     "country": "Sri Lanka",
-    "name": "Arugam Bay"
+    "name": "Arugam Bay",
+    "videos": [
+      "2Fe3-O5PHK8",
+      "mX8BaKXX7iU",
+      "IhHcbJTMDCg",
+      "M1laS8cSVdo"
+    ]
   },
   {
     "lng": "12.093887329102",
     "lat": "57.336250446713",
     "country": "Sweden",
-    "name": "Åsa (Aasa)"
+    "name": "Åsa (Aasa)",
+    "videos": [
+      "ZygjNWQJvQ8",
+      "KlYLcaLo1Cs",
+      "fCD23UrwemU",
+      "b0r7RHBmZ-4"
+    ]
   },
   {
     "lng": "-73.99530172348",
     "lat": "40.228136953567",
     "country": "USA, North East, New Jersey",
-    "name": "Asbury Park"
+    "name": "Asbury Park",
+    "videos": [
+      "0hNaM6g9o_4",
+      "pp2ZawJ4GIE",
+      "qNPouyA90Ec",
+      "zbp9n7CHg1g"
+    ]
   },
   {
     "lng": "-87.354440689087",
     "lat": "12.625095278624",
     "country": "Nicaragua",
-    "name": "Aserradores"
+    "name": "Aserradores",
+    "videos": [
+      "zuzelPAOQRc",
+      "xZsnWmC_Rkc",
+      "WiQxHxqU5LU",
+      "YRhH4ZVeF8I"
+    ]
   },
   {
     "lng": "34.640128612518",
     "lat": "31.817389186786",
     "country": "Israel",
-    "name": "Ashdod -hshover"
+    "name": "Ashdod -hshover",
+    "videos": [
+      "_fgHHWkQIfQ",
+      "4NPLzwA-mCk",
+      "v5CQTVTVXek",
+      "-j4nEN_UFNU"
+    ]
   },
   {
     "lng": "39.263682961464",
     "lat": "43.956599301375",
     "country": "Russia, Black Sea",
-    "name": "Ashe"
+    "name": "Ashe",
+    "videos": [
+      "MSECfFaPk-c",
+      "nOgfV2xf0mE",
+      "cR36exYi72c"
+    ]
   },
   {
     "lng": "-76.608180999756",
     "lat": "-12.778321565438",
     "country": "Peru, Lima",
-    "name": "Asia - Palmas"
+    "name": "Asia - Palmas",
+    "videos": [
+      "U6oA0iv_U8I",
+      "lyHlX5nXdAU",
+      "npVrpq7eRzQ",
+      "nOgfV2xf0mE"
+    ]
   },
   {
     "lng": "-76.555910110474",
     "lat": "-12.819501030525",
     "country": "Peru, Lima",
-    "name": "Asia del Mar"
+    "name": "Asia del Mar",
+    "videos": [
+      "ODurlJLk3rk",
+      "nS8LL7MmDAA",
+      "OZo1AJbhlsY",
+      "82Dr6ZeHQSY"
+    ]
   },
   {
     "lng": "-121.94275438786",
     "lat": "36.618016332942",
     "country": "USA, California, Monterey",
-    "name": "Asilomar"
+    "name": "Asilomar",
+    "videos": [
+      "XdpxvS72rJc",
+      "xq6zD21_4KM",
+      "-dS-KczYYFg",
+      "C1yoijv_GKI"
+    ]
   },
   {
     "lng": "149.9149274826",
     "lat": "-37.053379021789",
     "country": "Australia, NSW, Far South",
-    "name": "Asling's Beach"
+    "name": "Asling's Beach",
+    "videos": [
+      "VYvlkqPEv88",
+      "nOOx958UoQA",
+      "-UEyrbGTndI",
+      "0Z827h_LdmY"
+    ]
   },
   {
     "lng": "-75.146741867065",
     "lat": "38.206892714171",
     "country": "USA, North East, Virginia",
-    "name": "Assateague"
+    "name": "Assateague",
+    "videos": [
+      "MAI0h_Jd-rU",
+      "LQb9TVH7Uj4",
+      "WJosKya9zeg",
+      "R41Ms5H3SMM"
+    ]
   },
   {
     "lng": "-3.2908344268799",
     "lat": "5.1256530269629",
     "country": "Ivory Coast",
-    "name": "Assinie"
+    "name": "Assinie",
+    "videos": [
+      "ot6UFaw8Aq0",
+      "0YdeqNNZYFI",
+      "DFT2wD3P9qw",
+      "QC8OOQVneng"
+    ]
   },
   {
     "lng": "-3.4291076660156",
@@ -1641,43 +3019,79 @@
     "lng": "-86.17169380188",
     "lat": "11.512406513805",
     "country": "Nicaragua",
-    "name": "Astillero"
+    "name": "Astillero",
+    "videos": [
+      "7UOEMwCIj_0",
+      "mWk-MzAUUa4",
+      "HPrXd8NM8xo",
+      "hw7w4EvJFGg"
+    ]
   },
   {
     "lng": "-46.266474723816",
     "lat": "-24.007737505859",
     "country": "Brazil, Sao Paulo North Coast",
-    "name": "Astúrias"
+    "name": "Astúrias",
+    "videos": [
+      "y69wrGAGufw"
+    ]
   },
   {
     "lng": "97.333545684814",
     "lat": "0.86737180600208",
     "country": "Indonesia, Sumatra Islands",
-    "name": "Asu"
+    "name": "Asu",
+    "videos": [
+      "Ut6LkCAHrk8",
+      "2xCTXGNExxA",
+      "BCryPJGf7go",
+      "6ynAvCxv8A8"
+    ]
   },
   {
     "lng": "-86.620797222222",
     "lat": "11.933988888889",
     "country": "Nicaragua",
-    "name": "Asunchillo"
+    "name": "Asunchillo",
+    "videos": [
+      "WiQxHxqU5LU",
+      "Y2l7Va38Ows",
+      "93t0RkeirhM",
+      "G-CQEWT-mT4"
+    ]
   },
   {
     "lng": "-79.8486328125",
     "lat": "0.8765546261554",
     "country": "Ecuador",
-    "name": "Atacames"
+    "name": "Atacames",
+    "videos": [
+      "CQ3aPfOFkTY",
+      "VKqxFwqLLBE",
+      "rIkMQKFzSaQ",
+      "Z7S7q3Q3-UI"
+    ]
   },
   {
     "lng": "136.41509056091",
     "lat": "36.419348580955",
     "country": "Japan, West Coast",
-    "name": "Ataka"
+    "name": "Ataka",
+    "videos": [
+      "nOgfV2xf0mE"
+    ]
   },
   {
     "lng": "-48.639360666275",
     "lat": "-26.915162996298",
     "country": "Brazil, Santa Catarina North",
-    "name": "Atalaia"
+    "name": "Atalaia",
+    "videos": [
+      "d1O1hLKWmy0",
+      "s6vs24obRB0",
+      "AQBivVGV2MU",
+      "rsZlaCy1Aig"
+    ]
   },
   {
     "lng": "136.14858627319",
@@ -1695,25 +3109,47 @@
     "lng": "-76.740833333333",
     "lat": "34.700555555556",
     "country": "USA, South East, North Carolina",
-    "name": "Atlantic Beach"
+    "name": "Atlantic Beach",
+    "videos": [
+      "3sDGi8PNtWU",
+      "c-IVnifZ5og",
+      "51Wt3D858K8",
+      "XeldhceOkh0"
+    ]
   },
   {
     "lng": "-16.529799699783",
     "lat": "28.049541964101",
     "country": "Canary, Tenerife",
-    "name": "Atlantic Playa"
+    "name": "Atlantic Playa",
+    "videos": [
+      "XGq7houjdq4",
+      "P2p2StVyIwU",
+      "6lOyo0wZhVM",
+      "Ds7SXP7sR90"
+    ]
   },
   {
     "lng": "-50.022554397583",
     "lat": "-29.784715833632",
     "country": "Brazil, Rio Grande do Sul",
-    "name": "Atlântida - Pier"
+    "name": "Atlântida - Pier",
+    "videos": [
+      "JfiHRtCEV9o",
+      "9eKASs4Ze1s"
+    ]
   },
   {
     "lng": "29.92635011673",
     "lat": "60.143774774572",
     "country": "Russia, Finnish Bay",
-    "name": "Atlantis"
+    "name": "Atlantis",
+    "videos": [
+      "A3RKblcgOi8",
+      "R2zJ73ccgfk",
+      "DtcwOeMb_n8",
+      "8VsCPGfbYxA"
+    ]
   },
   {
     "lng": "-4.5475673675537",
@@ -1731,7 +3167,12 @@
     "lng": "1.5920412540436",
     "lat": "50.821580525157",
     "country": "France, Normandy",
-    "name": "Audreselles"
+    "name": "Audreselles",
+    "videos": [
+      "xyFlFgQAfrs",
+      "l9cayFdXK7Q",
+      "OzBvdJPVIBI"
+    ]
   },
   {
     "lng": "x",
@@ -1743,109 +3184,216 @@
     "lng": "115.17954826355",
     "lat": "-34.324583089158",
     "country": "Australia, WA, Margaret River South",
-    "name": "Augusta Rivermouth"
+    "name": "Augusta Rivermouth",
+    "videos": [
+      "lXHpaDqIl7Y",
+      "WkYYEye7pKs",
+      "pEP5yFkliUg",
+      "OO-mod84xDw"
+    ]
   },
   {
     "lng": "150.93571722507",
     "lat": "-34.306736188612",
     "country": "Australia, NSW, Coal Coast",
-    "name": "Austinmer Beach"
+    "name": "Austinmer Beach",
+    "videos": [
+      "S_E6PCMCvlw",
+      "IfUonZnurBc",
+      "ki6qE04RXi8",
+      "aFWnQdwCJIk"
+    ]
   },
   {
     "lng": "150.93586206436",
     "lat": "-34.307852838836",
     "country": "Australia, NSW, Coal Coast",
-    "name": "Austinmer pools"
+    "name": "Austinmer pools",
+    "videos": [
+      "Tc7jz6ODq4M",
+      "aFWnQdwCJIk",
+      "ki6qE04RXi8",
+      "AGEpSgneFgw"
+    ]
   },
   {
     "lng": "25.669512748718",
     "lat": "-33.982495496277",
     "country": "South Africa, South East Port Elizabeth",
-    "name": "Avalanche"
+    "name": "Avalanche",
+    "videos": [
+      "dY9-nrSN5_8",
+      "nzam-jnECZw",
+      "4uVFUt8Ab3w"
+    ]
   },
   {
     "lng": "-117.25529909133",
     "lat": "32.75212725693",
     "country": "USA, California, San Diego County",
-    "name": "Avalanche"
+    "name": "Avalanche",
+    "videos": [
+      "1vgMcmTIBiI",
+      "Z9QF26t-eF4",
+      "P522aKZ-8gU",
+      "IbJbzR0iYaE"
+    ]
   },
   {
     "lng": "-124.07905340195",
     "lat": "44.678830636948",
     "country": "USA, North West, Oregon Central",
-    "name": "Avalanche"
+    "name": "Avalanche",
+    "videos": [
+      "tJPkGBP0Aic",
+      "FEY-w3HiKHo",
+      "kVXnCKy9um8",
+      "d3ZNZvHmATc"
+    ]
   },
   {
     "lng": "-158.11472609638",
     "lat": "21.595267725663",
     "country": "USA, Hawaii, Oahu",
-    "name": "Avalanche Oahu"
+    "name": "Avalanche Oahu",
+    "videos": [
+      "65KMD3Q1J5M",
+      "PyHViws-y3c",
+      "mB-T-ZTVUL4",
+      "5SBMf19BYB8"
+    ]
   },
   {
     "lng": "-74.709123373032",
     "lat": "39.102607211263",
     "country": "USA, North East, New Jersey",
-    "name": "Avalon - 15th Street"
+    "name": "Avalon - 15th Street",
+    "videos": [
+      "lx2r0fYwDWY",
+      "DQYnVWZPl8A",
+      "C93W_-cDxmY",
+      "qCj7WMfRtvE"
+    ]
   },
   {
     "lng": "-74.718511104584",
     "lat": "39.09266554485",
     "country": "USA, North East, New Jersey",
-    "name": "Avalon - 30th Street"
+    "name": "Avalon - 30th Street",
+    "videos": [
+      "cYZb30sLZqE",
+      "Q541nlRQEPg",
+      "BnWGNHx4XUI",
+      "XeldhceOkh0"
+    ]
   },
   {
     "lng": "115.63802361488",
     "lat": "-32.592391872321",
     "country": "Australia, WA, Perth South",
-    "name": "Avalon Point"
+    "name": "Avalon Point",
+    "videos": [
+      "KYw_vG33wJk",
+      "yA61jws9QuU",
+      "qS9K6hzlZKg",
+      "Qd9eSKUD83E"
+    ]
   },
   {
     "lng": "-147.71006584168",
     "lat": "-14.936295009734",
     "country": "French Polynesia, Tuamotu Islands",
-    "name": "Avatoru Pass, Rangiroa"
+    "name": "Avatoru Pass, Rangiroa",
+    "videos": [
+      "S7DipS96-mw",
+      "rS_Qo7iXDjc",
+      "3Urufc9GLuU",
+      "TfSGqpT75i0"
+    ]
   },
   {
     "lng": "-71.276700496674",
     "lat": "-29.918544676663",
     "country": "Chile, Coquimbo",
-    "name": "Avenida del mar"
+    "name": "Avenida del mar",
+    "videos": [
+      "I9Jt5oHGBcc",
+      "uIuY3atVI28",
+      "jf5lB2LlXZo",
+      "--2dCiFppPs"
+    ]
   },
   {
     "lng": "-44.304428100586",
     "lat": "-23.180132370708",
     "country": "Brazil, Rio de Janeiro Norte",
-    "name": "Aventureiro"
+    "name": "Aventureiro",
+    "videos": [
+      "6W8BUWthV44",
+      "uaRyK4tbfDA",
+      "4C9U198gQIM",
+      "eunCHHOBzWw"
+    ]
   },
   {
     "lng": "-8.740257024765",
     "lat": "43.293680567165",
     "country": "Spain, Galicia",
-    "name": "Aviño"
+    "name": "Aviño",
+    "videos": [
+      "MKXSKabnZGQ",
+      "5-sLiwYhbRI",
+      "QQuj3jpSSjU",
+      "8HhYor1Usgk"
+    ]
   },
   {
     "lng": "-65.956892967224",
     "lat": "18.45270260654",
     "country": "Puerto Rico",
-    "name": "Aviones"
+    "name": "Aviones",
+    "videos": [
+      "EDAQ5SuUPFg",
+      "BKw8XKnE2LQ",
+      "BXqmyQCOpRI",
+      "wSCxyp-LVL0"
+    ]
   },
   {
     "lng": "151.43764972687",
     "lat": "-33.469629428154",
     "country": "Australia, NSW, Central",
-    "name": "Avoca Point"
+    "name": "Avoca Point",
+    "videos": [
+      "KRNfp9vcb4Y",
+      "5sX52LmNnnA",
+      "loTZfnYBdLM",
+      "PDUcPoLer5Q"
+    ]
   },
   {
     "lng": "-2.2458028793335",
     "lat": "4.8581504642157",
     "country": "Ghana",
-    "name": "Axim"
+    "name": "Axim",
+    "videos": [
+      "ZrqZXVfSynM",
+      "DZsFywPoeh0",
+      "vvmsFRBaVmk",
+      "sRXA8QgmtJA"
+    ]
   },
   {
     "lng": "-80.815773010254",
     "lat": "-1.6798949897108",
     "country": "Ecuador",
-    "name": "Ayampe"
+    "name": "Ayampe",
+    "videos": [
+      "fF4wxABOodo",
+      "1TO0OiHzm2M",
+      "cK4XSO1xMHc",
+      "kfHaMi7T0GM"
+    ]
   },
   {
     "lng": "-1.1487901210785",
@@ -1863,151 +3411,295 @@
     "lng": "-8.7446933984756",
     "lat": "41.338931123836",
     "country": "Portugal, North Porto",
-    "name": "Azurara"
+    "name": "Azurara",
+    "videos": [
+      "VWIrser0lQY",
+      "_X3RZtfXNa4",
+      "69EDrIUBEMM",
+      "IHks1k4_yGY"
+    ]
   },
   {
     "lng": "125.05249142646",
     "lat": "-8.8269722080643",
     "country": "East Timor",
-    "name": "B-point"
+    "name": "B-point",
+    "videos": [
+      "JH26wnvNTXY",
+      "lGZl9w6YKGU",
+      "Pc_T2d645W4",
+      "1nJJqG36m0I"
+    ]
   },
   {
     "lng": "-157.84955620766",
     "lat": "21.284615856797",
     "country": "USA, Hawaii, Oahu",
-    "name": "Baby Haleiwa's"
+    "name": "Baby Haleiwa's",
+    "videos": [
+      "zZqxPozl2Ec",
+      "jyDqEr9usxw",
+      "CSEyJjLwbDs",
+      "43HreIzBzbw"
+    ]
   },
   {
     "lng": "-157.66544669867",
     "lat": "21.315820705688",
     "country": "USA, Hawaii, Oahu",
-    "name": "Baby Makapuu"
+    "name": "Baby Makapuu",
+    "videos": [
+      "Opf9BE2ZdnI",
+      "FXEfFD0v2NA",
+      "4f7gFJEPKco",
+      "VM_9m1wYqqg"
+    ]
   },
   {
     "lng": "6.1634320020676",
     "lat": "46.208790665526",
     "country": "Switzerland",
-    "name": "Baby Plage"
+    "name": "Baby Plage",
+    "videos": [
+      "lOSmHNzzgNM",
+      "R2zJ73ccgfk",
+      "NPZmKmXuylg",
+      "O3nAx6uf_ms"
+    ]
   },
   {
     "lng": "31.390857696533",
     "lat": "36.772511215315",
     "country": "Turkey",
-    "name": "Baby Point Side"
+    "name": "Baby Point Side",
+    "videos": [
+      "XeldhceOkh0",
+      "Nl4zTl2bw1s",
+      "Erl2fuumPZc",
+      "gaKMNJRn2Xw"
+    ]
   },
   {
     "lng": "-6.1113810539246",
     "lat": "53.481840266285",
     "country": "Ireland, North East and East",
-    "name": "back beach"
+    "name": "back beach",
+    "videos": [
+      "ALRoebu0Rgs",
+      "FIXeaXJyBiY",
+      "XeldhceOkh0",
+      "rzNfuvSb2iU"
+    ]
   },
   {
     "lng": "114.61177825928",
     "lat": "-28.794139286043",
     "country": "Australia, WA, Perth North",
-    "name": "Back beach"
+    "name": "Back beach",
+    "videos": [
+      "rgdG_51uSLc",
+      "H2nUXdYmD48",
+      "qkt8oRdzBCQ",
+      "KYw_vG33wJk"
+    ]
   },
   {
     "lng": "174.0150743723",
     "lat": "-39.06826338817",
     "country": "New Zealand, New Zealand NI, West Coast Taranaki",
-    "name": "Back Beach"
+    "name": "Back Beach",
+    "videos": [
+      "ALRoebu0Rgs",
+      "6qDAiK7y8UQ",
+      "BpxUiyEjy88",
+      "JQhGbs2Zrqk"
+    ]
   },
   {
     "lng": "152.40775108337",
     "lat": "-32.49542915368",
     "country": "Australia, NSW, Newcastle",
-    "name": "Back Bommie"
+    "name": "Back Bommie",
+    "videos": [
+      "C7EFi1UD0oY"
+    ]
   },
   {
     "lng": "152.1356678009",
     "lat": "-32.681718857913",
     "country": "Australia, NSW, Mid North Coast",
-    "name": "Back Jimmys"
+    "name": "Back Jimmys",
+    "videos": [
+      "XeldhceOkh0",
+      "fcrza9YjjjA",
+      "NPZmKmXuylg",
+      "73PW56YHvXs"
+    ]
   },
   {
     "lng": "151.57284915447",
     "lat": "-33.279260933822",
     "country": "Australia, NSW, Central",
-    "name": "Backdoor"
+    "name": "Backdoor",
+    "videos": [
+      "KRNfp9vcb4Y",
+      "HNfNUX-d3Oc",
+      "gtYBEbNM6Is",
+      "x78jNqtexQU"
+    ]
   },
   {
     "lng": "-158.05210590363",
     "lat": "21.667678489776",
     "country": "USA, Hawaii, Oahu",
-    "name": "Backdoor"
+    "name": "Backdoor",
+    "videos": [
+      "jyDqEr9usxw",
+      "CdGfdM9PpPI",
+      "Ra7E1Bpb83Y",
+      "GHMHKrAstXs"
+    ]
   },
   {
     "lng": "-42.472313046455",
     "lat": "-22.938421471373",
     "country": "Brazil, Rio de Janeiro Norte",
-    "name": "Backdoor"
+    "name": "Backdoor",
+    "videos": [
+      "UZENr9MciLI",
+      "9h505-Pc5GY",
+      "dch1lcaFbIc",
+      "ZMe3YQByBd0"
+    ]
   },
   {
     "lng": "13.393814563751",
     "lat": "37.333194071459",
     "country": "Italy, Sicily",
-    "name": "Backdoor"
+    "name": "Backdoor",
+    "videos": [
+      "Nf9QCmDy1Nc",
+      "6c1g1kJQJp4",
+      "N3oNR-il8a4"
+    ]
   },
   {
     "lng": "-39.00146484375",
     "lat": "-14.840602783968",
     "country": "Brazil, Bahia Sul",
-    "name": "Backdoor"
+    "name": "Backdoor",
+    "videos": [
+      "CxGEjk_31aI",
+      "-k2u45XhhrA",
+      "P8lLBdYXJYA",
+      "yChabekPD0s"
+    ]
   },
   {
     "lng": "34.979524612427",
     "lat": "32.835516251146",
     "country": "Israel",
-    "name": "BackDoor (Haifa)"
+    "name": "BackDoor (Haifa)",
+    "videos": [
+      "Zi8kAyxTrH0",
+      "saEC9E5nurg",
+      "g6sh30JjwN8",
+      "-j4nEN_UFNU"
+    ]
   },
   {
     "lng": "153.607878685",
     "lat": "-28.843470765934",
     "country": "Australia, NSW, North",
-    "name": "Backsides"
+    "name": "Backsides",
+    "videos": [
+      "-PqEefd_hNs",
+      "5hKAupV2pqI",
+      "ALRoebu0Rgs",
+      "0yG7ikKb2KE"
+    ]
   },
   {
     "lng": "-83.279113769531",
     "lat": "8.3914597996759",
     "country": "Costa Rica, Pacific South",
-    "name": "Backwash"
+    "name": "Backwash",
+    "videos": [
+      "kPHMQVYc4kU",
+      "bGE0B6VtkiA",
+      "9NWjru0gaNg",
+      "33FWaSpOrY4"
+    ]
   },
   {
     "lng": "-81.261041164398",
     "lat": "29.811273463702",
     "country": "USA, South East, North Florida",
-    "name": "Backyard OG (ocean gallery)"
+    "name": "Backyard OG (ocean gallery)",
+    "videos": [
+      "ALRoebu0Rgs",
+      "R2zJ73ccgfk",
+      "NPZmKmXuylg",
+      "nsqrSaK7HCU"
+    ]
   },
   {
     "lng": "8.8536071777344",
     "lat": "40.982101130655",
     "country": "Italy, Sicily Sardinia",
-    "name": "Badesi"
+    "name": "Badesi",
+    "videos": [
+      "xl_zLFU1vco",
+      "RgodANMLQqE",
+      "_MKhebXbTL8",
+      "XDUqL8ZfyhA"
+    ]
   },
   {
     "lng": "126.05833053589",
     "lat": "9.2311474526738",
     "country": "Philippines, Siargao Islands",
-    "name": "Badjang"
+    "name": "Badjang",
+    "videos": [
+      "i6H3GBZ5R5I",
+      "OMGChobDw24",
+      "uDnJo6Le3zk",
+      "XB1cs2lFj7c"
+    ]
   },
   {
     "lng": "-9.3661746382713",
     "lat": "38.692226039287",
     "country": "Portugal, Central Lisboa",
-    "name": "Bafureira"
+    "name": "Bafureira",
+    "videos": [
+      "jdgNtb5A5tM",
+      "hd3F-AJxK5M"
+    ]
   },
   {
     "lng": "122.98421859741",
     "lat": "14.1375744263",
     "country": "Philippines, Luzon",
-    "name": "Bagasbas Beach"
+    "name": "Bagasbas Beach",
+    "videos": [
+      "NLXX81sjj7o",
+      "hW84-X2KcqA",
+      "_B07rQmuInY",
+      "CvT_oxEPxfc"
+    ]
   },
   {
     "lng": "30.872569084167",
     "lat": "-30.078940183934",
     "country": "South Africa, Durban",
-    "name": "Baggies"
+    "name": "Baggies",
+    "videos": [
+      "mpmpDxMbAjs",
+      "gQvZrAYBHic",
+      "_LpdXmItNY4",
+      "4zUrI6J0VM4"
+    ]
   },
   {
     "lng": "30.873073339462",
@@ -2031,19 +3723,37 @@
     "lng": "14.445390701294",
     "lat": "35.951920450497",
     "country": "Malta",
-    "name": "Bahar ic-Caghaq"
+    "name": "Bahar ic-Caghaq",
+    "videos": [
+      "u0eh4S5Hkk8",
+      "Cbjii8tblCg",
+      "gDR4PZWf-KA",
+      "ivSPhhawWNI"
+    ]
   },
   {
     "lng": "109.19616222382",
     "lat": "12.11603331326",
     "country": "Vietnam",
-    "name": "Bai Dai Beach, Nha Trang"
+    "name": "Bai Dai Beach, Nha Trang",
+    "videos": [
+      "rfY6qcW1p6U",
+      "-TlGt6731VY",
+      "CooOm6B3HM4",
+      "39A7VWbz3L0"
+    ]
   },
   {
     "lng": "-9.3558025360107",
     "lat": "39.366487557215",
     "country": "Portugal, Central Peniche",
-    "name": "Baía"
+    "name": "Baía",
+    "videos": [
+      "omVNPWtZJxw",
+      "5c1yg_5rEYg",
+      "Et7OYs5LjWc",
+      "DPYw4QExWSg"
+    ]
   },
   {
     "lng": "-27.185904979706",
@@ -2055,31 +3765,58 @@
     "lng": "-35.014801025391",
     "lat": "-6.3669937103283",
     "country": "Brazil, Rio Grande Do Norte",
-    "name": "Baia Formosa"
+    "name": "Baia Formosa",
+    "videos": [
+      "vvUrYb-9viE",
+      "di_Fn4PcQ-A",
+      "usACf_JRCnQ",
+      "PBoNRbkFNVg"
+    ]
   },
   {
     "lng": "-4.7066974639893",
     "lat": "48.047791891609",
     "country": "France, Brittany South",
-    "name": "Baie des Trépassés"
+    "name": "Baie des Trépassés",
+    "videos": [
+      "505WDIZIhQY",
+      "8algjaziw10"
+    ]
   },
   {
     "lng": "-71.311976909637",
     "lat": "41.45568963371",
     "country": "USA, North East, Southern New England",
-    "name": "Bailey's Beach"
+    "name": "Bailey's Beach",
+    "videos": [
+      "ALRoebu0Rgs",
+      "nsqrSaK7HCU",
+      "IGpMDUEiJi4",
+      "DQYnVWZPl8A"
+    ]
   },
   {
     "lng": "18.466687202454",
     "lat": "-34.112337526938",
     "country": "South Africa, Cape Town",
-    "name": "Baileys cottage"
+    "name": "Baileys cottage",
+    "videos": [
+      "ALRoebu0Rgs",
+      "nsqrSaK7HCU",
+      "_t35lbKg3Uo",
+      "AE6mfQp06Jk"
+    ]
   },
   {
     "lng": "134.36931610107",
     "lat": "-33.179801304273",
     "country": "Australia, SA, Eyre Peninsula",
-    "name": "Baird Bay Reef"
+    "name": "Baird Bay Reef",
+    "videos": [
+      "_u592sVujZ4",
+      "NsKRrG83GPc",
+      "dECqmXhgsJE"
+    ]
   },
   {
     "lng": "-27.12751865387",
@@ -2091,157 +3828,306 @@
     "lng": "-117.09575",
     "lat": "32.419503",
     "country": "Mexico, Baja Norte",
-    "name": "Baja Malibu"
+    "name": "Baja Malibu",
+    "videos": [
+      "FFyEd6saz5w",
+      "vYBQQjWHTkI",
+      "TbUbHfJ-b0g",
+      "NLN7i0DUocU"
+    ]
   },
   {
     "lng": "-84.701156616211",
     "lat": "9.858852323208",
     "country": "Costa Rica, Pacific South",
-    "name": "Bajamar"
+    "name": "Bajamar",
+    "videos": [
+      "oOWmLFQ-F7Y",
+      "atk_SK77XY0",
+      "tRvRwkl-y-A",
+      "InlrMU4ahf4"
+    ]
   },
   {
     "lng": "-16.34035",
     "lat": "28.5572",
     "country": "Canary, Tenerife",
-    "name": "Bajamar"
+    "name": "Bajamar",
+    "videos": [
+      "rYviN4aii2w",
+      "h7u1UI3tun8",
+      "ZxXvB3urCjg",
+      "AWi1kg74yEs"
+    ]
   },
   {
     "lng": "-71.069033145905",
     "lat": "41.508230212111",
     "country": "USA, North East, Southern New England",
-    "name": "Baker's beach"
+    "name": "Baker's beach",
+    "videos": [
+      "IGpMDUEiJi4",
+      "nsqrSaK7HCU",
+      "b0r7RHBmZ-4",
+      "z83DEuV-SiQ"
+    ]
   },
   {
     "lng": "-2.8050112724304",
     "lat": "43.432244712061",
     "country": "Spain, Pais Vasco",
-    "name": "Bakio"
+    "name": "Bakio",
+    "videos": [
+      "apJg603IyrM",
+      "lFD1Q0iLxyw",
+      "7-ATZQU-k_k",
+      "eVg5dDuhtUg"
+    ]
   },
   {
     "lng": "115.11981010437",
     "lat": "-8.7922455493342",
     "country": "Indonesia, Bali",
-    "name": "Balangan"
+    "name": "Balangan",
+    "videos": [
+      "UaH29e5gdxo",
+      "1K0_8IamIa8",
+      "PFdQk-TAoq0",
+      "hpTlnHcs_2s"
+    ]
   },
   {
     "lng": "-79.676413536072",
     "lat": "0.98453683098455",
     "country": "Ecuador",
-    "name": "Balao"
+    "name": "Balao",
+    "videos": [
+      "2Jn98zTB2hU",
+      "AC8SeHFoMGI",
+      "Y9enld2_Jy0",
+      "JZ7J3kxZMtg"
+    ]
   },
   {
     "lng": "-81.325360536575",
     "lat": "-4.6675854681255",
     "country": "Peru, North",
-    "name": "Balconies"
+    "name": "Balconies",
+    "videos": [
+      "HpzzmQRYFm8",
+      "IGpMDUEiJi4",
+      "O3nAx6uf_ms",
+      "e54xkL8TYzc"
+    ]
   },
   {
     "lng": "-77.98885345459",
     "lat": "33.851314331555",
     "country": "USA, South East, Southern North Carolina",
-    "name": "Bald Head Island- Point"
+    "name": "Bald Head Island- Point",
+    "videos": [
+      "IGpMDUEiJi4",
+      "NPZmKmXuylg",
+      "NItjB2Y226o"
+    ]
   },
   {
     "lng": "146.86938643456",
     "lat": "-19.11020232485",
     "country": "Australia, QLD, Far North West",
-    "name": "Balding Bay"
+    "name": "Balding Bay",
+    "videos": [
+      "ALRoebu0Rgs",
+      "x_6F0HfjrSM",
+      "XeldhceOkh0",
+      "DtcwOeMb_n8"
+    ]
   },
   {
     "lng": "-156.39304161072",
     "lat": "20.914704557826",
     "country": "USA, Hawaii, Maui",
-    "name": "Baldwin beach"
+    "name": "Baldwin beach",
+    "videos": [
+      "-Bbjbi4B0qQ",
+      "kLdncQjuBZI",
+      "XOEMokIYX4Y",
+      "PyHViws-y3c"
+    ]
   },
   {
     "lng": "-9.3424129486084",
     "lat": "39.367217470593",
     "country": "Portugal, Central Peniche",
-    "name": "Baleal"
+    "name": "Baleal",
+    "videos": [
+      "s9KeaMrIJSk",
+      "POihrPB10hw",
+      "finbjtyanwo",
+      "NBprAXW1wR4"
+    ]
   },
   {
     "lng": "-9.3556308746338",
     "lat": "39.361477491336",
     "country": "Portugal, Central Peniche",
-    "name": "Baleal Sul"
+    "name": "Baleal Sul",
+    "videos": [
+      "zgN_6qPjAgA",
+      "jgkpQWwvN7Y",
+      "DPYw4QExWSg",
+      "C6mVEJtUb9g"
+    ]
   },
   {
     "lng": "-45.670216666667",
     "lat": "-23.7776",
     "country": "Brazil, Sao Paulo North Coast",
-    "name": "Baleia"
+    "name": "Baleia",
+    "videos": [
+      "F5w9y-P7AM8",
+      "ZnFonjT0la4",
+      "e2If7tZG9k8",
+      "2lPxhpowo0g"
+    ]
   },
   {
     "lng": "121.56784057617",
     "lat": "15.753927728168",
     "country": "Philippines, Luzon",
-    "name": "Baler"
+    "name": "Baler",
+    "videos": [
+      "Yk7MyuDVtgs",
+      "tpcvoKMO2eQ",
+      "Q-nl28oL89E",
+      "DoP_JIAPKBc"
+    ]
   },
   {
     "lng": "18.37050318718",
     "lat": "-33.97281561771",
     "country": "South Africa, Cape Town",
-    "name": "Bali Bay"
+    "name": "Bali Bay",
+    "videos": [
+      "owFMFs5CkHY",
+      "uushJOcXuBA",
+      "0hM7jmiwGz8",
+      "XeldhceOkh0"
+    ]
   },
   {
     "lng": "115.23164749146",
     "lat": "-8.7848235413657",
     "country": "Indonesia, Bali",
-    "name": "Bali Tropic"
+    "name": "Bali Tropic",
+    "videos": [
+      "Zj5crGzvqXQ",
+      "CVQ47yl50M4",
+      "GWpw2ROpUYQ",
+      "gTCkuXeT4JU"
+    ]
   },
   {
     "lng": "114.98971223831",
     "lat": "-8.5242814660468",
     "country": "Indonesia, Bali",
-    "name": "Balian"
+    "name": "Balian",
+    "videos": [
+      "iEIoDuPZ4AU",
+      "TjPuuCJ_mB8",
+      "Q8oDo0zvLdo",
+      "z6wt0xX_4wE"
+    ]
   },
   {
     "lng": "167.98559188843",
     "lat": "-29.051442806365",
     "country": "Australia, Norfolk Island",
-    "name": "Ball Bay"
+    "name": "Ball Bay",
+    "videos": [
+      "UjJ22ImryIs",
+      "ALRoebu0Rgs",
+      "XeldhceOkh0",
+      "NlND8Zry_bE"
+    ]
   },
   {
     "lng": "-66.857299804688",
     "lat": "17.955545906148",
     "country": "Puerto Rico",
-    "name": "Ballenas"
+    "name": "Ballenas",
+    "videos": [
+      "k0BwLRqCRU8",
+      "JPC8pFIvWlA",
+      "tNrkaIO76dQ",
+      "p04di9v_Zfc"
+    ]
   },
   {
     "lng": "153.59242916107",
     "lat": "-28.873990427414",
     "country": "Australia, NSW, North",
-    "name": "Ballina North Wall"
+    "name": "Ballina North Wall",
+    "videos": [
+      "x_pBE0hMjmY",
+      "Mcln5RaH9Iw",
+      "kgt4GirIuC8",
+      "IkHv_4B5_eE"
+    ]
   },
   {
     "lng": "-10.217113494872",
     "lat": "51.841584619652",
     "country": "Ireland, South West",
-    "name": "Ballinskelligs"
+    "name": "Ballinskelligs",
+    "videos": [
+      "SWWtnWEQlZY",
+      "vJysDNKGpdU",
+      "wYwwMFiO7ko",
+      "sTI-UmausWU"
+    ]
   },
   {
     "lng": "31.221",
     "lat": "-29.539166666667",
     "country": "South Africa, East Coast North",
-    "name": "Ballito - Surfers Point"
+    "name": "Ballito - Surfers Point",
+    "videos": [
+      "417s5QRufHE",
+      "qkKQKshx7j8",
+      "YesVgGkH4og",
+      "rq9QOdrWOig"
+    ]
   },
   {
     "lng": "-70.021147727966",
     "lat": "42.000827447744",
     "country": "USA, North East, Southern New England",
-    "name": "Ballston Beach"
+    "name": "Ballston Beach",
+    "videos": [
+      "-JcjDjqB9vc"
+    ]
   },
   {
     "lng": "-9.6770775318146",
     "lat": "52.513824695392",
     "country": "Ireland, South West",
-    "name": "Ballybunion"
+    "name": "Ballybunion",
+    "videos": [
+      "vJysDNKGpdU",
+      "t2hQ55WGB9s",
+      "ZBt7MAKD47M",
+      "LHIiEgAe3Vw"
+    ]
   },
   {
     "lng": "-9.8365402221681",
     "lat": "52.387604576874",
     "country": "Ireland, South West",
-    "name": "ballyheigue ireland southwest"
+    "name": "ballyheigue ireland southwest",
+    "videos": [
+      "MdK0qCKRpNw"
+    ]
   },
   {
     "lng": "-7.7027893066406",
@@ -2253,103 +4139,197 @@
     "lng": "151.25255584717",
     "lat": "-33.8219770915",
     "country": "Australia, NSW, Sydney North",
-    "name": "Balmoral point"
+    "name": "Balmoral point",
+    "videos": [
+      "Zlf29IBsR_E",
+      "LMYf-KLuz_A",
+      "ylvkv5VPa6w",
+      "gytIQ8IydO0"
+    ]
   },
   {
     "lng": "145.12475967407",
     "lat": "-38.390479808065",
     "country": "Australia, VIC, Melbourne East",
-    "name": "Balnarring Point"
+    "name": "Balnarring Point",
+    "videos": [
+      "MJINHJ-2BAw",
+      "gXNY17al3cI",
+      "uxEvsWw9tys",
+      "74tpztU4Big"
+    ]
   },
   {
     "lng": "-48.629951477051",
     "lat": "-26.987712366288",
     "country": "Brazil, Santa Catarina North",
-    "name": "Balneário Camboriú"
+    "name": "Balneário Camboriú",
+    "videos": [
+      "y69wrGAGufw",
+      "3XB9U5ChFg0",
+      "TCYVtvNGEFo",
+      "tUjn3xzrgzI"
+    ]
   },
   {
     "lng": "-48.4891764074564",
     "lat": "-25.7332396357577",
     "country": "Brazil",
-    "name": "Balneário Costa azul"
+    "name": "Balneário Costa azul",
+    "videos": [
+      "TE4cjLsE9Sg",
+      "2S5jtIC-1r0",
+      "AasY5IaM3fo",
+      "32wrx8zqNJM"
+    ]
   },
   {
     "lng": "103.5597038269",
     "lat": "10.494732339895",
     "country": "Cambodia",
-    "name": "Bamboo Island"
+    "name": "Bamboo Island",
+    "videos": [
+      "EnPQl7W5TzE",
+      "rl-4pdtfxG0",
+      "0Tl05yUj5kI",
+      "uvbIPiyPT84"
+    ]
   },
   {
     "lng": "147.5013256073",
     "lat": "-42.894210024695",
     "country": "Australia, TAS, Hobart",
-    "name": "Bambra Reef"
+    "name": "Bambra Reef",
+    "videos": [
+      "pqATXFk0Lv0"
+    ]
   },
   {
     "lng": "-1.7166191339493",
     "lat": "55.612056451916",
     "country": "UK, Borders and NE England",
-    "name": "Bamburgh"
+    "name": "Bamburgh",
+    "videos": [
+      "sHUVgt0i9l4",
+      "ObfNakuqg7I",
+      "tA3wLtoIOqQ",
+      "P857fjnKgao"
+    ]
   },
   {
     "lng": "-9.6771955490112",
     "lat": "30.499308873365",
     "country": "Morocco, South",
-    "name": "Banana Beach"
+    "name": "Banana Beach",
+    "videos": [
+      "3bkM288LrCo",
+      "l8G-jtXb15w",
+      "PWc3SZ_9XT4",
+      "Jd9efmI9-xs"
+    ]
   },
   {
     "lng": "30.516242980957",
     "lat": "-30.664055710273",
     "country": "South Africa, Hibiscous Coast",
-    "name": "Banana Beach"
+    "name": "Banana Beach",
+    "videos": [
+      "NPZmKmXuylg",
+      "Ey8cvmrcEmM",
+      "2OcfpJBO09w"
+    ]
   },
   {
     "lng": "103.84603500366",
     "lat": "-5.1230883978439",
     "country": "Indonesia, Sumatra Mainland",
-    "name": "Banana Island"
+    "name": "Banana Island",
+    "videos": [
+      "RynIvkktCGU",
+      "OwZRlN4BqtU",
+      "vw1izY1PteQ",
+      "Gyxbdcf1ZcA"
+    ]
   },
   {
     "lng": "-9.6848130226135",
     "lat": "30.50211911325",
     "country": "Morocco, South",
-    "name": "Banana Point"
+    "name": "Banana Point",
+    "videos": [
+      "rIg11DbMfJk",
+      "O5arjryYD7c",
+      "En-B0ILqpPY",
+      "l8G-jtXb15w"
+    ]
   },
   {
     "lng": "-61.602138876918",
     "lat": "15.999661898924",
     "country": "Guadeloupe",
-    "name": "Bananier"
+    "name": "Bananier",
+    "videos": [
+      "rRQ4DyPYayM",
+      "43_66fH7POM",
+      "z20KCI9e7RE",
+      "Uiy2YBPDKzY"
+    ]
   },
   {
     "lng": "-64.587480425835",
     "lat": "48.372016555788",
     "country": "Canada, East Coast",
-    "name": "Banc de Pabos"
+    "name": "Banc de Pabos",
+    "videos": [
+      "bwy_RTTXYpg",
+      "D-tVRk2-cRM",
+      "Q9dCNrFhfh4"
+    ]
   },
   {
     "lng": "144.40788030624",
     "lat": "-38.292260730524",
     "country": "Australia, VIC, Melbourne West",
-    "name": "Bancoora"
+    "name": "Bancoora",
+    "videos": [
+      "RvG6N7PSA04",
+      "kT7NMTHMbPc",
+      "JF97f23MEKE",
+      "DlrTnTIGpHU"
+    ]
   },
   {
     "lng": "59.383850097656",
     "lat": "21.509296200229",
     "country": "Oman",
-    "name": "Bandar al Saqlah"
+    "name": "Bandar al Saqlah",
+    "videos": [
+      "cR36exYi72c"
+    ]
   },
   {
     "lng": "5.7479524612427",
     "lat": "43.132841934332",
     "country": "France, Mediterranean",
-    "name": "bandol"
+    "name": "bandol",
+    "videos": [
+      "GWvIKC1Cdt4",
+      "yV-avrL29-k",
+      "YuDQEw9amBA",
+      "VQJ6vFTRZfI"
+    ]
   },
   {
     "lng": "-124.43467140198",
     "lat": "43.092709966461",
     "country": "USA, North West, Oregon South",
-    "name": "Bandon Beaches"
+    "name": "Bandon Beaches",
+    "videos": [
+      "5igSh9q0tm4",
+      "fC8oDQD7uqQ",
+      "8GXvYoaEagk",
+      "1Az2dTtNles"
+    ]
   },
   {
     "lng": "121.92910194397",
@@ -2361,13 +4341,22 @@
     "lng": "98.240872621536",
     "lat": "8.6743241504698",
     "country": "Thailand",
-    "name": "Bang Niang Rivermouth"
+    "name": "Bang Niang Rivermouth",
+    "videos": [
+      "IQs9DVaJn0Q"
+    ]
   },
   {
     "lng": "99.244737625122",
     "lat": "-1.852075297525",
     "country": "Indonesia, Mentawai",
-    "name": "Bankvaults"
+    "name": "Bankvaults",
+    "videos": [
+      "9A1ScnPCsgM",
+      "GDN1c_OzNp4",
+      "FLtBJay1geM",
+      "A7wUodoWCSw"
+    ]
   },
   {
     "lng": "-9.8353815078735",
@@ -2385,43 +4374,82 @@
     "lng": "150.48153877258",
     "lat": "-35.325349881214",
     "country": "Australia, NSW, South Coast",
-    "name": "Bannisters point"
+    "name": "Bannisters point",
+    "videos": [
+      "qV1q9I7x3yY",
+      "WQ0k0DuIy9c",
+      "mRLBzo8Glmc",
+      "c0Dp2wqtE28"
+    ]
   },
   {
     "lng": "-3.8851583003998",
     "lat": "50.278281223103",
     "country": "UK, Devon South",
-    "name": "Bantham"
+    "name": "Bantham",
+    "videos": [
+      "IVIPakgfuCA",
+      "9eAtsVtS3W0",
+      "_LHCMEmqPw8",
+      "D9TJy3ZZpWU"
+    ]
   },
   {
     "lng": "-3.8869285583496",
     "lat": "50.278013824164",
     "country": "UK, Devon South",
-    "name": "Bantham Rivermouth"
+    "name": "Bantham Rivermouth",
+    "videos": [
+      "jYL0bARmG5I",
+      "xRXNncHnG84",
+      "0y8deJuquj8",
+      "q9lvNRKOxxQ"
+    ]
   },
   {
     "lng": "97.294921875",
     "lat": "2.1967272417617",
     "country": "Indonesia, Sumatra Islands",
-    "name": "Banyaks"
+    "name": "Banyaks",
+    "videos": [
+      "2xCTXGNExxA",
+      "4vTGNN4bt-U",
+      "PrGSotJNlMA",
+      "EhgbZpyv-TM"
+    ]
   },
   {
     "lng": "-155.97711145878",
     "lat": "19.606616531692",
     "country": "USA, Hawaii, Hawaii Island",
-    "name": "Banyons"
+    "name": "Banyons",
+    "videos": [
+      "Cjv9gGkRDck",
+      "bPWW64xwKCg",
+      "dR55V-3doJQ",
+      "ONWKAzaUlFQ"
+    ]
   },
   {
     "lng": "151.46390318871",
     "lat": "-33.417114227621",
     "country": "Australia, NSW, Central",
-    "name": "Banzai"
+    "name": "Banzai",
+    "videos": [
+      "_bighQ4XgRg",
+      "mKfN8lcdD0o",
+      "cGo45gt0vOo",
+      "Hv5TnmpIARg"
+    ]
   },
   {
     "lng": "11.839356422424",
     "lat": "42.028368114704",
     "country": "Italy, Mainland",
-    "name": "Banzai ( S. Marinella )"
+    "name": "Banzai ( S. Marinella )",
+    "videos": [
+      "Rb54CAlrjSo"
+    ]
   },
   {
     "lng": "9.8722457885742",
@@ -2433,43 +4461,85 @@
     "lng": "-17.07052230835",
     "lat": "14.471977736996",
     "country": "Senegal",
-    "name": "Baobab"
+    "name": "Baobab",
+    "videos": [
+      "wWw6IbwDAP0",
+      "54qocu1-zDY",
+      "2BVTa9fZN9A",
+      "czzibNULjH4"
+    ]
   },
   {
     "lng": "19.085356518045",
     "lat": "42.105733099195",
     "country": "Montenegro",
-    "name": "Bar"
+    "name": "Bar",
+    "videos": [
+      "O8OHMkUjOgQ",
+      "22X_p2RdY0w",
+      "k4YQCxLOK8U",
+      "C_hJHbpiPuY"
+    ]
   },
   {
     "lng": "151.76787257195",
     "lat": "-32.942033004895",
     "country": "Australia, NSW, Newcastle",
-    "name": "Bar Beach"
+    "name": "Bar Beach",
+    "videos": [
+      "khoW68Z_3O4",
+      "PyNcE7EJ07w",
+      "EyeV0-Xvxdw",
+      "RPr8hjllRp0"
+    ]
   },
   {
     "lng": "150.13310909271",
     "lat": "-36.208416223635",
     "country": "Australia, NSW, Far South",
-    "name": "Bar Beach"
+    "name": "Bar Beach",
+    "videos": [
+      "ALRoebu0Rgs",
+      "V5LxNx-9pus",
+      "8hAP7wFunN8",
+      "mQRI-TgijYI"
+    ]
   },
   {
     "lng": "151.76977157593",
     "lat": "-32.942348139652",
     "country": "Australia, NSW, Newcastle",
-    "name": "Bar Reef"
+    "name": "Bar Reef",
+    "videos": [
+      "ai4Akxv36r8",
+      "RGWMO-yMTJA",
+      "mAFL-O6LnOE",
+      "-bB_KnPT4k4"
+    ]
   },
   {
     "lng": "55.455958843231",
     "lat": "-4.6870201891746",
     "country": "Seychelles, Mahe",
-    "name": "Barbarons"
+    "name": "Barbarons",
+    "videos": [
+      "Ayv-BhvRJOU",
+      "3D17hnn8CLU",
+      "HNb0vQJdKZo",
+      "b5OfrbeX8tQ"
+    ]
   },
   {
     "lng": "-5.9468007087708",
     "lat": "36.186076727388",
     "country": "Spain, Andalucia",
-    "name": "Barbate"
+    "name": "Barbate",
+    "videos": [
+      "BPQeBFWFlpw",
+      "DtAghtgzfyg",
+      "ZU8B0FSSlRI",
+      "q7KZ6CMTnlI"
+    ]
   },
   {
     "lng": "-158.0733704567",
@@ -2481,55 +4551,107 @@
     "lng": "2.1926736831665",
     "lat": "41.378853408792",
     "country": "Spain, Mediterranean",
-    "name": "Barceloneta"
+    "name": "Barceloneta",
+    "videos": [
+      "SBgr2TV1n-Y",
+      "HLFKvoZSXRA",
+      "e4xYqcHo6Co",
+      "uOdpIRQUlek"
+    ]
   },
   {
     "lng": "-9.7752517461777",
     "lat": "51.468662724801",
     "country": "Ireland, South West",
-    "name": "Barley Cove"
+    "name": "Barley Cove",
+    "videos": [
+      "1G6JixNsIgs",
+      "sDaVe0ogylE",
+      "7GYab5avO-4",
+      "z9IsU--jcxs"
+    ]
   },
   {
     "lng": "-10.682144165039",
     "lat": "6.2322001195433",
     "country": "Liberia",
-    "name": "Barn's Beach"
+    "name": "Barn's Beach",
+    "videos": [
+      "p-KKNKcoRiE",
+      "upr4jIELsTI",
+      "O3nAx6uf_ms",
+      "J9MTg9bZDfI"
+    ]
   },
   {
     "lng": "35.517082214355",
     "lat": "-23.789428846486",
     "country": "Mozambique",
-    "name": "Barra"
+    "name": "Barra",
+    "videos": [
+      "SaTShvF8_Kk",
+      "VIsBI1WBVek",
+      "vFqPjlsthUA",
+      "5zhModFiNAQ"
+    ]
   },
   {
     "lng": "13.152008056641",
     "lat": "-9.3599815678694",
     "country": "Angola",
-    "name": "Barra da Kwanza"
+    "name": "Barra da Kwanza",
+    "videos": [
+      "n1JGw5wgCZ4",
+      "sJscg2Y9EMA",
+      "KMmMBEAkc2s",
+      "vTMoh7_Erxk"
+    ]
   },
   {
     "lng": "-48.424376249313",
     "lat": "-27.572817695647",
     "country": "Brazil, Florianopolis",
-    "name": "Barra da Lagoa"
+    "name": "Barra da Lagoa",
+    "videos": [
+      "LkjrqmEvNhc",
+      "bF1Arw6dgJE",
+      "nRICu18u3eo",
+      "UxcjdsvynJg"
+    ]
   },
   {
     "lng": "-43.361874371767",
     "lat": "-23.010857349428",
     "country": "Brazil, Rio de Janeiro City",
-    "name": "Barra da Tijuca - Posto 8"
+    "name": "Barra da Tijuca - Posto 8",
+    "videos": [
+      "uRE2fj3ztrc",
+      "ic-XlgYxtgM",
+      "62cHYSL7AB4",
+      "X0wbNT9z7Rk"
+    ]
   },
   {
     "lng": "-100.01090526581",
     "lat": "16.91699213162",
     "country": "Mexico, Guerrero",
-    "name": "Barra de coyuca"
+    "name": "Barra de coyuca",
+    "videos": [
+      "_4tnTYQfU1o",
+      "KH2S3Sfmq0A",
+      "rZr9FBLHOa4",
+      "m9bOVdU8U1Y"
+    ]
   },
   {
     "lng": "-43.569374084473",
     "lat": "-23.064017641347",
     "country": "Brazil, Rio de Janeiro City",
-    "name": "Barra de Guaratiba"
+    "name": "Barra de Guaratiba",
+    "videos": [
+      "0Z9dJsi2K18",
+      "0z9-iXsx-wA"
+    ]
   },
   {
     "lng": "-48.68416428566",
@@ -2541,49 +4663,97 @@
     "lng": "-104.69266891479",
     "lat": "19.204672708048",
     "country": "Mexico, Jalisco",
-    "name": "Barra de Navidad"
+    "name": "Barra de Navidad",
+    "videos": [
+      "PAU7Uy2H1bQ",
+      "3H6QnWc5iMA",
+      "P2c-xPts934",
+      "qB1B4tCYmZU"
+    ]
   },
   {
     "lng": "-90.039358735085",
     "lat": "13.705954645363",
     "country": "El Salvador",
-    "name": "Barra de Santiago"
+    "name": "Barra de Santiago",
+    "videos": [
+      "WJdWz6_S5OE",
+      "R8ctSyT2UpA",
+      "Zc3rD2jlS70",
+      "16ggzxVHwYU"
+    ]
   },
   {
     "lng": "-48.604061454538",
     "lat": "-26.007831547686",
     "country": "Brazil, Santa Catarina North",
-    "name": "Barra do sai mirim"
+    "name": "Barra do sai mirim",
+    "videos": [
+      "3wO0eZmCUcc",
+      "NTlfsn-_NHo",
+      "FyfVX8sH0L4",
+      "onjjaxkogE8"
+    ]
   },
   {
     "lng": "-40.310087800026",
     "lat": "-20.384261530706",
     "country": "Brazil, Espirito Santo",
-    "name": "Barra Sol"
+    "name": "Barra Sol",
+    "videos": [
+      "wWDS-U6TaGQ",
+      "jiOdkI1cVCo",
+      "4Fzpk5eT31E",
+      "xUnB1lFFpco"
+    ]
   },
   {
     "lng": "-99.629817008972",
     "lat": "16.688241447678",
     "country": "Mexico, Guerrero",
-    "name": "Barra Vieja"
+    "name": "Barra Vieja",
+    "videos": [
+      "1Jo8uBHN5Rg",
+      "bIgjuglmcsE",
+      "6Woi-Cq23jc",
+      "-pAPCLT5N9w"
+    ]
   },
   {
     "lng": "150.87472915649",
     "lat": "-34.560603138496",
     "country": "Australia, NSW, South Coast",
-    "name": "Barrack Point"
+    "name": "Barrack Point",
+    "videos": [
+      "NEgEcKNCBEM",
+      "SMhpF3lsw1U",
+      "ZeONExA8Ugc",
+      "UeW87GzciV0"
+    ]
   },
   {
     "lng": "-8.5486507415771",
     "lat": "43.311876639639",
     "country": "Spain, Galicia",
-    "name": "Barrañán"
+    "name": "Barrañán",
+    "videos": [
+      "MKXSKabnZGQ",
+      "5-sLiwYhbRI",
+      "tR214Al-EL4",
+      "W5riFbHv8CE"
+    ]
   },
   {
     "lng": "-8.1829690933228",
     "lat": "37.091283902323",
     "country": "Portugal, South",
-    "name": "Barranco da Belharucas"
+    "name": "Barranco da Belharucas",
+    "videos": [
+      "3E3qo8-IC54",
+      "15e18mznlB8",
+      "n-nO8tkhEs4",
+      "fPQdz5gu4ao"
+    ]
   },
   {
     "lng": "-70.144035816193",
@@ -2595,61 +4765,115 @@
     "lng": "-77.026476860046",
     "lat": "-12.145209224682",
     "country": "Peru, Lima",
-    "name": "Barranquito"
+    "name": "Barranquito",
+    "videos": [
+      "BJaXawY1vr0",
+      "8R9kigFFLEU",
+      "5UI9y2oaGBI",
+      "De1eZfCcQqc"
+    ]
   },
   {
     "lng": "-38.526971340179",
     "lat": "-13.009763615716",
     "country": "Brazil, Bahia North Coast",
-    "name": "Barravento"
+    "name": "Barravento",
+    "videos": [
+      "sms19vCqSKw",
+      "yW6wFCU3VPE"
+    ]
   },
   {
     "lng": "-3.2092094421387",
     "lat": "47.638212656571",
     "country": "France, Brittany South",
-    "name": "Barre d'étel"
+    "name": "Barre d'étel",
+    "videos": [
+      "TAVS6_cQtvc"
+    ]
   },
   {
     "lng": "-85.577702522278",
     "lat": "9.8817286892368",
     "country": "Costa Rica, Guanacaste",
-    "name": "Barrigona"
+    "name": "Barrigona",
+    "videos": [
+      "21J8oc3sAuc",
+      "dBSlLhccf-g",
+      "ILkCFy-mWyg",
+      "ArLEvUzatTY"
+    ]
   },
   {
     "lng": "-48.679990768433",
     "lat": "-26.623905071921",
     "country": "Brazil, Santa Catarina North",
-    "name": "Barrinha"
+    "name": "Barrinha",
+    "videos": [
+      "o6AUlmpB4lE",
+      "1MKnl-hPwYI",
+      "IIeRKHwvbWU",
+      "_-Yc-1Iqm6o"
+    ]
   },
   {
     "lng": "-48.630895614624",
     "lat": "-28.085384262612",
     "country": "Brazil, Santa Catarina",
-    "name": "Barrinha"
+    "name": "Barrinha",
+    "videos": [
+      "yntFk3Tgh_Q",
+      "LU0CEqbkMzk",
+      "EhCacfbu2G0",
+      "_FDEt1DnOhw"
+    ]
   },
   {
     "lng": "-48.590726852417",
     "lat": "-25.976699439059",
     "country": "Brazil, Parana",
-    "name": "Barrinha"
+    "name": "Barrinha",
+    "videos": [
+      "L2uiVQ3P9Tk",
+      "nioNXn1DZx4",
+      "lGUT3w4gRpo",
+      "bc8UTs6EjFY"
+    ]
   },
   {
     "lng": "-40.183460712433",
     "lat": "-20.15110123139",
     "country": "Brazil, Espirito Santo",
-    "name": "Barrote-Jacaraipe"
+    "name": "Barrote-Jacaraipe",
+    "videos": [
+      "B3TetTGnTnM",
+      "yJDSeoU34yk",
+      "UdvbH-Uvm8g"
+    ]
   },
   {
     "lng": "-9.3667030334475",
     "lat": "52.916821081189",
     "country": "Ireland, West",
-    "name": "Barrtrá"
+    "name": "Barrtrá",
+    "videos": [
+      "uWMiNURitcg",
+      "Gw9ibBcbEgE",
+      "xKAGz1-Btxw",
+      "fTGb2_jEJX0"
+    ]
   },
   {
     "lng": "152.84259483217",
     "lat": "-31.59415976418",
     "country": "Australia, NSW, Mid North Coast",
-    "name": "Bartletts Beach"
+    "name": "Bartletts Beach",
+    "videos": [
+      "v_Kz4IiMtNY",
+      "KCxWXs4V-mY",
+      "c6f6iJOMo50",
+      "u87g-mzV2iI"
+    ]
   },
   {
     "lng": "138.7003326416",
@@ -2679,55 +4903,106 @@
     "lng": "-61.116598024966",
     "lat": "14.869976488771",
     "country": "Martinique",
-    "name": "BASSE POINTE LE CHAUDRON"
+    "name": "BASSE POINTE LE CHAUDRON",
+    "videos": [
+      "bYl3qT0w1JA",
+      "LASH99gMcDg",
+      "UUxdsFWXKZg",
+      "qZf3yB4teG0"
+    ]
   },
   {
     "lng": "-8.3635568618774",
     "lat": "43.343313607147",
     "country": "Spain, Galicia",
-    "name": "Bastiagueiro"
+    "name": "Bastiagueiro",
+    "videos": [
+      "36Qyxol0PdM",
+      "MKXSKabnZGQ",
+      "UOV7RWECT-0",
+      "hVpnfT_2ZH0"
+    ]
   },
   {
     "lng": "-81.299257278442",
     "lat": "-4.4573197104221",
     "country": "Peru, North",
-    "name": "Baterias"
+    "name": "Baterias",
+    "videos": [
+      "iY0saWRyTpA",
+      "nYVWC2J17H4",
+      "hwPYpqgemaM",
+      "TyyTpoIGCyc"
+    ]
   },
   {
     "lng": "-75.756869316101",
     "lat": "45.409749083829",
     "country": "Canada",
-    "name": "Bates Island, Ottawa River"
+    "name": "Bates Island, Ottawa River",
+    "videos": [
+      "3HIud2fWAdg",
+      "rn5kaqJyUYM",
+      "KhYYKE3WFEo",
+      "-lExFgv4VI4"
+    ]
   },
   {
     "lng": "35.658659934998",
     "lat": "34.243630205773",
     "country": "Lebanon",
-    "name": "Batroun"
+    "name": "Batroun",
+    "videos": [
+      "xBTH5JJCnrs",
+      "VaZTxjR6rWo",
+      "YuFJyVHAIJY",
+      "rRUjt27j-1c"
+    ]
   },
   {
     "lng": "18.317127227783",
     "lat": "-34.146263123313",
     "country": "South Africa, Cape Town",
-    "name": "Battery"
+    "name": "Battery",
+    "videos": [
+      "owFMFs5CkHY",
+      "SyEh4m5Yylo",
+      "1EklYHm-RIc",
+      "TVRZ0cLwTK4"
+    ]
   },
   {
     "lng": "-59.6363478899",
     "lat": "13.135042535265",
     "country": "Barbados",
-    "name": "Batts Rock"
+    "name": "Batts Rock",
+    "videos": [
+      "8vgXn9Y4HEw",
+      "vi21WrU22rQ",
+      "Pif1TmOHX5I",
+      "glcL3mJi9k0"
+    ]
   },
   {
     "lng": "108.50217819214",
     "lat": "-7.7482439113728",
     "country": "Indonesia, West Java",
-    "name": "Batu Karas"
+    "name": "Batu Karas",
+    "videos": [
+      "smdCIHaDb_o",
+      "I0nq54PgtLQ",
+      "4YcULhHFuxM",
+      "fKfdGkrx5KM"
+    ]
   },
   {
     "lng": "-1.82373046875",
     "lat": "49.429314498848",
     "country": "France, Normandy",
-    "name": "Baubigny"
+    "name": "Baubigny",
+    "videos": [
+      "IgSTfAexQNA"
+    ]
   },
   {
     "lng": "-70.133038759232",
@@ -2739,43 +5014,85 @@
     "lng": "97.347192764282",
     "lat": "0.81253189160424",
     "country": "Indonesia, Sumatra Islands",
-    "name": "Bawa"
+    "name": "Bawa",
+    "videos": [
+      "2xCTXGNExxA",
+      "8tT4cI7OeBg",
+      "8leUGLB9cCA",
+      "-FSTTipEJqU"
+    ]
   },
   {
     "lng": "150.40111541748",
     "lat": "-35.507076989475",
     "country": "Australia, NSW, South Coast",
-    "name": "Bawley Point"
+    "name": "Bawley Point",
+    "videos": [
+      "shuScgjZVMg",
+      "mkeqeHz0dlw",
+      "8V-4B-lVflc",
+      "fQCuDK6Ig3o"
+    ]
   },
   {
     "lng": "115.64576983452",
     "lat": "-33.304116007482",
     "country": "Australia, WA, Perth South",
-    "name": "Bay (left wall)"
+    "name": "Bay (left wall)",
+    "videos": [
+      "qJqkQrIFpFs",
+      "ALRoebu0Rgs",
+      "wM8lkdC-sWk",
+      "9-WBGB6gKAQ"
+    ]
   },
   {
     "lng": "-8.605899810791",
     "lat": "54.279207429605",
     "country": "Ireland, West",
-    "name": "Bay Break"
+    "name": "Bay Break",
+    "videos": [
+      "auZlG7BS1lw",
+      "V2VYOo-i7zo",
+      "KLtjNdu4d7A",
+      "Qj0jYNzt9u4"
+    ]
   },
   {
     "lng": "-74.039504528046",
     "lat": "40.076987783227",
     "country": "USA, North East, New Jersey",
-    "name": "Bay Head"
+    "name": "Bay Head",
+    "videos": [
+      "L7dQygbMpww",
+      "pp2ZawJ4GIE",
+      "22_reuLrGwU",
+      "C0FP5eZxV0Y"
+    ]
   },
   {
     "lng": "3.2314083809618",
     "lat": "51.344495843013",
     "country": "Belgium",
-    "name": "Bay of Heist"
+    "name": "Bay of Heist",
+    "videos": [
+      "lS3THFGV5Hg",
+      "ED_VXD2AwdM",
+      "PUiXSLVgVdc",
+      "iIALP29_KOE"
+    ]
   },
   {
     "lng": "97.318611145018",
     "lat": "2.0558903251664",
     "country": "Indonesia, Sumatra Islands",
-    "name": "Bay of Plenty"
+    "name": "Bay of Plenty",
+    "videos": [
+      "2xCTXGNExxA",
+      "4vTGNN4bt-U",
+      "vwdj_WViwlo",
+      "Xm49yEL6ca4"
+    ]
   },
   {
     "lng": "-82.719883918762",
@@ -2787,67 +5104,133 @@
     "lng": "-118.49297761917",
     "lat": "34.00443128757",
     "country": "USA, California, LA County",
-    "name": "Bay Street, Santa Monica"
+    "name": "Bay Street, Santa Monica",
+    "videos": [
+      "qW6FR3I3cEc",
+      "jZqiMKe2bME",
+      "9xi0FsGNa1Y",
+      "SGR9hjqjOBo"
+    ]
   },
   {
     "lng": "151.14784240723",
     "lat": "-34.065316541103",
     "country": "Australia, NSW, Sydney South",
-    "name": "Bay Waves"
+    "name": "Bay Waves",
+    "videos": [
+      "pkLBK-Poew8",
+      "o3KI_lItjzg",
+      "KYw_vG33wJk",
+      "hJNjyVl5myc"
+    ]
   },
   {
     "lng": "-155.07733225822",
     "lat": "19.724897879011",
     "country": "USA, Hawaii, Hawaii Island",
-    "name": "Bayfront"
+    "name": "Bayfront",
+    "videos": [
+      "s9up4Qm-N_8",
+      "bPWW64xwKCg",
+      "4s545Y-ZNmk",
+      "HmISH_SqfY8"
+    ]
   },
   {
     "lng": "-80.855662822723",
     "lat": "28.976768527113",
     "country": "USA, South East, North Florida",
-    "name": "Beach Club"
+    "name": "Beach Club",
+    "videos": [
+      "6PV2lSoiNyo",
+      "aNc42SiiFrs",
+      "0hM7jmiwGz8",
+      "XeldhceOkh0"
+    ]
   },
   {
     "lng": "177.77119159698",
     "lat": "-18.23163396773",
     "country": "Fiji",
-    "name": "Beachouse"
+    "name": "Beachouse",
+    "videos": [
+      "WJTcfTf0x0I",
+      "EUobvwTMjP8",
+      "Y1zrtOtBqTo",
+      "3TB8EONCFtc"
+    ]
   },
   {
     "lng": "140.01670181751",
     "lat": "-37.480371100076",
     "country": "Australia, SA, East",
-    "name": "Beachport"
+    "name": "Beachport",
+    "videos": [
+      "f0zkQEbQshU",
+      "EesAZFzEIV0",
+      "KYw_vG33wJk",
+      "l2KBQB2ASJk"
+    ]
   },
   {
     "lng": "-81.288356781006",
     "lat": "29.916703445445",
     "country": "USA, South East, North Florida",
-    "name": "Beacon point"
+    "name": "Beacon point",
+    "videos": [
+      "ALRoebu0Rgs",
+      "vAU8zlgZ-jo",
+      "aNc42SiiFrs",
+      "rzNfuvSb2iU"
+    ]
   },
   {
     "lng": "-117.3047375679",
     "lat": "33.065102068104",
     "country": "USA, California, San Diego County",
-    "name": "Beacons"
+    "name": "Beacons",
+    "videos": [
+      "Y7_0T-cXB5w",
+      "Xg_A09QB_sQ",
+      "ALRoebu0Rgs",
+      "Icq5_pMtbvU"
+    ]
   },
   {
     "lng": "73.141361474991",
     "lat": "0.2117240855982",
     "country": "Maldives",
-    "name": "Beacons"
+    "name": "Beacons",
+    "videos": [
+      "bOyNfU5xsss",
+      "Y6mC24Yw5kM",
+      "GzRCdwou7b0",
+      "9bUccm45e_s"
+    ]
   },
   {
     "lng": "150.07650375366",
     "lat": "-36.435612246612",
     "country": "Australia, NSW, Far South",
-    "name": "Bears Beach"
+    "name": "Bears Beach",
+    "videos": [
+      "ALRoebu0Rgs",
+      "3gqGfq7Fmrs",
+      "XeldhceOkh0",
+      "NPZmKmXuylg"
+    ]
   },
   {
     "lng": "55.428514480591",
     "lat": "-4.6105613797751",
     "country": "Seychelles, Mahe",
-    "name": "Beau Vallon Beach"
+    "name": "Beau Vallon Beach",
+    "videos": [
+      "m59yRr9u3d4",
+      "q49KmXR6ZQ8",
+      "udF_mFmjpdo",
+      "_H4DTG770cw"
+    ]
   },
   {
     "lng": "-77.894096374512",
@@ -2871,13 +5254,25 @@
     "lng": "-118.39845657349",
     "lat": "33.736617340262",
     "country": "USA, California, LA County",
-    "name": "Bee Hives"
+    "name": "Bee Hives",
+    "videos": [
+      "C93W_-cDxmY",
+      "DQYnVWZPl8A",
+      "BOaYmxJ7Svw",
+      "Elanur6LRLg"
+    ]
   },
   {
     "lng": "-3.0953979492188",
     "lat": "50.685474088802",
     "country": "UK, Devon South",
-    "name": "Beer Point"
+    "name": "Beer Point",
+    "videos": [
+      "ALRoebu0Rgs",
+      "LjNwaMGu98o",
+      "VZsNlcvTQzw",
+      "MCGQbi-4EJM"
+    ]
   },
   {
     "lng": "148.35208710283",
@@ -2889,31 +5284,55 @@
     "lng": "-3.6388778686523",
     "lat": "47.774521597441",
     "country": "France, Brittany South",
-    "name": "Beg An Tour"
+    "name": "Beg An Tour",
+    "videos": [
+      "74-DwsScK2c",
+      "rzyX9cHTV2Y",
+      "HkD07cTaJlk",
+      "jx4vZFZ-OBU"
+    ]
   },
   {
     "lng": "-3.5526609420776",
     "lat": "48.743653591918",
     "country": "France, Brittany North",
-    "name": "Beg Léguer"
+    "name": "Beg Léguer",
+    "videos": [
+      "74-DwsScK2c",
+      "1ik_kpKiBJk",
+      "HkD07cTaJlk",
+      "rK1dQBgo7bc"
+    ]
   },
   {
     "lng": "-84.436122179031",
     "lat": "9.5181001183314",
     "country": "Costa Rica, Pacific South",
-    "name": "Bejuco"
+    "name": "Bejuco",
+    "videos": [
+      "P3rE0AIjKus",
+      "Kwfo4JjiNfw",
+      "uf-z5lJZQXc",
+      "169Hh6ztX-w"
+    ]
   },
   {
     "lng": "150.92262268066",
     "lat": "-34.364215503897",
     "country": "Australia, NSW, Coal Coast",
-    "name": "Belambi  A Frame"
+    "name": "Belambi  A Frame",
+    "videos": [
+      "4Dqs2ogAYZQ"
+    ]
   },
   {
     "lng": "-9.252644777298",
     "lat": "39.416518715712",
     "country": "Portugal, Central Peniche",
-    "name": "Belgas"
+    "name": "Belgas",
+    "videos": [
+      "LGzGm1BEmJk"
+    ]
   },
   {
     "lng": "-62.233064174652",
@@ -2925,85 +5344,166 @@
     "lng": "-1.7059707641602",
     "lat": "43.414525042085",
     "country": "France, Basque Country",
-    "name": "Belharra"
+    "name": "Belharra",
+    "videos": [
+      "9J5q00ZD6CQ",
+      "EtEAjkhTbys",
+      "cbhfTXjv57U",
+      "jq96K8G0f5c"
+    ]
   },
   {
     "lng": "-8.9655303955078",
     "lat": "37.025717397158",
     "country": "Portugal, Algarve",
-    "name": "Beliche"
+    "name": "Beliche",
+    "videos": [
+      "vk5H1DzvHu8",
+      "h9nfEtY898M",
+      "dKcWy1546mI",
+      "1Arp5lOglW8"
+    ]
   },
   {
     "lng": "-82.842535972595",
     "lat": "27.924350620898",
     "country": "USA, Gulf Coast, Florida",
-    "name": "Bellair Beach"
+    "name": "Bellair Beach",
+    "videos": [
+      "mh97YIGX8lA",
+      "rzNfuvSb2iU",
+      "DQYnVWZPl8A",
+      "ri0PJ87zvXk"
+    ]
   },
   {
     "lng": "150.92342734337",
     "lat": "-34.363197024191",
     "country": "Australia, NSW, Coal Coast",
-    "name": "bellambi point"
+    "name": "bellambi point",
+    "videos": [
+      "Neo-oAScUe4",
+      "L4SMf74ZZOo",
+      "L-JmhIfAHv4",
+      "10sPCp-mpnk"
+    ]
   },
   {
     "lng": "-3.2388210296631",
     "lat": "47.326199564091",
     "country": "France, Brittany South",
-    "name": "Belle Ile en Mer - Donnant"
+    "name": "Belle Ile en Mer - Donnant",
+    "videos": [
+      "Tqp_UK6rLgQ",
+      "CthpS8sou0M",
+      "XBef0UgFzbU",
+      "EqF5RAm_lqY"
+    ]
   },
   {
     "lng": "6.6149282455444",
     "lat": "46.509971429496",
     "country": "Switzerland",
-    "name": "Bellerive"
+    "name": "Bellerive",
+    "videos": [
+      "aZUbPtQU9O8",
+      "dQrfFnDrCGk",
+      "HHssYGyYIb4",
+      "OazQCC9pK-I"
+    ]
   },
   {
     "lng": "-122.51650571823",
     "lat": "48.719409116804",
     "country": "USA, North West, Washington",
-    "name": "Bellingham Bay"
+    "name": "Bellingham Bay",
+    "videos": [
+      "h68p31oyRSM",
+      "EQpFCLrizTI",
+      "bew-R4TB5xI",
+      "rYGrE6OgntE"
+    ]
   },
   {
     "lng": "18.592987060547",
     "lat": "-34.155994235996",
     "country": "South Africa, Cape Town",
-    "name": "Bellows"
+    "name": "Bellows",
+    "videos": [
+      "0hM7jmiwGz8",
+      "88E8fD21YD4",
+      "c1IkpnlZXjc",
+      "GwDpY6g5h-Y"
+    ]
   },
   {
     "lng": "-157.70934104919",
     "lat": "21.36253186469",
     "country": "USA, Hawaii, Oahu",
-    "name": "Bellows"
+    "name": "Bellows",
+    "videos": [
+      "BRsDzA9E2G0",
+      "lSjq43W565o",
+      "RGHRLYMfXxk",
+      "jTY0TOYo9TY"
+    ]
   },
   {
     "lng": "144.28104400635",
     "lat": "-38.371808917148",
     "country": "Australia, VIC, Melbourne West",
-    "name": "Bells Beach"
+    "name": "Bells Beach",
+    "videos": [
+      "cdxrFLoa9hQ",
+      "OTRvQLuIuxs",
+      "mH8CjpMghmQ",
+      "UEgT5OCljTA"
+    ]
   },
   {
     "lng": "-74.015439748764",
     "lat": "40.172089796197",
     "country": "USA, North East, New Jersey",
-    "name": "Belmar - 16 th Street"
+    "name": "Belmar - 16 th Street",
+    "videos": [
+      "22_reuLrGwU",
+      "2x-hGFbXKH4",
+      "lx2r0fYwDWY",
+      "e7OXrXLHgFY"
+    ]
   },
   {
     "lng": "116.03626728058",
     "lat": "-8.8819764236685",
     "country": "Indonesia, Lombok",
-    "name": "Belongas"
+    "name": "Belongas",
+    "videos": [
+      "iyhAg9UcHL4",
+      "Q1i8AGoBmt8",
+      "gBjOHln1NU8",
+      "Gzh2WJG4niY"
+    ]
   },
   {
     "lng": "153.59650611877",
     "lat": "-28.630298403043",
     "country": "Australia, NSW, North",
-    "name": "Belongil"
+    "name": "Belongil",
+    "videos": [
+      "3p3Vptq0pvw",
+      "ipaEZPoKk-A",
+      "iTp3G33tJ9k",
+      "fgV60AAgaYI"
+    ]
   },
   {
     "lng": "12.65524148941",
     "lat": "41.455625306329",
     "country": "Italy, Mainland",
-    "name": "Belvedere"
+    "name": "Belvedere",
+    "videos": [
+      "MJD2NcvYm4U"
+    ]
   },
   {
     "lng": "-118.47914814949",
@@ -3015,37 +5515,73 @@
     "lng": "73.918762207031",
     "lat": "15.256943831489",
     "country": "India, North-West",
-    "name": "Benaulim Beach"
+    "name": "Benaulim Beach",
+    "videos": [
+      "IfSQQaqs0uc",
+      "D9PEBwZzJLQ",
+      "CeX8X1F4nfU",
+      "QeNM5-DrTSU"
+    ]
   },
   {
     "lng": "150.53589105606",
     "lat": "-35.251209112875",
     "country": "Australia, NSW, South Coast",
-    "name": "Bendalong"
+    "name": "Bendalong",
+    "videos": [
+      "QRsQnS4tIQo",
+      "3xRBzoyk0V0",
+      "VFM_xNYAxVY",
+      "DD3d3f7Vxow"
+    ]
   },
   {
     "lng": "114.34844970703",
     "lat": "-28.306798859194",
     "country": "Australia, WA, Kalbarri",
-    "name": "benders"
+    "name": "benders",
+    "videos": [
+      "sUinwJXezzE",
+      "EwrRNZOF_yg",
+      "CnoVxsI1W_k",
+      "Q07Cbu3dFDg"
+    ]
   },
   {
     "lng": "116.73576593399",
     "lat": "-8.8907744683448",
     "country": "Indonesia, Sumbawa",
-    "name": "Benete"
+    "name": "Benete",
+    "videos": [
+      "xVBDfQTAA1A",
+      "YnOIc4m_TWQ",
+      "gdghpoqevRM",
+      "69u9-2R5FQg"
+    ]
   },
   {
     "lng": "99.265336990357",
     "lat": "-1.814500699337",
     "country": "Indonesia, Mentawai",
-    "name": "Beng Beng"
+    "name": "Beng Beng",
+    "videos": [
+      "E2ygAIS66wY",
+      "cKbnK5JD3Vc",
+      "-97ug4kL5Do",
+      "9zJ7Dk1H4VY"
+    ]
   },
   {
     "lng": "-16.188687086105",
     "lat": "28.574584320957",
     "country": "Canary, Tenerife",
-    "name": "Benijo"
+    "name": "Benijo",
+    "videos": [
+      "4h5p2vTnYzM",
+      "_mxYL6npQtU",
+      "ZYBKb_uRfiw",
+      "UcT8efsULgM"
+    ]
   },
   {
     "lng": "115.75182706118",
@@ -3057,7 +5593,13 @@
     "lng": "80.098208069703",
     "lat": "6.1387498757936",
     "country": "Sri Lanka",
-    "name": "Bennys"
+    "name": "Bennys",
+    "videos": [
+      "budYcDPsFS0",
+      "9917b6QhE9w",
+      "iF6oKGYsY4w",
+      "q_GSqLbLTZw"
+    ]
   },
   {
     "lng": "114.91991579533",
