@@ -1,4 +1,2623 @@
 {
+
+    "'s-Gravenzande, Netherlands": [
+      "5LBaXHh9AF0",
+      "I7hOWN4Zhuk",
+      "gaCbnMEEPnA",
+      "A8FPrLoNHyk"
+    ],
+    "'t Zwin, Belgium": [
+      "E1qRBQuQ7kY",
+      "8KIJTQx-cck",
+      "BnDJTc1IPfU",
+      "ERIffzzFYOQ"
+    ],
+    "11th Ave Melkbos Strand, South Africa, SW Coast": [
+      "SXT-f2b74MQ"
+    ],
+    "13th ave south surfside, USA, South East, South Carolina": [],
+    "13th beach, Australia, VIC, Melbourne West": [
+      "ocrSx2RCdw8",
+      "lI4UDgJkw2w"
+    ],
+    "13th Street, USA, South East, North Florida": [],
+    "14th km., Morocco, South": [
+      "pT03AwdWuTg"
+    ],
+    "15th St., USA, California, San Diego County": [
+      "qPVLeQxRmeI",
+      "kTi1wN5arOo",
+      "0Z-W2LCp5Hw",
+      "zgZoAXHN8zA"
+    ],
+    "16 MILE BEACH, South Africa, West Coast": [
+      "8CvKZmEwWqU",
+      "pJ63Pr1Gf8A",
+      "CNMLukGy1yM",
+      "f1DnWIS08uw"
+    ],
+    "17th Ave, USA, Gulf Coast, Florida": [
+      "UPJiLuwZch8",
+      "ALRoebu0Rgs",
+      "XeldhceOkh0",
+      "FEY-w3HiKHo"
+    ],
+    "17th Street, USA, California, Orange County": [
+      "ALRoebu0Rgs",
+      "tIRIiDVVdUs",
+      "z08d0UOdm8g",
+      "XeldhceOkh0"
+    ],
+    "1st beach, USA, North East, Southern New England": [
+      "ALRoebu0Rgs",
+      "XeldhceOkh0",
+      "aNc42SiiFrs",
+      "rzNfuvSb2iU"
+    ],
+    "1st Street Jetty, USA, North East, Virginia": [
+      "h3GVgLQpcaY",
+      "YtRPy8Cbkic",
+      "49GLNld0xgc",
+      "q4VWZo3IQLs"
+    ],
+    "20-20s, Indonesia, East Java": [
+      "jkAgQ6TE36g",
+      "VOZk2XhnOgs"
+    ],
+    "29th Street, Canada, West Coast": [
+      "ALRoebu0Rgs",
+      "YRrxXz5fp04",
+      "P7TM0G0J1V0",
+      "XeldhceOkh0"
+    ],
+    "2nd Avenue Pier, USA, South East, South Carolina": [
+      "ALRoebu0Rgs",
+      "JUNwaYp7QR8",
+      "XeldhceOkh0",
+      "0hM7jmiwGz8"
+    ],
+    "2nd Beach, USA, North East, Southern New England": [
+      "ALRoebu0Rgs",
+      "XeldhceOkh0",
+      "aNc42SiiFrs",
+      "rzNfuvSb2iU"
+    ],
+    "2nd corner, Australia, NSW, Mid North Coast": [
+      "ALRoebu0Rgs",
+      "5sX52LmNnnA",
+      "0hM7jmiwGz8",
+      "R2zJ73ccgfk"
+    ],
+    "2nd Light, USA, South East, North Florida": [
+      "yO63SebfU-M",
+      "aNc42SiiFrs",
+      "STygciSWUT0",
+      "rzNfuvSb2iU"
+    ],
+    "2nds, Australia, WA, Perth City": [
+      "Y4TVQY0rBX8",
+      "jbCWDm8zHR0",
+      "MIcVr2no4Ag",
+      "sqfstMzLoG8"
+    ],
+    "3 emes, Mexico, Baja Norte": [
+      "0wN1lODSgnY",
+      "vEDKkTUFdDc",
+      "C36i_rBVZEs",
+      "BPcn6xpeCKI"
+    ],
+    "3 Mile, USA, California, Santa Cruz": [
+      "AMdXwpOQjRc",
+      "Ep4VAJuOT00",
+      "VY2EW4daHbY",
+      "jd3YH7mEIcA"
+    ],
+    "3 way, Australia, NSW, South Coast": [
+      "nacuweRmOns",
+      "pkLBK-Poew8",
+      "j0yJSHvMuJA",
+      "iVasQBblZsU"
+    ],
+    "3-poles reef, Australia, SA, York Peninsula": [
+      "R2zJ73ccgfk"
+    ],
+    "35th Street, IOP, USA, South East, South Carolina": [],
+    "36th street, USA, California, Orange County": [
+      "TRUiQ-4J98o",
+      "ALRoebu0Rgs",
+      "pplraPlzDhc",
+      "U89qmBxATGg"
+    ],
+    "36th Street, USA, North East, New Jersey": [
+      "R2zJ73ccgfk",
+      "WK7ZfGkFbTY",
+      "BnWGNHx4XUI",
+      "rzyX9cHTV2Y"
+    ],
+    "38th Parallel, South Korea": [
+      "3MPethMyFws",
+      "usF_C-qqI6c",
+      "HcBnSuq8b1o",
+      "rzyX9cHTV2Y"
+    ],
+    "38th St. Beach, USA, North East, New Jersey": [
+      "OqtDxvtJR8g",
+      "R2zJ73ccgfk",
+      "b0r7RHBmZ-4",
+      "edcko5o8h9c"
+    ],
+    "3de Steen, South Africa, Cape Town": [
+      "Z7nTzJ1uP_8",
+      "1TUAguLP5pM",
+      "JfeDzDN1toM",
+      "iNZC-dM6eWs"
+    ],
+    "3rd Groyne, Australia, WA, Perth City": [
+      "n5ojwEvuWHA",
+      "H9coVf4YSUU",
+      "AdVHyOSquE0",
+      "Qd9eSKUD83E"
+    ],
+    "4 Bobs, Indonesia, Mentawai": [
+      "H4mjHmmd9ck",
+      "-NZze3ZBGjE",
+      "WhtM0GODO60",
+      "9-y9IwTECYQ"
+    ],
+    "4 Mile, USA, California, Santa Cruz": [
+      "jd3YH7mEIcA",
+      "NJSMKXAp_Xg",
+      "xoPNcAg_OIU",
+      "KNP9GtDKkwo"
+    ],
+    "4 Miles, USA, Hawaii, Hawaii Island": [
+      "eyzbXCuEi8I",
+      "rnq2wBKEyLg",
+      "VVnvz8j7ZhI",
+      "Jfrle3U1G2Q"
+    ],
+    "40th Street, USA, California, Orange County": [
+      "Xp3DcgEyPF4",
+      "TRUiQ-4J98o",
+      "XeldhceOkh0",
+      "R2zJ73ccgfk"
+    ],
+    "411 (quatro-once), Panama": [],
+    "42nd St. VA Beach, USA, North East, Virginia": [
+      "BSYEWIBkm80",
+      "jGyxq8do7WI",
+      "R2zJ73ccgfk",
+      "ZQsBtiwSEZ0"
+    ],
+    "46°, Italy, Mainland": [
+      "eSzuCHj4rRg",
+      "WzVHRZ2-xLE",
+      "KAS7Y2cfr4s",
+      "pLDglqPG-yA"
+    ],
+    "48th st. Myrtle Beach, USA, South East, South Carolina": [
+      "R2zJ73ccgfk",
+      "FEY-w3HiKHo",
+      "Elanur6LRLg",
+      "Yzhexiyv39Q"
+    ],
+    "48th Street (Ocean City), USA, North East, Virginia": [
+      "R2zJ73ccgfk",
+      "4B9bY4AIu8M",
+      "rzNfuvSb2iU",
+      "FEY-w3HiKHo"
+    ],
+    "4th groyne, Australia, WA, Perth South": [
+      "n5ojwEvuWHA",
+      "muPPPWuHPKo",
+      "foewkkSTd0k",
+      "-wrKNYk8Jc8"
+    ],
+    "5 1 2km  &  8 1 2km, Ecuador": [
+      "QG0n0muNsBY",
+      "hLDQJBrFHuo"
+    ],
+    "5 rocks, Japan, Okinawa": [
+      "sS5aTySIvgY",
+      "j53sYQ50eSY",
+      "0hM7jmiwGz8",
+      "qKE1zF0OQcI"
+    ],
+    "56th St., USA, California, Orange County": [
+      "-XCickslMEU",
+      "pplraPlzDhc",
+      "TRUiQ-4J98o",
+      "RsbpAlqsP9E"
+    ],
+    "57th Street, USA, North East, New Jersey": [
+      "ALRoebu0Rgs",
+      "IGpMDUEiJi4",
+      "AcmcXLihbTQ",
+      "b0r7RHBmZ-4"
+    ],
+    "58th Street, USA, North East, New Jersey": [
+      "DSPKPzZXF_U",
+      "rzyX9cHTV2Y",
+      "-SrOYu4qNRw",
+      "vKeK8FBhvUE"
+    ],
+    "5th Street Beach Haven, USA, North East, New Jersey": [
+      "nsqrSaK7HCU",
+      "R2zJ73ccgfk",
+      "AcmcXLihbTQ",
+      "rzNfuvSb2iU"
+    ],
+    "6 pillars, South Africa, South East Port Elizabeth": [
+      "yUUa95f9MTw",
+      "Ieaj4W_5EZA",
+      "f4X3LqwCekg",
+      "W0GalUJyXmw"
+    ],
+    "7 olas, Colombia, Caribbean": [
+      "D2_1SslwxjU",
+      "mChCMSlC-qE",
+      "g8TQJGatpks",
+      "oFWwJJhUAxM"
+    ],
+    "7 rocks, Philippines, Mindanao": [
+      "fo1BPRKD2Bg",
+      "IGtbGNOymVM",
+      "9SVgsXP1l7s",
+      "r_pUMcdBpbs"
+    ],
+    "7th Avenue, USA, South East, North Florida": [
+      "ALRoebu0Rgs",
+      "AcmcXLihbTQ",
+      "nsqrSaK7HCU",
+      "R2zJ73ccgfk"
+    ],
+    "81st Street, USA, North East, Virginia": [],
+    "8th Ave n., USA, South East, South Carolina": [
+      "ALRoebu0Rgs",
+      "XeldhceOkh0",
+      "0hM7jmiwGz8",
+      "AcmcXLihbTQ"
+    ],
+    "8th street, Liberia": [
+      "uAnYjIEJsVg",
+      "Oj_gELOP7zg",
+      "HT1gB4os7RA",
+      "ET3whFw29co"
+    ],
+    "90 Mile Beach, New Zealand, New Zealand NI, NW Coast": [
+      "C93W_-cDxmY",
+      "GwDpY6g5h-Y",
+      "rzyX9cHTV2Y",
+      "mlbHsQ4fH1E"
+    ],
+    "92nd Street, USA, North East, Long Island NY": [
+      "ALRoebu0Rgs",
+      "IGpMDUEiJi4",
+      "nsqrSaK7HCU",
+      "z83DEuV-SiQ"
+    ],
+    "A Lanzada, Spain, Galicia": [
+      "zU6L9W3ucMo",
+      "oP-4oNhoYBQ",
+      "2aRS9vmHwCI",
+      "6DK7MAi4wK8"
+    ],
+    "A-Bay, Australia, QLD, Sunshine Coast": [
+      "cxLpuWXnGDw",
+      "uunbn3x5VEo",
+      "xq_AWovlKqQ",
+      "_-U0pEL3qlI"
+    ],
+    "A-Beach, USA, California, San Luis Obispo": [
+      "H1x_awuMwX4",
+      "muZPk_oY_Ns",
+      "sdZtdYjxaDg",
+      "GzpyTt4D4n0"
+    ],
+    "Å-land, Sweden": [
+      "ForyCsomacg",
+      "Jna1sBKvf4c",
+      "TaGYngv4G3w",
+      "ioq3f28JKJI"
+    ],
+    "A-ver-o-mar, Portugal, North Porto": [
+      "6SVplVLaCIE",
+      "YIqvDmR3mgQ",
+      "69EDrIUBEMM",
+      "ZfLSN4mxY0E"
+    ],
+    "aaron's, Indonesia, Mentawai": [
+      "yc-Lx_f6M9s",
+      "hkY9yeIbfDI",
+      "DWIt0Id6k1s",
+      "JbYlq84p3iY"
+    ],
+    "Ab, USA, California, San Diego County": [
+      "fXUGWJ5vX8Y",
+      "R2zJ73ccgfk",
+      "IGpMDUEiJi4",
+      "uqoXZP2P7Wo"
+    ],
+    "Abalolo Reef, USA, Hawaii, Oahu": [],
+    "Abalone Cove, USA, California, LA County": [
+      "2DNcbjQJG8M",
+      "JAF_OQkoyck",
+      "H5sZzh_prdw",
+      "pXk7PczxygQ"
+    ],
+    "Aber wrac'h point, France, Brittany North": [],
+    "Aberavon, UK, South Wales": [
+      "w-CbIXBCbVU",
+      "y-P34qA8sRY",
+      "ZvPff41-q3E",
+      "KHaRCorZT6k"
+    ],
+    "Aberdaron, UK, North Wales and NW England": [
+      "jrlHluf2xIE",
+      "6Dr5H2phbUI",
+      "pS-SzhFppU0",
+      "b7CExUW37JQ"
+    ],
+    "Aberdeen, UK, East Scotland": [
+      "U8bVSOs4N2U",
+      "_I_zg52vPB0",
+      "djjHI63naIA",
+      "-QQgKrxrLNw"
+    ],
+    "Aberdeen Area Beach, Sierra Leone": [
+      "rwv2hdZYVKk",
+      "mSxwLX20ZwM",
+      "fR3dASe52a0",
+      "OXrHi0PH6Ec"
+    ],
+    "abersoch, UK, North Wales and NW England": [
+      "jrlHluf2xIE",
+      "HpAx-QmagDA",
+      "LchWDO6hPe4",
+      "3IfjQ9QM9WA"
+    ],
+    "Aberta-A-Nova, Portugal, South": [
+      "dfh5s0thTyM",
+      "GOrXbqjuuCY",
+      "C93W_-cDxmY",
+      "e54xkL8TYzc"
+    ],
+    "Abrami Beach, Greece, Greek Islands": [],
+    "Abras, Brazil, Fernando do Noronha": [
+      "MXudyovyZjQ",
+      "r7zqZWJtDP4",
+      "KajieXWflII",
+      "yjjUNXnHzQU"
+    ],
+    "Accra Beach - Rockley Beach, Barbados": [
+      "PtE9wZdJXhw",
+      "GRV4kQlSxvg",
+      "rBTfB9395to",
+      "IpNYco1DTms"
+    ],
+    "Achadas da Cruz, Madeira": [
+      "8yyuDU5ePAw",
+      "AtV-kohAmj4",
+      "Tra3_O31J1o",
+      "k5-8Io_ftVw"
+    ],
+    "Acid Drop, Canary, Fuerte Ventura": [
+      "5klj0X8hl-c",
+      "nVHqRcff27U",
+      "j-DhFz7clzY",
+      "E4FpVEHJXKk"
+    ],
+    "Acids, Australia, NSW, Coal Coast": [
+      "TVA31TZjEI8"
+    ],
+    "Acropolis, Greece, Greek Islands": [
+      "c1_YKbQccTc",
+      "L8vqjAE1VXY",
+      "Ly5NY3Gx03Q",
+      "8eQj2lFJPoE"
+    ],
+    "Admirals, UK, East England": [
+      "gDfZLy79YOo",
+      "pSNhG9OHuJw",
+      "C93W_-cDxmY",
+      "GwDpY6g5h-Y"
+    ],
+    "Adonis, Maldives": [
+      "IXQf5Wxq3UU",
+      "bu4vBaL4LLU",
+      "_KHk0zoVees",
+      "ysTo9fMp4sw"
+    ],
+    "Adraga, Portugal, Central Lisboa": [
+      "7ehpVFMnkEI",
+      "GX7NRLWU0iE",
+      "ax7KqrbOWlg",
+      "WBqwIXPqTS4"
+    ],
+    "Adria, Italy, Mainland": [],
+    "Affenrucken point, Namibia": [],
+    "Afulu, Indonesia, Sumatra Islands": [
+      "30mSRRviDq0",
+      "25aNEZDT6y0",
+      "tHuM3MQRvAk",
+      "8leUGLB9cCA"
+    ],
+    "Agamemnon/Kouloura Island, Greece, Pelloponisos": [],
+    "Agami, Egypt": [
+      "MO6MThB20ck",
+      "IxLQYexxYfg",
+      "nupJZWt6A1c",
+      "kaqUW2wOeB0"
+    ],
+    "aganoa, Samoa Western": [
+      "bioST9Rh85s",
+      "dTbJAqv7_Vo",
+      "yXDxW6N66Og",
+      "HuymxEUFJGM"
+    ],
+    "Agate Beach, USA, North West, Oregon Central": [
+      "fC8oDQD7uqQ",
+      "9-OMRGeKGHw",
+      "xR8u-gI6mlE",
+      "emhTV_OXZrM"
+    ],
+    "Agate Beach North, USA, North West, Oregon Central": [
+      "fC8oDQD7uqQ",
+      "9-OMRGeKGHw",
+      "xR8u-gI6mlE",
+      "Aj1DPKTk8Mc"
+    ],
+    "Agger, Denmark": [
+      "VEByhvaCb84",
+      "FFrDgbo-SJs",
+      "gRk2juCEH9Q",
+      "DgdP2XwCyKA"
+    ],
+    "Agia Fotia, Greece, Crete Island": [
+      "9J-kIJz9SiQ",
+      "cQTClJH_y34",
+      "_Iqowck44js",
+      "jO3zTBNWkzc"
+    ],
+    "Agios Dimitrios, Greece, Pelloponisos": [
+      "CJhEy62mDto",
+      "LFeVf6ULzJ4",
+      "1Z2mB-JklLI",
+      "AURqTX4PJB4"
+    ],
+    "Agios Giorgios - Corfu, Greece, Ionian Sea": [
+      "V6t2vQiraXU",
+      "okJi35paph4",
+      "3Hxqc0iRtvU",
+      "f5hmaVTOy0c"
+    ],
+    "Aglayankaya, Turkey, Black-Sea": [],
+    "Agnes Water, Australia, QLD, Central-Queensland": [
+      "2uTA6Q0Lqm8",
+      "WSnJGF-Evcg",
+      "74r2ahguWfU",
+      "SQBoyDoiOXs"
+    ],
+    "Agrili, Greece, Pelloponisos": [
+      "3wCIQrnlZz0",
+      "OEg-_Uv74rg",
+      "fmGA8fzpTQE",
+      "AbSt91QcZJ4"
+    ],
+    "Aguçadoura, Portugal, North Porto": [
+      "_TmbYPQy6YA",
+      "HV7yuYAwN5k",
+      "WazzL2WAl1Q",
+      "IdAVFdaNTCc"
+    ],
+    "Aguilar, Spain, Asturias": [
+      "jwuYcQeoMlE",
+      "0W4LulQgVds",
+      "g1uidXtMDyA",
+      "4AS8D-apIXA"
+    ],
+    "Agujas, Costa Rica, Pacific South": [
+      "P3rE0AIjKus",
+      "Kwfo4JjiNfw",
+      "dtPqjGcQ1Xg",
+      "SC5NCqrzBDc"
+    ],
+    "Ahogados, Chile, Central Santiago": [],
+    "Ahtony, Bulgaria": [
+      "iUruBgOEdIQ",
+      "R2zJ73ccgfk",
+      "FEY-w3HiKHo",
+      "eATodAKfIk0"
+    ],
+    "Aigrettes left, Reunion": [
+      "XTVCHJLML1k",
+      "4NLifoApTMc",
+      "nGw3P5Mk3bY"
+    ],
+    "Aigrettes Right, Reunion": [
+      "CmnlyW6wcv0",
+      "4NLifoApTMc"
+    ],
+    "Aiguadolc, Spain, Mediterranean": [
+      "6chwCRDSNs4",
+      "95M-GmXDi0Q",
+      "EVtFuZwEx_A",
+      "IL_QqUBsF_Q"
+    ],
+    "Aileens, Ireland, West": [
+      "VeHfempVyEE",
+      "eVgULAscfb8",
+      "MMKQMQ6I-0k",
+      "FGnlb-hMboQ"
+    ],
+    "Ain Diab Porte 15, Morocco, North": [],
+    "Ain El Turk, Algeria": [
+      "O953KBmLKQ8",
+      "q0vLGsT0VFk",
+      "G4uBZtfGvPE",
+      "dYsrAQ4VcOM"
+    ],
+    "Airport left, St Barthelemy": [
+      "B_7Iyi8zPj8",
+      "1qfYEIYdJ3k",
+      "2Ga5JnwBOzE",
+      "rzyX9cHTV2Y"
+    ],
+    "Airport right, Maldives": [
+      "qma29DBW9fs",
+      "_0beq4ayWM8",
+      "bAEc-yDmkf4",
+      "-WC6v5LGGtU"
+    ],
+    "Airport Rights, New Zealand, New Zealand NI, SW Coast": [
+      "BiQQZ4WExWA",
+      "C93W_-cDxmY",
+      "rzyX9cHTV2Y",
+      "bYimdgaA-1Q"
+    ],
+    "Airport's, Indonesia, Bali": [
+      "AyzJJIUUqj4",
+      "I4GvoMO3OLs",
+      "1K0_8IamIa8",
+      "1zSJUQVr560"
+    ],
+    "Aivados, Portugal, South": [
+      "WVVYnYiGE-I",
+      "7Tvilwng-AI",
+      "BWgx5tE9iE0",
+      "XVvVNAnUI64"
+    ],
+    "Aizkorri, Spain, Pais Vasco": [
+      "yLlyghmHoeY",
+      "yw6oNeg_OrU",
+      "aHsI3w9yDKw",
+      "qklxz0orCMY"
+    ],
+    "Ajo, Spain, Cantabria": [
+      "YoN41_wZsp8",
+      "J_a-Vgvph38",
+      "7Uq1dRR5Nm0",
+      "mHCfFk9uv5o"
+    ],
+    "Akabane Long Beach, Japan, Shizuoka": [
+      "lanXr9GdHuQ",
+      "bTumqDZkKhs",
+      "XN96SJhDMZo",
+      "tCtn4GGmINM"
+    ],
+    "Akaehama, Japan, Kyushu": [],
+    "Akkorokamui, Australia, QLD, Gold Coast": [],
+    "Aktau, Kazakhstan": [
+      "gC3m9mVtNWA",
+      "mWO5OAjanjA",
+      "ZlhfBXcsNrk",
+      "7Ar0iN9A4RM"
+    ],
+    "Ala Moana, Peru, Lima": [
+      "Dh67PbqaNQ0",
+      "_QW3Hwd4tdg",
+      "QI79QPOgT7w",
+      "kZ4Z0apgG1w"
+    ],
+    "Ala Moana Bowls, USA, Hawaii, Oahu": [
+      "pIK5q1IgUEs",
+      "7JF7J-jCfao",
+      "tb1TkIP_yXU",
+      "WPWxYo6o7bs"
+    ],
+    "Ala Moana Courts, USA, Hawaii, Oahu": [
+      "cr1ZETk6Vys",
+      "sFgtGfoyPhM",
+      "C-CUKNRdRTs",
+      "S5J8KKefGMo"
+    ],
+    "Alabama Point, USA, Gulf Coast, Alabama": [
+      "XbU_H-JSb1w",
+      "oRXnLX4OlM4",
+      "JRSK0ZRsxIc",
+      "blWR5Xnj4mQ"
+    ],
+    "Alacati, Turkey": [
+      "TUzL_xXo0S0",
+      "X5liP7rfGOs",
+      "5oJwvAf38VY",
+      "DPrg5cKozVY"
+    ],
+    "Alanya, Keykubat, Turkey": [
+      "YgYzYPSMe2Y",
+      "vJC1ajrJ4gw",
+      "HwtPg5vj_BQ",
+      "KiKh3swxiEE"
+    ],
+    "Alassio, Italy, Mainland": [],
+    "Albatross, South Africa, South J Bay": [
+      "bThqFfmj4iQ",
+      "g5LivypJ0Uo",
+      "edenhr0LG3Q",
+      "W7MX8ywZ8Yg"
+    ],
+    "Albenga, Italy, Mainland": [],
+    "Albufeira, Portugal, Algarve": [
+      "cw5xXoei4aw",
+      "Y_0Aidr0hNw",
+      "Df_n_2lUBK0",
+      "uzboSqyc0DQ"
+    ],
+    "Alexandra Headlands, Australia, QLD, Sunshine Coast": [
+      "b9DvGuhLUbc",
+      "D8yNso4JIio",
+      "5lPZueWMVic",
+      "7TyjhJmcWQI"
+    ],
+    "Alfonsina, Argentina, North": [],
+    "alfonsita, Sao Tome": [
+      "38tSj2Ge7Zg"
+    ],
+    "Algajola, France, Corsica": [
+      "kC2gW8BBIT4",
+      "DV6xso-DLmA",
+      "V7fBT6jayUY",
+      "KbyeTQq147M"
+    ],
+    "alisitos, Mexico, Baja Norte": [
+      "BTszj2m3Oyk",
+      "j4Qt348WNmE",
+      "li9LTtg2XmE",
+      "h4Mi5FeKKeg"
+    ],
+    "Allenhurst, USA, North East, New Jersey": [
+      "w-6nif6adBk",
+      "P7TM0G0J1V0",
+      "Swe9tO9rbgM",
+      "gZn5PA-ZQik"
+    ],
+    "allerton point, USA, North East, Southern New England": [
+      "svCsVHwCh7A"
+    ],
+    "Almáciga, Canary, Tenerife": [
+      "P2p2StVyIwU",
+      "XGq7houjdq4",
+      "Yzv3Zh1uyxY",
+      "6lOyo0wZhVM"
+    ],
+    "Almagreira, Portugal, Central Peniche": [
+      "03xUDHsr-mE",
+      "hM4GJNtVfus",
+      "NBprAXW1wR4",
+      "pNNMKlUkcNk"
+    ],
+    "Almiros, Greece, Crete Island": [
+      "fXKgtPzgthA",
+      "1x2PiMWVV1w",
+      "jNv4U2W33uY",
+      "3wUL8Jp7xm0"
+    ],
+    "Alnes Lighthouse (Godoy), Norway": [
+      "Cyy1HPP3eRY",
+      "nz0hsccQBdA",
+      "xbhGpv7z1b0",
+      "LGys273RT94"
+    ],
+    "altafulla, Spain, Mediterranean": [
+      "Uuh23rgyM3I",
+      "6chwCRDSNs4",
+      "92wnqGZtWpk",
+      "wXAeEybD5ZE"
+    ],
+    "AlterSteinbeisser, Switzerland": [],
+    "Altona Pier, Australia, VIC, Melbourne West": [
+      "M4SpRL874aY",
+      "1J14ZmGv8Gk",
+      "Sp5r4lRTihg",
+      "SArNUBBuheQ"
+    ],
+    "Alvor, Portugal, Algarve": [
+      "D8gvFE0hkEc",
+      "FtuSG_VULsg",
+      "ak709VVEPi0",
+      "peNyd10SKP0"
+    ],
+    "alykes, Greece, Ionian Sea": [
+      "szm4CzcvACc",
+      "DpovjLwni-Y",
+      "me6wKsvfFBw",
+      "okJi35paph4"
+    ],
+    "Amami Oshima - Bira Reef, Japan, Kagoshima": [],
+    "Ambila Lamentsa, Madagascar": [],
+    "Ambleside Park, Canada, West Coast": [
+      "h9UNS8gDdQQ",
+      "vZgWu61Pnjo",
+      "QYDzz6AzWJo",
+      "SkrpXmEjljU"
+    ],
+    "Amélie, France, Gironde": [
+      "CZvlwh4utgA",
+      "lxTpeH4kak4",
+      "b42YkcoNKH4",
+      "GQXVlcyNC4A"
+    ],
+    "Ammes Beach, Greece, Ionian Sea": [
+      "R8RuGeI8crQ",
+      "hd_SwwruH4c"
+    ],
+    "Amoreira, Portugal, Algarve": [
+      "9mWJsbJ1XPc",
+      "gKZVRoHoRSY",
+      "kNajp37mNbE",
+      "k80IQWzjvK4"
+    ],
+    "Amorosa, Portugal, North Porto": [
+      "Zk141nsqgxI",
+      "N6ftGaBx-gE",
+      "2Le1uIW1sxc",
+      "a7JSJSLre3Q"
+    ],
+    "Amoudia Left, Greece, Ionian Sea": [
+      "Zhzqk_CUWag",
+      "WFic89GNi6c"
+    ],
+    "Amrum, Germany, North Sea": [
+      "EY9zklFOmJU",
+      "8PrZxkUAgTs",
+      "VBvEZFFZ304",
+      "j4dawvtoh_k"
+    ],
+    "Anaël, France, Brittany North": [],
+    "Anahola Bay, USA, Hawaii, Kauai": [
+      "st1x2HRzXWI",
+      "keugCtCrklE",
+      "-vKpNZEOWkA",
+      "19RCrYrBaa4"
+    ],
+    "Anamur, Turkey": [
+      "7Z6BVyLCWZY",
+      "PKastVS2Pk8",
+      "7aeQlr7oopk",
+      "s05dw22rBxc"
+    ],
+    "Anaura Bay, New Zealand, New Zealand NI, East Cape": [],
+    "Anchor point, Morocco, South": [
+      "PWc3SZ_9XT4",
+      "nmDQJPaYlz8",
+      "l8G-jtXb15w",
+      "ItQ75TS0jHw"
+    ],
+    "Anclote, Mexico, Sinaloa-Nayarit": [
+      "SqJ3h8x27H8",
+      "-kmgSHyaBn0",
+      "5whTmbLbxzw",
+      "WIbnp9_161o"
+    ],
+    "Anclote Island, USA, Gulf Coast, Florida": [
+      "qgiSZX153co",
+      "HeuauBmbxLk",
+      "0spL4flsz_E",
+      "pIDCDZZj26c"
+    ],
+    "Anderson Street, USA, California, Orange County": [
+      "Xp3DcgEyPF4",
+      "ALRoebu0Rgs",
+      "XeldhceOkh0",
+      "AcmcXLihbTQ"
+    ],
+    "Andrew molera state beach, USA, California, Monterey": [
+      "qdrdMNZaxY0",
+      "n1jM1FcC1A8",
+      "T-AimK23xss",
+      "qPsOCN2WIAY"
+    ],
+    "Andros (Hora), Greece, Aegean Sea": [
+      "AdNGHwqv9Pw",
+      "ZEBp3XQugEY",
+      "4yBj-VwI7xc",
+      "M0lgZtuCIFY"
+    ],
+    "Andys' Peak, Australia, QLD": [
+      "Hv5TnmpIARg",
+      "EyWxucyEM8w",
+      "V5LxNx-9pus",
+      "87wXhEr-aIU"
+    ],
+    "Aneho Beach, Togo": [
+      "4x8bHlNWs8o",
+      "vbfndsunyOw"
+    ],
+    "Anglesea, Australia, VIC, Melbourne West": [
+      "E2SBhdn_Uuk",
+      "zunQj1j3gLQ",
+      "cs3e5OEDh8Q",
+      "SF4SGoC0I4E"
+    ],
+    "Anglet - Chambre d Amour, France, Basque Country": [
+      "f-GSnb33qVE",
+      "zh7JfPB7jRk",
+      "7eXEakyRAM0",
+      "17u_e2e9ZoA"
+    ],
+    "Anglet - La Barre, France, Basque Country": [
+      "tglRr0O-FaE",
+      "l-Pz6mYpokM",
+      "eraoVeR06lU",
+      "aXInuOYVbQ8"
+    ],
+    "Anglet - La Madrague, France, Basque Country": [
+      "DAmv7EfvrxU",
+      "zMTR1b1SLlQ",
+      "Yb9rWGozqhI",
+      "-YB-HywpFkc"
+    ],
+    "Anglet - Le club, France, Basque Country": [
+      "tglRr0O-FaE",
+      "l-Pz6mYpokM",
+      "zMTR1b1SLlQ",
+      "f-GSnb33qVE"
+    ],
+    "Anglet - Le Furoncle, France, Basque Country": [
+      "DAmv7EfvrxU",
+      "64nHUNpoxlw"
+    ],
+    "Anglet - Les Cavaliers, France, Basque Country": [
+      "tglRr0O-FaE",
+      "l-Pz6mYpokM",
+      "HWuZFFmEk8k",
+      "K6K3TXfiQAc"
+    ],
+    "Anglet - Les Sables d'Or, France, Basque Country": [
+      "zMTR1b1SLlQ",
+      "l-Pz6mYpokM",
+      "HWuZFFmEk8k",
+      "ZEGmnFieN20"
+    ],
+    "Anglet - Marinella, France, Basque Country": [
+      "tglRr0O-FaE",
+      "Yb9rWGozqhI",
+      "a1qYxswVNlE",
+      "VxsE-SFU_mY"
+    ],
+    "Angourie Lefts, Australia, NSW, North": [
+      "hdKxQ-RQgvY",
+      "eJYGc_sseUU",
+      "yYcxemq0Opo",
+      "DxUBcfG04vE"
+    ],
+    "Angourie Point, Australia, NSW, North": [
+      "qFTwOAQFcS8",
+      "5BvmDOjac1E",
+      "hATuLh0zhdY",
+      "jyXzJuPyR2M"
+    ],
+    "Angras Juntas left, Namibia": [],
+    "Anjarle, India, North-West": [
+      "kg651JESVYI",
+      "piGPdfMRHFc",
+      "xtW58muMeBw",
+      "ZWY4BjVrcOk"
+    ],
+    "Anjos, Azores, Eastern group": [],
+    "Ann bay, Australia, TAS": [
+      "iVasQBblZsU",
+      "3p3Vptq0pvw",
+      "UW2Dcd6roLU",
+      "XiHBv0q4TkA"
+    ],
+    "Anna Maria Island, USA, Gulf Coast, Florida": [
+      "UPJiLuwZch8",
+      "yLJjzqoN27I",
+      "qd3-bMl3FCY",
+      "rZ06wEdtJQU"
+    ],
+    "Anna Maria Island - Beach Streets, USA, Gulf Coast, Florida": [
+      "WIPUCW0_h5g",
+      "vv0UJ5kx30Q",
+      "XeldhceOkh0",
+      "Uf9OXYPWh5g"
+    ],
+    "Annaba, Algeria": [
+      "ZyX6WvFfN9g",
+      "tMaUczS0HjA",
+      "bJKEnsJdawU",
+      "SqP8h3Rymd8"
+    ],
+    "Anne Avenue (St Francis Bay), South Africa, South J Bay": [
+      "XeldhceOkh0",
+      "nsqrSaK7HCU",
+      "IGpMDUEiJi4",
+      "NPZmKmXuylg"
+    ],
+    "Anne street reef, Australia, QLD, Sunshine Coast": [
+      "e_PQoQjSlso",
+      "fyK6YXuEmBU",
+      "D8yNso4JIio",
+      "F5skGG0Ssgg"
+    ],
+    "Annestown, Ireland, South East": [
+      "NfQMfp4j-_w",
+      "jM_3iskt4Kg",
+      "TFL6MD5k5Xs",
+      "IV-VgqTCycw"
+    ],
+    "Ano Nuevo, USA, California, Santa Cruz": [
+      "x4ktjAjt-wI",
+      "4LxTRAiXPxQ",
+      "Gp4tJO27JtY",
+      "5GUbK_463zI"
+    ],
+    "Anse à la barque, Guadeloupe": [
+      "keIg4ykHzyE",
+      "axoAjRpi9i8",
+      "2CeoaOHDqgg",
+      "gK-nj2nUB_I"
+    ],
+    "Anse à la Bouelle, Guadeloupe": [
+      "iI-3TFCmkCM",
+      "llUHmGHfTPI",
+      "kKyIka9Ii34",
+      "7JFlF-7xvTk"
+    ],
+    "Anse Banane, Seychelles, La Digue": [
+      "qhAwQksOCZA",
+      "KmOHRs7l6zo",
+      "6JAFCm5Dj_k",
+      "Ubj1t0jSxSw"
+    ],
+    "Anse Bertrand, Guadeloupe": [
+      "iI-3TFCmkCM",
+      "kKyIka9Ii34",
+      "CCcjCGMBNeM",
+      "llUHmGHfTPI"
+    ],
+    "Anse Bourgainville, Seychelles, Mahe": [
+      "Vs3gYaeusGY",
+      "4A7c6Mi6jVU",
+      "o4HJFNmN4lM",
+      "MgslcgNVWOw"
+    ],
+    "Anse Charpentier (right), Martinique": [
+      "afkEXbV2biA",
+      "dIkO5_fpWCI",
+      "tqNijQbmT3s",
+      "-P6fiqN5VQA"
+    ],
+    "Anse Cocos, Seychelles, La Digue": [
+      "NS2dzxNl4to",
+      "eD5sxHaGtb0",
+      "7hiNwQObnKM",
+      "xNv_8vLTYBE"
+    ],
+    "Anse Couleuvre, Martinique": [
+      "7s3_YaczREg",
+      "wzqctju9kHI",
+      "HLLLdbCsBbg",
+      "S33wPnhBiaU"
+    ],
+    "Anse des Cayes, St Barthelemy": [
+      "2N9UmE4vJUg",
+      "jTZnFyPjqJw",
+      "zzKbApZkSME",
+      "Wu1UHlWPUp8"
+    ],
+    "Anse des Lézards, St Barthelemy": [],
+    "Anse du Brick, France, Normandy": [
+      "GuU5TpZYg5E",
+      "TY3dSJBE5Xk",
+      "k8hK2AKaF4g"
+    ],
+    "Anse du Ris, France, Brittany South": [],
+    "Anse Gaulette, Seychelles, Mahe": [
+      "29ctEoLwzCM",
+      "Gr-qoY7zOOA",
+      "3rl6edRBYOI",
+      "YD43DqZ2gDU"
+    ],
+    "Anse Kerlan, Seychelles, Pralin": [
+      "ANRfrqzPQjQ",
+      "DS65_Rkr8L0",
+      "jsuDByJNMB8",
+      "_ddZAwDjRbY"
+    ],
+    "Anse Patates, Seychelles, La Digue": [
+      "xNv_8vLTYBE",
+      "AjBUOZMGh-M",
+      "kbeRvbIgRtk",
+      "aznryqWd1Ns"
+    ],
+    "Anse Royale, Seychelles, Mahe": [
+      "WM_fPtwtppU",
+      "xnswgAY-89g",
+      "W8gVaTbabPw",
+      "o4HJFNmN4lM"
+    ],
+    "Anse Salabouelle, Guadeloupe": [
+      "MTziosfj_uw",
+      "es17Ys7PeFU",
+      "axoAjRpi9i8",
+      "z20KCI9e7RE"
+    ],
+    "Anse Sevére, Seychelles, La Digue": [
+      "xNv_8vLTYBE",
+      "AjBUOZMGh-M",
+      "b5bTu_FEV_8",
+      "fR67nw9lnzs"
+    ],
+    "Anse Soleil, Seychelles, Mahe": [
+      "52fVvkvGnN4",
+      "xnswgAY-89g",
+      "WM_fPtwtppU",
+      "NWC_KmTP2nE"
+    ],
+    "Anse st Martin, France, Normandy": [
+      "GuU5TpZYg5E"
+    ],
+    "Anse Trabaud, Martinique": [
+      "8rh_TUFWx2E",
+      "YY4g3zBsaSI",
+      "ioSMwH2hIOE",
+      "WRFoKZ2oGSo"
+    ],
+    "Ansedonia - Il Cartello, Italy, Mainland": [],
+    "Anson Bay, Australia, NSW, North": [
+      "NlND8Zry_bE",
+      "i9slub0IOO8",
+      "oCzfFMbGU6g",
+      "zCIfYjR8Bk8"
+    ],
+    "Ansteys Beach, South Africa, Durban": [
+      "xyDGP6adFgw",
+      "qAWG85I3qAY",
+      "P2faJW4lx0w",
+      "CvPF9-kdHpc"
+    ],
+    "Antalya, Turkey": [
+      "WykP2_AHXTg",
+      "KuaJ_v3mhsg",
+      "O4bdc-s5LKY",
+      "texUnhzohZE"
+    ],
+    "Antenas, Sao Tome": [
+      "EUopgaKBW_Y",
+      "Kn7dMji3oK8",
+      "TmP_1N2debg",
+      "9CalJSvCTYg"
+    ],
+    "Antigues Cape, Guadeloupe": [
+      "5tSO3UEHvZ8"
+    ],
+    "Antiques, Maldives": [
+      "qAn2661xjxU",
+      "Q7S_KzqJ33g",
+      "n7WCWd9eOcY",
+      "IPgiBNOPCjQ"
+    ],
+    "Antlers beach, Canada, East Coast": [
+      "l72Ia-Raxjc",
+      "dWtP19LSvTk",
+      "GG5hzKajuEw",
+      "RYbyIJVU4m8"
+    ],
+    "Anza, Morocco, South": [
+      "3bkM288LrCo",
+      "z5P_LA1NYSs",
+      "VwUFYJLevK4",
+      "kpuMPkjdLYg"
+    ],
+    "Anzacs, Australia, VIC, Melbourne East": [
+      "BJo386vt_5k",
+      "7dgTRWZ_7_4",
+      "vSzWqihSncE",
+      "9N2_1pai8tc"
+    ],
+    "Aoshima beach break, Japan, Kyushu": [
+      "h7aaiGJ1gsA",
+      "xChxPueuhzo",
+      "VfIUXjua8lY",
+      "UE6p5I7PboQ"
+    ],
+    "Aoshima Reef, Japan, Kyushu": [
+      "WEVvouRAPW0",
+      "zFnOTyxn_Cg"
+    ],
+    "apache pier, USA, South East, South Carolina": [
+      "KRsaeKh8dQI",
+      "vuG8BirOPgg",
+      "KNmStGtndQw",
+      "i_msrG_sTpc"
+    ],
+    "Aparri, Philippines, Luzon": [
+      "4QhLIYPurAY",
+      "OPqP01lMMf0",
+      "tCDlzmctx20",
+      "5CEPLipMKwk"
+    ],
+    "Apocalypse, Indonesia, West Java": [
+      "hba2OGd3tQk",
+      "j4fcTpMTJBg",
+      "GHcIx5VlbTo",
+      "6yZhrjUtnzM"
+    ],
+    "Apollo Bay, Australia, VIC, Melbourne West": [
+      "KYw_vG33wJk",
+      "ocrSx2RCdw8",
+      "lC7xXALSitE",
+      "s3NxE-jx-g8"
+    ],
+    "Apollonas. Naxos, Greece, Aegean Sea": [
+      "2HLSss79Ybs",
+      "Va8Ez8IxxbY",
+      "oF-ixIZxrb0",
+      "WGNyQfs2Cz8"
+    ],
+    "apolonia, Israel": [
+      "9RR5JVicV_A",
+      "-qMp7zW4lSE",
+      "4gRXpoS4IIA",
+      "lxea-S7nXXA"
+    ],
+    "Aquatic centre, New Zealand, New Zealand NI, West Coast Taranaki": [
+      "ALRoebu0Rgs",
+      "40ynkvFVN40"
+    ],
+    "Ar Loïs, France, Brittany South": [
+      "4B9bY4AIu8M",
+      "NPZmKmXuylg",
+      "DQYnVWZPl8A",
+      "IGpMDUEiJi4"
+    ],
+    "Aracaju, Brazil, Sergipe-Alagoas": [
+      "Bm-3l3HJNIU",
+      "DY5pO6zfShs",
+      "UPIqmWxC36E",
+      "KI_VmTrl3jM"
+    ],
+    "Arachania, Uruguay": [
+      "uoaHQLl_p3U",
+      "6pgbLUi4Mms",
+      "8_s990wMPkc",
+      "Es937-BDkac"
+    ],
+    "Arambol, India, North-West": [
+      "ki5Y8qISw2k",
+      "IfSQQaqs0uc",
+      "qJAXiL8k4sA",
+      "3m1ySlLJe_Y"
+    ],
+    "Aramoana, New Zealand, New Zealand SI, SE Coast": [
+      "Umabf4hU1cY",
+      "MCzwPnBsQcU"
+    ],
+    "Araruna, Brazil, Para": [
+      "tJ4YZRH7QYw",
+      "M5BBayMF0gs"
+    ],
+    "Arashi, Aruba": [
+      "E_gVkU1XJoY",
+      "rkcz7RlaVTU",
+      "0GqiJGt3M1k",
+      "5M6wYd8GDHg"
+    ],
+    "Arawahata Road, New Zealand, New Zealand NI, West Coast Taranaki": [],
+    "Arcadia, USA, North West, Oregon North": [
+      "DQYnVWZPl8A",
+      "-YJWFb3ob5Q",
+      "r9mLRYabWvE",
+      "bYimdgaA-1Q"
+    ],
+    "Arcadia, Ukraine": [
+      "OqI1tv3k0_o",
+      "pGsp4j9Eaa0",
+      "oGMMQI1Z6uk",
+      "Olgo-44ooiE"
+    ],
+    "Archies, Australia, QLD, North West": [
+      "Kz5LC--XeFQ",
+      "6nF-b9mbh7k",
+      "Yv5vyTzp64Q",
+      "55pZHSmpHhs"
+    ],
+    "Ardkeragh, Ireland, South West": [],
+    "Areias, Azores, Eastern group": [
+      "03NU5RfZf_I",
+      "fHgXfvEafCI",
+      "FAxYhJgNRZ8"
+    ],
+    "Argaman's Beach, Israel": [
+      "SDJ1A879NUE",
+      "CCW8kGlnKbA",
+      "sB69psyiX30",
+      "JhEBgxeQapM"
+    ],
+    "Argelès-Sur-Mer, France, Mediterranean": [
+      "GWvIKC1Cdt4",
+      "FlRBr1_hZo4",
+      "4RqYHew5MNs",
+      "jUUxDPCDzak"
+    ],
+    "Arguineguin, Canary, Gran Canaria": [
+      "KZ1yA4nnBLY",
+      "WPDz1es839k",
+      "85nJG04rkPQ",
+      "rtru68PyraM"
+    ],
+    "Ariks, Indonesia, Mentawai": [
+      "BkMFVMaIsK4"
+    ],
+    "Arkutino, Bulgaria": [
+      "IOupLw4Hs8U",
+      "pCXtEw6Ezfg",
+      "-ZiP_EPLuKQ",
+      "HMPt7oi8nBg"
+    ],
+    "Arma di Taggia, Italy, Mainland": [],
+    "Armação, Brazil, Florianopolis": [
+      "s64-2JMHfLE",
+      "ZgwcTTn4U38",
+      "395ToqRFoQw",
+      "ZWdvs4gDEVw"
+    ],
+    "Army Camp, Indonesia, Savu Sea": [],
+    "Arna plage, France, Landes": [
+      "a3MTxva7Egs",
+      "uzbGq_Rn30g",
+      "6fdLnSykssE",
+      "IL5AwKcrb6k"
+    ],
+    "Arnold, USA, California, Ventura": [
+      "BRWjvZKKpC4",
+      "i5UJQudmjrs",
+      "9Hv8F57YP3o"
+    ],
+    "Arpoador, Brazil, Rio de Janeiro City": [
+      "3cIcdU5eF5E",
+      "UkcKGLEtxm4",
+      "DgOcVQbWPS8",
+      "O_LmwQROuqU"
+    ],
+    "Arraial do Cabo, Brazil, Rio de Janeiro Norte": [
+      "Wwxgync4IYU",
+      "NfE2jHBxEss",
+      "VdTRvMyjWOc",
+      "wpcjJgILk74"
+    ],
+    "Arrawarra point, Australia, NSW, Banana Coast": [
+      "UGIgUDWAuj0",
+      "uNrA1wVvvcw",
+      "3i01xiuGR7U",
+      "xF0V8WCxWGg"
+    ],
+    "Arrieta, Canary, Lanzarote": [
+      "4aPi-f6epuA",
+      "N6dSwhgj9yQ",
+      "hEp6xxYzLsY",
+      "Ck8WlnQW_cA"
+    ],
+    "Arrifana, Portugal, Algarve": [
+      "5us1PBzuMek",
+      "H7M8KZq7ILY",
+      "rRwjAyVIhmQ",
+      "Qjc2dIsxS78"
+    ],
+    "Arrigunaga, Spain, Pais Vasco": [
+      "czRGkYpvkPI",
+      "aHsI3w9yDKw",
+      "gDrtooBA6BM",
+      "Q_kU7DJJN4I"
+    ],
+    "Arroio do Silva, Brazil, Santa Catarina": [
+      "-k2u45XhhrA",
+      "xyszorLfPKs",
+      "AddgVLk5GuI",
+      "cL7aE-M34_Q"
+    ],
+    "Arroyo seco, Mexico, Jalisco": [
+      "gnhCWMxIXBs",
+      "yYqYYx7067g",
+      "6BSHoOdB4cA",
+      "wGCM1BdrI8w"
+    ],
+    "Artificial reef, Australia, WA, Perth City": [
+      "1xKzHZj7u80",
+      "P9diwtbJS6M",
+      "jER-2jvaeHo",
+      "rvku-oPXchw"
+    ],
+    "Arugam Bay, Sri Lanka": [
+      "2Fe3-O5PHK8",
+      "mX8BaKXX7iU",
+      "IhHcbJTMDCg",
+      "M1laS8cSVdo"
+    ],
+    "Åsa (Aasa), Sweden": [
+      "ZygjNWQJvQ8",
+      "KlYLcaLo1Cs",
+      "fCD23UrwemU",
+      "b0r7RHBmZ-4"
+    ],
+    "Asbury Park, USA, North East, New Jersey": [
+      "0hNaM6g9o_4",
+      "pp2ZawJ4GIE",
+      "qNPouyA90Ec",
+      "zbp9n7CHg1g"
+    ],
+    "Aserradores, Nicaragua": [
+      "zuzelPAOQRc",
+      "xZsnWmC_Rkc",
+      "WiQxHxqU5LU",
+      "YRhH4ZVeF8I"
+    ],
+    "Ashdod -hshover, Israel": [
+      "_fgHHWkQIfQ",
+      "4NPLzwA-mCk",
+      "v5CQTVTVXek",
+      "-j4nEN_UFNU"
+    ],
+    "Ashe, Russia, Black Sea": [
+      "MSECfFaPk-c",
+      "nOgfV2xf0mE",
+      "cR36exYi72c"
+    ],
+    "Asia - Palmas, Peru, Lima": [
+      "U6oA0iv_U8I",
+      "lyHlX5nXdAU",
+      "npVrpq7eRzQ",
+      "nOgfV2xf0mE"
+    ],
+    "Asia del Mar, Peru, Lima": [
+      "ODurlJLk3rk",
+      "nS8LL7MmDAA",
+      "OZo1AJbhlsY",
+      "82Dr6ZeHQSY"
+    ],
+    "Asilomar, USA, California, Monterey": [
+      "XdpxvS72rJc",
+      "xq6zD21_4KM",
+      "-dS-KczYYFg",
+      "C1yoijv_GKI"
+    ],
+    "Asling's Beach, Australia, NSW, Far South": [
+      "VYvlkqPEv88",
+      "nOOx958UoQA",
+      "-UEyrbGTndI",
+      "0Z827h_LdmY"
+    ],
+    "Assateague, USA, North East, Virginia": [
+      "MAI0h_Jd-rU",
+      "LQb9TVH7Uj4",
+      "WJosKya9zeg",
+      "R41Ms5H3SMM"
+    ],
+    "Assinie, Ivory Coast": [
+      "ot6UFaw8Aq0",
+      "0YdeqNNZYFI",
+      "DFT2wD3P9qw",
+      "QC8OOQVneng"
+    ],
+    "Assouinde Beach, Ivory Coast": [],
+    "Astillero, Nicaragua": [
+      "7UOEMwCIj_0",
+      "mWk-MzAUUa4",
+      "HPrXd8NM8xo",
+      "hw7w4EvJFGg"
+    ],
+    "Astúrias, Brazil, Sao Paulo North Coast": [
+      "y69wrGAGufw"
+    ],
+    "Asu, Indonesia, Sumatra Islands": [
+      "Ut6LkCAHrk8",
+      "2xCTXGNExxA",
+      "BCryPJGf7go",
+      "6ynAvCxv8A8"
+    ],
+    "Asunchillo, Nicaragua": [
+      "WiQxHxqU5LU",
+      "Y2l7Va38Ows",
+      "93t0RkeirhM",
+      "G-CQEWT-mT4"
+    ],
+    "Atacames, Ecuador": [
+      "CQ3aPfOFkTY",
+      "VKqxFwqLLBE",
+      "rIkMQKFzSaQ",
+      "Z7S7q3Q3-UI"
+    ],
+    "Ataka, Japan, West Coast": [
+      "nOgfV2xf0mE"
+    ],
+    "Atalaia, Brazil, Santa Catarina North": [
+      "d1O1hLKWmy0",
+      "s6vs24obRB0",
+      "AQBivVGV2MU",
+      "rsZlaCy1Aig"
+    ],
+    "Atashika, Japan, Kii Hanto": [],
+    "Ateni Beach, Greece, Aegean Sea": [],
+    "Atlantic Beach, USA, South East, North Carolina": [
+      "3sDGi8PNtWU",
+      "c-IVnifZ5og",
+      "51Wt3D858K8",
+      "XeldhceOkh0"
+    ],
+    "Atlantic Playa, Canary, Tenerife": [
+      "XGq7houjdq4",
+      "P2p2StVyIwU",
+      "6lOyo0wZhVM",
+      "Ds7SXP7sR90"
+    ],
+    "Atlântida - Pier, Brazil, Rio Grande do Sul": [
+      "JfiHRtCEV9o",
+      "9eKASs4Ze1s"
+    ],
+    "Atlantis, Russia, Finnish Bay": [
+      "A3RKblcgOi8",
+      "R2zJ73ccgfk",
+      "DtcwOeMb_n8",
+      "8VsCPGfbYxA"
+    ],
+    "Audierne - La Gamelle, France, Brittany South": [],
+    "Audierne - La Jetée, France, Brittany South": [],
+    "Audreselles, France, Normandy": [
+      "xyFlFgQAfrs",
+      "l9cayFdXK7Q",
+      "OzBvdJPVIBI"
+    ],
+    "Aufuga, Samoa Western": [],
+    "Augusta Rivermouth, Australia, WA, Margaret River South": [
+      "lXHpaDqIl7Y",
+      "WkYYEye7pKs",
+      "pEP5yFkliUg",
+      "OO-mod84xDw"
+    ],
+    "Austinmer Beach, Australia, NSW, Coal Coast": [
+      "S_E6PCMCvlw",
+      "IfUonZnurBc",
+      "ki6qE04RXi8",
+      "aFWnQdwCJIk"
+    ],
+    "Austinmer pools, Australia, NSW, Coal Coast": [
+      "Tc7jz6ODq4M",
+      "aFWnQdwCJIk",
+      "ki6qE04RXi8",
+      "AGEpSgneFgw"
+    ],
+    "Avalanche, South Africa, South East Port Elizabeth": [
+      "dY9-nrSN5_8",
+      "nzam-jnECZw",
+      "4uVFUt8Ab3w"
+    ],
+    "Avalanche, USA, California, San Diego County": [
+      "1vgMcmTIBiI",
+      "Z9QF26t-eF4",
+      "P522aKZ-8gU",
+      "IbJbzR0iYaE"
+    ],
+    "Avalanche, USA, North West, Oregon Central": [
+      "tJPkGBP0Aic",
+      "FEY-w3HiKHo",
+      "kVXnCKy9um8",
+      "d3ZNZvHmATc"
+    ],
+    "Avalanche Oahu, USA, Hawaii, Oahu": [
+      "65KMD3Q1J5M",
+      "PyHViws-y3c",
+      "mB-T-ZTVUL4",
+      "5SBMf19BYB8"
+    ],
+    "Avalon - 15th Street, USA, North East, New Jersey": [
+      "lx2r0fYwDWY",
+      "DQYnVWZPl8A",
+      "C93W_-cDxmY",
+      "qCj7WMfRtvE"
+    ],
+    "Avalon - 30th Street, USA, North East, New Jersey": [
+      "cYZb30sLZqE",
+      "Q541nlRQEPg",
+      "BnWGNHx4XUI",
+      "XeldhceOkh0"
+    ],
+    "Avalon Point, Australia, WA, Perth South": [
+      "KYw_vG33wJk",
+      "yA61jws9QuU",
+      "qS9K6hzlZKg",
+      "Qd9eSKUD83E"
+    ],
+    "Avatoru Pass, Rangiroa, French Polynesia, Tuamotu Islands": [
+      "S7DipS96-mw",
+      "rS_Qo7iXDjc",
+      "3Urufc9GLuU",
+      "TfSGqpT75i0"
+    ],
+    "Avenida del mar, Chile, Coquimbo": [
+      "I9Jt5oHGBcc",
+      "uIuY3atVI28",
+      "jf5lB2LlXZo",
+      "--2dCiFppPs"
+    ],
+    "Aventureiro, Brazil, Rio de Janeiro Norte": [
+      "6W8BUWthV44",
+      "uaRyK4tbfDA",
+      "4C9U198gQIM",
+      "eunCHHOBzWw"
+    ],
+    "Aviño, Spain, Galicia": [
+      "MKXSKabnZGQ",
+      "5-sLiwYhbRI",
+      "QQuj3jpSSjU",
+      "8HhYor1Usgk"
+    ],
+    "Aviones, Puerto Rico": [
+      "EDAQ5SuUPFg",
+      "BKw8XKnE2LQ",
+      "BXqmyQCOpRI",
+      "wSCxyp-LVL0"
+    ],
+    "Avoca Point, Australia, NSW, Central": [
+      "KRNfp9vcb4Y",
+      "5sX52LmNnnA",
+      "loTZfnYBdLM",
+      "PDUcPoLer5Q"
+    ],
+    "Axim, Ghana": [
+      "ZrqZXVfSynM",
+      "DZsFywPoeh0",
+      "vvmsFRBaVmk",
+      "sRXA8QgmtJA"
+    ],
+    "Ayampe, Ecuador": [
+      "fF4wxABOodo",
+      "1TO0OiHzm2M",
+      "cK4XSO1xMHc",
+      "kfHaMi7T0GM"
+    ],
+    "Aytré - lopette beach, France, Charente maritime": [],
+    "Azako, Japan, Kyushu, Tanegashima-Island": [],
+    "Azurara, Portugal, North Porto": [
+      "VWIrser0lQY",
+      "_X3RZtfXNa4",
+      "69EDrIUBEMM",
+      "IHks1k4_yGY"
+    ],
+    "B-point, East Timor": [
+      "JH26wnvNTXY",
+      "lGZl9w6YKGU",
+      "Pc_T2d645W4",
+      "1nJJqG36m0I"
+    ],
+    "Baby Haleiwa's, USA, Hawaii, Oahu": [
+      "zZqxPozl2Ec",
+      "jyDqEr9usxw",
+      "CSEyJjLwbDs",
+      "43HreIzBzbw"
+    ],
+    "Baby Makapuu, USA, Hawaii, Oahu": [
+      "Opf9BE2ZdnI",
+      "FXEfFD0v2NA",
+      "4f7gFJEPKco",
+      "VM_9m1wYqqg"
+    ],
+    "Baby Plage, Switzerland": [
+      "lOSmHNzzgNM",
+      "R2zJ73ccgfk",
+      "NPZmKmXuylg",
+      "O3nAx6uf_ms"
+    ],
+    "Baby Point Side, Turkey": [
+      "XeldhceOkh0",
+      "Nl4zTl2bw1s",
+      "Erl2fuumPZc",
+      "gaKMNJRn2Xw"
+    ],
+    "back beach, Ireland, North East and East": [
+      "ALRoebu0Rgs",
+      "FIXeaXJyBiY",
+      "XeldhceOkh0",
+      "rzNfuvSb2iU"
+    ],
+    "Back beach, Australia, WA, Perth North": [
+      "rgdG_51uSLc",
+      "H2nUXdYmD48",
+      "qkt8oRdzBCQ",
+      "KYw_vG33wJk"
+    ],
+    "Back Beach, New Zealand, New Zealand NI, West Coast Taranaki": [
+      "ALRoebu0Rgs",
+      "6qDAiK7y8UQ",
+      "BpxUiyEjy88",
+      "JQhGbs2Zrqk"
+    ],
+    "Back Bommie, Australia, NSW, Newcastle": [
+      "C7EFi1UD0oY"
+    ],
+    "Back Jimmys, Australia, NSW, Mid North Coast": [
+      "XeldhceOkh0",
+      "fcrza9YjjjA",
+      "NPZmKmXuylg",
+      "73PW56YHvXs"
+    ],
+    "Backdoor, Australia, NSW, Central": [
+      "KRNfp9vcb4Y",
+      "HNfNUX-d3Oc",
+      "gtYBEbNM6Is",
+      "x78jNqtexQU"
+    ],
+    "Backdoor, USA, Hawaii, Oahu": [
+      "jyDqEr9usxw",
+      "CdGfdM9PpPI",
+      "Ra7E1Bpb83Y",
+      "GHMHKrAstXs"
+    ],
+    "Backdoor, Brazil, Rio de Janeiro Norte": [
+      "UZENr9MciLI",
+      "9h505-Pc5GY",
+      "dch1lcaFbIc",
+      "ZMe3YQByBd0"
+    ],
+    "Backdoor, Italy, Sicily": [
+      "Nf9QCmDy1Nc",
+      "6c1g1kJQJp4",
+      "N3oNR-il8a4"
+    ],
+    "Backdoor, Brazil, Bahia Sul": [
+      "CxGEjk_31aI",
+      "-k2u45XhhrA",
+      "P8lLBdYXJYA",
+      "yChabekPD0s"
+    ],
+    "BackDoor (Haifa), Israel": [
+      "Zi8kAyxTrH0",
+      "saEC9E5nurg",
+      "g6sh30JjwN8",
+      "-j4nEN_UFNU"
+    ],
+    "Backsides, Australia, NSW, North": [
+      "-PqEefd_hNs",
+      "5hKAupV2pqI",
+      "ALRoebu0Rgs",
+      "0yG7ikKb2KE"
+    ],
+    "Backwash, Costa Rica, Pacific South": [
+      "kPHMQVYc4kU",
+      "bGE0B6VtkiA",
+      "9NWjru0gaNg",
+      "33FWaSpOrY4"
+    ],
+    "Backyard OG (ocean gallery), USA, South East, North Florida": [
+      "ALRoebu0Rgs",
+      "R2zJ73ccgfk",
+      "NPZmKmXuylg",
+      "nsqrSaK7HCU"
+    ],
+    "Badesi, Italy, Sicily Sardinia": [
+      "xl_zLFU1vco",
+      "RgodANMLQqE",
+      "_MKhebXbTL8",
+      "XDUqL8ZfyhA"
+    ],
+    "Badjang, Philippines, Siargao Islands": [
+      "i6H3GBZ5R5I",
+      "OMGChobDw24",
+      "uDnJo6Le3zk",
+      "XB1cs2lFj7c"
+    ],
+    "Bafureira, Portugal, Central Lisboa": [
+      "jdgNtb5A5tM",
+      "hd3F-AJxK5M"
+    ],
+    "Bagasbas Beach, Philippines, Luzon": [
+      "NLXX81sjj7o",
+      "hW84-X2KcqA",
+      "_B07rQmuInY",
+      "CvT_oxEPxfc"
+    ],
+    "Baggies, South Africa, Durban": [
+      "mpmpDxMbAjs",
+      "gQvZrAYBHic",
+      "_LpdXmItNY4",
+      "4zUrI6J0VM4"
+    ],
+    "Baggies, South Africa, Hibiscous Coast": [],
+    "bagni Fiume ( Livorno ), Italy, Mainland": [],
+    "Bagni Roma, Italy, Mainland": [],
+    "Bahar ic-Caghaq, Malta": [
+      "u0eh4S5Hkk8",
+      "Cbjii8tblCg",
+      "gDR4PZWf-KA",
+      "ivSPhhawWNI"
+    ],
+    "Bai Dai Beach, Nha Trang, Vietnam": [
+      "rfY6qcW1p6U",
+      "-TlGt6731VY",
+      "CooOm6B3HM4",
+      "39A7VWbz3L0"
+    ],
+    "Baía, Portugal, Central Peniche": [
+      "omVNPWtZJxw",
+      "5c1yg_5rEYg",
+      "Et7OYs5LjWc",
+      "DPYw4QExWSg"
+    ],
+    "Baia das Quatro Ribeiras, Azores, Central group": [],
+    "Baia Formosa, Brazil, Rio Grande Do Norte": [
+      "vvUrYb-9viE",
+      "di_Fn4PcQ-A",
+      "usACf_JRCnQ",
+      "PBoNRbkFNVg"
+    ],
+    "Baie des Trépassés, France, Brittany South": [
+      "505WDIZIhQY",
+      "8algjaziw10"
+    ],
+    "Bailey's Beach, USA, North East, Southern New England": [
+      "ALRoebu0Rgs",
+      "nsqrSaK7HCU",
+      "IGpMDUEiJi4",
+      "DQYnVWZPl8A"
+    ],
+    "Baileys cottage, South Africa, Cape Town": [
+      "ALRoebu0Rgs",
+      "nsqrSaK7HCU",
+      "_t35lbKg3Uo",
+      "AE6mfQp06Jk"
+    ],
+    "Baird Bay Reef, Australia, SA, Eyre Peninsula": [
+      "_u592sVujZ4",
+      "NsKRrG83GPc",
+      "dECqmXhgsJE"
+    ],
+    "Baixa da Vila Nova, Azores, Central group": [],
+    "Baja Malibu, Mexico, Baja Norte": [
+      "FFyEd6saz5w",
+      "vYBQQjWHTkI",
+      "TbUbHfJ-b0g",
+      "NLN7i0DUocU"
+    ],
+    "Bajamar, Costa Rica, Pacific South": [
+      "oOWmLFQ-F7Y",
+      "atk_SK77XY0",
+      "tRvRwkl-y-A",
+      "InlrMU4ahf4"
+    ],
+    "Bajamar, Canary, Tenerife": [
+      "rYviN4aii2w",
+      "h7u1UI3tun8",
+      "ZxXvB3urCjg",
+      "AWi1kg74yEs"
+    ],
+    "Baker's beach, USA, North East, Southern New England": [
+      "IGpMDUEiJi4",
+      "nsqrSaK7HCU",
+      "b0r7RHBmZ-4",
+      "z83DEuV-SiQ"
+    ],
+    "Bakio, Spain, Pais Vasco": [
+      "apJg603IyrM",
+      "lFD1Q0iLxyw",
+      "7-ATZQU-k_k",
+      "eVg5dDuhtUg"
+    ],
+    "Balangan, Indonesia, Bali": [
+      "UaH29e5gdxo",
+      "1K0_8IamIa8",
+      "PFdQk-TAoq0",
+      "hpTlnHcs_2s"
+    ],
+    "Balao, Ecuador": [
+      "2Jn98zTB2hU",
+      "AC8SeHFoMGI",
+      "Y9enld2_Jy0",
+      "JZ7J3kxZMtg"
+    ],
+    "Balconies, Peru, North": [
+      "HpzzmQRYFm8",
+      "IGpMDUEiJi4",
+      "O3nAx6uf_ms",
+      "e54xkL8TYzc"
+    ],
+    "Bald Head Island- Point, USA, South East, Southern North Carolina": [
+      "IGpMDUEiJi4",
+      "NPZmKmXuylg",
+      "NItjB2Y226o"
+    ],
+    "Balding Bay, Australia, QLD, Far North West": [
+      "ALRoebu0Rgs",
+      "x_6F0HfjrSM",
+      "XeldhceOkh0",
+      "DtcwOeMb_n8"
+    ],
+    "Baldwin beach, USA, Hawaii, Maui": [
+      "-Bbjbi4B0qQ",
+      "kLdncQjuBZI",
+      "XOEMokIYX4Y",
+      "PyHViws-y3c"
+    ],
+    "Baleal, Portugal, Central Peniche": [
+      "s9KeaMrIJSk",
+      "POihrPB10hw",
+      "finbjtyanwo",
+      "NBprAXW1wR4"
+    ],
+    "Baleal Sul, Portugal, Central Peniche": [
+      "zgN_6qPjAgA",
+      "jgkpQWwvN7Y",
+      "DPYw4QExWSg",
+      "C6mVEJtUb9g"
+    ],
+    "Baleia, Brazil, Sao Paulo North Coast": [
+      "F5w9y-P7AM8",
+      "ZnFonjT0la4",
+      "e2If7tZG9k8",
+      "2lPxhpowo0g"
+    ],
+    "Baler, Philippines, Luzon": [
+      "Yk7MyuDVtgs",
+      "tpcvoKMO2eQ",
+      "Q-nl28oL89E",
+      "DoP_JIAPKBc"
+    ],
+    "Bali Bay, South Africa, Cape Town": [
+      "owFMFs5CkHY",
+      "uushJOcXuBA",
+      "0hM7jmiwGz8",
+      "XeldhceOkh0"
+    ],
+    "Bali Tropic, Indonesia, Bali": [
+      "Zj5crGzvqXQ",
+      "CVQ47yl50M4",
+      "GWpw2ROpUYQ",
+      "gTCkuXeT4JU"
+    ],
+    "Balian, Indonesia, Bali": [
+      "iEIoDuPZ4AU",
+      "TjPuuCJ_mB8",
+      "Q8oDo0zvLdo",
+      "z6wt0xX_4wE"
+    ],
+    "Ball Bay, Australia, Norfolk Island": [
+      "UjJ22ImryIs",
+      "ALRoebu0Rgs",
+      "XeldhceOkh0",
+      "NlND8Zry_bE"
+    ],
+    "Ballenas, Puerto Rico": [
+      "k0BwLRqCRU8",
+      "JPC8pFIvWlA",
+      "tNrkaIO76dQ",
+      "p04di9v_Zfc"
+    ],
+    "Ballina North Wall, Australia, NSW, North": [
+      "x_pBE0hMjmY",
+      "Mcln5RaH9Iw",
+      "kgt4GirIuC8",
+      "IkHv_4B5_eE"
+    ],
+    "Ballinskelligs, Ireland, South West": [
+      "SWWtnWEQlZY",
+      "vJysDNKGpdU",
+      "wYwwMFiO7ko",
+      "sTI-UmausWU"
+    ],
+    "Ballito - Surfers Point, South Africa, East Coast North": [
+      "417s5QRufHE",
+      "qkKQKshx7j8",
+      "YesVgGkH4og",
+      "rq9QOdrWOig"
+    ],
+    "Ballston Beach, USA, North East, Southern New England": [
+      "-JcjDjqB9vc"
+    ],
+    "Ballybunion, Ireland, South West": [
+      "vJysDNKGpdU",
+      "t2hQ55WGB9s",
+      "ZBt7MAKD47M",
+      "LHIiEgAe3Vw"
+    ],
+    "ballyheigue ireland southwest, Ireland, South West": [
+      "MdK0qCKRpNw"
+    ],
+    "Ballyheirnan Bay, Ireland, North West": [],
+    "Balmoral point, Australia, NSW, Sydney North": [
+      "Zlf29IBsR_E",
+      "LMYf-KLuz_A",
+      "ylvkv5VPa6w",
+      "gytIQ8IydO0"
+    ],
+    "Balnarring Point, Australia, VIC, Melbourne East": [
+      "MJINHJ-2BAw",
+      "gXNY17al3cI",
+      "uxEvsWw9tys",
+      "74tpztU4Big"
+    ],
+    "Balneário Camboriú, Brazil, Santa Catarina North": [
+      "y69wrGAGufw",
+      "3XB9U5ChFg0",
+      "TCYVtvNGEFo",
+      "tUjn3xzrgzI"
+    ],
+    "Balneário Costa azul, Brazil": [
+      "TE4cjLsE9Sg",
+      "2S5jtIC-1r0",
+      "AasY5IaM3fo",
+      "32wrx8zqNJM"
+    ],
+    "Bamboo Island, Cambodia": [
+      "EnPQl7W5TzE",
+      "rl-4pdtfxG0",
+      "0Tl05yUj5kI",
+      "uvbIPiyPT84"
+    ],
+    "Bambra Reef, Australia, TAS, Hobart": [
+      "pqATXFk0Lv0"
+    ],
+    "Bamburgh, UK, Borders and NE England": [
+      "sHUVgt0i9l4",
+      "ObfNakuqg7I",
+      "tA3wLtoIOqQ",
+      "P857fjnKgao"
+    ],
+    "Banana Beach, Morocco, South": [
+      "3bkM288LrCo",
+      "l8G-jtXb15w",
+      "PWc3SZ_9XT4",
+      "Jd9efmI9-xs"
+    ],
+    "Banana Beach, South Africa, Hibiscous Coast": [
+      "NPZmKmXuylg",
+      "Ey8cvmrcEmM",
+      "2OcfpJBO09w"
+    ],
+    "Banana Island, Indonesia, Sumatra Mainland": [
+      "RynIvkktCGU",
+      "OwZRlN4BqtU",
+      "vw1izY1PteQ",
+      "Gyxbdcf1ZcA"
+    ],
+    "Banana Point, Morocco, South": [
+      "rIg11DbMfJk",
+      "O5arjryYD7c",
+      "En-B0ILqpPY",
+      "l8G-jtXb15w"
+    ],
+    "Bananier, Guadeloupe": [
+      "rRQ4DyPYayM",
+      "43_66fH7POM",
+      "z20KCI9e7RE",
+      "Uiy2YBPDKzY"
+    ],
+    "Banc de Pabos, Canada, East Coast": [
+      "bwy_RTTXYpg",
+      "D-tVRk2-cRM",
+      "Q9dCNrFhfh4"
+    ],
+    "Bancoora, Australia, VIC, Melbourne West": [
+      "RvG6N7PSA04",
+      "kT7NMTHMbPc",
+      "JF97f23MEKE",
+      "DlrTnTIGpHU"
+    ],
+    "Bandar al Saqlah, Oman": [
+      "cR36exYi72c"
+    ],
+    "bandol, France, Mediterranean": [
+      "GWvIKC1Cdt4",
+      "yV-avrL29-k",
+      "YuDQEw9amBA",
+      "VQJ6vFTRZfI"
+    ],
+    "Bandon Beaches, USA, North West, Oregon South": [
+      "5igSh9q0tm4",
+      "fC8oDQD7uqQ",
+      "8GXvYoaEagk",
+      "1Az2dTtNles"
+    ],
+    "Bandy Creek Groyne, Australia, WA, Fitzgerald River": [],
+    "Bang Niang Rivermouth, Thailand": [
+      "IQs9DVaJn0Q"
+    ],
+    "Bankvaults, Indonesia, Mentawai": [
+      "9A1ScnPCsgM",
+      "GDN1c_OzNp4",
+      "FLtBJay1geM",
+      "A7wUodoWCSw"
+    ],
+    "Banna Strand - Sandy Lane, Ireland, South West": [],
+    "Bannister Head Suck Rock, Australia, NSW, South Coast": [],
+    "Bannisters point, Australia, NSW, South Coast": [
+      "qV1q9I7x3yY",
+      "WQ0k0DuIy9c",
+      "mRLBzo8Glmc",
+      "c0Dp2wqtE28"
+    ],
+    "Bantham, UK, Devon South": [
+      "IVIPakgfuCA",
+      "9eAtsVtS3W0",
+      "_LHCMEmqPw8",
+      "D9TJy3ZZpWU"
+    ],
+    "Bantham Rivermouth, UK, Devon South": [
+      "jYL0bARmG5I",
+      "xRXNncHnG84",
+      "0y8deJuquj8",
+      "q9lvNRKOxxQ"
+    ],
+    "Banyaks, Indonesia, Sumatra Islands": [
+      "2xCTXGNExxA",
+      "4vTGNN4bt-U",
+      "PrGSotJNlMA",
+      "EhgbZpyv-TM"
+    ],
+    "Banyons, USA, Hawaii, Hawaii Island": [
+      "Cjv9gGkRDck",
+      "bPWW64xwKCg",
+      "dR55V-3doJQ",
+      "ONWKAzaUlFQ"
+    ],
+    "Banzai, Australia, NSW, Central": [
+      "_bighQ4XgRg",
+      "mKfN8lcdD0o",
+      "cGo45gt0vOo",
+      "Hv5TnmpIARg"
+    ],
+    "Banzai ( S. Marinella ), Italy, Mainland": [
+      "Rb54CAlrjSo"
+    ],
+    "banzart, Tunisia": [],
+    "Baobab, Senegal": [
+      "wWw6IbwDAP0",
+      "54qocu1-zDY",
+      "2BVTa9fZN9A",
+      "czzibNULjH4"
+    ],
+    "Bar, Montenegro": [
+      "O8OHMkUjOgQ",
+      "22X_p2RdY0w",
+      "k4YQCxLOK8U",
+      "C_hJHbpiPuY"
+    ],
+    "Bar Beach, Australia, NSW, Newcastle": [
+      "khoW68Z_3O4",
+      "PyNcE7EJ07w",
+      "EyeV0-Xvxdw",
+      "RPr8hjllRp0"
+    ],
+    "Bar Beach, Australia, NSW, Far South": [
+      "ALRoebu0Rgs",
+      "V5LxNx-9pus",
+      "8hAP7wFunN8",
+      "mQRI-TgijYI"
+    ],
+    "Bar Reef, Australia, NSW, Newcastle": [
+      "ai4Akxv36r8",
+      "RGWMO-yMTJA",
+      "mAFL-O6LnOE",
+      "-bB_KnPT4k4"
+    ],
+    "Barbarons, Seychelles, Mahe": [
+      "Ayv-BhvRJOU",
+      "3D17hnn8CLU",
+      "HNb0vQJdKZo",
+      "b5OfrbeX8tQ"
+    ],
+    "Barbate, Spain, Andalucia": [
+      "BPQeBFWFlpw",
+      "DtAghtgzfyg",
+      "ZU8B0FSSlRI",
+      "q7KZ6CMTnlI"
+    ],
+    "Barber's Point - Coast Guard Jetty, USA, Hawaii, Oahu": [],
+    "Barceloneta, Spain, Mediterranean": [
+      "SBgr2TV1n-Y",
+      "HLFKvoZSXRA",
+      "e4xYqcHo6Co",
+      "uOdpIRQUlek"
+    ],
+    "Barley Cove, Ireland, South West": [
+      "1G6JixNsIgs",
+      "sDaVe0ogylE",
+      "7GYab5avO-4",
+      "z9IsU--jcxs"
+    ],
+    "Barn's Beach, Liberia": [
+      "p-KKNKcoRiE",
+      "upr4jIELsTI",
+      "O3nAx6uf_ms",
+      "J9MTg9bZDfI"
+    ],
+    "Barra, Mozambique": [
+      "SaTShvF8_Kk",
+      "VIsBI1WBVek",
+      "vFqPjlsthUA",
+      "5zhModFiNAQ"
+    ],
+    "Barra da Kwanza, Angola": [
+      "n1JGw5wgCZ4",
+      "sJscg2Y9EMA",
+      "KMmMBEAkc2s",
+      "vTMoh7_Erxk"
+    ],
+    "Barra da Lagoa, Brazil, Florianopolis": [
+      "LkjrqmEvNhc",
+      "bF1Arw6dgJE",
+      "nRICu18u3eo",
+      "UxcjdsvynJg"
+    ],
+    "Barra da Tijuca - Posto 8, Brazil, Rio de Janeiro City": [
+      "uRE2fj3ztrc",
+      "ic-XlgYxtgM",
+      "62cHYSL7AB4",
+      "X0wbNT9z7Rk"
+    ],
+    "Barra de coyuca, Mexico, Guerrero": [
+      "_4tnTYQfU1o",
+      "KH2S3Sfmq0A",
+      "rZr9FBLHOa4",
+      "m9bOVdU8U1Y"
+    ],
+    "Barra de Guaratiba, Brazil, Rio de Janeiro City": [
+      "0Z9dJsi2K18",
+      "0z9-iXsx-wA"
+    ],
+    "barra de Itajuba, Brazil, Santa Catarina North": [],
+    "Barra de Navidad, Mexico, Jalisco": [
+      "PAU7Uy2H1bQ",
+      "3H6QnWc5iMA",
+      "P2c-xPts934",
+      "qB1B4tCYmZU"
+    ],
+    "Barra de Santiago, El Salvador": [
+      "WJdWz6_S5OE",
+      "R8ctSyT2UpA",
+      "Zc3rD2jlS70",
+      "16ggzxVHwYU"
+    ],
+    "Barra do sai mirim, Brazil, Santa Catarina North": [
+      "3wO0eZmCUcc",
+      "NTlfsn-_NHo",
+      "FyfVX8sH0L4",
+      "onjjaxkogE8"
+    ],
+    "Barra Sol, Brazil, Espirito Santo": [
+      "wWDS-U6TaGQ",
+      "jiOdkI1cVCo",
+      "4Fzpk5eT31E",
+      "xUnB1lFFpco"
+    ],
+    "Barra Vieja, Mexico, Guerrero": [
+      "1Jo8uBHN5Rg",
+      "bIgjuglmcsE",
+      "6Woi-Cq23jc",
+      "-pAPCLT5N9w"
+    ],
+    "Barrack Point, Australia, NSW, South Coast": [
+      "NEgEcKNCBEM",
+      "SMhpF3lsw1U",
+      "ZeONExA8Ugc",
+      "UeW87GzciV0"
+    ],
+    "Barrañán, Spain, Galicia": [
+      "MKXSKabnZGQ",
+      "5-sLiwYhbRI",
+      "tR214Al-EL4",
+      "W5riFbHv8CE"
+    ],
+    "Barranco da Belharucas, Portugal, South": [
+      "3E3qo8-IC54",
+      "15e18mznlB8",
+      "n-nO8tkhEs4",
+      "fPQdz5gu4ao"
+    ],
+    "Barrancon, Chile, Tarapaca": [],
+    "Barranquito, Peru, Lima": [
+      "BJaXawY1vr0",
+      "8R9kigFFLEU",
+      "5UI9y2oaGBI",
+      "De1eZfCcQqc"
+    ],
+    "Barravento, Brazil, Bahia North Coast": [
+      "sms19vCqSKw",
+      "yW6wFCU3VPE"
+    ],
+    "Barre d'étel, France, Brittany South": [
+      "TAVS6_cQtvc"
+    ],
+    "Barrigona, Costa Rica, Guanacaste": [
+      "21J8oc3sAuc",
+      "dBSlLhccf-g",
+      "ILkCFy-mWyg",
+      "ArLEvUzatTY"
+    ],
+    "Barrinha, Brazil, Santa Catarina North": [
+      "o6AUlmpB4lE",
+      "1MKnl-hPwYI",
+      "IIeRKHwvbWU",
+      "_-Yc-1Iqm6o"
+    ],
+    "Barrinha, Brazil, Santa Catarina": [
+      "yntFk3Tgh_Q",
+      "LU0CEqbkMzk",
+      "EhCacfbu2G0",
+      "_FDEt1DnOhw"
+    ],
+    "Barrinha, Brazil, Parana": [
+      "L2uiVQ3P9Tk",
+      "nioNXn1DZx4",
+      "lGUT3w4gRpo",
+      "bc8UTs6EjFY"
+    ],
+    "Barrote-Jacaraipe, Brazil, Espirito Santo": [
+      "B3TetTGnTnM",
+      "yJDSeoU34yk",
+      "UdvbH-Uvm8g"
+    ],
+    "Barrtrá, Ireland, West": [
+      "uWMiNURitcg",
+      "Gw9ibBcbEgE",
+      "xKAGz1-Btxw",
+      "fTGb2_jEJX0"
+    ],
+    "Bartletts Beach, Australia, NSW, Mid North Coast": [
+      "v_Kz4IiMtNY",
+      "KCxWXs4V-mY",
+      "c6f6iJOMo50",
+      "u87g-mzV2iI"
+    ],
+    "Bashams bommie, Australia, SA, York Peninsula": [],
+    "BashienDong, Taiwan": [],
+    "Baslicon, Ireland, South West": [],
+    "Bassa Trinita, Italy, Sicily Sardinia": [],
+    "BASSE POINTE LE CHAUDRON, Martinique": [
+      "bYl3qT0w1JA",
+      "LASH99gMcDg",
+      "UUxdsFWXKZg",
+      "qZf3yB4teG0"
+    ],
+    "Bastiagueiro, Spain, Galicia": [
+      "36Qyxol0PdM",
+      "MKXSKabnZGQ",
+      "UOV7RWECT-0",
+      "hVpnfT_2ZH0"
+    ],
+    "Baterias, Peru, North": [
+      "iY0saWRyTpA",
+      "nYVWC2J17H4",
+      "hwPYpqgemaM",
+      "TyyTpoIGCyc"
+    ],
+    "Bates Island, Ottawa River, Canada": [
+      "3HIud2fWAdg",
+      "rn5kaqJyUYM",
+      "KhYYKE3WFEo",
+      "-lExFgv4VI4"
+    ],
+    "Batroun, Lebanon": [
+      "xBTH5JJCnrs",
+      "VaZTxjR6rWo",
+      "YuFJyVHAIJY",
+      "rRUjt27j-1c"
+    ],
+    "Battery, South Africa, Cape Town": [
+      "owFMFs5CkHY",
+      "SyEh4m5Yylo",
+      "1EklYHm-RIc",
+      "TVRZ0cLwTK4"
+    ],
+    "Batts Rock, Barbados": [
+      "8vgXn9Y4HEw",
+      "vi21WrU22rQ",
+      "Pif1TmOHX5I",
+      "glcL3mJi9k0"
+    ],
+    "Batu Karas, Indonesia, West Java": [
+      "smdCIHaDb_o",
+      "I0nq54PgtLQ",
+      "4YcULhHFuxM",
+      "fKfdGkrx5KM"
+    ],
+    "Baubigny, France, Normandy": [
+      "IgSTfAexQNA"
+    ],
+    "Baul, Chile, Tarapaca": [],
+    "Bawa, Indonesia, Sumatra Islands": [
+      "2xCTXGNExxA",
+      "8tT4cI7OeBg",
+      "8leUGLB9cCA",
+      "-FSTTipEJqU"
+    ],
+    "Bawley Point, Australia, NSW, South Coast": [
+      "shuScgjZVMg",
+      "mkeqeHz0dlw",
+      "8V-4B-lVflc",
+      "fQCuDK6Ig3o"
+    ],
+    "Bay (left wall), Australia, WA, Perth South": [
+      "qJqkQrIFpFs",
+      "ALRoebu0Rgs",
+      "wM8lkdC-sWk",
+      "9-WBGB6gKAQ"
+    ],
+    "Bay Break, Ireland, West": [
+      "auZlG7BS1lw",
+      "V2VYOo-i7zo",
+      "KLtjNdu4d7A",
+      "Qj0jYNzt9u4"
+    ],
+    "Bay Head, USA, North East, New Jersey": [
+      "L7dQygbMpww",
+      "pp2ZawJ4GIE",
+      "22_reuLrGwU",
+      "C0FP5eZxV0Y"
+    ],
+    "Bay of Heist, Belgium": [
+      "lS3THFGV5Hg",
+      "ED_VXD2AwdM",
+      "PUiXSLVgVdc",
+      "iIALP29_KOE"
+    ],
+    "Bay of Plenty, Indonesia, Sumatra Islands": [
+      "2xCTXGNExxA",
+      "4vTGNN4bt-U",
+      "vwdj_WViwlo",
+      "Xm49yEL6ca4"
+    ],
+    "Bay Point, Marblehead, USA, Inland": [],
+    "Bay Street, Santa Monica, USA, California, LA County": [
+      "qW6FR3I3cEc",
+      "jZqiMKe2bME",
+      "9xi0FsGNa1Y",
+      "SGR9hjqjOBo"
+    ],
+    "Bay Waves, Australia, NSW, Sydney South": [
+      "pkLBK-Poew8",
+      "o3KI_lItjzg",
+      "KYw_vG33wJk",
+      "hJNjyVl5myc"
+    ],
+    "Bayfront, USA, Hawaii, Hawaii Island": [
+      "s9up4Qm-N_8",
+      "bPWW64xwKCg",
+      "4s545Y-ZNmk",
+      "HmISH_SqfY8"
+    ],
+    "Beach Club, USA, South East, North Florida": [
+      "6PV2lSoiNyo",
+      "aNc42SiiFrs",
+      "0hM7jmiwGz8",
+      "XeldhceOkh0"
+    ],
+    "Beachouse, Fiji": [
+      "WJTcfTf0x0I",
+      "EUobvwTMjP8",
+      "Y1zrtOtBqTo",
+      "3TB8EONCFtc"
+    ],
+    "Beachport, Australia, SA, East": [
+      "f0zkQEbQshU",
+      "EesAZFzEIV0",
+      "KYw_vG33wJk",
+      "l2KBQB2ASJk"
+    ],
+    "Beacon point, USA, South East, North Florida": [
+      "ALRoebu0Rgs",
+      "vAU8zlgZ-jo",
+      "aNc42SiiFrs",
+      "rzNfuvSb2iU"
+    ],
+    "Beacons, USA, California, San Diego County": [
+      "Y7_0T-cXB5w",
+      "Xg_A09QB_sQ",
+      "ALRoebu0Rgs",
+      "Icq5_pMtbvU"
+    ],
+    "Beacons, Maldives": [
+      "bOyNfU5xsss",
+      "Y6mC24Yw5kM",
+      "GzRCdwou7b0",
+      "9bUccm45e_s"
+    ],
+    "Bears Beach, Australia, NSW, Far South": [
+      "ALRoebu0Rgs",
+      "3gqGfq7Fmrs",
+      "XeldhceOkh0",
+      "NPZmKmXuylg"
+    ],
+    "Beau Vallon Beach, Seychelles, Mahe": [
+      "m59yRr9u3d4",
+      "q49KmXR6ZQ8",
+      "udF_mFmjpdo",
+      "_H4DTG770cw"
+    ],
+    "Beauregard, USA, South East, North Carolina": [],
+    "Becquerel Point, France, Normandy": [],
+    "Bedhuge, Maldives": [],
+    "Bee Hives, USA, California, LA County": [
+      "C93W_-cDxmY",
+      "DQYnVWZPl8A",
+      "BOaYmxJ7Svw",
+      "Elanur6LRLg"
+    ],
+    "Beer Point, UK, Devon South": [
+      "ALRoebu0Rgs",
+      "LjNwaMGu98o",
+      "VZsNlcvTQzw",
+      "MCGQbi-4EJM"
+    ],
+    "beerbarral beach, Australia, TAS, East Coast": [],
+    "Beg An Tour, France, Brittany South": [
+      "74-DwsScK2c",
+      "rzyX9cHTV2Y",
+      "HkD07cTaJlk",
+      "jx4vZFZ-OBU"
+    ],
+    "Beg Léguer, France, Brittany North": [
+      "74-DwsScK2c",
+      "1ik_kpKiBJk",
+      "HkD07cTaJlk",
+      "rK1dQBgo7bc"
+    ],
+    "Bejuco, Costa Rica, Pacific South": [
+      "P3rE0AIjKus",
+      "Kwfo4JjiNfw",
+      "uf-z5lJZQXc",
+      "169Hh6ztX-w"
+    ],
+    "Belambi  A Frame, Australia, NSW, Coal Coast": [
+      "4Dqs2ogAYZQ"
+    ],
+    "Belgas, Portugal, Central Peniche": [
+      "LGzGm1BEmJk"
+    ],
+    "Belham Valley Rivermouth, Montserrat": [],
+    "Belharra, France, Basque Country": [
+      "9J5q00ZD6CQ",
+      "EtEAjkhTbys",
+      "cbhfTXjv57U",
+      "jq96K8G0f5c"
+    ],
+    "Beliche, Portugal, Algarve": [
+      "vk5H1DzvHu8",
+      "h9nfEtY898M",
+      "dKcWy1546mI",
+      "1Arp5lOglW8"
+    ],
+    "Bellair Beach, USA, Gulf Coast, Florida": [
+      "mh97YIGX8lA",
+      "rzNfuvSb2iU",
+      "DQYnVWZPl8A",
+      "ri0PJ87zvXk"
+    ],
+    "bellambi point, Australia, NSW, Coal Coast": [
+      "Neo-oAScUe4",
+      "L4SMf74ZZOo",
+      "L-JmhIfAHv4",
+      "10sPCp-mpnk"
+    ],
+    "Belle Ile en Mer - Donnant, France, Brittany South": [
+      "Tqp_UK6rLgQ",
+      "CthpS8sou0M",
+      "XBef0UgFzbU",
+      "EqF5RAm_lqY"
+    ],
+    "Bellerive, Switzerland": [
+      "aZUbPtQU9O8",
+      "dQrfFnDrCGk",
+      "HHssYGyYIb4",
+      "OazQCC9pK-I"
+    ],
+    "Bellingham Bay, USA, North West, Washington": [
+      "h68p31oyRSM",
+      "EQpFCLrizTI",
+      "bew-R4TB5xI",
+      "rYGrE6OgntE"
+    ],
+    "Bellows, South Africa, Cape Town": [
+      "0hM7jmiwGz8",
+      "88E8fD21YD4",
+      "c1IkpnlZXjc",
+      "GwDpY6g5h-Y"
+    ],
+    "Bellows, USA, Hawaii, Oahu": [
+      "BRsDzA9E2G0",
+      "lSjq43W565o",
+      "RGHRLYMfXxk",
+      "jTY0TOYo9TY"
+    ],
+    "Bells Beach, Australia, VIC, Melbourne West": [
+      "cdxrFLoa9hQ",
+      "OTRvQLuIuxs",
+      "mH8CjpMghmQ",
+      "UEgT5OCljTA"
+    ],
+    "Belmar - 16 th Street, USA, North East, New Jersey": [
+      "22_reuLrGwU",
+      "2x-hGFbXKH4",
+      "lx2r0fYwDWY",
+      "e7OXrXLHgFY"
+    ],
+    "Belongas, Indonesia, Lombok": [
+      "iyhAg9UcHL4",
+      "Q1i8AGoBmt8",
+      "gBjOHln1NU8",
+      "Gzh2WJG4niY"
+    ],
+    "Belongil, Australia, NSW, North": [
+      "3p3Vptq0pvw",
+      "ipaEZPoKk-A",
+      "iTp3G33tJ9k",
+      "fgV60AAgaYI"
+    ],
+    "Belvedere, Italy, Mainland": [
+      "MJD2NcvYm4U"
+    ],
+    "Ben weston (Catalina Island), USA, California, Orange County": [],
+    "Benaulim Beach, India, North-West": [
+      "IfSQQaqs0uc",
+      "D9PEBwZzJLQ",
+      "CeX8X1F4nfU",
+      "QeNM5-DrTSU"
+    ],
+    "Bendalong, Australia, NSW, South Coast": [
+      "QRsQnS4tIQo",
+      "3xRBzoyk0V0",
+      "VFM_xNYAxVY",
+      "DD3d3f7Vxow"
+    ],
+    "benders, Australia, WA, Kalbarri": [
+      "sUinwJXezzE",
+      "EwrRNZOF_yg",
+      "CnoVxsI1W_k",
+      "Q07Cbu3dFDg"
+    ],
+    "Benete, Indonesia, Sumbawa": [
+      "xVBDfQTAA1A",
+      "YnOIc4m_TWQ",
+      "gdghpoqevRM",
+      "69u9-2R5FQg"
+    ],
+    "Beng Beng, Indonesia, Mentawai": [
+      "E2ygAIS66wY",
+      "cKbnK5JD3Vc",
+      "-97ug4kL5Do",
+      "9zJ7Dk1H4VY"
+    ],
+    "Benijo, Canary, Tenerife": [
+      "4h5p2vTnYzM",
+      "_mxYL6npQtU",
+      "ZYBKb_uRfiw",
+      "UcT8efsULgM"
+    ],
+    "Bennion Beach - cleggies, Australia, WA, Perth City": [],
+    "Bennys, Sri Lanka": [
+      "budYcDPsFS0",
+      "9917b6QhE9w",
+      "iF6oKGYsY4w",
+      "q_GSqLbLTZw"
+    ],
+
+
+
+
+
+
+
+
+
   "Wilderness, Puerto Rico": ["ZvpQ7dmKD4Q", "0p3dge0bRZA", "hjLfg_-5-BQ"],
   "Wilderness, St Martin": ["sKNlVr7VRFE", "NvsWwiWPOyo", "cz3JSGyowO4"],
   "Wilderness Beach, South Africa, South George": ["9Ldegz3NGnI", "8_LKHWxc9HI"],
