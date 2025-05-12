@@ -17,6 +17,7 @@ export default function SpotsPage() {
   // filter options with label and optional start/end
   const filterOptions = [
     { label: "ALL" },
+    { label: "#" },
     { label: "A–D", start: "A", end: "D" },
     { label: "E–H", start: "E", end: "H" },
     { label: "I–L", start: "I", end: "L" },
@@ -32,8 +33,17 @@ export default function SpotsPage() {
   const filteredSpots = useMemo(() => {
     return surfspots.filter((s) => {
       if (filterRange === "ALL") return true;
+
+      // numeric/symbol bucket
+      if (filterRange === "#") {
+        const first = s.name[0]?.toUpperCase() || "";
+        // anything outside A–Z
+        return first < "A" || first > "Z";
+      }
+
+      // letter buckets
       const opt = filterOptions.find((o) => o.label === filterRange);
-      const first = s.name[0]?.toUpperCase();
+      const first = s.name[0]?.toUpperCase() || "";
       return first >= opt.start && first <= opt.end;
     });
   }, [filterRange]);
